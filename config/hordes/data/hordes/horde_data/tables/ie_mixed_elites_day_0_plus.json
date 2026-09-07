@@ -1,0 +1,80 @@
+[
+  {
+    "entity": "immersiveengineering:commando",
+    "weight": 8,
+    "first_day": 0,
+    "last_day": 0
+  },
+  {
+    "entity": "immersiveengineering:fusilier",
+    "weight": 1,
+    "first_day": 0,
+    "last_day": 0
+  },
+  {
+    "entity": "immersiveengineering:bulwark",
+    "weight": 1,
+    "first_day": 0,
+    "last_day": 0
+  },
+  {
+    "entity": "immersiveengineering:fusilier",
+    "weight": 3,
+    "first_day": 30,
+    "last_day": 0
+  },
+  {
+    "entity": "immersiveengineering:commando",
+    "weight": 4,
+    "first_day": 45,
+    "last_day": 0
+  },
+  {
+    "entity": "immersiveengineering:fusilier",
+    "weight": 4,
+    "first_day": 45,
+    "last_day": 0
+  },
+  {
+    "entity": "immersiveengineering:bulwark",
+    "weight": 3,
+    "first_day": 45,
+    "last_day": 0
+  },
+  {
+    "entity": "immersiveengineering:commando",
+    "weight": 4,
+    "first_day": 60,
+    "last_day": 0
+  },
+  {
+    "entity": "immersiveengineering:fusilier",
+    "weight": 4,
+    "first_day": 60,
+    "last_day": 0
+  },
+  {
+    "entity": "immersiveengineering:bulwark",
+    "weight": 4,
+    "first_day": 60,
+    "last_day": 0
+  },
+  {
+    "entity": "immersiveengineering:commando",
+    "weight": 5,
+    "first_day": 75,
+    "last_day": 0
+  },
+  {
+    "entity": "immersiveengineering:fusilier",
+    "weight": 5,
+    "first_day": 75,
+    "last_day": 0
+  },
+  {
+    "entity": "immersiveengineering:bulwark",
+    "weight": 5,
+    "first_day": 75,
+    "last_day": 0
+  }
+]

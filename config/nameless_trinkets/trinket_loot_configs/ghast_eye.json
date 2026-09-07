@@ -1,0 +1,106 @@
+{
+  "item": "ghast_eye",
+  "chance": 0.005,
+  "loot_tables": [
+    {
+      "namespace": "minecraft",
+      "path": "chests/spawn_bonus_chest"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/end_city_treasure"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/simple_dungeon"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_weaponsmith"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_toolsmith"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/village/village_armorer"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/abandoned_mineshaft"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/nether_bridge"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/stronghold_library"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/stronghold_crossing"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/stronghold_corridor"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/desert_pyramid"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/jungle_temple"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/igloo_chest"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/woodland_mansion"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/underwater_ruin_big"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/buried_treasure"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/shipwreck_treasure"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/pillager_outpost"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/bastion_treasure"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/bastion_bridge"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/bastion_hoglin_stable"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/ancient_city"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "chests/ruined_portal"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "gameplay/cat_morning_gift"
+    }
+  ]
+}

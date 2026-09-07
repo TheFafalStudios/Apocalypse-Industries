@@ -1,0 +1,13 @@
+name = "Biome Blends"
+filename = "BiomeBlends-neoforge-1.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2835c23993d769c5a39ebf92bcc2f7dde84af38f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7761319
+project-id = 1285135

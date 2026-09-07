@@ -1,0 +1,13 @@
+name = "Giant Plane Wreck"
+filename = "giant_plane_wreck-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "17f31b4b7cc1d8646acbb0010e951c95b9bb5b8b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6939623
+project-id = 1336925

@@ -1,0 +1,13 @@
+name = "Big Lost City"
+filename = "big_lost_city-1.0.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c742f011c995c681b3497312d77a50a287fa49f0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8110093
+project-id = 1472594

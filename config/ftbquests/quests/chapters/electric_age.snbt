@@ -1,0 +1,747 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "electric_age"
+	group: "4095E601814C7B15"
+	icon: {
+		id: "powergrid:conductive_casing"
+	}
+	id: "20802EE9A1276C88"
+	images: [{
+		height: 1.7d
+		image: "quests:textures/quest/electricage.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 0.5d
+		y: -2.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5910B381E7F56126"]
+			id: "33034B8A714E1A25"
+			rewards: [
+				{
+					count: 16
+					id: "56CA10CE97B4595C"
+					item: {
+						count: 1
+						id: "powergrid:power_resistor"
+					}
+					type: "item"
+				}
+				{
+					id: "4843B894793EBDA8"
+					item: {
+						count: 1
+						id: "powergrid:rheostat"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "49F0CDFF79E6F333"
+					item: {
+						count: 1
+						id: "powergrid:wire"
+					}
+					type: "item"
+				}
+				{
+					id: "60F361303FF682C5"
+					item: {
+						count: 1
+						id: "jackseconomy:exporter"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "095AEA95ED834753"
+					item: { count: 1, id: "powergrid:generator_induction_rotor" }
+					type: "item"
+				}
+				{
+					id: "3FD4FF4F0AB8731A"
+					item: { count: 1, id: "powergrid:generator_clutch" }
+					type: "item"
+				}
+				{
+					id: "08A2640F692A61F5"
+					item: { count: 1, id: "powergrid:generator_commutator" }
+					type: "item"
+				}
+				{
+					id: "1BEC89493B109929"
+					item: { count: 1, id: "powergrid:copper_coil" }
+					type: "item"
+				}
+				{
+					id: "174CACE5C18C8ABF"
+					item: { count: 1, id: "powergrid:generator_housing" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33034B8A714E1A25"]
+			id: "55561F12A753B64A"
+			rewards: [
+				{
+					count: 64
+					id: "3488814BC720BB06"
+					item: {
+						count: 1
+						id: "minecraft:soul_sand"
+					}
+					type: "item"
+				}
+				{
+					id: "17A3A60BFD445397"
+					item: {
+						count: 1
+						id: "jackseconomy:twenty_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BE19C0D48568E1A"
+				item: { count: 1, id: "powergrid:electric_fan" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["33034B8A714E1A25"]
+			id: "46FD6542EDE0F410"
+			rewards: [
+				{
+					count: 4
+					id: "6C1A97C10A0B8250"
+					item: {
+						count: 1
+						id: "create:basin"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "64D3C9D8B62DE54B"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72FD50C84DC1CECC"
+				item: { count: 1, id: "powergrid:basin_heater" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33034B8A714E1A25"]
+			id: "3E0E94BC60A87737"
+			rewards: [
+				{
+					id: "0A0B3667C666BBF8"
+					item: {
+						count: 1
+						id: "creatingspace:air_liquefier"
+					}
+					type: "item"
+				}
+				{
+					id: "1D920DD1DCC50E2D"
+					item: {
+						count: 1
+						id: "jackseconomy:twenty_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6FCD85D7604B7009"
+				item: { count: 1, id: "powergrid:heating_coil" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"33034B8A714E1A25"
+				"0593FCC121439B2F"
+			]
+			id: "184443B53CC5E635"
+			rewards: [{
+				count: 16
+				id: "0F51AD91B75CC922"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "47345E9E7F749926"
+				item: { count: 1, id: "powergrid:electromagnet" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33034B8A714E1A25"]
+			icon: {
+				id: "powergrid:transformer_core"
+			}
+			id: "304155A5D1C06C2C"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "29A9CCE766AE6D08"
+					item: {
+						count: 1
+						id: "powergrid:device_connector"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "66F39FF9663AD5B4"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3C490EBD48BC98E9"
+					item: { count: 1, id: "powergrid:transformer_core" }
+					type: "item"
+				}
+				{
+					id: "41D475309684B729"
+					item: { count: 1, id: "powergrid:wire" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "1FBFE26A33199493"
+			rewards: [
+				{
+					count: 32
+					id: "06A7DC08A463FA5C"
+					item: {
+						count: 1
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "06E4147A8D5B8E9F"
+					item: {
+						count: 1
+						id: "powergrid:copper_coil"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5537605C4E3F196A"
+					item: { count: 1, id: "powergrid:device_connector" }
+					type: "item"
+				}
+				{
+					id: "30F922AD6C816A4A"
+					item: { count: 1, id: "powergrid:insulated_copper_wire" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["184443B53CC5E635"]
+			id: "2B7909E14663FFBC"
+			rewards: [
+				{
+					count: 3
+					id: "110F08E22CDF9041"
+					item: {
+						count: 1
+						id: "creatingspace:copper_coil"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2FE9578A079AA346"
+					item: {
+						count: 1
+						id: "create:copper_casing"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3982DA5F44633E3A"
+				item: { count: 1, id: "powergrid:magnet" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["184443B53CC5E635"]
+			id: "4BF89D813AEF2ED0"
+			rewards: [
+				{
+					count: 32
+					id: "7E6AF9FC4F9D0663"
+					item: {
+						count: 1
+						id: "minecraft:short_grass"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5DB5ADC917769BD6"
+					item: {
+						count: 1
+						id: "minecraft:grass_block"
+					}
+					type: "item"
+				}
+				{
+					id: "597C8620D091A6B4"
+					item: {
+						count: 1
+						id: "jackseconomy:ten_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BE5301724E04BCD"
+				item: { count: 1, id: "biomeblends:bland_blend" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["491E50EF1B53A7B2"]
+			id: "0593FCC121439B2F"
+			rewards: [
+				{
+					count: 8
+					id: "628D5DF38DE71986"
+					item: {
+						count: 1
+						id: "powergrid:copper_coil"
+					}
+					type: "item"
+				}
+				{
+					id: "73E9330F8A1F03B0"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								Charge: 10000
+							}
+						}
+						count: 1
+						id: "powergrid:portable_battery"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "09E8C3A7F03F00AB"
+				item: { count: 1, id: "powergrid:battery" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B7909E14663FFBC"]
+			id: "2F8970DAA41C12F1"
+			rewards: [{
+				id: "18770FA9C6015C6D"
+				item: {
+					count: 1
+					id: "ae2:controller"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BF6967CA4A3461E"
+				item: { count: 1, id: "ae2:energy_acceptor" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["33034B8A714E1A25"]
+			id: "13A390301FDC9C87"
+			optional: true
+			rewards: [{
+				count: 64
+				id: "1DD8CEC2A1505BFD"
+				item: {
+					count: 1
+					id: "immersiveengineering:bullet_casull"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22A98EE22D6F530F"
+				item: { count: 1, id: "immersiveengineering:turret_gun" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "43D2CCAF2B25141A"
+			optional: true
+			rewards: [
+				{
+					id: "3214B0DA97CE45D7"
+					item: {
+						count: 1
+						id: "minecraft:beetroot_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "125763AB419956BC"
+					item: {
+						count: 1
+						id: "powergrid:light_fixture"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "747563551B03A1BF"
+					item: {
+						count: 1
+						id: "create:metal_girder"
+					}
+					type: "item"
+				}
+				{
+					id: "795EF587D2E7FD5D"
+					item: {
+						count: 1
+						id: "minecraft:diamond_hoe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D1A81CBE2020A67"
+				item: { count: 1, id: "powergrid:growth_lamp" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "13A226A6831EC157"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "0D4A8DFF1890C15E"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "54F0F1B3F74881C4"
+					item: {
+						count: 1
+						id: "minecraft:end_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "5C073187C67FC232"
+					item: {
+						count: 1
+						id: "jackseconomy:thousand_dollar_bill"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:end_stone"
+				}
+				id: "2D2E63B42D19A14E"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "2E8051E327C73587"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "7FEA4E5EC4FFAC76"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: {
+					id: "minecraft:sculk"
+				}
+				id: "36EEDFED6CFED879"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "78C7969FA661B9DE"
+			optional: true
+			rewards: [
+				{
+					id: "6D65A02F70038698"
+					item: {
+						count: 1
+						id: "aerocables:fe_cable"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3B285ACA0E0E0D46"
+					item: {
+						count: 1
+						id: "aerocables:connector"
+					}
+					type: "item"
+				}
+				{
+					id: "1F7739CA07BF8267"
+					item: {
+						count: 1
+						id: "simulated:rope_coupling"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3759300B87F86000"
+					item: {
+						count: 1
+						id: "simulated:rope_connector"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39F5BC33AFF611B6"
+				item: { count: 1, id: "createpropulsion:ion_thruster" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "0FFC4F3DE1633F90"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "0C24A30EFFADB5EA"
+					item: {
+						count: 1
+						id: "immersiveengineering:connector_lv"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4334D308D6C40B24"
+					item: {
+						count: 1
+						id: "immersiveengineering:wirecoil_copper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6818B51B22580662"
+				item: { count: 1, id: "immersiveengineering:capacitor_lv" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "4FAFFD9CE0CC8B19"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "361E1628D5880771"
+					item: {
+						count: 1
+						id: "immersiveengineering:blastfurnace_preheater"
+					}
+					type: "item"
+				}
+				{
+					count: 27
+					id: "536ED3536B261C87"
+					item: {
+						count: 1
+						id: "immersiveengineering:blastbrick_reinforced"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AF40B0AD2EB1BF7"
+				item: { count: 1, id: "immersiveengineering:blastfurnace_preheater" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2B7909E14663FFBC"]
+			id: "5E62F788023BAEDA"
+			rewards: [
+				{
+					id: "50579360CA4D257D"
+					item: {
+						count: 1
+						id: "create:controls"
+					}
+					type: "item"
+				}
+				{
+					id: "0C987BA15FC87129"
+					item: {
+						count: 1
+						id: "jackseconomy:fifty_dollar_bill"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "52C88068EF8CB8BE"
+				item: { count: 1, id: "powergrid:electric_motor" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E8051E327C73587"]
+			id: "4D1740CBBF0CFB13"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "57935D69B14A722B"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "2C7E07B76C0E3334"
+					item: {
+						count: 1
+						id: "create_deep_dark:echo_cake"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C47F58F8040874A"
+				item: { count: 1, id: "create_deep_dark:echo_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13A226A6831EC157"]
+			id: "7EDE9704DD335185"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "4EEA8D013FC74F3E"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "4CDF4B35E04BE6EB"
+					item: {
+						count: 1
+						id: "jackseconomy:fifty_dollar_bill"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1839EEA8186BA523"
+				item: { count: 1, id: "aeronautics:levitite_blend_bucket" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+	]
+}

@@ -1,0 +1,3597 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bounties"
+	group: ""
+	icon: {
+		id: "createbigcannons:machine_gun_round"
+	}
+	id: "45E36FA068F0A526"
+	images: [
+		{
+			height: 2.0d
+			image: "quests:textures/quest/bounties.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			height: 1.5d
+			image: "quests:textures/quest/contracts.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 0.1428571428571388d
+			y: 6.88214285714286d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B47323B012809C2"
+			rewards: [{
+				id: "5490DB08BEF1152F"
+				item: {
+					count: 1
+					id: "jackseconomy:fifty_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "718ADB83599C3FF5"
+				type: "kill"
+				value: 50L
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B47323B012809C2"]
+			id: "345A117191C18C54"
+			rewards: [{
+				id: "55D66055F2621ECA"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "19F8B045A4B885C6"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["345A117191C18C54"]
+			id: "235488E593241708"
+			rewards: [{
+				count: 9
+				id: "77FCAFE8DFDB554F"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "3AE08D404F59D01B"
+				type: "kill"
+				value: 500L
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "74E52F700CDBFCE6"
+			rewards: [{
+				id: "2CA5CABEB9DB60E9"
+				item: {
+					count: 1
+					id: "jackseconomy:twenty_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "4B6CDEA06054B7CA"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74E52F700CDBFCE6"]
+			id: "2EEF85D6934633DF"
+			rewards: [{
+				id: "402933C86291414E"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "105F8F8AC4DA56C4"
+				type: "kill"
+				value: 50L
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2EEF85D6934633DF"]
+			id: "108A35E5E8586D3F"
+			rewards: [{
+				count: 3
+				id: "404D48364A511A9C"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "3220510092C64B5B"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "5EACC7751DED65F8"
+			rewards: [{
+				id: "2C622490CE5F4E7B"
+				item: {
+					count: 1
+					id: "jackseconomy:fifty_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "237723EA07E4552D"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EACC7751DED65F8"]
+			id: "6D37B8CD3D45C470"
+			rewards: [{
+				count: 3
+				id: "3D43B241B31EB5E3"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "5A785FF67A710FC9"
+				type: "kill"
+				value: 50L
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D37B8CD3D45C470"]
+			id: "7F7F3439632FFEBC"
+			rewards: [{
+				id: "076C310BB104B4F5"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "015958FD2E6C5F5B"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "10F9FC9DB8367656"
+			rewards: [{
+				id: "5B642758015EDEFC"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "75D294BEBB8F69F4"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10F9FC9DB8367656"]
+			id: "5153B024A9C6F659"
+			rewards: [{
+				count: 5
+				id: "2D9F6D90E9AB3AF8"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "348C1C92BFB0B520"
+				type: "kill"
+				value: 50L
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5153B024A9C6F659"]
+			id: "63C5F636345F2EE5"
+			rewards: [{
+				id: "6C3998EE3AE5C670"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "51CE0483A27652DE"
+				type: "kill"
+				value: 100L
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "13DFDAB26F94AF6B"
+			rewards: [{
+				count: 5
+				id: "5DFFED3F49BD4B64"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: {
+					id: "minecraft:dragon_head"
+				}
+				id: "794A7386DE490985"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "75844FBF4E14854C"
+			rewards: [{
+				id: "37EA087EFE89A2BB"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					id: "minecraft:wither_skeleton_skull"
+				}
+				id: "4552F673A64631F0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "2A00E0C0010F5C1B"
+			rewards: [{
+				count: 10
+				id: "5E8227A1C8644671"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					id: "minecraft:sculk_shrieker"
+				}
+				id: "2DC515D599A6BDFE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "10887AEE167C1E63"
+			rewards: [{
+				count: 5
+				id: "399FD136119F1E36"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "decilib:hydra"
+				id: "778A5E92205D2CCE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "095E80B404811240"
+			rewards: [{
+				id: "75854833BE248E0A"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "decilib:minotaur"
+				id: "1BDD6C3C17772FE9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "1EB5933791DE4A34"
+			rewards: [{
+				id: "0E93052E24DAA50A"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "decilib:phoenix"
+				id: "7DC7CC1CE57F2B82"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "6F4420E9F0ABC3E9"
+			rewards: [{
+				count: 5
+				id: "0303AA3601B04DE3"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "decilib:dire_wolf"
+				id: "0F6952982FAA3C34"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "4BEC1BC76155DD52"
+			rewards: [{
+				id: "4C91114479071220"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "0DC70E53C56411CF"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "0EE066C6B79CEBA0"
+			rewards: [{
+				count: 2
+				id: "657ACDDEA06EC86C"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "6C766FE3A0FCFDB4"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "6AD6C2354FCD8DF2"
+			rewards: [{
+				count: 2
+				id: "7631779F40AD851A"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "6267370690321DA9"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "3C2AA1E89B71F196"
+			rewards: [{
+				id: "72BF338D5FE7F1DC"
+				item: {
+					count: 1
+					id: "jackseconomy:twenty_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "313D48FF7A3E6299"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C2AA1E89B71F196"]
+			id: "14E1C729B71593F0"
+			rewards: [{
+				id: "5A7CDC9614E6B253"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "0EE8B8698C1A01F7"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["14E1C729B71593F0"]
+			id: "34D4C1AA96A24F28"
+			rewards: [{
+				count: 3
+				id: "12B5F07153921F99"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "4F32556DF75C1AE5"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			id: "1395BB61741774F0"
+			rewards: [{
+				id: "6D18F996DEBD839F"
+				item: {
+					count: 1
+					id: "jackseconomy:fifty_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:husk"
+				id: "24A491224C19E5C2"
+				type: "kill"
+				value: 20L
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "7348DF791BB41448"
+			rewards: [{
+				id: "482695D544F60C16"
+				item: {
+					count: 1
+					id: "jackseconomy:fifty_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "2C755B9D6D19102D"
+				type: "kill"
+				value: 20L
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "467A13606AEDAEC4"
+			rewards: [{
+				count: 2
+				id: "78D31485DD24CD16"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:guardian"
+				id: "43F54390C9425985"
+				type: "kill"
+				value: 10L
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "4360CD7477F98462"
+			rewards: [{
+				count: 5
+				id: "28D5581404D2657E"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: {
+					id: "minecraft:prismarine_shard"
+				}
+				id: "099287406921C269"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "79DA5DEE75CCB75A"
+			rewards: [{
+				count: 2
+				id: "56EB8C1F263DEE65"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "6DAE1B6EE0A52E78"
+				type: "kill"
+				value: 20L
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "6FDC45E823C83E49"
+			rewards: [{
+				count: 4
+				id: "02FD0CB9C83EF47A"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "immersiveengineering:fusilier"
+				id: "74DB950F3F4C69B4"
+				type: "kill"
+				value: 20L
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "79E22A57B3B8FC57"
+			rewards: [{
+				id: "52BBE886BFF0FE66"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "immersiveengineering:bulwark"
+				id: "79DCAA199A81D7B3"
+				type: "kill"
+				value: 20L
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["345A117191C18C54"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:stone"
+			}
+			id: "1E37AB49837C1C7F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "3B675CE11C9F7803"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_the_statue_anchor] remove contract_the_statue_anchor"
+					id: "7DC790D397292856"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "4998721F4154EF62"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon zombie_variants:pale_garden_zombie ~50 ~20 ~ {Tags:[\"contract_the_statue_anchor\",\"contract_the_statue\"],CustomName:'{\"text\":\"The Statue\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:500f,attributes:[{id:\"minecraft:generic.max_health\",base:500},{id:\"minecraft:generic.movement_speed\",base:0.1}],HandItems:[{id:\"kubejs:scrap_sword\",count:1,components:{\"minecraft:attribute_modifiers\":[{type:\"minecraft:generic.attack_damage\",amount:20,operation:\"add_value\",slot:\"mainhand\",id:\"kubejs:scrap_sword_20_damage\"}]}},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "709BA24403707CDC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon zombie_variants:pale_garden_zombie ~35 ~20 ~35 {Tags:[\"contract_the_statue_anchor\",\"contract_the_statue\"],CustomName:'{\"text\":\"The Statue\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:500f,attributes:[{id:\"minecraft:generic.max_health\",base:500},{id:\"minecraft:generic.movement_speed\",base:0.1}],HandItems:[{id:\"kubejs:scrap_sword\",count:1,components:{\"minecraft:attribute_modifiers\":[{type:\"minecraft:generic.attack_damage\",amount:20,operation:\"add_value\",slot:\"mainhand\",id:\"kubejs:scrap_sword_20_damage\"}]}},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "07570BD2853621F2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon zombie_variants:pale_garden_zombie ~ ~20 ~50 {Tags:[\"contract_the_statue_anchor\",\"contract_the_statue\"],CustomName:'{\"text\":\"The Statue\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:500f,attributes:[{id:\"minecraft:generic.max_health\",base:500},{id:\"minecraft:generic.movement_speed\",base:0.1}],HandItems:[{id:\"kubejs:scrap_sword\",count:1,components:{\"minecraft:attribute_modifiers\":[{type:\"minecraft:generic.attack_damage\",amount:20,operation:\"add_value\",slot:\"mainhand\",id:\"kubejs:scrap_sword_20_damage\"}]}},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "116EFBA84C268612"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon zombie_variants:pale_garden_zombie ~-35 ~20 ~35 {Tags:[\"contract_the_statue_anchor\",\"contract_the_statue\"],CustomName:'{\"text\":\"The Statue\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:500f,attributes:[{id:\"minecraft:generic.max_health\",base:500},{id:\"minecraft:generic.movement_speed\",base:0.1}],HandItems:[{id:\"kubejs:scrap_sword\",count:1,components:{\"minecraft:attribute_modifiers\":[{type:\"minecraft:generic.attack_damage\",amount:20,operation:\"add_value\",slot:\"mainhand\",id:\"kubejs:scrap_sword_20_damage\"}]}},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "348B910324EAC74D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon zombie_variants:pale_garden_zombie ~-50 ~20 ~ {Tags:[\"contract_the_statue_anchor\",\"contract_the_statue\"],CustomName:'{\"text\":\"The Statue\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:500f,attributes:[{id:\"minecraft:generic.max_health\",base:500},{id:\"minecraft:generic.movement_speed\",base:0.1}],HandItems:[{id:\"kubejs:scrap_sword\",count:1,components:{\"minecraft:attribute_modifiers\":[{type:\"minecraft:generic.attack_damage\",amount:20,operation:\"add_value\",slot:\"mainhand\",id:\"kubejs:scrap_sword_20_damage\"}]}},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "1F225C144D95977E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon zombie_variants:pale_garden_zombie ~-35 ~20 ~-35 {Tags:[\"contract_the_statue_anchor\",\"contract_the_statue\"],CustomName:'{\"text\":\"The Statue\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:500f,attributes:[{id:\"minecraft:generic.max_health\",base:500},{id:\"minecraft:generic.movement_speed\",base:0.1}],HandItems:[{id:\"kubejs:scrap_sword\",count:1,components:{\"minecraft:attribute_modifiers\":[{type:\"minecraft:generic.attack_damage\",amount:20,operation:\"add_value\",slot:\"mainhand\",id:\"kubejs:scrap_sword_20_damage\"}]}},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "5C6E17E2D31E147A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon zombie_variants:pale_garden_zombie ~ ~20 ~-50 {Tags:[\"contract_the_statue_anchor\",\"contract_the_statue\"],CustomName:'{\"text\":\"The Statue\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:500f,attributes:[{id:\"minecraft:generic.max_health\",base:500},{id:\"minecraft:generic.movement_speed\",base:0.1}],HandItems:[{id:\"kubejs:scrap_sword\",count:1,components:{\"minecraft:attribute_modifiers\":[{type:\"minecraft:generic.attack_damage\",amount:20,operation:\"add_value\",slot:\"mainhand\",id:\"kubejs:scrap_sword_20_damage\"}]}},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "715BFA28970BDD66"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon zombie_variants:pale_garden_zombie ~35 ~20 ~-35 {Tags:[\"contract_the_statue_anchor\",\"contract_the_statue\"],CustomName:'{\"text\":\"The Statue\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:500f,attributes:[{id:\"minecraft:generic.max_health\",base:500},{id:\"minecraft:generic.movement_speed\",base:0.1}],HandItems:[{id:\"kubejs:scrap_sword\",count:1,components:{\"minecraft:attribute_modifiers\":[{type:\"minecraft:generic.attack_damage\",amount:20,operation:\"add_value\",slot:\"mainhand\",id:\"kubejs:scrap_sword_20_damage\"}]}},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "55E693715E9321B9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_the_statue_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~4 ~ ~ {Tags:[\"contract_the_statue_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "55A5E010B3BF4264"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_the_statue_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~-4 ~ ~ {Tags:[\"contract_the_statue_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "7B933A9E90BEECFF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_the_statue_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~ ~ ~4 {Tags:[\"contract_the_statue_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "4CD6F81DDC23A780"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_the_statue_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~ ~ ~-4 {Tags:[\"contract_the_statue_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "31DEF1B990232C27"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_the_statue_anchor] remove contract_the_statue_anchor"
+					id: "0492C452678E3DCD"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "527DB542F8005FC9"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1E37AB49837C1C7F"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "3D01BDE3F90C494B"
+			rewards: [{
+				count: 2
+				id: "26A51A061EA41825"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "zombie_variants:pale_garden_zombie"
+				id: "694AD49624FD7B42"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_the_statue"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 9.8d
+		}
+		{
+			dependencies: ["345A117191C18C54"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:packed_ice"
+			}
+			id: "2CCEFAA2FD436343"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "4A9E0EABF9274D1C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_glacius_anchor] remove contract_glacius_anchor"
+					id: "1A76BCBA20910198"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "6B8BA034DDB4D4E9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon zombie_variants:frozen_zombie ~50 ~20 ~ {Tags:[\"contract_glacius_anchor\",\"contract_glacius\"],CustomName:'{\"text\":\"Glacius\",\"color\":\"aqua\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300},{id:\"minecraft:generic.movement_speed\",base:0.46}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "4AA12D8080BAEA0C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon zombie_variants:frozen_zombie ~35 ~20 ~35 {Tags:[\"contract_glacius_anchor\",\"contract_glacius\"],CustomName:'{\"text\":\"Glacius\",\"color\":\"aqua\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300},{id:\"minecraft:generic.movement_speed\",base:0.46}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "0D3AEFB2C93204F5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon zombie_variants:frozen_zombie ~ ~20 ~50 {Tags:[\"contract_glacius_anchor\",\"contract_glacius\"],CustomName:'{\"text\":\"Glacius\",\"color\":\"aqua\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300},{id:\"minecraft:generic.movement_speed\",base:0.46}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "711AC0787B943A55"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon zombie_variants:frozen_zombie ~-35 ~20 ~35 {Tags:[\"contract_glacius_anchor\",\"contract_glacius\"],CustomName:'{\"text\":\"Glacius\",\"color\":\"aqua\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300},{id:\"minecraft:generic.movement_speed\",base:0.46}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "567B3B2F2E78ECCE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon zombie_variants:frozen_zombie ~-50 ~20 ~ {Tags:[\"contract_glacius_anchor\",\"contract_glacius\"],CustomName:'{\"text\":\"Glacius\",\"color\":\"aqua\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300},{id:\"minecraft:generic.movement_speed\",base:0.46}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "0F8A29E2A2FD9A90"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon zombie_variants:frozen_zombie ~-35 ~20 ~-35 {Tags:[\"contract_glacius_anchor\",\"contract_glacius\"],CustomName:'{\"text\":\"Glacius\",\"color\":\"aqua\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300},{id:\"minecraft:generic.movement_speed\",base:0.46}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "786E743CCFB9ABCE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon zombie_variants:frozen_zombie ~ ~20 ~-50 {Tags:[\"contract_glacius_anchor\",\"contract_glacius\"],CustomName:'{\"text\":\"Glacius\",\"color\":\"aqua\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300},{id:\"minecraft:generic.movement_speed\",base:0.46}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "3819A8B201C6CA0E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon zombie_variants:frozen_zombie ~35 ~20 ~-35 {Tags:[\"contract_glacius_anchor\",\"contract_glacius\"],CustomName:'{\"text\":\"Glacius\",\"color\":\"aqua\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300},{id:\"minecraft:generic.movement_speed\",base:0.46}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "6325320DB837D9F9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_glacius_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~4 ~ ~ {Tags:[\"contract_glacius_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "1C89D0D9414B75EB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_glacius_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~-4 ~ ~ {Tags:[\"contract_glacius_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "3A5AD77C496D9BAD"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_glacius_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~ ~ ~4 {Tags:[\"contract_glacius_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "1C4EC8467F7DCE74"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_glacius_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~ ~ ~-4 {Tags:[\"contract_glacius_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "724CB25496BDD027"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_glacius_anchor] remove contract_glacius_anchor"
+					id: "4702A50F66126B59"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6B338847A9E3355A"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2CCEFAA2FD436343"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "756B1A6A98656562"
+			rewards: [{
+				count: 6
+				id: "2BFD6BFF3032B4A2"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "zombie_variants:frozen_zombie"
+				id: "377188002CE68281"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_glacius"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 9.8d
+		}
+		{
+			dependencies: ["3A641A3B842F5138"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ntgl:ammo": "cgs:round_shotgun"
+					"ntgl:throw_mode": "ntgl:safe"
+					"ntgl:weapon_component": {
+						variant: "default"
+					}
+				}
+				id: "cgs:shotgun"
+			}
+			id: "0FDF7F861F44C873"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "6E4F3A2B1EFF5E99"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_composite_cobra_anchor] remove contract_composite_cobra_anchor"
+					id: "7CC9BFD4BA050146"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "25D00C9F1FC284F8"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon minecraft:pillager ~50 ~20 ~ {Tags:[\"contract_composite_cobra_anchor\",\"contract_composite_cobra\"],PersistenceRequired:1b,CustomName:'{\"text\":\"Composite Cobra\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:60f,attributes:[{id:\"minecraft:generic.max_health\",base:60}],HandItems:[{id:\"cgs:shotgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "7EF139F62116B87A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon minecraft:pillager ~35 ~20 ~35 {Tags:[\"contract_composite_cobra_anchor\",\"contract_composite_cobra\"],PersistenceRequired:1b,CustomName:'{\"text\":\"Composite Cobra\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:60f,attributes:[{id:\"minecraft:generic.max_health\",base:60}],HandItems:[{id:\"cgs:shotgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "664C92C444308BA0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon minecraft:pillager ~ ~20 ~50 {Tags:[\"contract_composite_cobra_anchor\",\"contract_composite_cobra\"],PersistenceRequired:1b,CustomName:'{\"text\":\"Composite Cobra\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:60f,attributes:[{id:\"minecraft:generic.max_health\",base:60}],HandItems:[{id:\"cgs:shotgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "47101F0821E753FD"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon minecraft:pillager ~-35 ~20 ~35 {Tags:[\"contract_composite_cobra_anchor\",\"contract_composite_cobra\"],PersistenceRequired:1b,CustomName:'{\"text\":\"Composite Cobra\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:60f,attributes:[{id:\"minecraft:generic.max_health\",base:60}],HandItems:[{id:\"cgs:shotgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "5DAA5D40EAA9806C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon minecraft:pillager ~-50 ~20 ~ {Tags:[\"contract_composite_cobra_anchor\",\"contract_composite_cobra\"],PersistenceRequired:1b,CustomName:'{\"text\":\"Composite Cobra\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:60f,attributes:[{id:\"minecraft:generic.max_health\",base:60}],HandItems:[{id:\"cgs:shotgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "151D9C949590FE6C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon minecraft:pillager ~-35 ~20 ~-35 {Tags:[\"contract_composite_cobra_anchor\",\"contract_composite_cobra\"],PersistenceRequired:1b,CustomName:'{\"text\":\"Composite Cobra\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:60f,attributes:[{id:\"minecraft:generic.max_health\",base:60}],HandItems:[{id:\"cgs:shotgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "1FBE9C9533D06AF3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon minecraft:pillager ~ ~20 ~-50 {Tags:[\"contract_composite_cobra_anchor\",\"contract_composite_cobra\"],PersistenceRequired:1b,CustomName:'{\"text\":\"Composite Cobra\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:60f,attributes:[{id:\"minecraft:generic.max_health\",base:60}],HandItems:[{id:\"cgs:shotgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "72E78960ECF505FA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon minecraft:pillager ~35 ~20 ~-35 {Tags:[\"contract_composite_cobra_anchor\",\"contract_composite_cobra\"],PersistenceRequired:1b,CustomName:'{\"text\":\"Composite Cobra\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:60f,attributes:[{id:\"minecraft:generic.max_health\",base:60}],HandItems:[{id:\"cgs:shotgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "66C0589FE5B07EB0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_composite_cobra_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~4 ~ ~ {Tags:[\"contract_composite_cobra_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "7D5DAB8800FEC61F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_composite_cobra_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~-4 ~ ~ {Tags:[\"contract_composite_cobra_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "5A6419FF75AB37D1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_composite_cobra_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~4 {Tags:[\"contract_composite_cobra_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "2034B9ABFE2BA00C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_composite_cobra_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~-4 {Tags:[\"contract_composite_cobra_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "0FBB1E185A6C8AFA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_composite_cobra_anchor] remove contract_composite_cobra_anchor"
+					id: "474F59DEC3E44931"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "41B850352D295F92"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0FDF7F861F44C873"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "78A252215601ABCE"
+			rewards: [{
+				count: 5
+				id: "2714E069FDC53E77"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "5438A7CD5D86DC84"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_composite_cobra"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 9.8d
+		}
+		{
+			dependencies: ["79E22A57B3B8FC57"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "immersiveengineering:chemthrower"
+			}
+			id: "1C14773AD25C01FD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "3F85DB3DAE7FCD4D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_griffin_anchor] remove contract_griffin_anchor"
+					id: "0871147502951479"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "00941477FD265BEB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon immersiveengineering:bulwark ~50 ~20 ~ {Tags:[\"contract_griffin_anchor\",\"griffin_bulwark\",\"contract_griffin\"],CustomName:'{\"text\":\"Griffin\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,attributes:[{id:\"minecraft:generic.scale\",base:1.5}],HandItems:[{id:\"immersiveengineering:chemthrower\",count:1},{id:\"immersiveengineering:shield\",count:1}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:slowness\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "56BD5B272D40166F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon immersiveengineering:bulwark ~35 ~20 ~35 {Tags:[\"contract_griffin_anchor\",\"griffin_bulwark\",\"contract_griffin\"],CustomName:'{\"text\":\"Griffin\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,attributes:[{id:\"minecraft:generic.scale\",base:1.5}],HandItems:[{id:\"immersiveengineering:chemthrower\",count:1},{id:\"immersiveengineering:shield\",count:1}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:slowness\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "38EDB538F0C78FE4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon immersiveengineering:bulwark ~ ~20 ~50 {Tags:[\"contract_griffin_anchor\",\"griffin_bulwark\",\"contract_griffin\"],CustomName:'{\"text\":\"Griffin\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,attributes:[{id:\"minecraft:generic.scale\",base:1.5}],HandItems:[{id:\"immersiveengineering:chemthrower\",count:1},{id:\"immersiveengineering:shield\",count:1}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:slowness\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "5E6E5E3A0625C5BD"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon immersiveengineering:bulwark ~-35 ~20 ~35 {Tags:[\"contract_griffin_anchor\",\"griffin_bulwark\",\"contract_griffin\"],CustomName:'{\"text\":\"Griffin\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,attributes:[{id:\"minecraft:generic.scale\",base:1.5}],HandItems:[{id:\"immersiveengineering:chemthrower\",count:1},{id:\"immersiveengineering:shield\",count:1}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:slowness\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "041F0B89A7B1D417"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon immersiveengineering:bulwark ~-50 ~20 ~ {Tags:[\"contract_griffin_anchor\",\"griffin_bulwark\",\"contract_griffin\"],CustomName:'{\"text\":\"Griffin\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,attributes:[{id:\"minecraft:generic.scale\",base:1.5}],HandItems:[{id:\"immersiveengineering:chemthrower\",count:1},{id:\"immersiveengineering:shield\",count:1}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:slowness\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "0592581FBD629BE5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon immersiveengineering:bulwark ~-35 ~20 ~-35 {Tags:[\"contract_griffin_anchor\",\"griffin_bulwark\",\"contract_griffin\"],CustomName:'{\"text\":\"Griffin\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,attributes:[{id:\"minecraft:generic.scale\",base:1.5}],HandItems:[{id:\"immersiveengineering:chemthrower\",count:1},{id:\"immersiveengineering:shield\",count:1}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:slowness\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "09D2CDF7EDF95868"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon immersiveengineering:bulwark ~ ~20 ~-50 {Tags:[\"contract_griffin_anchor\",\"griffin_bulwark\",\"contract_griffin\"],CustomName:'{\"text\":\"Griffin\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,attributes:[{id:\"minecraft:generic.scale\",base:1.5}],HandItems:[{id:\"immersiveengineering:chemthrower\",count:1},{id:\"immersiveengineering:shield\",count:1}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:slowness\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "27FBAD9F950830C0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon immersiveengineering:bulwark ~35 ~20 ~-35 {Tags:[\"contract_griffin_anchor\",\"griffin_bulwark\",\"contract_griffin\"],CustomName:'{\"text\":\"Griffin\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,attributes:[{id:\"minecraft:generic.scale\",base:1.5}],HandItems:[{id:\"immersiveengineering:chemthrower\",count:1},{id:\"immersiveengineering:shield\",count:1}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:slowness\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "07940DA1F117E441"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_griffin_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~4 ~ ~ {Tags:[\"contract_griffin_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "4831797518320A12"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_griffin_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~-4 ~ ~ {Tags:[\"contract_griffin_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "7630EE5869CF6C0C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_griffin_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~4 {Tags:[\"contract_griffin_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "09D79B703CBF2DF3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_griffin_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~-4 {Tags:[\"contract_griffin_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "0F7D8437591C216D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_griffin_anchor] remove contract_griffin_anchor"
+					id: "67A0A54433F7112F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "02E2A43B13355660"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1C14773AD25C01FD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "634AED838BD1B9C8"
+			rewards: [{
+				id: "74C1A85996C2320D"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "immersiveengineering:bulwark"
+				id: "765324BEE198E41E"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_griffin"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 9.8d
+		}
+		{
+			dependencies: ["6FDC45E823C83E49"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "immersiveengineering:railgun"
+			}
+			id: "10B506686D285376"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "6E7641853C8C7F07"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_oz_anchor] remove contract_oz_anchor"
+					id: "1FF985F6CBAF6BB6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "6481D65F47843BF5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon immersiveengineering:fusilier ~50 ~20 ~ {Tags:[\"contract_oz_anchor\",\"contract_oz\"],CustomName:'{\"text\":\"Oz\",\"color\":\"dark_red\",\"bold\":true}',CustomNameVisible:1b,Health:20f,attributes:[{id:\"minecraft:generic.max_health\",base:20}],HandItems:[{id:\"immersiveengineering:railgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "1F2097EE5F11D71F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon immersiveengineering:fusilier ~35 ~20 ~35 {Tags:[\"contract_oz_anchor\",\"contract_oz\"],CustomName:'{\"text\":\"Oz\",\"color\":\"dark_red\",\"bold\":true}',CustomNameVisible:1b,Health:20f,attributes:[{id:\"minecraft:generic.max_health\",base:20}],HandItems:[{id:\"immersiveengineering:railgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "75BF70517C6C041B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon immersiveengineering:fusilier ~ ~20 ~50 {Tags:[\"contract_oz_anchor\",\"contract_oz\"],CustomName:'{\"text\":\"Oz\",\"color\":\"dark_red\",\"bold\":true}',CustomNameVisible:1b,Health:20f,attributes:[{id:\"minecraft:generic.max_health\",base:20}],HandItems:[{id:\"immersiveengineering:railgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "1E3784C811731DC9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon immersiveengineering:fusilier ~-35 ~20 ~35 {Tags:[\"contract_oz_anchor\",\"contract_oz\"],CustomName:'{\"text\":\"Oz\",\"color\":\"dark_red\",\"bold\":true}',CustomNameVisible:1b,Health:20f,attributes:[{id:\"minecraft:generic.max_health\",base:20}],HandItems:[{id:\"immersiveengineering:railgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "44AA4BD8430A3289"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon immersiveengineering:fusilier ~-50 ~20 ~ {Tags:[\"contract_oz_anchor\",\"contract_oz\"],CustomName:'{\"text\":\"Oz\",\"color\":\"dark_red\",\"bold\":true}',CustomNameVisible:1b,Health:20f,attributes:[{id:\"minecraft:generic.max_health\",base:20}],HandItems:[{id:\"immersiveengineering:railgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "1D9E804DC30F4BBE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon immersiveengineering:fusilier ~-35 ~20 ~-35 {Tags:[\"contract_oz_anchor\",\"contract_oz\"],CustomName:'{\"text\":\"Oz\",\"color\":\"dark_red\",\"bold\":true}',CustomNameVisible:1b,Health:20f,attributes:[{id:\"minecraft:generic.max_health\",base:20}],HandItems:[{id:\"immersiveengineering:railgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "5D519CC3FC9E7F92"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon immersiveengineering:fusilier ~ ~20 ~-50 {Tags:[\"contract_oz_anchor\",\"contract_oz\"],CustomName:'{\"text\":\"Oz\",\"color\":\"dark_red\",\"bold\":true}',CustomNameVisible:1b,Health:20f,attributes:[{id:\"minecraft:generic.max_health\",base:20}],HandItems:[{id:\"immersiveengineering:railgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "0DA825D22CC1B5AE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon immersiveengineering:fusilier ~35 ~20 ~-35 {Tags:[\"contract_oz_anchor\",\"contract_oz\"],CustomName:'{\"text\":\"Oz\",\"color\":\"dark_red\",\"bold\":true}',CustomNameVisible:1b,Health:20f,attributes:[{id:\"minecraft:generic.max_health\",base:20}],HandItems:[{id:\"immersiveengineering:railgun\",count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "60D5B1048FEF6613"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_oz_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~4 ~ ~ {Tags:[\"contract_oz_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "611C9838DAA20CE4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_oz_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~-4 ~ ~ {Tags:[\"contract_oz_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "7477B1AB960904BE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_oz_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~4 {Tags:[\"contract_oz_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "52821E09ACA35A42"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_oz_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~-4 {Tags:[\"contract_oz_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "3DDC8413B952FF57"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_oz_anchor] remove contract_oz_anchor"
+					id: "53219B1699720D70"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6E1902F013C0C755"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10B506686D285376"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "54FD44874E62A879"
+			rewards: [{
+				count: 2
+				id: "1D78DCF24BD5EA26"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "immersiveengineering:fusilier"
+				id: "36E80A1347C7FE41"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_oz"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 9.8d
+		}
+		{
+			dependencies: ["14E1C729B71593F0"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "4B314B9C02613087"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "4979245840B04188"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_helob_anchor] remove contract_helob_anchor"
+					id: "552C22265746FA8E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "12A5114542D934A7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon minecraft:cave_spider ~50 ~20 ~ {Tags:[\"contract_helob_anchor\",\"helob\",\"contract_helob\"],CustomName:'{\"text\":\"Helob\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,Health:200f,attributes:[{id:\"minecraft:generic.max_health\",base:200},{id:\"minecraft:generic.scale\",base:5}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "770722141EA013F8"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon minecraft:cave_spider ~35 ~20 ~35 {Tags:[\"contract_helob_anchor\",\"helob\",\"contract_helob\"],CustomName:'{\"text\":\"Helob\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,Health:200f,attributes:[{id:\"minecraft:generic.max_health\",base:200},{id:\"minecraft:generic.scale\",base:5}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "2B47B9AF87DB8666"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon minecraft:cave_spider ~ ~20 ~50 {Tags:[\"contract_helob_anchor\",\"helob\",\"contract_helob\"],CustomName:'{\"text\":\"Helob\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,Health:200f,attributes:[{id:\"minecraft:generic.max_health\",base:200},{id:\"minecraft:generic.scale\",base:5}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "230D5D8462F9E7D7"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon minecraft:cave_spider ~-35 ~20 ~35 {Tags:[\"contract_helob_anchor\",\"helob\",\"contract_helob\"],CustomName:'{\"text\":\"Helob\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,Health:200f,attributes:[{id:\"minecraft:generic.max_health\",base:200},{id:\"minecraft:generic.scale\",base:5}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "6688A7BB1175B625"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon minecraft:cave_spider ~-50 ~20 ~ {Tags:[\"contract_helob_anchor\",\"helob\",\"contract_helob\"],CustomName:'{\"text\":\"Helob\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,Health:200f,attributes:[{id:\"minecraft:generic.max_health\",base:200},{id:\"minecraft:generic.scale\",base:5}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "1DE9A1D09EA2F43E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon minecraft:cave_spider ~-35 ~20 ~-35 {Tags:[\"contract_helob_anchor\",\"helob\",\"contract_helob\"],CustomName:'{\"text\":\"Helob\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,Health:200f,attributes:[{id:\"minecraft:generic.max_health\",base:200},{id:\"minecraft:generic.scale\",base:5}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "2F4DA5C0FB12821D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon minecraft:cave_spider ~ ~20 ~-50 {Tags:[\"contract_helob_anchor\",\"helob\",\"contract_helob\"],CustomName:'{\"text\":\"Helob\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,Health:200f,attributes:[{id:\"minecraft:generic.max_health\",base:200},{id:\"minecraft:generic.scale\",base:5}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "7DC5E1711C1CF89C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon minecraft:cave_spider ~35 ~20 ~-35 {Tags:[\"contract_helob_anchor\",\"helob\",\"contract_helob\"],CustomName:'{\"text\":\"Helob\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,Health:200f,attributes:[{id:\"minecraft:generic.max_health\",base:200},{id:\"minecraft:generic.scale\",base:5}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "365DBCC9A6492A93"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_helob_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~4 ~ ~ {Tags:[\"contract_helob_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "3BEAE2CD365AF2C0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_helob_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~-4 ~ ~ {Tags:[\"contract_helob_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "75E02BDDBC7FB00C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_helob_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~ ~ ~4 {Tags:[\"contract_helob_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "4251585FCC328DB0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_helob_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~ ~ ~-4 {Tags:[\"contract_helob_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "3383103E2ECAD8BD"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_helob_anchor] remove contract_helob_anchor"
+					id: "2ED8C50012DC8C75"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "297813B9D7C0ED07"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4B314B9C02613087"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "4071E11799E86E5E"
+			rewards: [{
+				id: "427044395F44227D"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "6153EF5045F5415E"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_helob"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 9.8d
+		}
+		{
+			dependencies: ["5EACC7751DED65F8"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:golden_helmet"
+			}
+			id: "3AE7969EB67F364B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "2FE323D4B287BB0A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_rat_king_anchor] remove contract_rat_king_anchor"
+					id: "565FB79DE2EE1DB4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "02DC04388387BF42"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon decilib:rat ~50 ~20 ~ {Tags:[\"contract_rat_king_anchor\",\"contract_rat_king\"],CustomName:'{\"text\":\"Rat King\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100},{id:\"minecraft:generic.scale\",base:4}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "475E0CDB780DA595"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon decilib:rat ~35 ~20 ~35 {Tags:[\"contract_rat_king_anchor\",\"contract_rat_king\"],CustomName:'{\"text\":\"Rat King\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100},{id:\"minecraft:generic.scale\",base:4}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "42F1A0500C329EDC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon decilib:rat ~ ~20 ~50 {Tags:[\"contract_rat_king_anchor\",\"contract_rat_king\"],CustomName:'{\"text\":\"Rat King\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100},{id:\"minecraft:generic.scale\",base:4}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "1637B74F61D15DAC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon decilib:rat ~-35 ~20 ~35 {Tags:[\"contract_rat_king_anchor\",\"contract_rat_king\"],CustomName:'{\"text\":\"Rat King\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100},{id:\"minecraft:generic.scale\",base:4}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "3ED4C05AB7996FAB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon decilib:rat ~-50 ~20 ~ {Tags:[\"contract_rat_king_anchor\",\"contract_rat_king\"],CustomName:'{\"text\":\"Rat King\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100},{id:\"minecraft:generic.scale\",base:4}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "68B9256741216154"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon decilib:rat ~-35 ~20 ~-35 {Tags:[\"contract_rat_king_anchor\",\"contract_rat_king\"],CustomName:'{\"text\":\"Rat King\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100},{id:\"minecraft:generic.scale\",base:4}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "40605AA743F6AAA5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon decilib:rat ~ ~20 ~-50 {Tags:[\"contract_rat_king_anchor\",\"contract_rat_king\"],CustomName:'{\"text\":\"Rat King\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100},{id:\"minecraft:generic.scale\",base:4}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "219D47C61E7529D5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon decilib:rat ~35 ~20 ~-35 {Tags:[\"contract_rat_king_anchor\",\"contract_rat_king\"],CustomName:'{\"text\":\"Rat King\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100},{id:\"minecraft:generic.scale\",base:4}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "20635834C50B9D04"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_rat_king_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~4 ~ ~ {Tags:[\"contract_rat_king_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "79C58BCA1622C7D4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_rat_king_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~-4 ~ ~ {Tags:[\"contract_rat_king_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "00BFE4F7D93A6F43"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_rat_king_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~ ~ ~4 {Tags:[\"contract_rat_king_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "766DF13DF348A3CB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_rat_king_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~ ~ ~-4 {Tags:[\"contract_rat_king_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "7325BE643C3436BB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_rat_king_anchor] remove contract_rat_king_anchor"
+					id: "0D09F9B1AB7A8874"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "23C1F6EFEA898797"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3AE7969EB67F364B"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "38CFD6557B2CD580"
+			rewards: [{
+				id: "10B889D0D20ECBEA"
+				item: {
+					count: 1
+					id: "jackseconomy:fifty_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "decilib:rat"
+				id: "23E37D27C0AE48AF"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_rat_king"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 9.8d
+		}
+		{
+			dependencies: ["10887AEE167C1E63"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "4580F336D200BDEC"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "19CEB16550B3C6D2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_azalar_anchor] remove contract_azalar_anchor"
+					id: "4A82457E84B4C845"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "0644E67418672BD4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon decilib:scalebane_striker ~50 ~20 ~ {Tags:[\"contract_azalar_anchor\",\"contract_azalar\"],CustomName:'{\"text\":\"Azalar\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150}],ArmorItems:[{id:\"minecraft:golden_boots\",count:1},{id:\"minecraft:golden_leggings\",count:1},{id:\"minecraft:golden_chestplate\",count:1},{id:\"minecraft:golden_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b},{id:\"minecraft:regeneration\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "661082E78DE7FA7D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon decilib:scalebane_striker ~35 ~20 ~35 {Tags:[\"contract_azalar_anchor\",\"contract_azalar\"],CustomName:'{\"text\":\"Azalar\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150}],ArmorItems:[{id:\"minecraft:golden_boots\",count:1},{id:\"minecraft:golden_leggings\",count:1},{id:\"minecraft:golden_chestplate\",count:1},{id:\"minecraft:golden_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b},{id:\"minecraft:regeneration\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "19E261B4331ACCC5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon decilib:scalebane_striker ~ ~20 ~50 {Tags:[\"contract_azalar_anchor\",\"contract_azalar\"],CustomName:'{\"text\":\"Azalar\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150}],ArmorItems:[{id:\"minecraft:golden_boots\",count:1},{id:\"minecraft:golden_leggings\",count:1},{id:\"minecraft:golden_chestplate\",count:1},{id:\"minecraft:golden_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b},{id:\"minecraft:regeneration\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "71F1550489109C17"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon decilib:scalebane_striker ~-35 ~20 ~35 {Tags:[\"contract_azalar_anchor\",\"contract_azalar\"],CustomName:'{\"text\":\"Azalar\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150}],ArmorItems:[{id:\"minecraft:golden_boots\",count:1},{id:\"minecraft:golden_leggings\",count:1},{id:\"minecraft:golden_chestplate\",count:1},{id:\"minecraft:golden_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b},{id:\"minecraft:regeneration\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "1810D0791BB4DCDE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon decilib:scalebane_striker ~-50 ~20 ~ {Tags:[\"contract_azalar_anchor\",\"contract_azalar\"],CustomName:'{\"text\":\"Azalar\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150}],ArmorItems:[{id:\"minecraft:golden_boots\",count:1},{id:\"minecraft:golden_leggings\",count:1},{id:\"minecraft:golden_chestplate\",count:1},{id:\"minecraft:golden_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b},{id:\"minecraft:regeneration\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "2302D9D666D5ED14"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon decilib:scalebane_striker ~-35 ~20 ~-35 {Tags:[\"contract_azalar_anchor\",\"contract_azalar\"],CustomName:'{\"text\":\"Azalar\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150}],ArmorItems:[{id:\"minecraft:golden_boots\",count:1},{id:\"minecraft:golden_leggings\",count:1},{id:\"minecraft:golden_chestplate\",count:1},{id:\"minecraft:golden_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b},{id:\"minecraft:regeneration\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "7BB9BD56965FD073"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon decilib:scalebane_striker ~ ~20 ~-50 {Tags:[\"contract_azalar_anchor\",\"contract_azalar\"],CustomName:'{\"text\":\"Azalar\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150}],ArmorItems:[{id:\"minecraft:golden_boots\",count:1},{id:\"minecraft:golden_leggings\",count:1},{id:\"minecraft:golden_chestplate\",count:1},{id:\"minecraft:golden_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b},{id:\"minecraft:regeneration\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "5A6CA1CD24551AF2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon decilib:scalebane_striker ~35 ~20 ~-35 {Tags:[\"contract_azalar_anchor\",\"contract_azalar\"],CustomName:'{\"text\":\"Azalar\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150}],ArmorItems:[{id:\"minecraft:golden_boots\",count:1},{id:\"minecraft:golden_leggings\",count:1},{id:\"minecraft:golden_chestplate\",count:1},{id:\"minecraft:golden_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b},{id:\"minecraft:regeneration\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "17DA4C93602288EF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_azalar_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~4 ~ ~ {Tags:[\"contract_azalar_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "56B5928F91DE5428"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_azalar_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~-4 ~ ~ {Tags:[\"contract_azalar_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "3CC54DD2C8C77395"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_azalar_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~4 {Tags:[\"contract_azalar_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "4E15EC0826B76C14"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_azalar_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~-4 {Tags:[\"contract_azalar_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "7D190525E9259DAA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_azalar_anchor] remove contract_azalar_anchor"
+					id: "07A9D4FCF4A4FBBA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0380AFD491EDF972"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4580F336D200BDEC"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "1B5FD332719530B2"
+			rewards: [{
+				count: 3
+				id: "20366345FC787A27"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "decilib:scalebane_striker"
+				id: "6B50C8F869FBD63B"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_azalar"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 9.8d
+		}
+		{
+			dependencies: ["5EACC7751DED65F8"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_axe"
+			}
+			id: "58BBC45AD99B095F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "03F7A90FE14D4C70"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_butcher_pete_anchor] remove contract_butcher_pete_anchor"
+					id: "2E07ED4C3961E9E2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "5D8D8E67EAE82B0C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon minecraft:vindicator ~50 ~20 ~ {Tags:[\"contract_butcher_pete_anchor\",\"contract_butcher_pete\"],CustomName:'{\"text\":\"Butcher Pete\",\"color\":\"red\",\"bold\":true}',CustomNameVisible:1b,Health:50f,attributes:[{id:\"minecraft:generic.max_health\",base:50}],HandItems:[{id:\"kubejs:scrap_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:strength\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "54F2CB118C0166B5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon minecraft:vindicator ~35 ~20 ~35 {Tags:[\"contract_butcher_pete_anchor\",\"contract_butcher_pete\"],CustomName:'{\"text\":\"Butcher Pete\",\"color\":\"red\",\"bold\":true}',CustomNameVisible:1b,Health:50f,attributes:[{id:\"minecraft:generic.max_health\",base:50}],HandItems:[{id:\"kubejs:scrap_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:strength\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "21F27B38D50C752A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon minecraft:vindicator ~ ~20 ~50 {Tags:[\"contract_butcher_pete_anchor\",\"contract_butcher_pete\"],CustomName:'{\"text\":\"Butcher Pete\",\"color\":\"red\",\"bold\":true}',CustomNameVisible:1b,Health:50f,attributes:[{id:\"minecraft:generic.max_health\",base:50}],HandItems:[{id:\"kubejs:scrap_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:strength\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "66A541D9D5473591"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon minecraft:vindicator ~-35 ~20 ~35 {Tags:[\"contract_butcher_pete_anchor\",\"contract_butcher_pete\"],CustomName:'{\"text\":\"Butcher Pete\",\"color\":\"red\",\"bold\":true}',CustomNameVisible:1b,Health:50f,attributes:[{id:\"minecraft:generic.max_health\",base:50}],HandItems:[{id:\"kubejs:scrap_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:strength\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "200370F4F933029D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon minecraft:vindicator ~-50 ~20 ~ {Tags:[\"contract_butcher_pete_anchor\",\"contract_butcher_pete\"],CustomName:'{\"text\":\"Butcher Pete\",\"color\":\"red\",\"bold\":true}',CustomNameVisible:1b,Health:50f,attributes:[{id:\"minecraft:generic.max_health\",base:50}],HandItems:[{id:\"kubejs:scrap_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:strength\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "32CEFE4D490CA0D1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon minecraft:vindicator ~-35 ~20 ~-35 {Tags:[\"contract_butcher_pete_anchor\",\"contract_butcher_pete\"],CustomName:'{\"text\":\"Butcher Pete\",\"color\":\"red\",\"bold\":true}',CustomNameVisible:1b,Health:50f,attributes:[{id:\"minecraft:generic.max_health\",base:50}],HandItems:[{id:\"kubejs:scrap_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:strength\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "208FD12505366074"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon minecraft:vindicator ~ ~20 ~-50 {Tags:[\"contract_butcher_pete_anchor\",\"contract_butcher_pete\"],CustomName:'{\"text\":\"Butcher Pete\",\"color\":\"red\",\"bold\":true}',CustomNameVisible:1b,Health:50f,attributes:[{id:\"minecraft:generic.max_health\",base:50}],HandItems:[{id:\"kubejs:scrap_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:strength\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "2F6CB6FF42B0C5B5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon minecraft:vindicator ~35 ~20 ~-35 {Tags:[\"contract_butcher_pete_anchor\",\"contract_butcher_pete\"],CustomName:'{\"text\":\"Butcher Pete\",\"color\":\"red\",\"bold\":true}',CustomNameVisible:1b,Health:50f,attributes:[{id:\"minecraft:generic.max_health\",base:50}],HandItems:[{id:\"kubejs:scrap_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:strength\",amplifier:0b,duration:-1,show_particles:1b}]}"
+					id: "741FD2944CA2973D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_butcher_pete_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~4 ~ ~ {Tags:[\"contract_butcher_pete_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "0D24688A81D66F39"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_butcher_pete_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~-4 ~ ~ {Tags:[\"contract_butcher_pete_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "5F2F3EB8C87E82A4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_butcher_pete_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~4 {Tags:[\"contract_butcher_pete_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "5E7A2E9D4AE51521"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_butcher_pete_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~-4 {Tags:[\"contract_butcher_pete_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "55A0B1EA1416FF2D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_butcher_pete_anchor] remove contract_butcher_pete_anchor"
+					id: "1FDC22CD806E9048"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "324F1EEB70A0BD05"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["58BBC45AD99B095F"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "3DB56F1F01146912"
+			rewards: [{
+				id: "3853296720D5E0E4"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "1929826489D63AC1"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_butcher_pete"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: -7.0d
+			y: 12.8d
+		}
+		{
+			dependencies: ["2EEF85D6934633DF"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ntgl:ammo": "cgs:round_gatling_piercing"
+					"ntgl:throw_mode": "ntgl:safe"
+					"ntgl:weapon_component": {
+						variant: "default"
+					}
+				}
+				id: "cgs:gatling"
+			}
+			id: "2175280F3A359237"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "402D9F935A2AC663"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_heavy_weapons_pillager_anchor] remove contract_heavy_weapons_pillager_anchor"
+					id: "75F3514ACECEFB8C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "46A2AB896522C54D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon minecraft:pillager ~50 ~20 ~ {Tags:[\"contract_heavy_weapons_pillager_anchor\",\"contract_heavy_weapons_pillager\"],CustomName:'{\"text\":\"Heavy Weapons Pillager\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300}],HandItems:[{id:\"cgs:gatling\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "51AC00F3A1D93393"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon minecraft:pillager ~35 ~20 ~35 {Tags:[\"contract_heavy_weapons_pillager_anchor\",\"contract_heavy_weapons_pillager\"],CustomName:'{\"text\":\"Heavy Weapons Pillager\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300}],HandItems:[{id:\"cgs:gatling\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "6EF97B6143BFDDFC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon minecraft:pillager ~ ~20 ~50 {Tags:[\"contract_heavy_weapons_pillager_anchor\",\"contract_heavy_weapons_pillager\"],CustomName:'{\"text\":\"Heavy Weapons Pillager\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300}],HandItems:[{id:\"cgs:gatling\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "13E90CAD988A5CD6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon minecraft:pillager ~-35 ~20 ~35 {Tags:[\"contract_heavy_weapons_pillager_anchor\",\"contract_heavy_weapons_pillager\"],CustomName:'{\"text\":\"Heavy Weapons Pillager\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300}],HandItems:[{id:\"cgs:gatling\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "1E1CB6079F7C38FB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon minecraft:pillager ~-50 ~20 ~ {Tags:[\"contract_heavy_weapons_pillager_anchor\",\"contract_heavy_weapons_pillager\"],CustomName:'{\"text\":\"Heavy Weapons Pillager\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300}],HandItems:[{id:\"cgs:gatling\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "438D62BBDC1F884F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon minecraft:pillager ~-35 ~20 ~-35 {Tags:[\"contract_heavy_weapons_pillager_anchor\",\"contract_heavy_weapons_pillager\"],CustomName:'{\"text\":\"Heavy Weapons Pillager\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300}],HandItems:[{id:\"cgs:gatling\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "33F55FF7C4F1991C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon minecraft:pillager ~ ~20 ~-50 {Tags:[\"contract_heavy_weapons_pillager_anchor\",\"contract_heavy_weapons_pillager\"],CustomName:'{\"text\":\"Heavy Weapons Pillager\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300}],HandItems:[{id:\"cgs:gatling\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "12B3831F7B8A6FAB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon minecraft:pillager ~35 ~20 ~-35 {Tags:[\"contract_heavy_weapons_pillager_anchor\",\"contract_heavy_weapons_pillager\"],CustomName:'{\"text\":\"Heavy Weapons Pillager\",\"color\":\"gold\",\"bold\":true}',CustomNameVisible:1b,Health:300f,attributes:[{id:\"minecraft:generic.max_health\",base:300}],HandItems:[{id:\"cgs:gatling\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "69CB7DBABC7AA406"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_heavy_weapons_pillager_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~4 ~ ~ {Tags:[\"contract_heavy_weapons_pillager_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "0E009AAF000BFBF8"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_heavy_weapons_pillager_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~-4 ~ ~ {Tags:[\"contract_heavy_weapons_pillager_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "6E05F67CF7654855"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_heavy_weapons_pillager_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~4 {Tags:[\"contract_heavy_weapons_pillager_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "1662564B7E52C457"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_heavy_weapons_pillager_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~-4 {Tags:[\"contract_heavy_weapons_pillager_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "69C0163B70EC207B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_heavy_weapons_pillager_anchor] remove contract_heavy_weapons_pillager_anchor"
+					id: "4C390CFCA523B11A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "50147F6320AD5B87"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2175280F3A359237"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "4359DC8C6011A935"
+			rewards: [{
+				count: 10
+				id: "30506B8794A15A51"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "14D755476D139AB2"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_heavy_weapons_pillager"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 12.8d
+		}
+		{
+			dependencies: ["6B47323B012809C2"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:zombie_head"
+			}
+			id: "3577B4576A11C913"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "7E91C7B171F238FA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_titanic_zombie_anchor] remove contract_titanic_zombie_anchor"
+					id: "12F8D6DC06FAF602"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "569AABFF0DF0AB12"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon minecraft:zombie ~50 ~20 ~ {Tags:[\"contract_titanic_zombie_anchor\",\"contract_titanic_zombie\"],CustomName:'{\"text\":\"Titanic Zombie\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150},{id:\"minecraft:generic.attack_knockback\",base:8},{id:\"minecraft:generic.scale\",base:2}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "5142AE4CE99024BC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon minecraft:zombie ~35 ~20 ~35 {Tags:[\"contract_titanic_zombie_anchor\",\"contract_titanic_zombie\"],CustomName:'{\"text\":\"Titanic Zombie\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150},{id:\"minecraft:generic.attack_knockback\",base:8},{id:\"minecraft:generic.scale\",base:2}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "67CF9BC3BE6C2964"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon minecraft:zombie ~ ~20 ~50 {Tags:[\"contract_titanic_zombie_anchor\",\"contract_titanic_zombie\"],CustomName:'{\"text\":\"Titanic Zombie\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150},{id:\"minecraft:generic.attack_knockback\",base:8},{id:\"minecraft:generic.scale\",base:2}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "2572FB8D933E7846"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon minecraft:zombie ~-35 ~20 ~35 {Tags:[\"contract_titanic_zombie_anchor\",\"contract_titanic_zombie\"],CustomName:'{\"text\":\"Titanic Zombie\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150},{id:\"minecraft:generic.attack_knockback\",base:8},{id:\"minecraft:generic.scale\",base:2}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "732052C81D76066C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon minecraft:zombie ~-50 ~20 ~ {Tags:[\"contract_titanic_zombie_anchor\",\"contract_titanic_zombie\"],CustomName:'{\"text\":\"Titanic Zombie\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150},{id:\"minecraft:generic.attack_knockback\",base:8},{id:\"minecraft:generic.scale\",base:2}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "4DA643DB40C1CDF2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon minecraft:zombie ~-35 ~20 ~-35 {Tags:[\"contract_titanic_zombie_anchor\",\"contract_titanic_zombie\"],CustomName:'{\"text\":\"Titanic Zombie\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150},{id:\"minecraft:generic.attack_knockback\",base:8},{id:\"minecraft:generic.scale\",base:2}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "4D9BCEBAAC2C5837"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon minecraft:zombie ~ ~20 ~-50 {Tags:[\"contract_titanic_zombie_anchor\",\"contract_titanic_zombie\"],CustomName:'{\"text\":\"Titanic Zombie\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150},{id:\"minecraft:generic.attack_knockback\",base:8},{id:\"minecraft:generic.scale\",base:2}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "15A140E0A9E1F77C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon minecraft:zombie ~35 ~20 ~-35 {Tags:[\"contract_titanic_zombie_anchor\",\"contract_titanic_zombie\"],CustomName:'{\"text\":\"Titanic Zombie\",\"color\":\"dark_green\",\"bold\":true}',CustomNameVisible:1b,Health:150f,attributes:[{id:\"minecraft:generic.max_health\",base:150},{id:\"minecraft:generic.attack_knockback\",base:8},{id:\"minecraft:generic.scale\",base:2}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "3CC609B6A1C3F301"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_titanic_zombie_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~4 ~ ~ {Tags:[\"contract_titanic_zombie_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "5828E6ECF857F2D9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_titanic_zombie_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~-4 ~ ~ {Tags:[\"contract_titanic_zombie_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "7B0572867689F9CC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_titanic_zombie_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~ ~ ~4 {Tags:[\"contract_titanic_zombie_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "6A0D2C0F240600CB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_titanic_zombie_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~ ~ ~-4 {Tags:[\"contract_titanic_zombie_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "273F3447903F5BFA"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_titanic_zombie_anchor] remove contract_titanic_zombie_anchor"
+					id: "54B1D7D273BA89E6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "57A1F6B8F5EC15BA"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3577B4576A11C913"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "7FE76A009CAFF1E3"
+			rewards: [{
+				count: 2
+				id: "74E42B29B8006465"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "6CEE5FD65588AC28"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_titanic_zombie"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 12.8d
+		}
+		{
+			dependencies: ["10F9FC9DB8367656"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_block"
+			}
+			id: "3DA4709E51B36477"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "5BCAF5D17E02E081"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_rogue_servitor_anchor] remove contract_rogue_servitor_anchor"
+					id: "68FEC545926EA470"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "589287451A967356"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon minecraft:iron_golem ~50 ~20 ~ {Tags:[\"contract_rogue_servitor_anchor\",\"contract_rogue_servitor\"],CustomName:'{\"text\":\"Rogue Servitor\",\"color\":\"gray\",\"bold\":true}',CustomNameVisible:1b,PlayerCreated:0b,ArmorItems:[{id:\"minecraft:iron_boots\",count:1},{id:\"minecraft:iron_leggings\",count:1},{id:\"minecraft:iron_chestplate\",count:1},{id:\"minecraft:iron_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:\"minecraft:generic.armor\",base:15}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "61B801CFBAF04D66"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon minecraft:iron_golem ~35 ~20 ~35 {Tags:[\"contract_rogue_servitor_anchor\",\"contract_rogue_servitor\"],CustomName:'{\"text\":\"Rogue Servitor\",\"color\":\"gray\",\"bold\":true}',CustomNameVisible:1b,PlayerCreated:0b,ArmorItems:[{id:\"minecraft:iron_boots\",count:1},{id:\"minecraft:iron_leggings\",count:1},{id:\"minecraft:iron_chestplate\",count:1},{id:\"minecraft:iron_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:\"minecraft:generic.armor\",base:15}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "278573305B1BD25B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon minecraft:iron_golem ~ ~20 ~50 {Tags:[\"contract_rogue_servitor_anchor\",\"contract_rogue_servitor\"],CustomName:'{\"text\":\"Rogue Servitor\",\"color\":\"gray\",\"bold\":true}',CustomNameVisible:1b,PlayerCreated:0b,ArmorItems:[{id:\"minecraft:iron_boots\",count:1},{id:\"minecraft:iron_leggings\",count:1},{id:\"minecraft:iron_chestplate\",count:1},{id:\"minecraft:iron_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:\"minecraft:generic.armor\",base:15}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "1E030875FB23FF86"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon minecraft:iron_golem ~-35 ~20 ~35 {Tags:[\"contract_rogue_servitor_anchor\",\"contract_rogue_servitor\"],CustomName:'{\"text\":\"Rogue Servitor\",\"color\":\"gray\",\"bold\":true}',CustomNameVisible:1b,PlayerCreated:0b,ArmorItems:[{id:\"minecraft:iron_boots\",count:1},{id:\"minecraft:iron_leggings\",count:1},{id:\"minecraft:iron_chestplate\",count:1},{id:\"minecraft:iron_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:\"minecraft:generic.armor\",base:15}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "3794D1343B15BFE6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon minecraft:iron_golem ~-50 ~20 ~ {Tags:[\"contract_rogue_servitor_anchor\",\"contract_rogue_servitor\"],CustomName:'{\"text\":\"Rogue Servitor\",\"color\":\"gray\",\"bold\":true}',CustomNameVisible:1b,PlayerCreated:0b,ArmorItems:[{id:\"minecraft:iron_boots\",count:1},{id:\"minecraft:iron_leggings\",count:1},{id:\"minecraft:iron_chestplate\",count:1},{id:\"minecraft:iron_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:\"minecraft:generic.armor\",base:15}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "44C6A8CD58ACE797"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon minecraft:iron_golem ~-35 ~20 ~-35 {Tags:[\"contract_rogue_servitor_anchor\",\"contract_rogue_servitor\"],CustomName:'{\"text\":\"Rogue Servitor\",\"color\":\"gray\",\"bold\":true}',CustomNameVisible:1b,PlayerCreated:0b,ArmorItems:[{id:\"minecraft:iron_boots\",count:1},{id:\"minecraft:iron_leggings\",count:1},{id:\"minecraft:iron_chestplate\",count:1},{id:\"minecraft:iron_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:\"minecraft:generic.armor\",base:15}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "6E42FF834A5194D5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon minecraft:iron_golem ~ ~20 ~-50 {Tags:[\"contract_rogue_servitor_anchor\",\"contract_rogue_servitor\"],CustomName:'{\"text\":\"Rogue Servitor\",\"color\":\"gray\",\"bold\":true}',CustomNameVisible:1b,PlayerCreated:0b,ArmorItems:[{id:\"minecraft:iron_boots\",count:1},{id:\"minecraft:iron_leggings\",count:1},{id:\"minecraft:iron_chestplate\",count:1},{id:\"minecraft:iron_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:\"minecraft:generic.armor\",base:15}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "62764CA42AFF8C09"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon minecraft:iron_golem ~35 ~20 ~-35 {Tags:[\"contract_rogue_servitor_anchor\",\"contract_rogue_servitor\"],CustomName:'{\"text\":\"Rogue Servitor\",\"color\":\"gray\",\"bold\":true}',CustomNameVisible:1b,PlayerCreated:0b,ArmorItems:[{id:\"minecraft:iron_boots\",count:1},{id:\"minecraft:iron_leggings\",count:1},{id:\"minecraft:iron_chestplate\",count:1},{id:\"minecraft:iron_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:\"minecraft:generic.armor\",base:15}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "079928772E39C97E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_rogue_servitor_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~4 ~ ~ {Tags:[\"contract_rogue_servitor_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "44C8E146AA033B90"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_rogue_servitor_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~-4 ~ ~ {Tags:[\"contract_rogue_servitor_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "266204735C3934C3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_rogue_servitor_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~4 {Tags:[\"contract_rogue_servitor_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "65C367682C8DFB07"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_rogue_servitor_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~-4 {Tags:[\"contract_rogue_servitor_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "063FEF615C8C91AD"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_rogue_servitor_anchor] remove contract_rogue_servitor_anchor"
+					id: "17C942F734508823"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "07559F9C4336F9EB"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3DA4709E51B36477"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "79BFCEE115EF6B7B"
+			rewards: [{
+				count: 8
+				id: "598519AEA6016B90"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:iron_golem"
+				id: "5F7C7361D04629BD"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_rogue_servitor"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 12.8d
+		}
+		{
+			dependencies: ["3C2AA1E89B71F196"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:honeycomb"
+			}
+			id: "3DBB1512763CA3E1"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "474EAC61D775244B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_angry_bee_anchor] remove contract_angry_bee_anchor"
+					id: "370436308310BE9C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "4B2C4D48B7D30302"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon minecraft:bee ~50 ~20 ~ {Tags:[\"contract_angry_bee_anchor\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "13502558BDA33485"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon minecraft:bee ~35 ~20 ~35 {Tags:[\"contract_angry_bee_anchor\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "0B4E9B1960A3A465"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon minecraft:bee ~ ~20 ~50 {Tags:[\"contract_angry_bee_anchor\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "1D1358E17380A149"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon minecraft:bee ~-35 ~20 ~35 {Tags:[\"contract_angry_bee_anchor\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "5CE0F4B980A2473C"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon minecraft:bee ~-50 ~20 ~ {Tags:[\"contract_angry_bee_anchor\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "0902C686301D003D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon minecraft:bee ~-35 ~20 ~-35 {Tags:[\"contract_angry_bee_anchor\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "499AAC66030775C3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon minecraft:bee ~ ~20 ~-50 {Tags:[\"contract_angry_bee_anchor\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "2B0A46EA9BAF84B5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon minecraft:bee ~35 ~20 ~-35 {Tags:[\"contract_angry_bee_anchor\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "4051B818C2129B24"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_angry_bee_anchor,limit=1,sort=nearest] run summon minecraft:bee ~4 ~ ~ {Tags:[\"contract_angry_bee_extra\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "686642F38D42E944"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_angry_bee_anchor,limit=1,sort=nearest] run summon minecraft:bee ~-4 ~ ~ {Tags:[\"contract_angry_bee_extra\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "100C21073B65C004"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_angry_bee_anchor,limit=1,sort=nearest] run summon minecraft:bee ~ ~ ~4 {Tags:[\"contract_angry_bee_extra\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "28A150C5CAC76F15"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_angry_bee_anchor,limit=1,sort=nearest] run summon minecraft:bee ~ ~ ~-4 {Tags:[\"contract_angry_bee_extra\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "64245448188540C2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_angry_bee_anchor,limit=1,sort=nearest] run summon minecraft:bee ~3 ~ ~3 {Tags:[\"contract_angry_bee_extra\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "7690DFE644022D7B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_angry_bee_anchor,limit=1,sort=nearest] run summon minecraft:bee ~-3 ~ ~3 {Tags:[\"contract_angry_bee_extra\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "1B1EF6D287809804"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_angry_bee_anchor,limit=1,sort=nearest] run summon minecraft:bee ~3 ~ ~-3 {Tags:[\"contract_angry_bee_extra\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "2DBFA95D7E05C038"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_angry_bee_anchor,limit=1,sort=nearest] run summon minecraft:bee ~-3 ~ ~-3 {Tags:[\"contract_angry_bee_extra\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "1F91E4F6D510453A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_angry_bee_anchor,limit=1,sort=nearest] run summon minecraft:bee ~ ~2 ~ {Tags:[\"contract_angry_bee_extra\",\"angry_bee_swarm\",\"contract_angry_bee\"],CustomName:'{\"text\":\"Angry Bee\",\"color\":\"yellow\",\"bold\":true}',CustomNameVisible:1b,AngerTime:999999,active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:speed\",amplifier:127b,duration:-1,show_particles:1b}]}"
+					id: "45B354296BDBBA2A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_angry_bee_anchor] remove contract_angry_bee_anchor"
+					id: "7041F893AC64029D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4FEA64C73BD4CF60"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3DBB1512763CA3E1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "575A51A423C6F1EB"
+			rewards: [{
+				id: "70A12509CE2A4926"
+				item: {
+					count: 1
+					id: "jackseconomy:fifty_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "1AD9E5BB3E35C29B"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_angry_bee"]
+				type: "kill_advanced"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 12.8d
+		}
+		{
+			dependencies: ["4BEC1BC76155DD52"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:golden_sword"
+			}
+			id: "6BE67B8FC18521E0"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "51C8B8F6EABC722F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_the_exile_anchor] remove contract_the_exile_anchor"
+					id: "60D9F4FA3148C88E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "303B48DA6F6C792F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon minecraft:zombified_piglin ~50 ~20 ~ {Tags:[\"contract_the_exile_anchor\",\"contract_the_exile\"],CustomName:'{\"text\":\"The Exile\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:75f,attributes:[{id:\"minecraft:generic.max_health\",base:75}],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "5A0DC3B08B4370E1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon minecraft:zombified_piglin ~35 ~20 ~35 {Tags:[\"contract_the_exile_anchor\",\"contract_the_exile\"],CustomName:'{\"text\":\"The Exile\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:75f,attributes:[{id:\"minecraft:generic.max_health\",base:75}],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "105062D8B3E1C918"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon minecraft:zombified_piglin ~ ~20 ~50 {Tags:[\"contract_the_exile_anchor\",\"contract_the_exile\"],CustomName:'{\"text\":\"The Exile\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:75f,attributes:[{id:\"minecraft:generic.max_health\",base:75}],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "51FBD4E88594446B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon minecraft:zombified_piglin ~-35 ~20 ~35 {Tags:[\"contract_the_exile_anchor\",\"contract_the_exile\"],CustomName:'{\"text\":\"The Exile\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:75f,attributes:[{id:\"minecraft:generic.max_health\",base:75}],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "0E20DC6AF2686A35"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon minecraft:zombified_piglin ~-50 ~20 ~ {Tags:[\"contract_the_exile_anchor\",\"contract_the_exile\"],CustomName:'{\"text\":\"The Exile\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:75f,attributes:[{id:\"minecraft:generic.max_health\",base:75}],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "0249FD88C9664002"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon minecraft:zombified_piglin ~-35 ~20 ~-35 {Tags:[\"contract_the_exile_anchor\",\"contract_the_exile\"],CustomName:'{\"text\":\"The Exile\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:75f,attributes:[{id:\"minecraft:generic.max_health\",base:75}],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "4B8C1CD0F01D0B9A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon minecraft:zombified_piglin ~ ~20 ~-50 {Tags:[\"contract_the_exile_anchor\",\"contract_the_exile\"],CustomName:'{\"text\":\"The Exile\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:75f,attributes:[{id:\"minecraft:generic.max_health\",base:75}],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "4032BE60828704E5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon minecraft:zombified_piglin ~35 ~20 ~-35 {Tags:[\"contract_the_exile_anchor\",\"contract_the_exile\"],CustomName:'{\"text\":\"The Exile\",\"color\":\"dark_gray\",\"bold\":true}',CustomNameVisible:1b,Health:75f,attributes:[{id:\"minecraft:generic.max_health\",base:75}],ArmorItems:[{id:\"immersiveengineering:armor_steel_boots\",count:1},{id:\"immersiveengineering:armor_steel_leggings\",count:1},{id:\"immersiveengineering:armor_steel_chestplate\",count:1},{id:\"immersiveengineering:armor_steel_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "2871F8536CB15054"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_the_exile_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~4 ~ ~ {Tags:[\"contract_the_exile_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "0020B77D5DCF13A1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_the_exile_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~-4 ~ ~ {Tags:[\"contract_the_exile_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "236221904CAEEC08"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_the_exile_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~ ~ ~4 {Tags:[\"contract_the_exile_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "043C704E037B33A5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_the_exile_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~ ~ ~-4 {Tags:[\"contract_the_exile_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "4B5426FFC852C594"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_the_exile_anchor] remove contract_the_exile_anchor"
+					id: "63F91C313145625A"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5184763EFDDE9E68"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6BE67B8FC18521E0"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "15BF5E4E2E8FA5E2"
+			rewards: [{
+				id: "575F753362EB36F4"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				id: "01612AFFCDC1E722"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_the_exile"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 12.8d
+		}
+		{
+			dependencies: ["5153B024A9C6F659"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "127A3FB202C10E37"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "6B503C662D6F59BB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_rev_zhooter_anchor] remove contract_rev_zhooter_anchor"
+					id: "1178C9F71B33D9C0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "33051F9A015D7F46"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon minecraft:evoker ~50 ~20 ~ {Tags:[\"contract_rev_zhooter_anchor\",\"contract_rev_zhooter\"],CustomName:'{\"text\":\"Rev. Zhooter\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,SpellTicks:0,ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "73093896E7A12CBF"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon minecraft:evoker ~35 ~20 ~35 {Tags:[\"contract_rev_zhooter_anchor\",\"contract_rev_zhooter\"],CustomName:'{\"text\":\"Rev. Zhooter\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,SpellTicks:0,ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "770512383B8E6FEB"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon minecraft:evoker ~ ~20 ~50 {Tags:[\"contract_rev_zhooter_anchor\",\"contract_rev_zhooter\"],CustomName:'{\"text\":\"Rev. Zhooter\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,SpellTicks:0,ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "13534A874A0EA8F9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon minecraft:evoker ~-35 ~20 ~35 {Tags:[\"contract_rev_zhooter_anchor\",\"contract_rev_zhooter\"],CustomName:'{\"text\":\"Rev. Zhooter\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,SpellTicks:0,ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "5A6D6AA310C42C4F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon minecraft:evoker ~-50 ~20 ~ {Tags:[\"contract_rev_zhooter_anchor\",\"contract_rev_zhooter\"],CustomName:'{\"text\":\"Rev. Zhooter\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,SpellTicks:0,ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "58E2C81A551F96A9"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon minecraft:evoker ~-35 ~20 ~-35 {Tags:[\"contract_rev_zhooter_anchor\",\"contract_rev_zhooter\"],CustomName:'{\"text\":\"Rev. Zhooter\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,SpellTicks:0,ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "4A368A024A0D147D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon minecraft:evoker ~ ~20 ~-50 {Tags:[\"contract_rev_zhooter_anchor\",\"contract_rev_zhooter\"],CustomName:'{\"text\":\"Rev. Zhooter\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,SpellTicks:0,ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "0A747E0AABEAB8B5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon minecraft:evoker ~35 ~20 ~-35 {Tags:[\"contract_rev_zhooter_anchor\",\"contract_rev_zhooter\"],CustomName:'{\"text\":\"Rev. Zhooter\",\"color\":\"dark_purple\",\"bold\":true}',CustomNameVisible:1b,SpellTicks:0,ArmorItems:[{id:\"minecraft:netherite_boots\",count:1},{id:\"minecraft:netherite_leggings\",count:1},{id:\"minecraft:netherite_chestplate\",count:1},{id:\"minecraft:netherite_helmet\",count:1}],ArmorDropChances:[0f,0f,0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "21A7C8CE0CBD5FE5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_rev_zhooter_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~4 ~ ~ {Tags:[\"contract_rev_zhooter_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "2BFDFB6998036DC8"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_rev_zhooter_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~-4 ~ ~ {Tags:[\"contract_rev_zhooter_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "6AC3CEF9E90B8D63"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_rev_zhooter_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~4 {Tags:[\"contract_rev_zhooter_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "0040E17D57A619A6"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_rev_zhooter_anchor,limit=1,sort=nearest] run summon minecraft:pillager ~ ~ ~-4 {Tags:[\"contract_rev_zhooter_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:crossbow\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "596A51057DAEE09B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_rev_zhooter_anchor] remove contract_rev_zhooter_anchor"
+					id: "758D9A4266529BD8"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7218FF4DEA932957"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["127A3FB202C10E37"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "2E7E51AFFDEF384A"
+			rewards: [{
+				count: 2
+				id: "4A28BD7D138DDBD4"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "14CF7DC67285A17D"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_rev_zhooter"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 12.8d
+		}
+		{
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:glowstone_dust"
+			}
+			id: "5ABC68283A8BD2DD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add contract_dir dummy"
+					id: "371F9ED4A495574B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_glowing_one_anchor] remove contract_glowing_one_anchor"
+					id: "52797C71D11E4C72"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute store result score #dir contract_dir run random value 0..7"
+					id: "60B4323AC3185907"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 0 as @s at @s run summon zombie_variants:bamboo_zombie ~50 ~20 ~ {Tags:[\"contract_glowing_one_anchor\",\"contract_glowing_one\"],CustomName:'{\"text\":\"The Glowing One\",\"color\":\"green\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100}],HandItems:[{id:\"kubejs:scrap_sword\",count:1},{}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:glowing\",amplifier:0b,duration:-1,show_particles:1b},{id:\"minecraft:night_vision\",amplifier:0b,duration:-1,show_particles:0b},{id:\"minecraft:speed\",amplifier:1b,duration:-1,show_particles:1b}]}"
+					id: "4C57AA242355B220"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 1 as @s at @s run summon zombie_variants:bamboo_zombie ~35 ~20 ~35 {Tags:[\"contract_glowing_one_anchor\",\"contract_glowing_one\"],CustomName:'{\"text\":\"The Glowing One\",\"color\":\"green\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100}],HandItems:[{id:\"kubejs:scrap_sword\",count:1},{}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:glowing\",amplifier:0b,duration:-1,show_particles:1b},{id:\"minecraft:night_vision\",amplifier:0b,duration:-1,show_particles:0b},{id:\"minecraft:speed\",amplifier:1b,duration:-1,show_particles:1b}]}"
+					id: "5D496222101C517E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 2 as @s at @s run summon zombie_variants:bamboo_zombie ~ ~20 ~50 {Tags:[\"contract_glowing_one_anchor\",\"contract_glowing_one\"],CustomName:'{\"text\":\"The Glowing One\",\"color\":\"green\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100}],HandItems:[{id:\"kubejs:scrap_sword\",count:1},{}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:glowing\",amplifier:0b,duration:-1,show_particles:1b},{id:\"minecraft:night_vision\",amplifier:0b,duration:-1,show_particles:0b},{id:\"minecraft:speed\",amplifier:1b,duration:-1,show_particles:1b}]}"
+					id: "1EE7CE01C6DCC2A2"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 3 as @s at @s run summon zombie_variants:bamboo_zombie ~-35 ~20 ~35 {Tags:[\"contract_glowing_one_anchor\",\"contract_glowing_one\"],CustomName:'{\"text\":\"The Glowing One\",\"color\":\"green\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100}],HandItems:[{id:\"kubejs:scrap_sword\",count:1},{}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:glowing\",amplifier:0b,duration:-1,show_particles:1b},{id:\"minecraft:night_vision\",amplifier:0b,duration:-1,show_particles:0b},{id:\"minecraft:speed\",amplifier:1b,duration:-1,show_particles:1b}]}"
+					id: "6B5D83A53C14E98D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 4 as @s at @s run summon zombie_variants:bamboo_zombie ~-50 ~20 ~ {Tags:[\"contract_glowing_one_anchor\",\"contract_glowing_one\"],CustomName:'{\"text\":\"The Glowing One\",\"color\":\"green\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100}],HandItems:[{id:\"kubejs:scrap_sword\",count:1},{}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:glowing\",amplifier:0b,duration:-1,show_particles:1b},{id:\"minecraft:night_vision\",amplifier:0b,duration:-1,show_particles:0b},{id:\"minecraft:speed\",amplifier:1b,duration:-1,show_particles:1b}]}"
+					id: "63F3706CE3BFBF2B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 5 as @s at @s run summon zombie_variants:bamboo_zombie ~-35 ~20 ~-35 {Tags:[\"contract_glowing_one_anchor\",\"contract_glowing_one\"],CustomName:'{\"text\":\"The Glowing One\",\"color\":\"green\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100}],HandItems:[{id:\"kubejs:scrap_sword\",count:1},{}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:glowing\",amplifier:0b,duration:-1,show_particles:1b},{id:\"minecraft:night_vision\",amplifier:0b,duration:-1,show_particles:0b},{id:\"minecraft:speed\",amplifier:1b,duration:-1,show_particles:1b}]}"
+					id: "121A55B73A094AC4"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 6 as @s at @s run summon zombie_variants:bamboo_zombie ~ ~20 ~-50 {Tags:[\"contract_glowing_one_anchor\",\"contract_glowing_one\"],CustomName:'{\"text\":\"The Glowing One\",\"color\":\"green\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100}],HandItems:[{id:\"kubejs:scrap_sword\",count:1},{}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:glowing\",amplifier:0b,duration:-1,show_particles:1b},{id:\"minecraft:night_vision\",amplifier:0b,duration:-1,show_particles:0b},{id:\"minecraft:speed\",amplifier:1b,duration:-1,show_particles:1b}]}"
+					id: "20EE7260A3E0B780"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute if score #dir contract_dir matches 7 as @s at @s run summon zombie_variants:bamboo_zombie ~35 ~20 ~-35 {Tags:[\"contract_glowing_one_anchor\",\"contract_glowing_one\"],CustomName:'{\"text\":\"The Glowing One\",\"color\":\"green\",\"bold\":true}',CustomNameVisible:1b,Health:100f,attributes:[{id:\"minecraft:generic.max_health\",base:100}],HandItems:[{id:\"kubejs:scrap_sword\",count:1},{}],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b},{id:\"minecraft:glowing\",amplifier:0b,duration:-1,show_particles:1b},{id:\"minecraft:night_vision\",amplifier:0b,duration:-1,show_particles:0b},{id:\"minecraft:speed\",amplifier:1b,duration:-1,show_particles:1b}]}"
+					id: "51C349CED332D93F"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_glowing_one_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~4 ~ ~ {Tags:[\"contract_glowing_one_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "1F5D4F7FB5BA2888"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_glowing_one_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~-4 ~ ~ {Tags:[\"contract_glowing_one_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "0EFA3FA785FABDCC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_glowing_one_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~ ~ ~4 {Tags:[\"contract_glowing_one_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "3F252E5000627C2B"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute at @e[tag=contract_glowing_one_anchor,limit=1,sort=nearest] run summon minecraft:zombie ~ ~ ~-4 {Tags:[\"contract_glowing_one_backup\"],PersistenceRequired:1b,HandItems:[{id:\"minecraft:iron_axe\",count:1},{}],HandDropChances:[0f,0f],active_effects:[{id:\"minecraft:slow_falling\",amplifier:0b,duration:600,show_particles:0b}]}"
+					id: "66E508C3AC65F8D0"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/tag @e[tag=contract_glowing_one_anchor] remove contract_glowing_one_anchor"
+					id: "17768B5F0A604ABD"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "6EDB44C4AFD5ACB2"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5ABC68283A8BD2DD"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "004B84BA3CCA70CA"
+			rewards: [{
+				id: "318914A20A25AD5A"
+				item: {
+					count: 1
+					id: "jackseconomy:fifty_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "zombie_variants:bamboo_zombie"
+				id: "51DAB5149E17A85D"
+				min_tags_required: 1
+				scoreboard_tags: ["contract_glowing_one"]
+				type: "kill_advanced"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 12.8d
+		}
+		{
+			id: "3A641A3B842F5138"
+			rewards: [{
+				count: 3
+				id: "667A8C946AC1CB20"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				entity: "immersiveengineering:commando"
+				id: "60A743F5031B3C56"
+				type: "kill"
+				value: 20L
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "modulargolems:target_filter_type"
+			}
+			id: "09A939B53E1F4E94"
+			rewards: [{
+				id: "18401355371D4715"
+				item: {
+					count: 1
+					id: "minecraft:golden_sword"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "28A5D4D112FA1C7D"
+				type: "checkmark"
+			}]
+			x: -0.0714285714285694d
+			y: 10.70357142857143d
+		}
+	]
+}

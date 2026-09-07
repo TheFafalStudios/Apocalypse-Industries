@@ -1,0 +1,1551 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "sell_food"
+	group: "5E11000000000001"
+	id: "537250A6B0F7DA07"
+	images: [
+		{
+			height: 1.0d
+			image: "quests:textures/quest/winery.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 2.0142857142857125d
+			y: -0.9642857142857153d
+		}
+		{
+			height: 1.0d
+			image: "quests:textures/quest/raw.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "quests:textures/quest/cooked.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 13.335714285714282d
+			y: -0.9642857142857153d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create_winery:cider"
+			}
+			id: "6DC4A7BDE1CC3B92"
+			optional: true
+			rewards: [
+				{
+					id: "2669A6DE238AABBB"
+					item: {
+						count: 1
+						id: "jackseconomy:five_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1C3B93C76E976DF2"
+					item: {
+						count: 2
+						id: "jackseconomy:dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "5F7CB643FDA6BEE9"
+				item: { count: 1, id: "create_winery:cider" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create_winery:chardonnay"
+			}
+			id: "037F41F77DDC5739"
+			optional: true
+			rewards: [
+				{
+					id: "211724949502F3B2"
+					item: {
+						count: 1
+						id: "jackseconomy:five_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "06A14499CBE0337B"
+					item: {
+						count: 1
+						id: "jackseconomy:dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "36EB08EAE92D4F3E"
+				item: { count: 1, id: "create_winery:chardonnay" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create_winery:riesling"
+			}
+			id: "0280BDF17DBC2D0D"
+			optional: true
+			rewards: [
+				{
+					id: "0C14CA3E64BA4182"
+					item: {
+						count: 1
+						id: "jackseconomy:five_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6B63ED19AACABB06"
+					item: {
+						count: 1
+						id: "jackseconomy:dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "2E4704ABF02B7BD2"
+				item: { count: 1, id: "create_winery:riesling" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create_winery:merlot"
+			}
+			id: "14A5144ED0EC09EC"
+			optional: true
+			rewards: [
+				{
+					id: "1EE803BB642373EC"
+					item: {
+						count: 1
+						id: "jackseconomy:five_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6B5010F942C71A33"
+					item: {
+						count: 1
+						id: "jackseconomy:dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "2A716F09DAB5A617"
+				item: { count: 1, id: "create_winery:merlot" }
+				type: "item"
+			}]
+			x: 3.45d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create_winery:pinot_noir"
+			}
+			id: "62B32F924647E99C"
+			optional: true
+			rewards: [
+				{
+					id: "53E573AB9AFDABDF"
+					item: {
+						count: 1
+						id: "jackseconomy:five_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6C880F18F96FCF36"
+					item: {
+						count: 2
+						id: "jackseconomy:dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "7C478F8F63B93EFD"
+				item: { count: 1, id: "create_winery:pinot_noir" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create_winery:zinfandel"
+			}
+			id: "72192561A5E92D61"
+			optional: true
+			rewards: [
+				{
+					id: "74463874118BE184"
+					item: {
+						count: 1
+						id: "jackseconomy:five_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "242F137C1F378198"
+					item: {
+						count: 2
+						id: "jackseconomy:dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "54F81D7AFD416142"
+				item: { count: 1, id: "create_winery:zinfandel" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create_winery:cabernet_sauvignon"
+			}
+			id: "4EF11311CF210BA9"
+			optional: true
+			rewards: [
+				{
+					id: "149F2E596A3921EF"
+					item: {
+						count: 1
+						id: "jackseconomy:five_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0AB6D6B57506F04E"
+					item: {
+						count: 1
+						id: "jackseconomy:dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "4A50191445450F6D"
+				item: { count: 1, id: "create_winery:cabernet_sauvignon" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create_winery:bordeaux"
+			}
+			id: "2BA57316EF6EE174"
+			optional: true
+			rewards: [
+				{
+					id: "4FA0863C6C4A5E15"
+					item: {
+						count: 1
+						id: "jackseconomy:five_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0E3127B90CE56580"
+					item: {
+						count: 3
+						id: "jackseconomy:dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "091BF161F59D4685"
+				item: { count: 1, id: "create_winery:bordeaux" }
+				type: "item"
+			}]
+			x: 3.45d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create_winery:rose"
+			}
+			id: "1DF646B80411ECF9"
+			optional: true
+			rewards: [
+				{
+					id: "36FD4CC84E7C8F07"
+					item: {
+						count: 1
+						id: "jackseconomy:five_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "314FF270E28585F5"
+					item: {
+						count: 4
+						id: "jackseconomy:dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "1424F14A018A6DA0"
+				item: { count: 1, id: "create_winery:rose" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create_winery:champaign"
+			}
+			id: "12072D325C65E5C2"
+			optional: true
+			rewards: [{
+				id: "374022CA158FB115"
+				item: {
+					count: 1
+					id: "jackseconomy:ten_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3AF742FC7F529668"
+				item: { count: 1, id: "create_winery:champaign" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create_winery:red_grapes"
+			}
+			id: "77E5CEB03199B7A5"
+			optional: true
+			rewards: [{
+				id: "707AE61170ECD7CC"
+				item: {
+					count: 1
+					id: "jackseconomy:nickel"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1BE7812988AECC60"
+				item: { count: 1, id: "create_winery:red_grapes" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create_winery:red_grape_crate"
+			}
+			id: "131109C5237FAC63"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "7E556D6FF5C9AE95"
+					item: {
+						count: 2
+						id: "jackseconomy:quarter"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "03856FA7B6568D90"
+					item: {
+						count: 1
+						id: "jackseconomy:dime"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "6263DD5D42E6599C"
+				item: { count: 1, id: "create_winery:red_grape_crate" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create_winery:white_grapes"
+			}
+			id: "4D52ACE5BA98B469"
+			optional: true
+			rewards: [{
+				id: "550EF62E57AB3A87"
+				item: {
+					count: 1
+					id: "jackseconomy:nickel"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2D5361AF3300F13A"
+				item: { count: 1, id: "create_winery:white_grapes" }
+				type: "item"
+			}]
+			x: 7.55d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create_winery:white_grape_crate"
+			}
+			id: "3262173BAAEBB793"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "1BF89D8C1A3FB09A"
+					item: {
+						count: 2
+						id: "jackseconomy:quarter"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "30DA88BE2F1AF3CC"
+					item: {
+						count: 1
+						id: "jackseconomy:dime"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "6576FB1D4ED567E6"
+				item: { count: 1, id: "create_winery:white_grape_crate" }
+				type: "item"
+			}]
+			x: 8.7d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:carrot"
+			}
+			id: "6BEEBFBE58556EC8"
+			optional: true
+			rewards: [{
+				id: "4588F53FBA3DE90B"
+				item: {
+					count: 1
+					id: "jackseconomy:penny"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "387C45B3FB4A15AB"
+				item: { count: 1, id: "minecraft:carrot" }
+				type: "item"
+			}]
+			x: 9.85d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:carrot_crate"
+			}
+			id: "12440E4D3C68CA20"
+			optional: true
+			rewards: [
+				{
+					id: "4FF7554BA2CDEB7A"
+					item: {
+						count: 1
+						id: "jackseconomy:dime"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "087337A5E3CFDB6D"
+					item: {
+						count: 2
+						id: "jackseconomy:penny"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "3ADC34E7C27A4911"
+				item: { count: 1, id: "farmersdelight:carrot_crate" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:potato"
+			}
+			id: "55F0DA8E659D4EFF"
+			optional: true
+			rewards: [{
+				id: "708A961A5664A643"
+				item: {
+					count: 1
+					id: "jackseconomy:penny"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "79909C5F565F249C"
+				item: { count: 1, id: "minecraft:potato" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:beetroot"
+			}
+			id: "7F0A50361FC4EFC5"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "39D0AA0A790788D1"
+				item: {
+					count: 2
+					id: "jackseconomy:penny"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6F9F562277706BE9"
+				item: { count: 1, id: "minecraft:beetroot" }
+				type: "item"
+			}]
+			x: 7.55d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:beetroot_crate"
+			}
+			id: "44BB48ABF71044A1"
+			optional: true
+			rewards: [{
+				id: "20E1BD7074833C0A"
+				item: {
+					count: 1
+					id: "jackseconomy:quarter"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "594310342502A94A"
+				item: { count: 1, id: "farmersdelight:beetroot_crate" }
+				type: "item"
+			}]
+			x: 8.7d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:cabbage"
+			}
+			id: "6EA7D6C0FDDFB19C"
+			optional: true
+			rewards: [{
+				id: "3791FAB4353B7CED"
+				item: {
+					count: 1
+					id: "jackseconomy:nickel"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3EA51EBA508DCBC2"
+				item: { count: 1, id: "farmersdelight:cabbage" }
+				type: "item"
+			}]
+			x: 9.85d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:cabbage_crate"
+			}
+			id: "1B11D2F39A6A976C"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "2DE85DC0490473E0"
+					item: {
+						count: 2
+						id: "jackseconomy:quarter"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1FCD150B94AA6407"
+					item: {
+						count: 1
+						id: "jackseconomy:dime"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "2C2CA031A1A51D35"
+				item: { count: 1, id: "farmersdelight:cabbage_crate" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:pumpkin"
+			}
+			id: "4CB0E506C239714A"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "40BB906B1A192583"
+				item: {
+					count: 2
+					id: "jackseconomy:quarter"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0AC489AC4F1E732A"
+				item: { count: 1, id: "minecraft:pumpkin" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:pumpkin_slice"
+			}
+			id: "0F3C7A9FF5284565"
+			optional: true
+			rewards: [
+				{
+					id: "77193B0A73E77D1B"
+					item: {
+						count: 1
+						id: "jackseconomy:quarter"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "34DB4A4D330C2F25"
+					item: {
+						count: 1
+						id: "jackseconomy:nickel"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "711B5AB53AC899AA"
+				item: { count: 1, id: "farmersdelight:pumpkin_slice" }
+				type: "item"
+			}]
+			x: 7.55d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:melon"
+			}
+			id: "6ED464DDBAEE5B6C"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "0494A6351858DCCC"
+				item: {
+					count: 2
+					id: "jackseconomy:quarter"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5F8BC36D291BDD85"
+				item: { count: 1, id: "minecraft:melon" }
+				type: "item"
+			}]
+			x: 8.7d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:onion"
+			}
+			id: "4C26444494566311"
+			optional: true
+			rewards: [{
+				id: "186BED3E7159F3E3"
+				item: {
+					count: 1
+					id: "jackseconomy:nickel"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6018F135832F22D1"
+				item: { count: 1, id: "farmersdelight:onion" }
+				type: "item"
+			}]
+			x: 9.85d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:onion_crate"
+			}
+			id: "5AA48F8826A539B4"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "30BED720B9C0049E"
+					item: {
+						count: 2
+						id: "jackseconomy:quarter"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "05921D3DD940DB13"
+					item: {
+						count: 1
+						id: "jackseconomy:dime"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "6A2E3097E21CBDCF"
+				item: { count: 1, id: "farmersdelight:onion_crate" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:tomato"
+			}
+			id: "245609A4A0445383"
+			optional: true
+			rewards: [{
+				id: "1F8A6440230E14CB"
+				item: {
+					count: 1
+					id: "jackseconomy:nickel"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0B25880081DFC173"
+				item: { count: 1, id: "farmersdelight:tomato" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:tomato_crate"
+			}
+			id: "29217338DF6B9ACC"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "28957900C68EC000"
+					item: {
+						count: 2
+						id: "jackseconomy:quarter"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "575E5667B898ABC2"
+					item: {
+						count: 1
+						id: "jackseconomy:dime"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "7C313385E4C46E5C"
+				item: { count: 1, id: "farmersdelight:tomato_crate" }
+				type: "item"
+			}]
+			x: 7.55d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:rice"
+			}
+			id: "59C287F3529F361D"
+			optional: true
+			rewards: [{
+				id: "760D70635F2B2DD2"
+				item: {
+					count: 1
+					id: "jackseconomy:nickel"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "360C37AE9B621052"
+				item: { count: 1, id: "farmersdelight:rice" }
+				type: "item"
+			}]
+			x: 8.7d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:wheat"
+			}
+			id: "6455FE5FB6293FBA"
+			optional: true
+			rewards: [{
+				id: "66851EE0C2DC3505"
+				item: {
+					count: 1
+					id: "jackseconomy:penny"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "03ECAB48D053BE33"
+				item: { count: 1, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			x: 9.85d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:milk_bottle"
+			}
+			id: "50CC8F91682AA21E"
+			optional: true
+			rewards: [{
+				id: "4A2BCAAC732B28E0"
+				item: {
+					count: 1
+					id: "jackseconomy:dime"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "623EE61E700BBC4B"
+				item: { count: 1, id: "farmersdelight:milk_bottle" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 4.6d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:sweet_berries"
+			}
+			id: "4023CE3A5E2D9602"
+			optional: true
+			rewards: [
+				{
+					id: "060ED7083DB9F0F2"
+					item: {
+						count: 1
+						id: "jackseconomy:nickel"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "29BA0F268E8DD32F"
+					item: {
+						count: 1
+						id: "jackseconomy:penny"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "616DAF535A589214"
+				item: { count: 1, id: "minecraft:sweet_berries" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 4.6d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "createfisheryindustry:cooked_cod_steak"
+			}
+			id: "707001AFD69A8971"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "297E599A6128F752"
+				item: {
+					count: 2
+					id: "jackseconomy:dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "28459E7D931320A0"
+				item: { count: 1, id: "createfisheryindustry:cooked_cod_steak" }
+				type: "item"
+			}]
+			x: 7.55d
+			y: 4.6d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "createfisheryindustry:cooked_lobster"
+			}
+			id: "7A9BD00516F87B88"
+			optional: true
+			rewards: [
+				{
+					id: "1BB02DE3D539AE86"
+					item: {
+						count: 1
+						id: "jackseconomy:five_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "09443A905ACC45A7"
+					item: {
+						count: 1
+						id: "jackseconomy:dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "1B9601F40E4D8B17"
+				item: { count: 1, id: "createfisheryindustry:cooked_lobster" }
+				type: "item"
+			}]
+			x: 8.7d
+			y: 4.6d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "createfisheryindustry:cooked_salmon_steak"
+			}
+			id: "08728C79A9204DB2"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "3F0715C650621EA0"
+				item: {
+					count: 4
+					id: "jackseconomy:dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "023E6C20589A4861"
+				item: { count: 1, id: "createfisheryindustry:cooked_salmon_steak" }
+				type: "item"
+			}]
+			x: 9.85d
+			y: 4.6d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:glow_berries"
+			}
+			id: "2273F7FA5CB712B4"
+			optional: true
+			rewards: [{
+				id: "01C1F8A91960C147"
+				item: {
+					count: 1
+					id: "jackseconomy:dime"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "786CDCF18CC457A0"
+				item: { count: 1, id: "minecraft:glow_berries" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 5.75d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:bread"
+			}
+			id: "69DCE9BC3B9C598B"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "0E0AA9F75276D105"
+				item: {
+					count: 2
+					id: "jackseconomy:quarter"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5BC6E7D057F0CBA4"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: 11.65d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:cookie"
+			}
+			id: "189A416455348DD7"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "58053C030F14617F"
+				item: {
+					count: 2
+					id: "jackseconomy:dime"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4C78FCAC20451933"
+				item: { count: 1, id: "minecraft:cookie" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:pumpkin_pie"
+			}
+			id: "273EE5AD7DC7D2FE"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "756DB6AF3A8A7214"
+				item: {
+					count: 2
+					id: "jackseconomy:dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4B359D03DBCD33EA"
+				item: { count: 1, id: "minecraft:pumpkin_pie" }
+				type: "item"
+			}]
+			x: 13.95d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:cake"
+			}
+			id: "13DDC7AC68562A60"
+			optional: true
+			rewards: [
+				{
+					id: "317364128380D687"
+					item: {
+						count: 1
+						id: "jackseconomy:five_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0CBBC06E60F83957"
+					item: {
+						count: 3
+						id: "jackseconomy:dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "5D53319DFBBE5EEE"
+				item: { count: 1, id: "minecraft:cake" }
+				type: "item"
+			}]
+			x: 15.1d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create:sweet_roll"
+			}
+			id: "3B690E0CF7310E37"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "7DF0FDA2AFDB3B10"
+				item: {
+					count: 2
+					id: "jackseconomy:dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4172A46395966A1C"
+				item: { count: 1, id: "create:sweet_roll" }
+				type: "item"
+			}]
+			x: 11.65d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "farmersdelight:hamburger"
+			}
+			id: "2C20CE0F9858FD8C"
+			optional: true
+			rewards: [
+				{
+					id: "7644DD3C8CF54640"
+					item: {
+						count: 1
+						id: "jackseconomy:five_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0F551A9070BCBEDA"
+					item: {
+						count: 3
+						id: "jackseconomy:dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "7D5D12163C41ED3D"
+				item: { count: 1, id: "farmersdelight:hamburger" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "createfisheryindustry:seafood_chowder"
+			}
+			id: "27F8BAE17D21CAD4"
+			optional: true
+			rewards: [{
+				id: "54E60625532DC9C2"
+				item: {
+					count: 1
+					id: "jackseconomy:twenty_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "54B147A62F3B5419"
+				item: { count: 1, id: "createfisheryindustry:seafood_chowder" }
+				type: "item"
+			}]
+			x: 13.95d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "createcafe:caramel_iced_coffee"
+			}
+			id: "3692C1B0B98BE360"
+			optional: true
+			rewards: [
+				{
+					id: "2DE1722B2203C476"
+					item: {
+						count: 1
+						id: "jackseconomy:ten_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "79B2C66D9F6E2117"
+					item: {
+						count: 1
+						id: "jackseconomy:five_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "4D8DC09BF45FEDF4"
+				item: { count: 1, id: "createcafe:caramel_iced_coffee" }
+				type: "item"
+			}]
+			x: 15.1d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "createcafe:iced_coffee"
+			}
+			id: "1031CCEE7D54BEAD"
+			optional: true
+			rewards: [{
+				id: "7727CB2E28184324"
+				item: {
+					count: 1
+					id: "jackseconomy:ten_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5644290D5C9623EF"
+				item: { count: 1, id: "createcafe:iced_coffee" }
+				type: "item"
+			}]
+			x: 11.65d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "create:bar_of_chocolate"
+			}
+			id: "5553F88226D0F5F8"
+			optional: true
+			rewards: [{
+				id: "5BC83885036B373A"
+				item: {
+					count: 1
+					id: "jackseconomy:ten_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0501660562A06CE7"
+				item: { count: 1, id: "create:bar_of_chocolate" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ratatouille:sausage"
+			}
+			id: "059344E00A522EC3"
+			optional: true
+			rewards: [
+				{
+					id: "7F2E83E96969F626"
+					item: {
+						count: 1
+						id: "jackseconomy:ten_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "09B8CB36502695B6"
+					item: {
+						count: 1
+						id: "jackseconomy:five_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "29FB9A8C43DA7974"
+				item: { count: 1, id: "ratatouille:sausage" }
+				type: "item"
+			}]
+			x: 13.95d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "createcafe:oreo"
+			}
+			id: "6B37AB7F934AE510"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "571F717B07EE3213"
+				item: {
+					count: 4
+					id: "jackseconomy:dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "357DC9AD0CB61746"
+				item: { count: 1, id: "createcafe:oreo" }
+				type: "item"
+			}]
+			x: 15.1d
+			y: 2.3d
+		}
+	]
+}

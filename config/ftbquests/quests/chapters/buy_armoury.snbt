@@ -1,0 +1,1138 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "buy_armoury"
+	group: "10F6E11E30E5682A"
+	id: "2E5798BD298505E2"
+	images: [
+		{
+			height: 1.0d
+			image: "quests:textures/quest/guns.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 1.721428571428568d
+			y: -0.9714285714285715d
+		}
+		{
+			height: 1.0d
+			image: "quests:textures/quest/vanilla.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "quests:textures/quest/turrets.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 11.5d
+			y: -1.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "cgs:round_gatling"
+			}
+			id: "0C81FCC50289467E"
+			optional: true
+			rewards: [{
+				id: "4FB51D0D36FE68F9"
+				item: {
+					count: 1
+					id: "cgs:round_gatling"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "62FE81EF836254FA"
+				item: { count: 1, id: "jackseconomy:ten_dollar_bill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "cbc_at:heavy_autocannon_cartridge"
+			}
+			id: "65D2EB43D73E3F30"
+			optional: true
+			rewards: [{
+				id: "7479A3BA0A12EFE4"
+				item: {
+					count: 1
+					id: "cbc_at:heavy_autocannon_cartridge"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "7AB02DC5EA0708F0"
+				item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "createbigcannons:packed_guncotton"
+			}
+			id: "1A17640900E155CA"
+			optional: true
+			rewards: [{
+				id: "0C5DC7D384AA7DD0"
+				item: {
+					count: 1
+					id: "createbigcannons:packed_guncotton"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "41E58C8BF414CC20"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1BFDC4D75A6EB9B1"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 2.3d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "cgs:round_gatling_piercing"
+			}
+			id: "7C0EE2C9C096F55C"
+			optional: true
+			rewards: [{
+				id: "6120DFA1E3F51651"
+				item: {
+					count: 1
+					id: "cgs:round_gatling_piercing"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "1831847B1F0B5E8B"
+					item: { count: 1, id: "jackseconomy:ten_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "17670412A4E51EAF"
+					item: { count: 1, id: "jackseconomy:five_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 3.45d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "cgs:round_revolver_piercing"
+			}
+			id: "3FC75111CCD4D4E3"
+			optional: true
+			rewards: [{
+				id: "1FDDAAA9F1E6E4C4"
+				item: {
+					count: 1
+					id: "cgs:round_revolver_piercing"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "61BF6186EF00FE40"
+					item: { count: 1, id: "jackseconomy:ten_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7091A332E4CF43FF"
+					item: { count: 1, id: "jackseconomy:five_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "cgs:round_revolver"
+			}
+			id: "4C495372EC593506"
+			optional: true
+			rewards: [{
+				id: "7FC54DD532A7F013"
+				item: {
+					count: 1
+					id: "cgs:round_revolver"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "10AB8EC4E156350D"
+				item: { count: 1, id: "jackseconomy:ten_dollar_bill" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "cgs:round_shotgun_flechette"
+			}
+			id: "62CD4DB811D37C6D"
+			optional: true
+			rewards: [{
+				id: "1027263C09274AF4"
+				item: {
+					count: 1
+					id: "cgs:round_shotgun_flechette"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1B118CBFF30EA918"
+				item: { count: 1, id: "jackseconomy:ten_dollar_bill" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "cgs:round_shotgun_flechette_steel"
+			}
+			id: "36008BB8699544C5"
+			optional: true
+			rewards: [{
+				id: "2DFBB4F086ECCAEF"
+				item: {
+					count: 1
+					id: "cgs:round_shotgun_flechette_steel"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "542004683F934834"
+					item: { count: 1, id: "jackseconomy:ten_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7C3C11691E68DFF9"
+					item: { count: 1, id: "jackseconomy:five_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 3.45d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "cgs:round_shotgun_incendiary"
+			}
+			id: "764BE97C16611404"
+			optional: true
+			rewards: [{
+				id: "2781B3A5B6EB2A8E"
+				item: {
+					count: 1
+					id: "cgs:round_shotgun_incendiary"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "519D5022FCD77AAC"
+				item: { count: 1, id: "jackseconomy:twenty_dollar_bill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "cgs:round_shotgun"
+			}
+			id: "77E7907ED84E9404"
+			optional: true
+			rewards: [{
+				id: "783C59E39F559F73"
+				item: {
+					count: 1
+					id: "cgs:round_shotgun"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "78B3FE4368407FE6"
+				item: { count: 1, id: "jackseconomy:ten_dollar_bill" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "cgs:gatling"
+			}
+			id: "431BFA3C9DBA807A"
+			optional: true
+			rewards: [{
+				id: "614FC7829735B9A8"
+				item: {
+					count: 1
+					id: "cgs:gatling"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "3BABCBE621E7FDAD"
+					item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "3C81910871827D4D"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 2.3d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "cgs:revolver"
+			}
+			id: "6AAF82BD9FF7007E"
+			optional: true
+			rewards: [{
+				id: "4AD8A20348575DF6"
+				item: {
+					count: 1
+					id: "cgs:revolver"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "5B6B3135AE564719"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "06CC5C3670B5F2F2"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 3.45d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "cgs:shotgun"
+			}
+			id: "19984B0F84D94DD4"
+			optional: true
+			rewards: [{
+				id: "6C998C33A3841483"
+				item: {
+					count: 1
+					id: "cgs:shotgun"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7AD8C17D800F0EB0"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "createbigcannons:cannon_carriage"
+			}
+			id: "51A75289755DDB76"
+			optional: true
+			rewards: [{
+				id: "7EC52E1371EADDA6"
+				item: {
+					count: 1
+					id: "createbigcannons:cannon_carriage"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "30654AA9539D5D35"
+				item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "createbigcannons:cannon_mount"
+			}
+			id: "0741D10EEE3040A6"
+			optional: true
+			rewards: [{
+				id: "4A3752579EAD05A8"
+				item: {
+					count: 1
+					id: "createbigcannons:cannon_mount"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "12027E4E453714C7"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "15D138B446D17083"
+					item: { count: 1, id: "jackseconomy:twenty_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "21C8EF3506A5F0ED"
+					item: { count: 1, id: "jackseconomy:ten_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 2.3d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "createbigcannons:steel_cannon_barrel"
+			}
+			id: "4A1560C96B8AEBD9"
+			optional: true
+			rewards: [{
+				id: "0778F060E16241F4"
+				item: {
+					count: 1
+					id: "createbigcannons:steel_cannon_barrel"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4FC4F89F6C36EACB"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 3.45d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:diamond_helmet"
+			}
+			id: "105FC513F4702E39"
+			optional: true
+			rewards: [{
+				id: "674D4186778A86A5"
+				item: {
+					count: 1
+					id: "minecraft:diamond_helmet"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "613B7FEE5A21C45F"
+					item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "164A9369E44927F8"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:diamond_chestplate"
+			}
+			id: "6274EE8E971B3D05"
+			optional: true
+			rewards: [{
+				id: "16EDAC4B17A8BAB2"
+				item: {
+					count: 1
+					id: "minecraft:diamond_chestplate"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "44F90CBA0B436A8D"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:diamond_leggings"
+			}
+			id: "29A532908C2CF189"
+			optional: true
+			rewards: [{
+				id: "6C42FFE0B0A7EACB"
+				item: {
+					count: 1
+					id: "minecraft:diamond_leggings"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "626C74C229F31C1C"
+					item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 7L
+					id: "2D92FDDF9B4E91B3"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 7.55d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:diamond_boots"
+			}
+			id: "5A50ACE803DDBC36"
+			optional: true
+			rewards: [{
+				id: "7B26BF1058B1D684"
+				item: {
+					count: 1
+					id: "minecraft:diamond_boots"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5E5F2282F1AA2C6E"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 8.7d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "367A4C0642F9075A"
+			optional: true
+			rewards: [{
+				id: "19C991A3FE5B31ED"
+				item: {
+					count: 1
+					id: "minecraft:diamond_sword"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "291765FCF6AD7E75"
+				item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:netherite_helmet"
+			}
+			id: "4B434F06CBF9CF25"
+			optional: true
+			rewards: [{
+				id: "454D401251695FD5"
+				item: {
+					count: 1
+					id: "minecraft:netherite_helmet"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 18L
+				id: "4142D254C42E52A0"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:netherite_chestplate"
+			}
+			id: "58B2D4D92F01738E"
+			optional: true
+			rewards: [{
+				id: "0D0F5FBFC15384EE"
+				item: {
+					count: 1
+					id: "minecraft:netherite_chestplate"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "74C6C78B093DAF09"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 7.55d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:netherite_leggings"
+			}
+			id: "3BBA6E2ABF0390D5"
+			optional: true
+			rewards: [{
+				id: "08B7D87C0CF534B1"
+				item: {
+					count: 1
+					id: "minecraft:netherite_leggings"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 19L
+				id: "20159ED98FCB3C4F"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 8.7d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:netherite_boots"
+			}
+			id: "1E5F4E7F67435B76"
+			optional: true
+			rewards: [{
+				id: "79FA8502150337FA"
+				item: {
+					count: 1
+					id: "minecraft:netherite_boots"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 17L
+				id: "71DFD75B8DC5568F"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "575E60B3EE3AE372"
+			optional: true
+			rewards: [{
+				id: "61DB20D37B558533"
+				item: {
+					count: 1
+					id: "minecraft:netherite_sword"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "42A7E157A06AE06F"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:netherite_upgrade_smithing_template"
+			}
+			id: "4FEC3FCBFEFD215F"
+			optional: true
+			rewards: [{
+				id: "43B82DA42167F244"
+				item: {
+					count: 1
+					id: "minecraft:netherite_upgrade_smithing_template"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "2FAAC9F301E4B4E3"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 7.55d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "44D2406FBAE61262"
+			optional: true
+			rewards: [{
+				id: "664DC7A761E3FD8D"
+				item: {
+					count: 1
+					id: "minecraft:bow"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "037C8C0923609491"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "307E4063221BC4CD"
+					item: { count: 1, id: "jackseconomy:ten_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 8.7d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "6A2B785AA0B2BF74"
+			optional: true
+			rewards: [{
+				id: "36B05EF217FDCC61"
+				item: {
+					count: 1
+					id: "minecraft:crossbow"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "4A96D43F6E286475"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "643993CD755AA534"
+					item: { count: 1, id: "jackseconomy:twenty_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "10F9F24DA27FEE8A"
+					item: { count: 1, id: "jackseconomy:five_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:tnt"
+			}
+			id: "784ED9F86BBF99E3"
+			optional: true
+			rewards: [{
+				id: "6A3964A7FD29CA08"
+				item: {
+					count: 1
+					id: "minecraft:tnt"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "48E95D6558DBDF7A"
+					item: { count: 1, id: "jackseconomy:twenty_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "52C6CEC67C4ED93B"
+					item: { count: 1, id: "jackseconomy:ten_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 6.4d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "minecraft:arrow"
+			}
+			id: "4DD420626DFECFEB"
+			optional: true
+			rewards: [{
+				id: "706F21819172FDA7"
+				item: {
+					count: 1
+					id: "minecraft:arrow"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "59C57B400C4B911D"
+				item: { count: 1, id: "jackseconomy:five_dollar_bill" }
+				type: "item"
+			}]
+			x: 7.55d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "immersiveengineering:bullet_armor_piercing"
+			}
+			id: "4E889B55FA3692CB"
+			optional: true
+			rewards: [{
+				id: "32AF37182E3D94DB"
+				item: {
+					count: 1
+					id: "immersiveengineering:bullet_armor_piercing"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7CCD3DC67062795B"
+				item: { count: 1, id: "jackseconomy:twenty_dollar_bill" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "immersiveengineering:bullet_casull"
+			}
+			id: "12AF528D51A251C8"
+			optional: true
+			rewards: [{
+				id: "440EF548DB828C7C"
+				item: {
+					count: 1
+					id: "immersiveengineering:bullet_casull"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "48C8EE7804729776"
+				item: { count: 1, id: "jackseconomy:ten_dollar_bill" }
+				type: "item"
+			}]
+			x: 11.65d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "immersiveengineering:bullet_he"
+			}
+			id: "34812CE1E36A6070"
+			optional: true
+			rewards: [{
+				id: "5031EAEB8DAC6DF4"
+				item: {
+					count: 1
+					id: "immersiveengineering:bullet_he"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "0C206EE08C0A92C2"
+					item: { count: 1, id: "jackseconomy:ten_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7DEF6CFBFF418533"
+					item: { count: 1, id: "jackseconomy:five_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 12.8d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "immersiveengineering:bullet_homing"
+			}
+			id: "0B85D664E5082D3C"
+			optional: true
+			rewards: [{
+				id: "47ED5896046DB122"
+				item: {
+					count: 1
+					id: "immersiveengineering:bullet_homing"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "48FE962ECC892647"
+				item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "immersiveengineering:bullet_silver"
+			}
+			id: "569B1FE5EFB5DCAF"
+			optional: true
+			rewards: [{
+				id: "75F367111C542398"
+				item: {
+					count: 1
+					id: "immersiveengineering:bullet_silver"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "627CC299B58D06C5"
+					item: { count: 1, id: "jackseconomy:ten_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5CEA10361E7F71C0"
+					item: { count: 1, id: "jackseconomy:five_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 11.65d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "immersiveengineering:turret_gun"
+			}
+			id: "3F89DB173B1A68C9"
+			optional: true
+			rewards: [{
+				id: "30F9AD193FB2519F"
+				item: {
+					count: 1
+					id: "immersiveengineering:turret_gun"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5823C7EE685C1D23"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 1.15d
+		}
+	]
+}

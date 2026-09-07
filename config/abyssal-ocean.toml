@@ -1,0 +1,54 @@
+#Abyssal Ocean world-generation settings.
+#Worldgen changes affect only newly generated chunks. Restarting the world is recommended.
+[worldgen]
+	#LOWER values make Abyssal Ocean more common; HIGHER values make it rarer.
+	#Default: 0.70. Suggested: 0.64 common, 0.78 rare.
+	# Default: 0.7
+	# Range: 0.55 ~ 0.9
+	rarityThreshold = 0.7
+	#Horizontal diameter multiplier for each continuous region.
+	#This changes region size, not the rarity threshold. Default: 2.0.
+	# Default: 2.0
+	# Range: 0.25 ~ 8.0
+	regionScale = 2.0
+	#How much of the selected region reaches the deepest abyssal plain.
+	#Higher values widen the deepest inner valleys. Default: 1.5.
+	# Default: 1.5
+	# Range: 0.25 ~ 4.0
+	deepAreaScale = 1.5
+	#Offshore climate gate. More negative values keep the biome farther from mainland.
+	#Do not raise above -0.19, the approximate vanilla coast boundary.
+	# Default: -0.3
+	# Range: -1.2 ~ -0.19
+	maximumContinentalness = -0.3
+	#Width in blocks of the progressive shelf and slope at biome borders. Default: 192.
+	# Default: 192
+	# Range: 32 ~ 768
+	slopeWidth = 192
+	#Deepest sandy floor height above minimum build height.
+	#6 places the floor six blocks above the bottom bedrock.
+	# Default: 6
+	# Range: 6 ~ 96
+	floorHeightAboveMinY = 6
+	#Maximum small-scale relief on the deepest floor. Default: 4.
+	# Default: 4
+	# Range: 0 ~ 16
+	maxFloorRelief = 4
+	#Strength of natural trench, branching-rift and hadal-pit variants. Default: 0.72.
+	# Default: 0.72
+	# Range: 0.0 ~ 1.0
+	fissureStrength = 0.72
+	#How frequently secondary fissures appear inside a valley. Default: 0.55.
+	# Default: 0.55
+	# Range: 0.0 ~ 1.0
+	fissureDensity = 0.55
+	#Horizontal size multiplier of fissure variants. Default: 1.20.
+	# Default: 1.2
+	# Range: 0.25 ~ 4.0
+	fissureScale = 1.2
+	#Ground ocean and compatible modded structures on the generated abyss floor.
+	preserveStructures = true
+	#Local floor sampling radius used to ground structures. Default: 12.
+	# Default: 12
+	# Range: 4 ~ 48
+	structureProtectionRadius = 12

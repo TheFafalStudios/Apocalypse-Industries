@@ -1,0 +1,10 @@
+{
+  "config": {
+    "discountBoost": 100,
+    "timeUntilUnequip": 1200.0,
+    "hungerExhaustionRate": 0.1,
+    "isEnable": true,
+    "backupTimeUntilUnequip": 0.0,
+    "resetTimerFlag": false
+  }
+}

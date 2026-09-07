@@ -1,0 +1,459 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "milestones"
+	group: ""
+	icon: {
+		id: "jackseconomy:thousand_dollar_bill_stack"
+	}
+	id: "6FFD555056645147"
+	images: [{
+		height: 2.0d
+		image: "quests:textures/quest/milestones.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 2.5714285714285623d
+		y: -11.910714285714285d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			id: "3566A856BB7AD138"
+			rewards: [
+				{
+					id: "48C6C182C051AA0A"
+					item: {
+						count: 1
+						id: "jackseconomy:thousand_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0136AC6D8D4254C3"
+					item: {
+						count: 1
+						id: "simplehats:partyhat"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: true
+				id: "129E65155B938A5B"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 3.964285714285694d
+			y: -3.696428571428548d
+		}
+		{
+			dependencies: ["3566A856BB7AD138"]
+			id: "4B4869A638A9BBEE"
+			rewards: [
+				{
+					count: 10
+					id: "3B3E8B48228F7787"
+					item: {
+						count: 1
+						id: "jackseconomy:thousand_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3E14789C46E05A57"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:fortune": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "76E65641B39BE312"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:efficiency": 5
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "66D6A0935008E2BC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "652AB1295AE3F741"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 2.321428571428548d
+			y: -4.660714285714278d
+		}
+		{
+			dependencies: ["4B4869A638A9BBEE"]
+			id: "6E494860EE4616CD"
+			rewards: [
+				{
+					count: 100
+					id: "76BDC7EA81243BB7"
+					item: {
+						count: 1
+						id: "jackseconomy:thousand_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5FFAFE2B0C40B290"
+					item: {
+						count: 1
+						id: "immersiveengineering:turret_gun"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2B05B347CECAF8D0"
+					item: {
+						count: 1
+						id: "immersiveengineering:bullet_casull"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4DE7985301EB9EA6"
+					item: {
+						count: 1
+						id: "immersiveengineering:concrete_reinforced"
+					}
+					type: "item"
+				}
+				{
+					id: "2C8E89889966E40D"
+					item: {
+						count: 1
+						id: "ftbquests:screen_1"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "669585796169CB1E"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 0.6071428571428328d
+			y: -5.624999999999986d
+		}
+		{
+			dependencies: ["6E494860EE4616CD"]
+			hide_dependency_lines: false
+			id: "39C646E1482C5D5E"
+			rewards: [
+				{
+					count: 1000
+					id: "42584B9D275EBBC1"
+					item: {
+						count: 1
+						id: "jackseconomy:thousand_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0F97B83B6195D547"
+					item: {
+						count: 1
+						id: "ae2:drive"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1CF34C5140C24093"
+					item: {
+						count: 1
+						id: "ae2:item_storage_cell_64k"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.9d
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "4251929C871FCD18"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: -1.0000000000000213d
+			y: -7.303571428571409d
+		}
+		{
+			dependencies: ["39C646E1482C5D5E"]
+			id: "21A41B53E73C0F3E"
+			rewards: [
+				{
+					count: 10000
+					id: "0B0BE4410B03AE36"
+					item: {
+						count: 1
+						id: "jackseconomy:thousand_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 10
+					id: "7D4C05A17F4DA9CF"
+					item: {
+						components: {
+							"modulargolems:golem_materials": {
+								parts: [
+									{
+										material: "modulargolems:netherite"
+										part: "modulargolems:metal_golem_arm"
+									}
+									{
+										material: "modulargolems:netherite"
+										part: "modulargolems:metal_golem_body"
+									}
+									{
+										material: "modulargolems:netherite"
+										part: "modulargolems:metal_golem_arm"
+									}
+									{
+										material: "modulargolems:netherite"
+										part: "modulargolems:metal_golem_legs"
+									}
+								]
+							}
+						}
+						count: 1
+						id: "modulargolems:metal_golem_holder"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.2d
+			tasks: [{
+				consume_items: true
+				count: 10000L
+				id: "47C1F723AB8449D0"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 0.9999999999999787d
+			y: -8.374999999999986d
+		}
+		{
+			dependencies: ["21A41B53E73C0F3E"]
+			id: "7160FEA992BD435F"
+			rewards: [
+				{
+					count: 100000
+					id: "06DD74F7341DFB0C"
+					item: {
+						count: 1
+						id: "jackseconomy:thousand_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6A84D7EAA4772890"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"italic\":false,\"text\":\"The Company® Special Issued Helmet\"}"
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:aqua_affinity": 1
+									"minecraft:blast_protection": 4
+									"minecraft:fire_protection": 4
+									"minecraft:mending": 1
+									"minecraft:projectile_protection": 4
+									"minecraft:protection": 4
+									"minecraft:respiration": 3
+									"minecraft:thorns": 3
+									"minecraft:unbreaking": 3
+								}
+							}
+						}
+						count: 1
+						id: "create_deep_dark:echo_armor_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "0560EED751C97C15"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"italic\":false,\"text\":\"The Company® Special Issued Chestplate\"}"
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:blast_protection": 4
+									"minecraft:fire_protection": 4
+									"minecraft:mending": 1
+									"minecraft:projectile_protection": 4
+									"minecraft:protection": 4
+									"minecraft:thorns": 3
+									"minecraft:unbreaking": 3
+								}
+							}
+						}
+						count: 1
+						id: "create_deep_dark:echo_armor_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "06721ED304192197"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"italic\":false,\"text\":\"The Company® Special Issued Leggings\"}"
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:blast_protection": 4
+									"minecraft:fire_protection": 4
+									"minecraft:mending": 1
+									"minecraft:projectile_protection": 4
+									"minecraft:protection": 4
+									"minecraft:swift_sneak": 3
+									"minecraft:thorns": 3
+									"minecraft:unbreaking": 3
+								}
+							}
+						}
+						count: 1
+						id: "create_deep_dark:echo_armor_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "00F22C9C800E4998"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"italic\":false,\"text\":\"The Company® Special Issued Boots\"}"
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:blast_protection": 4
+									"minecraft:depth_strider": 3
+									"minecraft:feather_falling": 4
+									"minecraft:fire_protection": 4
+									"minecraft:frost_walker": 2
+									"minecraft:mending": 1
+									"minecraft:projectile_protection": 4
+									"minecraft:protection": 4
+									"minecraft:soul_speed": 3
+									"minecraft:thorns": 3
+									"minecraft:unbreaking": 3
+								}
+							}
+						}
+						count: 1
+						id: "create_deep_dark:echo_armor_boots"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.5d
+			tasks: [{
+				consume_items: true
+				count: 100000L
+				id: "50C1E09A86A79D02"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 3.3928571428571175d
+			y: -8.91071428571427d
+		}
+		{
+			dependencies: ["7160FEA992BD435F"]
+			hide_details_until_startable: true
+			id: "26A13C72CCC43086"
+			rewards: [
+				{
+					count: 1000000
+					id: "45B760FF6060AB6D"
+					item: {
+						count: 1
+						id: "jackseconomy:thousand_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5DAD3EA005E89917"
+					item: {
+						components: {
+							"minecraft:written_book_content": {
+								author: "The Company®"
+								pages: [{
+									raw: "\"Congratulations : PLAYER NAME,\\n\\nYou are one of our most valued assets, please accept this token of appreciation for your hard work.\""
+								}]
+								resolved: 1b
+								title: {
+									raw: "Congratulations!"
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:written_book"
+					}
+					type: "item"
+				}
+				{
+					id: "247ABDA3461950E6"
+					item: {
+						count: 1
+						id: "farmersdelight:cake_slice"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 3.5d
+			tasks: [{
+				consume_items: true
+				count: 1000000L
+				id: "2CB7C13BCBE33C41"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 6.321428571428548d
+			y: -9.374999999999993d
+		}
+	]
+}

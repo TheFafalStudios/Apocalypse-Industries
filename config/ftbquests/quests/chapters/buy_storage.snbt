@@ -1,0 +1,1528 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "buy_storage"
+	group: "10F6E11E30E5682A"
+	id: "303EE3A670DF17C5"
+	images: [
+		{
+			height: 1.0d
+			image: "quests:textures/quest/ae2.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.8500000000000014d
+			y: -1.0071428571428562d
+		}
+		{
+			height: 1.0d
+			image: "quests:textures/quest/backpacks.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "quests:textures/quest/chests.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 14.028571428571432d
+			y: -1.0428571428571374d
+		}
+		{
+			height: 1.0d
+			image: "quests:textures/quest/ender.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.814285714285717d
+			y: -0.971428571428568d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ae2:silicon"
+			}
+			id: "0D0B277ECBD3CFBF"
+			optional: true
+			rewards: [{
+				id: "749BC35FFE5CAC8D"
+				item: {
+					count: 1
+					id: "ae2:silicon"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "4F99EE34D486891B"
+				item: { count: 1, id: "jackseconomy:dollar_bill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ae2:item_storage_cell_1k"
+			}
+			id: "7AC520CA2E4DEB11"
+			optional: true
+			rewards: [{
+				id: "489BC70C0D21FCDC"
+				item: {
+					count: 1
+					id: "ae2:item_storage_cell_1k"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "5D878C0600D2B29E"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6362BFA337C97308"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 1.15d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ae2:item_storage_cell_4k"
+			}
+			id: "13783FDA89C93500"
+			optional: true
+			rewards: [{
+				id: "50E558BBA0B4703A"
+				item: {
+					count: 1
+					id: "ae2:item_storage_cell_4k"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0B2016602AB2E333"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ae2:item_storage_cell_64k"
+			}
+			id: "444DD36240B02651"
+			optional: true
+			rewards: [{
+				id: "6CF5ABAFD8E160B6"
+				item: {
+					count: 1
+					id: "ae2:item_storage_cell_64k"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "4A705FA6F915340D"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 3.45d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ae2:item_storage_cell_16k"
+			}
+			id: "16D3C06412F7CAFC"
+			optional: true
+			rewards: [{
+				id: "567B432F448AF771"
+				item: {
+					count: 1
+					id: "ae2:item_storage_cell_16k"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "24140822F30168EE"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ae2:item_storage_cell_256k"
+			}
+			id: "28983154B41D01C2"
+			optional: true
+			rewards: [{
+				id: "38A54FD9BBF45129"
+				item: {
+					count: 1
+					id: "ae2:item_storage_cell_256k"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 200L
+				id: "7052414339E50DEC"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ae2:fluix_covered_dense_cable"
+			}
+			id: "1B12573BD63F7DE3"
+			optional: true
+			rewards: [{
+				id: "0F50EB77DDF757DA"
+				item: {
+					count: 1
+					id: "ae2:fluix_covered_dense_cable"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "6A7AD61C255256C6"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "257304E6B5AF0262"
+					item: { count: 1, id: "jackseconomy:twenty_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "007BDF95706ADDC3"
+					item: { count: 1, id: "jackseconomy:ten_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 2.3d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ae2:fluix_glass_cable"
+			}
+			id: "6C4F4F468E695C92"
+			optional: true
+			rewards: [{
+				id: "6F4737BAE6B709DE"
+				item: {
+					count: 1
+					id: "ae2:fluix_glass_cable"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0C711A1A81CE52B4"
+				item: { count: 1, id: "jackseconomy:twenty_dollar_bill" }
+				type: "item"
+			}]
+			x: 3.45d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ae2:fluix_smart_cable"
+			}
+			id: "5A8CD1B3C9E8BC9B"
+			optional: true
+			rewards: [{
+				id: "08E3A25E2CF7EB1C"
+				item: {
+					count: 1
+					id: "ae2:fluix_smart_cable"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "296EF817DCC930A3"
+				item: { count: 1, id: "jackseconomy:twenty_dollar_bill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ae2:wireless_access_point"
+			}
+			id: "6D41EFEEFF9AF180"
+			optional: true
+			rewards: [{
+				id: "5E941399745BA91B"
+				item: {
+					count: 1
+					id: "ae2:wireless_access_point"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "431D6C97A2939410"
+				item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ae2:wireless_booster"
+			}
+			id: "611C28630445F096"
+			optional: true
+			rewards: [{
+				id: "38C59AED1EF036E0"
+				item: {
+					count: 1
+					id: "ae2:wireless_booster"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5670E5FA4E4F259C"
+				item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ae2:wireless_crafting_terminal"
+			}
+			id: "396082C1F91784A6"
+			optional: true
+			rewards: [{
+				id: "27A428A402099D7B"
+				item: {
+					count: 1
+					id: "ae2:wireless_crafting_terminal"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "41D892E245E9B8E8"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 3.45d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ae2:crafting_terminal"
+			}
+			id: "706D85DA1486FD8E"
+			optional: true
+			rewards: [{
+				id: "68183678600F2F82"
+				item: {
+					count: 1
+					id: "ae2:crafting_terminal"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "49304CE727C804A7"
+				item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "ae2:drive"
+			}
+			id: "5A0B2827DCD1E187"
+			optional: true
+			rewards: [{
+				id: "695B1CE9A950FF7C"
+				item: {
+					count: 1
+					id: "ae2:drive"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "087BC3832F4F8594"
+				item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "05CCC7B85FD0D541"
+			optional: true
+			rewards: [{
+				id: "1D939E37EB45887D"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:backpack"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "7258B9DD8814D6B4"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "25F598F322624F8E"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:copper_backpack"
+			}
+			id: "506220D309C6A28A"
+			optional: true
+			rewards: [{
+				id: "43ED07F848E04F15"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:copper_backpack"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 7L
+					id: "70A00B01FE8A386C"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "692AE7C143D8FB66"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 6.4d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:iron_backpack"
+			}
+			id: "797F07B8CCF86769"
+			optional: true
+			rewards: [{
+				id: "4750E289FC6BADE6"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:iron_backpack"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7778A4B46DDC1E9E"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 7.55d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:gold_backpack"
+			}
+			id: "5671D69A2012A4DB"
+			optional: true
+			rewards: [{
+				id: "37FC2EDAB6D0791B"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:gold_backpack"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "48B8C2BF8DE9C859"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 8.7d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:diamond_backpack"
+			}
+			id: "7FB2735A37FBB5AF"
+			optional: true
+			rewards: [{
+				id: "0C6CD5AF644AF75B"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:diamond_backpack"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "099186401834C937"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 9.85d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:netherite_backpack"
+			}
+			id: "46E766E0F0FDDC58"
+			optional: true
+			rewards: [{
+				id: "1379055FA8ED00D9"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:netherite_backpack"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 20L
+				id: "551D8AA048AD2C44"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+			}
+			id: "33684C6F841D57BC"
+			optional: true
+			rewards: [{
+				id: "56CDFD9A7C1DEC7C"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "4E8F336223F55104"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3FCD1E5E30C7FEC1"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 6.4d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:pickup_upgrade"
+			}
+			id: "0814FF2507DA1A8D"
+			optional: true
+			rewards: [{
+				id: "04B21B5737861E6F"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:pickup_upgrade"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "76DA9C1C584D4FC8"
+				item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+				type: "item"
+			}]
+			x: 7.55d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:filter_upgrade"
+			}
+			id: "147D66DEA15EEEAC"
+			optional: true
+			rewards: [{
+				id: "4FF0086AD34D3519"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:filter_upgrade"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "3C4B72CB7231099D"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "78A5A7720E89C0A1"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 8.7d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:deposit_upgrade"
+			}
+			id: "4F6E65F5B6B01721"
+			optional: true
+			rewards: [{
+				id: "4336AA4351DB798C"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:deposit_upgrade"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "66CB641D73CEBE6D"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2DA21ABC191BCECB"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 9.85d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:restock_upgrade"
+			}
+			id: "02DAD1FB4308D338"
+			optional: true
+			rewards: [{
+				id: "33F6D70CA681E571"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:restock_upgrade"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "4357C062A57F0187"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "29EE2D70C6B6DF48"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:advanced_feeding_upgrade"
+			}
+			id: "736CF1204407D151"
+			optional: true
+			rewards: [{
+				id: "2C23941BD1C53EE7"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2E3D706D677315F9"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:feeding_upgrade"
+			}
+			id: "7BAC908050D76EED"
+			optional: true
+			rewards: [{
+				id: "37B63CD4ADEE7541"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:feeding_upgrade"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "092B0F03C4514F94"
+				item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+				type: "item"
+			}]
+			x: 7.55d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:magnet_upgrade"
+			}
+			id: "2C0510EDD748AD12"
+			optional: true
+			rewards: [{
+				id: "359FA7DBD777F3DD"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:magnet_upgrade"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 7L
+					id: "6969CD64D2268D14"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "717479149F900299"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 8.7d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:void_upgrade"
+			}
+			id: "7B41A12BB09E74F8"
+			optional: true
+			rewards: [{
+				id: "4F228326BFAC415C"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:void_upgrade"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 7L
+					id: "750723C96E23B74E"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "55453449F0505DEC"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 9.85d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:advanced_compacting_upgrade"
+			}
+			id: "3CD290347912649B"
+			optional: true
+			rewards: [{
+				id: "3C82CC4435002046"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7FC0709B6B8B407E"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 5.25d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedbackpacks:compacting_upgrade"
+			}
+			id: "17C1AB21868C8D73"
+			optional: true
+			rewards: [{
+				id: "6FCDD5EDAB0F498D"
+				item: {
+					count: 1
+					id: "sophisticatedbackpacks:compacting_upgrade"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "693C03FD415DFD13"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 6.4d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:barrel"
+			}
+			id: "7F5F0CB6AB8D4AA2"
+			optional: true
+			rewards: [{
+				id: "75A1EDA70DF948C9"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:barrel"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "3CCEAFB18F9E8D13"
+				item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+				type: "item"
+			}]
+			x: 11.65d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:copper_barrel"
+			}
+			id: "7711021B89D35235"
+			optional: true
+			rewards: [{
+				id: "103FD9A8FF99EB56"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:copper_barrel"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "5327E9F4749EDDDE"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "32B7F60B4EF9AA93"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 12.8d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:iron_barrel"
+			}
+			id: "158193AF3E5F1EA6"
+			optional: true
+			rewards: [{
+				id: "2BA808AC88537A64"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:iron_barrel"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1F02CA221914EF93"
+				item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+				type: "item"
+			}]
+			x: 13.95d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:gold_barrel"
+			}
+			id: "333D8EAFFF7C4D10"
+			optional: true
+			rewards: [{
+				id: "1DD2EBBB2450453E"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:gold_barrel"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "394FD25B6252B640"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 15.1d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:diamond_barrel"
+			}
+			id: "7D84647E792C7012"
+			optional: true
+			rewards: [{
+				id: "36939A1442BB8168"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:diamond_barrel"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "25A47A0BE71434EE"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 16.25d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:netherite_barrel"
+			}
+			id: "77155DC46F69154C"
+			optional: true
+			rewards: [{
+				id: "1A7B6EEED7D8499C"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:netherite_barrel"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "14B35106B48E5996"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 11.65d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:chest"
+			}
+			id: "1F76DC78089F31B6"
+			optional: true
+			rewards: [{
+				id: "258F68A83E53230B"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:chest"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "50B61C123C86D074"
+				item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:copper_chest"
+			}
+			id: "17083E5CF355D75C"
+			optional: true
+			rewards: [{
+				id: "4252C2E252A96C18"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:copper_chest"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "0064FEFA1F0DA0F7"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2698730712105A2F"
+					item: { count: 1, id: "jackseconomy:fifty_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 13.95d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:iron_chest"
+			}
+			id: "51F0D7D71E1A814F"
+			optional: true
+			rewards: [{
+				id: "1A65110AF8E3CB8D"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:iron_chest"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "32A0EDA7B3ECE0E3"
+				item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+				type: "item"
+			}]
+			x: 15.1d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:gold_chest"
+			}
+			id: "68481D5E634E3D79"
+			optional: true
+			rewards: [{
+				id: "588BEB6C6C09E8DE"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:gold_chest"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "434A7A8157FC765E"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 16.25d
+			y: 1.15d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:diamond_chest"
+			}
+			id: "0ABF07CEE6B530A3"
+			optional: true
+			rewards: [{
+				id: "05EC669E984ADF07"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:diamond_chest"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "47048ADD8251D992"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 11.65d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:netherite_chest"
+			}
+			id: "238598BC7FB60211"
+			optional: true
+			rewards: [{
+				id: "05043582B7042CE2"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:netherite_chest"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "53334368BBB8DE1F"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:shulker_box"
+			}
+			id: "39D63D9CC01BDA44"
+			optional: true
+			rewards: [{
+				id: "0B8252A8210B4773"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:shulker_box"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "03BBD412A866A9BD"
+					item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "77232A3807CDD3B3"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 13.95d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:copper_shulker_box"
+			}
+			id: "7861799E497724FA"
+			optional: true
+			rewards: [{
+				id: "13C78BD23245BAD7"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:copper_shulker_box"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7E65ED75B5BE6F66"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 15.1d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:iron_shulker_box"
+			}
+			id: "25AB84B6693A2BC1"
+			optional: true
+			rewards: [{
+				id: "4A198002EF94FE91"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:iron_shulker_box"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "31814C816EAB0214"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 16.25d
+			y: 2.3d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:gold_shulker_box"
+			}
+			id: "40BEB1794CA415B4"
+			optional: true
+			rewards: [{
+				id: "1BE162444457C2FC"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:gold_shulker_box"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 12L
+				id: "5CA4E8B3CA564D13"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 11.65d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:diamond_shulker_box"
+			}
+			id: "113EFC6835218783"
+			optional: true
+			rewards: [{
+				id: "6436F3DBE306BD1F"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:diamond_shulker_box"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "014B139A68E09FFE"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "sophisticatedstorage:netherite_shulker_box"
+			}
+			id: "12D8C3963EC5E579"
+			optional: true
+			rewards: [{
+				id: "53346CCC017A2293"
+				item: {
+					count: 1
+					id: "sophisticatedstorage:netherite_shulker_box"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 50L
+				id: "3A74AFCB478E0F26"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 13.95d
+			y: 3.45d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "enderstorage:ender_chest"
+			}
+			id: "05C231632980B722"
+			optional: true
+			rewards: [{
+				id: "2DBE94DE4A748FA4"
+				item: {
+					count: 1
+					id: "enderstorage:ender_chest"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "218199D60D73DCBF"
+					item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "6EBE24B5DEDCE643"
+					item: { count: 1, id: "jackseconomy:hundred_dollar_bill" }
+					type: "item"
+				}
+			]
+			x: 18.05d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				id: "enderstorage:ender_tank"
+			}
+			id: "70070343221F93FB"
+			optional: true
+			rewards: [{
+				id: "68902EF8F80BDCEB"
+				item: {
+					count: 1
+					id: "enderstorage:ender_tank"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "552A562DA5EDF487"
+				item: { count: 1, id: "jackseconomy:thousand_dollar_bill" }
+				type: "item"
+			}]
+			x: 19.2d
+			y: 0.0d
+		}
+	]
+}

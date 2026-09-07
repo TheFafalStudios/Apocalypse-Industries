@@ -1,0 +1,14 @@
+{
+  "type": "powergrid:magnetization",
+  "ingredients": [
+    {
+      "item": "kubejs:scrap_electronics"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:gold_nugget",
+      "count": 3
+    }
+  ]
+}

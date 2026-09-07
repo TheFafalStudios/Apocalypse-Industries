@@ -1,0 +1,53 @@
+# Default-deny this live ATLauncher instance. Only explicitly listed pack sources
+# and Packwiz metadata are versioned.
+/*
+
+!/.gitignore
+!/.packwizignore
+!/.gitattributes
+!/README.md
+!/CHANGELOG.md
+!/VERSION
+!/docs/
+!/docs/**
+!/scripts/
+!/scripts/**
+!/pack.toml
+!/index.toml
+
+# Pack-owned configuration and scripting.
+!/config/
+!/config/**
+!/defaultconfigs/
+!/defaultconfigs/**
+!/kubejs/
+!/kubejs/**
+!/datapacks/
+!/datapacks/**
+
+# Packwiz references only; third-party JARs stay local.
+!/mods/
+!/mods/*.pw.toml
+
+# Never publish credentials, per-user state, caches, databases, or backups.
+/kubejs/config/web_server.json
+/config/jei/world/
+/config/xaero/
+/config/fancymenu/user_variables.db
+*.bak
+*.old
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Never commit mod/resource-pack binaries from the live instance.
+*.jar
+*.zip
+*.mrpack
+
+# Pack-authored datapacks that are part of the live build.
+!/datapacks/Apocalypse_Industries_BOP_Rain_1.21.1.zip
+!/datapacks/apocalypse_rare_livestock_spawns_v1.zip
+!/datapacks/big_lost_city_apocalypse_biome_compat_AGGRESSIVE_bearding_CITY_CLUSTERS_COLD_DESERT_PATCH.zip
+!/datapacks/dead_forest_sparse_dead_trees.zip

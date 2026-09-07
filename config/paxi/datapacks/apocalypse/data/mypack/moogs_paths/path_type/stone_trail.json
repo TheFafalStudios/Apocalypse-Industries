@@ -1,0 +1,46 @@
+{
+  "surface_blocks": [
+    {
+      "block": "biomesoplenty:black_sandstone",
+      "weight": 8
+    },
+    {
+      "block": "minecraft:blackstone",
+      "weight": 3
+    },
+    {
+      "block": "minecraft:gray_concrete",
+      "weight": 2
+    },
+     {
+      "block": "biomesoplenty:dried_salt",
+      "weight": 3
+    }
+  ],
+  "edge_blocks": [
+    {
+      "block": "minecraft:gray_concrete",
+      "weight": 3
+    },
+    {
+      "block": "biomesoplenty:dried_salt",
+      "weight": 2
+    }
+  ],
+  "fill_block": "biomesoplenty:dried_salt",
+  "width": {
+    "min": 5,
+    "max": 12
+  },
+  "rigidness": 0.15,
+  "carver": 0.15,
+  "length": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 100,
+    "max_inclusive": 300
+  },
+  "fade": {
+    "start_blocks": 10,
+    "end_blocks": 10
+  }
+}

@@ -1,0 +1,13 @@
+name = "Biome Control Engine (BCE)"
+filename = "biomecontrolengine-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6bccb53b92a07a6b8a8ed42f58d9a93ef4a6ede0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8791313
+project-id = 1668933

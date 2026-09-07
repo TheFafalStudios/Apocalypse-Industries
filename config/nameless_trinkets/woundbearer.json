@@ -1,0 +1,9 @@
+{
+  "config": {
+    "damageConversionPercentage": 1.0,
+    "maxDamageLimit": 10.0,
+    "baseDecayAmount": 1.66E-4,
+    "decayDelayTicks": 60,
+    "isEnable": true
+  }
+}

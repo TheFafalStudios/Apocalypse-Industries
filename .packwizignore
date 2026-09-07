@@ -1,0 +1,33 @@
+# Default-deny the live instance. Only explicit pack sources are exported.
+/*
+
+!/config/
+!/config/**
+!/defaultconfigs/
+!/defaultconfigs/**
+!/kubejs/
+!/kubejs/**
+!/datapacks/
+!/datapacks/**
+!/mods/
+!/mods/*.pw.toml
+!/mods/*.jar
+
+# Local/private state inside otherwise distributable directories.
+/kubejs/config/web_server.json
+/config/jei/world/
+/config/xaero/
+/config/fancymenu/user_variables.db
+**/*.bak
+**/*.old
+**/*.log
+**/*.db
+**/*.sqlite
+**/*.sqlite3
+
+# These third-party datapacks need source/license references before release.
+/datapacks/OWZA_Lite_LostCities_1.20.1_v0.1.0.zip
+/datapacks/village-nullifier-1.18.2-1.0.0.zip
+
+# Resource packs are held for source/license review before distribution.
+/resourcepacks/

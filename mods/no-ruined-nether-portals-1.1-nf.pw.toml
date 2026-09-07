@@ -1,0 +1,13 @@
+name = "No Ruined Nether Portals"
+filename = "no-ruined-nether-portals-1.1-nf.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "86c69bdd76885c1fc18a175cc335e67c705ceac3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6280477
+project-id = 1008276

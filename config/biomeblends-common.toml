@@ -1,0 +1,15 @@
+# Default: 1.0
+# Range: 0.0 ~ 10.0
+horizontal_scale = 1.0
+# Default: 1.0
+# Range: 0.0 ~ 10.0
+vertical_scale = 1.0
+ignore_vertical_radius = false
+display_namespace = false
+# Default: 10
+# Range: 0 ~ 1000
+blend_cooldown = 10
+
+[compatibility]
+	biomesoplenty = true
+	biomeswevegone = true

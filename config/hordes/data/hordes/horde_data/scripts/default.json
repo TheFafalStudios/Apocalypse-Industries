@@ -1,0 +1,566 @@
+[
+  {
+    "function": "hordes:set_spawntable",
+    "value": [
+      "hordes:default"
+    ],
+    "conditions": []
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:commandos_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 1,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:random",
+        "value": 0.06
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:commandos_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 2,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 29
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.28
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:commandos_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 3,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 44
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.25
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:commandos_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 4,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 59
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.25
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:commandos_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 6,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 74
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.25
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:fusiliers_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 1,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:random",
+        "value": 0.015
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:fusiliers_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 1,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 29
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.12
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:fusiliers_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 2,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 44
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.2
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:fusiliers_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 3,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 59
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.26
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:fusiliers_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 4,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 74
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.32
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:bulwarks_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 1,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:random",
+        "value": 0.005
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:bulwarks_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 1,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 29
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.015
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:bulwarks_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 1,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 44
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.1
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:bulwarks_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 2,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 59
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.16
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:bulwarks_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 3,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 74
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.22
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:ie_mixed_elites_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 3,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:random",
+        "value": 0.004
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:ie_mixed_elites_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 3,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 29
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.02
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:ie_mixed_elites_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 3,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 44
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.12
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:ie_mixed_elites_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 5,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 59
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.2
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:ie_mixed_elites_day_0_plus"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_amount",
+        "value": 7,
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:day",
+        "value": 74
+      },
+      {
+        "name": "hordes:random",
+        "value": 0.28
+      }
+    ]
+  },
+  {
+    "function": "hordes:multiple",
+    "value": [
+      {
+        "function": "hordes:set_spawntable",
+        "value": [
+          "hordes:drowned"
+        ],
+        "conditions": []
+      },
+      {
+        "function": "hordes:set_spawn_type",
+        "value": "prefer_water",
+        "conditions": []
+      }
+    ],
+    "conditions": [
+      {
+        "name": "hordes:biome",
+        "value": "#minecraft:is_ocean"
+      },
+      {
+        "name": "hordes:not",
+        "value": {
+          "name": "hordes:biome",
+          "value": [
+            "minecraft:frozen_ocean",
+            "minecraft:deep_frozen_ocean"
+          ]
+        }
+      }
+    ]
+  }
+]

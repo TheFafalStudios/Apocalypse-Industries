@@ -1,0 +1,270 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "intro"
+	group: ""
+	icon: {
+		id: "minecraft:writable_book"
+	}
+	id: "642B3D2D96DE42C7"
+	images: [{
+		height: 4.0d
+		image: "quests:textures/quest/logo.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 0.14285714285712459d
+		y: -4.821428571428569d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "377B25A40689A45F"
+			rewards: [
+				{
+					id: "3B2D6B36747B6669"
+					item: {
+						components: {
+							"minecraft:dyed_color": {
+								rgb: 16351261
+							}
+						}
+						count: 1
+						id: "minecraft:leather_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "751D42533088FC57"
+					item: {
+						count: 1
+						id: "farmersdelight:iron_knife"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					id: "jackseconomy:dollar_bill_stack"
+				}
+				id: "7A42687BB9F895AA"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["377B25A40689A45F"]
+			icon: {
+				id: "jackseconomy:twenty_dollar_bill"
+			}
+			id: "1998F4B1A5B40B08"
+			rewards: [
+				{
+					id: "2CFEBAD03A849875"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "7A1A7C1C659568D2"
+					item: {
+						count: 1
+						id: "create:water_wheel"
+					}
+					type: "item"
+				}
+				{
+					id: "0C2974640617D430"
+					item: {
+						count: 1
+						id: "jackseconomy:mechanical_exporter"
+					}
+					type: "item"
+				}
+				{
+					id: "3656E5CDED358E45"
+					item: {
+						count: 1
+						id: "jackseconomy:golden_exporter_manifest"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "2C52A10E52D40865"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["377B25A40689A45F"]
+			icon: {
+				id: "immersiveengineering:shelf"
+			}
+			id: "6263FC555EFA4EB1"
+			rewards: [{
+				id: "67D26FF82C215626"
+				item: {
+					count: 1
+					id: "jackseconomy:five_dollar_bill"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "303AEBA0C55B592A"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["377B25A40689A45F"]
+			icon: {
+				id: "kubejs:scrap_electronics"
+			}
+			id: "57FD356E8B959A46"
+			rewards: [{
+				count: 4
+				id: "1AACEB110E1142BF"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3C77ADAB29603265"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["377B25A40689A45F"]
+			icon: {
+				id: "create:mechanical_roller"
+			}
+			id: "508C87820B2EF181"
+			rewards: [
+				{
+					count: 8
+					id: "1A0AA87127D812E4"
+					item: {
+						count: 1
+						id: "minecraft:kelp"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3166797127B59421"
+					item: {
+						count: 1
+						id: "minecraft:andesite"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "481676B1ADEFBDFE"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["377B25A40689A45F"]
+			icon: {
+				id: "biomesoplenty:dried_salt"
+			}
+			id: "5CDC0F60F227022F"
+			rewards: [{
+				id: "6002FD36FB0BB284"
+				item: {
+					components: {
+						"sophisticatedcore:number_of_inventory_slots": 27
+						"sophisticatedcore:number_of_upgrade_slots": 1
+					}
+					count: 1
+					id: "sophisticatedbackpacks:backpack"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "4B013EF4D89472FB"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["377B25A40689A45F"]
+			icon: {
+				id: "create_submarine:submarine_propeller"
+			}
+			id: "2797B257D6F7E4E0"
+			rewards: [
+				{
+					id: "70436392AE8B713C"
+					item: {
+						count: 1
+						id: "simplehats:hatbag_common"
+					}
+					type: "item"
+				}
+				{
+					id: "74ABE2D1DAAB2790"
+					item: {
+						count: 1
+						id: "create:copper_diving_boots"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "5E146FC487061709"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["57FD356E8B959A46"]
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "5B697AE80A2F7093"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "6187A4D8134BEA70"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "18D0F3E8A8134AF7"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+}

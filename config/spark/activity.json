@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "TheFafalStudios",
+      "uniqueId": "efc07809-74b5-4a88-b267-6c105f0f628c"
+    },
+    "time": 1788709650560,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/J78Zh02INi"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheFafalStudios",
+      "uniqueId": "efc07809-74b5-4a88-b267-6c105f0f628c"
+    },
+    "time": 1788706827002,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/u7lauQqkhN"
+    }
+  }
+]

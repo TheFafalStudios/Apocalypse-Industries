@@ -1,0 +1,7 @@
+{
+  "config": {
+    "extraScalePercentage": 50.0,
+    "attackDamagePercentage": 110.0,
+    "isEnable": true
+  }
+}

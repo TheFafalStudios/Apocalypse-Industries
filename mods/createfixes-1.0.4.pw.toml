@@ -1,0 +1,13 @@
+name = "Create Creative Inventory Seach Fix"
+filename = "createfixes-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2e28d85e654ade80f942a781f66f5617064b933e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8640816
+project-id = 1651098

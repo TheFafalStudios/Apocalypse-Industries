@@ -1,0 +1,14 @@
+{
+  "type": "powergrid:magnetization",
+  "ingredients": [
+    {
+      "item": "kubejs:rusted_metal_scrap"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:iron_nugget",
+      "count": 3
+    }
+  ]
+}

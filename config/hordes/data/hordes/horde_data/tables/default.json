@@ -1,0 +1,513 @@
+[
+    {
+        "entity": "minecraft:zombie",
+        "weight": 45,
+        "first_day": 0,
+        "last_day": 4
+    },
+    {
+        "entity": "minecraft:husk",
+        "weight": 8,
+        "first_day": 0,
+        "last_day": 4
+    },
+    {
+        "entity": "minecraft:zombie_villager",
+        "weight": 2,
+        "first_day": 0,
+        "last_day": 4
+    },
+    {
+        "entity": "minecraft:zombie",
+        "weight": 38,
+        "first_day": 5,
+        "last_day": 14
+    },
+    {
+        "entity": "minecraft:husk",
+        "weight": 18,
+        "first_day": 5,
+        "last_day": 14
+    },
+    {
+        "entity": "minecraft:zombie_villager",
+        "weight": 3,
+        "first_day": 5,
+        "last_day": 14
+    },
+    {
+        "entity": "minecraft:zombie_horse",
+        "weight": 2,
+        "first_day": 5,
+        "last_day": 14
+    },
+    {
+        "entity": "minecraft:zombie",
+        "weight": 30,
+        "first_day": 15,
+        "last_day": 24
+    },
+    {
+        "entity": "minecraft:husk",
+        "weight": 24,
+        "first_day": 15,
+        "last_day": 24
+    },
+    {
+        "entity": "minecraft:zombie_villager",
+        "weight": 3,
+        "first_day": 15,
+        "last_day": 24
+    },
+    {
+        "entity": "minecraft:zombie_horse",
+        "weight": 4,
+        "first_day": 15,
+        "last_day": 24
+    },
+    {
+        "entity": "minecraft:skeleton",
+        "weight": 8,
+        "first_day": 15,
+        "last_day": 24
+    },
+    {
+        "entity": "minecraft:spider",
+        "weight": 6,
+        "first_day": 15,
+        "last_day": 24
+    },
+    {
+        "entity": "minecraft:zombie",
+        "weight": 24,
+        "first_day": 25,
+        "last_day": 34
+    },
+    {
+        "entity": "minecraft:husk",
+        "weight": 26,
+        "first_day": 25,
+        "last_day": 34
+    },
+    {
+        "entity": "minecraft:skeleton",
+        "weight": 10,
+        "first_day": 25,
+        "last_day": 34
+    },
+    {
+        "entity": "minecraft:spider",
+        "weight": 8,
+        "first_day": 25,
+        "last_day": 34
+    },
+    {
+        "entity": "minecraft:zombie_horse",
+        "weight": 5,
+        "first_day": 25,
+        "last_day": 34
+    },
+    {
+        "entity": "minecraft:drowned",
+        "weight": 3,
+        "first_day": 25,
+        "last_day": 34,
+        "nbt": "{HandItems:[{id:trident,Count:1b}]}"
+    },
+    {
+        "entity": "minecraft:witch",
+        "weight": 2,
+        "first_day": 25,
+        "last_day": 34
+    },
+    {
+        "entity": "minecraft:zombie",
+        "weight": 20,
+        "first_day": 35,
+        "last_day": 44
+    },
+    {
+        "entity": "minecraft:husk",
+        "weight": 24,
+        "first_day": 35,
+        "last_day": 44
+    },
+    {
+        "entity": "minecraft:skeleton",
+        "weight": 12,
+        "first_day": 35,
+        "last_day": 44
+    },
+    {
+        "entity": "minecraft:spider",
+        "weight": 10,
+        "first_day": 35,
+        "last_day": 44
+    },
+    {
+        "entity": "minecraft:cave_spider",
+        "weight": 5,
+        "first_day": 35,
+        "last_day": 44
+    },
+    {
+        "entity": "minecraft:witch",
+        "weight": 4,
+        "first_day": 35,
+        "last_day": 44
+    },
+    {
+        "entity": "minecraft:pillager",
+        "weight": 6,
+        "first_day": 35,
+        "last_day": 44
+    },
+    {
+        "entity": "minecraft:zombified_piglin",
+        "weight": 8,
+        "first_day": 35,
+        "last_day": 44
+    },
+    {
+        "entity": "minecraft:zoglin",
+        "weight": 2,
+        "first_day": 35,
+        "last_day": 44
+    },
+    {
+        "entity": "minecraft:zombie_horse",
+        "weight": 3,
+        "first_day": 35,
+        "last_day": 44,
+        "nbt": "{Passengers:[{id:skeleton,HandItems:[{id:bow,Count:1b}]}]}"
+    },
+    {
+        "entity": "minecraft:zombie",
+        "weight": 18,
+        "first_day": 45,
+        "last_day": 54
+    },
+    {
+        "entity": "minecraft:husk",
+        "weight": 22,
+        "first_day": 45,
+        "last_day": 54
+    },
+    {
+        "entity": "minecraft:skeleton",
+        "weight": 12,
+        "first_day": 45,
+        "last_day": 54
+    },
+    {
+        "entity": "minecraft:stray",
+        "weight": 8,
+        "first_day": 45,
+        "last_day": 54
+    },
+    {
+        "entity": "minecraft:cave_spider",
+        "weight": 8,
+        "first_day": 45,
+        "last_day": 54
+    },
+    {
+        "entity": "minecraft:witch",
+        "weight": 5,
+        "first_day": 45,
+        "last_day": 54
+    },
+    {
+        "entity": "minecraft:pillager",
+        "weight": 10,
+        "first_day": 45,
+        "last_day": 54
+    },
+    {
+        "entity": "minecraft:vindicator",
+        "weight": 6,
+        "first_day": 45,
+        "last_day": 54
+    },
+    {
+        "entity": "minecraft:zoglin",
+        "weight": 4,
+        "first_day": 45,
+        "last_day": 54
+    },
+    {
+        "entity": "minecraft:ravager",
+        "weight": 1,
+        "first_day": 45,
+        "last_day": 54
+    },
+    {
+        "entity": "minecraft:zombie_horse",
+        "weight": 3,
+        "first_day": 45,
+        "last_day": 54,
+        "nbt": "{Passengers:[{id:drowned,HandItems:[{id:trident,Count:1b}]}]}"
+    },
+    {
+        "entity": "minecraft:zombie",
+        "weight": 16,
+        "first_day": 55,
+        "last_day": 64
+    },
+    {
+        "entity": "minecraft:husk",
+        "weight": 18,
+        "first_day": 55,
+        "last_day": 64
+    },
+    {
+        "entity": "minecraft:skeleton",
+        "weight": 10,
+        "first_day": 55,
+        "last_day": 64
+    },
+    {
+        "entity": "minecraft:stray",
+        "weight": 8,
+        "first_day": 55,
+        "last_day": 64
+    },
+    {
+        "entity": "minecraft:bogged",
+        "weight": 5,
+        "first_day": 55,
+        "last_day": 64
+    },
+    {
+        "entity": "minecraft:cave_spider",
+        "weight": 8,
+        "first_day": 55,
+        "last_day": 64
+    },
+    {
+        "entity": "minecraft:witch",
+        "weight": 5,
+        "first_day": 55,
+        "last_day": 64
+    },
+    {
+        "entity": "minecraft:pillager",
+        "weight": 12,
+        "first_day": 55,
+        "last_day": 64
+    },
+    {
+        "entity": "minecraft:vindicator",
+        "weight": 8,
+        "first_day": 55,
+        "last_day": 64
+    },
+    {
+        "entity": "minecraft:wither_skeleton",
+        "weight": 6,
+        "first_day": 55,
+        "last_day": 64
+    },
+    {
+        "entity": "minecraft:zoglin",
+        "weight": 5,
+        "first_day": 55,
+        "last_day": 64
+    },
+    {
+        "entity": "minecraft:ravager",
+        "weight": 2,
+        "first_day": 55,
+        "last_day": 64
+    },
+    {
+        "entity": "minecraft:evoker",
+        "weight": 1,
+        "first_day": 55,
+        "last_day": 64
+    },
+    {
+        "entity": "minecraft:skeleton_horse",
+        "weight": 3,
+        "first_day": 55,
+        "last_day": 64,
+        "nbt": "{Passengers:[{id:stray,HandItems:[{id:bow,Count:1b}]}]}"
+    },
+    {
+        "entity": "minecraft:zombie",
+        "weight": 12,
+        "first_day": 65,
+        "last_day": 74
+    },
+    {
+        "entity": "minecraft:husk",
+        "weight": 15,
+        "first_day": 65,
+        "last_day": 74
+    },
+    {
+        "entity": "minecraft:stray",
+        "weight": 8,
+        "first_day": 65,
+        "last_day": 74
+    },
+    {
+        "entity": "minecraft:bogged",
+        "weight": 8,
+        "first_day": 65,
+        "last_day": 74
+    },
+    {
+        "entity": "minecraft:cave_spider",
+        "weight": 10,
+        "first_day": 65,
+        "last_day": 74
+    },
+    {
+        "entity": "minecraft:witch",
+        "weight": 6,
+        "first_day": 65,
+        "last_day": 74
+    },
+    {
+        "entity": "minecraft:pillager",
+        "weight": 12,
+        "first_day": 65,
+        "last_day": 74
+    },
+    {
+        "entity": "minecraft:vindicator",
+        "weight": 10,
+        "first_day": 65,
+        "last_day": 74
+    },
+    {
+        "entity": "minecraft:wither_skeleton",
+        "weight": 8,
+        "first_day": 65,
+        "last_day": 74
+    },
+    {
+        "entity": "minecraft:piglin_brute",
+        "weight": 4,
+        "first_day": 65,
+        "last_day": 74
+    },
+    {
+        "entity": "minecraft:zoglin",
+        "weight": 7,
+        "first_day": 65,
+        "last_day": 74
+    },
+    {
+        "entity": "minecraft:ravager",
+        "weight": 3,
+        "first_day": 65,
+        "last_day": 74
+    },
+    {
+        "entity": "minecraft:evoker",
+        "weight": 2,
+        "first_day": 65,
+        "last_day": 74
+    },
+    {
+        "entity": "minecraft:skeleton_horse",
+        "weight": 4,
+        "first_day": 65,
+        "last_day": 74,
+        "nbt": "{Passengers:[{id:bogged,HandItems:[{id:bow,Count:1b}]}]}"
+    },
+    {
+        "entity": "minecraft:zombie",
+        "weight": 10,
+        "first_day": 75,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:husk",
+        "weight": 12,
+        "first_day": 75,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:stray",
+        "weight": 8,
+        "first_day": 75,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:bogged",
+        "weight": 8,
+        "first_day": 75,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:cave_spider",
+        "weight": 10,
+        "first_day": 75,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:witch",
+        "weight": 6,
+        "first_day": 75,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:pillager",
+        "weight": 12,
+        "first_day": 75,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:vindicator",
+        "weight": 10,
+        "first_day": 75,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:wither_skeleton",
+        "weight": 10,
+        "first_day": 75,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:piglin_brute",
+        "weight": 6,
+        "first_day": 75,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:zoglin",
+        "weight": 8,
+        "first_day": 75,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:ravager",
+        "weight": 4,
+        "first_day": 75,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:evoker",
+        "weight": 3,
+        "first_day": 75,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:skeleton_horse",
+        "weight": 4,
+        "first_day": 75,
+        "last_day": 0,
+        "nbt": "{Passengers:[{id:wither_skeleton,HandItems:[{id:stone_sword,Count:1b}]}]}"
+    },
+    {
+        "entity": "minecraft:phantom",
+        "weight": 3,
+        "first_day": 75,
+        "last_day": 0,
+        "nbt": "{Passengers:[{id:creeper,powered:1b}]}"
+    }
+]

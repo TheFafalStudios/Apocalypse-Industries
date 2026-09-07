@@ -1,0 +1,19 @@
+{
+  "config": {
+    "percentageExtraMaxHealth": 15.0,
+    "percentageExtraSpeed": 10.0,
+    "percentageExtraFlySpeed": 5.0,
+    "percentageExtraAttack": 15.0,
+    "percentageExtraArmor": 10.0,
+    "percentageExtraAttackSpeed": 10.0,
+    "percentageExtraArmorToughness": 5.0,
+    "percentageExtraAttackKnockback": 5.0,
+    "percentageExtraKnockbackResistance": 10.0,
+    "percentageExtraLuck": 15.0,
+    "percentageExtraSwimSpeed": 10.0,
+    "percentageExtraBlockReach": 10.0,
+    "percentageExtraEntityReach": 10.0,
+    "percentageExtraStepHeightAddition": 0.0,
+    "isEnable": true
+  }
+}

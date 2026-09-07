@@ -1,0 +1,3 @@
+moogs_paths-neoforge-1.21.1-1.0.2-hotfix-sable-chunksafety.jar
+weather2-neoforge-1.21.0-2.8.7-hotfix-chunksafety.jar
+weather2compat-1.6.0-hotfix-threadsafe.jar

@@ -1,0 +1,13 @@
+name = "Underground Bunkers"
+filename = "UndergroundBunkers-1.0.4-1.21.x-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b5cd6262266042c5b05521bdf75b8fd3cb69ca3f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5625449
+project-id = 961418

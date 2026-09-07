@@ -1,0 +1,583 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_age"
+	group: "4095E601814C7B15"
+	icon: {
+		id: "immersiveengineering:heavy_engineering"
+	}
+	id: "064290B64563DB7A"
+	images: [{
+		height: 1.7d
+		image: "quests:textures/quest/spaceage.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 1.5d
+		y: -5.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B7909E14663FFBC"]
+			id: "2A41DC8A60C1751D"
+			rewards: [
+				{
+					count: 4
+					id: "0C64D840527622EE"
+					item: {
+						count: 1
+						id: "create:mechanical_pump"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7CEEFBDA8FA9F2BC"
+					item: {
+						count: 1
+						id: "create:smart_fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7DE9D99B760E15A3"
+					item: {
+						count: 1
+						id: "create:fluid_pipe"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "355A5FBE795047E3"
+				item: { count: 1, id: "creatingspace:mechanical_electrolyzer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3982DA5F44633E3A"]
+			id: "5DC8BCA1719D6D02"
+			rewards: [
+				{
+					count: 16
+					id: "6730D0819E6B5FF2"
+					item: {
+						count: 1
+						id: "create:fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "00D07B00C183C433"
+					item: {
+						count: 1
+						id: "creatingspace:basic_spacesuit_helmet"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2FC65FCE6D760462"
+				item: { count: 1, id: "creatingspace:rocket_controls" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5DC8BCA1719D6D02"
+				"2A41DC8A60C1751D"
+			]
+			id: "4709097D00719B25"
+			rewards: [
+				{
+					count: 64
+					id: "6E49DA15CAADE6CD"
+					item: {
+						count: 1
+						id: "create:mechanical_drill"
+					}
+					type: "item"
+				}
+				{
+					id: "558591D0BDE53FFB"
+					item: {
+						components: {
+							"creatingspace:simple_fluid_content": {
+								amount: 4000
+								id: "creatingspace:liquid_methane"
+							}
+						}
+						count: 1
+						id: "creatingspace:cryogenic_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "11915590FA0C4A55"
+					item: {
+						components: {
+							"creatingspace:simple_fluid_content": {
+								amount: 4000
+								id: "creatingspace:liquid_oxygen"
+							}
+						}
+						count: 1
+						id: "creatingspace:cryogenic_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "3E3E38331853ABF2"
+					item: {
+						count: 1
+						id: "jackseconomy:thousand_dollar_bill"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				dimension: "creatingspace:the_moon"
+				icon: {
+					id: "creatingspace:moon_regolith"
+				}
+				id: "35D16EE7698B67EC"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4709097D00719B25"]
+			id: "1E55D5668B3E04A4"
+			rewards: [
+				{
+					count: 16
+					id: "0BE8864B2A80977C"
+					item: {
+						count: 1
+						id: "immersiveengineering:plate_steel"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3D3D49F3AED24698"
+					item: {
+						count: 1
+						id: "create:iron_sheet"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "37211BD74641EADC"
+				item: { count: 1, id: "immersiveengineering:ingot_aluminum" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1E55D5668B3E04A4"]
+			id: "0D6E4B56E8087E3E"
+			rewards: [{
+				count: 32
+				id: "48F02CCB0C0C30D4"
+				item: {
+					count: 1
+					id: "immersiveengineering:sheetmetal_iron"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6CADFDC29AEA3200"
+				item: { count: 1, id: "immersiveengineering:component_iron" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E55D5668B3E04A4"]
+			id: "4B059C1E928C8CA1"
+			rewards: [
+				{
+					id: "2E673158EC638D97"
+					item: {
+						components: {
+							"immersiveengineering:blueprint": "components"
+						}
+						count: 1
+						id: "immersiveengineering:blueprint"
+					}
+					type: "item"
+				}
+				{
+					id: "06F7750587CD1FA0"
+					item: {
+						components: {
+							"immersiveengineering:blueprint": "bullet"
+						}
+						count: 1
+						id: "immersiveengineering:blueprint"
+					}
+					type: "item"
+				}
+				{
+					id: "4C7003BB987D6EF4"
+					item: {
+						count: 1
+						id: "jackseconomy:fifty_dollar_bill"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "214AC3CDC5330936"
+				item: { count: 1, id: "immersiveengineering:craftingtable" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D6E4B56E8087E3E"]
+			id: "4DC841A809B9F257"
+			rewards: [
+				{
+					count: 16
+					id: "60FA75A0E5A7BA2F"
+					item: {
+						count: 1
+						id: "immersiveengineering:rs_engineering"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "54E997DCE6041BD7"
+					item: {
+						count: 1
+						id: "immersiveengineering:steel_scaffolding_standard"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6084D7995E3F63AC"
+				item: { count: 1, id: "immersiveengineering:light_engineering" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1E55D5668B3E04A4"]
+			id: "4DA74BCBAC76AADC"
+			rewards: [{
+				count: 32
+				id: "45690B7AD317E718"
+				item: {
+					count: 1
+					id: "immersiveengineering:ingot_electrum"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "46ED8BB6E4D63487"
+				item: { count: 1, id: "immersiveengineering:component_steel" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4DA74BCBAC76AADC"]
+			id: "6EA6110991D1B532"
+			rewards: [{
+				count: 16
+				id: "4D9F1A783BE85375"
+				item: {
+					count: 1
+					id: "immersiveengineering:storage_steel"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "470ED328E8572B04"
+				item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4DC841A809B9F257"]
+			id: "1C9268C5BC44EF24"
+			rewards: [{
+				count: 16
+				id: "32DB42C907DF955E"
+				item: {
+					count: 1
+					id: "minecraft:raw_iron_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_crusher"
+				criterion: ""
+				id: "3E2F15862623EE29"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6EA6110991D1B532"]
+			id: "7A55E6A9E8B2F779"
+			rewards: [{
+				count: 32
+				id: "593A311A13DDF949"
+				item: {
+					count: 1
+					id: "minecraft:raw_gold_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_arcfurnace"
+				criterion: ""
+				id: "23C087B3C5B8EFD6"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6EA6110991D1B532"]
+			id: "5B1231BEB82FD2F9"
+			rewards: [{
+				count: 16
+				id: "61F8970CB5B9834C"
+				item: {
+					count: 1
+					id: "immersiveengineering:high_power_biodiesel_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_dieselgen"
+				criterion: ""
+				id: "7CD81679BC59A60D"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4DC841A809B9F257"]
+			id: "37D12378D57AB4AF"
+			rewards: [{
+				count: 64
+				id: "5CA934C49EC429E9"
+				item: {
+					count: 1
+					id: "minecraft:honey_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_fermenter"
+				criterion: ""
+				id: "5A7E233B4FBF3FFA"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0D6E4B56E8087E3E"]
+			id: "53645440F7DEEB1B"
+			rewards: [{
+				count: 64
+				id: "2CCAC46B89856194"
+				item: {
+					count: 1
+					id: "immersiveengineering:fertilizer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "258DACD70B82D402"
+				item: { count: 1, id: "immersiveengineering:cloche" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "1C8DDFA59B15E8B7"
+			rewards: [{
+				id: "1FF1C4F2A548C494"
+				item: {
+					components: {
+						"creatingspace:oxygen": 900
+					}
+					count: 1
+					id: "creatingspace:netherite_oxygen_backtank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CFFB6E503395B74"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(creatingspace:spacesuit)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DA74BCBAC76AADC"]
+			id: "792FE5E5F83E15EC"
+			rewards: [
+				{
+					count: 2
+					id: "05EE468436723039"
+					item: {
+						count: 1
+						id: "immersiveengineering:turret_gun"
+					}
+					type: "item"
+				}
+				{
+					count: 128
+					id: "673A9BE8A6C37202"
+					item: {
+						count: 1
+						id: "immersiveengineering:bullet_casull"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F65110D39555BB0"
+				item: { count: 1, id: "immersiveengineering:revolver" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "4ACBDFCE38661031"
+			optional: true
+			rewards: [
+				{
+					id: "654A13174C7549BC"
+					item: {
+						count: 1
+						id: "ae2:pattern_provider"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "18D2DD6DBC8921D8"
+					item: {
+						count: 1
+						id: "ae2:blank_pattern"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "12A29078DDA6703D"
+					item: {
+						count: 1
+						id: "ae2:speed_card"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3187BC1BA64EF9D1"
+				item: { count: 1, id: "ae2:molecular_assembler" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			id: "777062E53CFA3589"
+			optional: true
+			rewards: [{
+				id: "0B5962B80E0A4511"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75FE310A9221DE3B"
+				item: { count: 1, id: "creatingspace:hastelloy_ingot" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			id: "372045CD816C5FBF"
+			optional: true
+			rewards: [{
+				id: "0CCEF5C9263A9A5D"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08237132E3BDA3CD"
+				item: { count: 1, id: "creatingspace:moon_regolith" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			id: "653E52D7A48FD967"
+			optional: true
+			rewards: [{
+				count: 27
+				id: "51CFCDF7E151A129"
+				item: {
+					count: 1
+					id: "createpropulsion:platinum_fluid_tank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16BD6517EB2378BA"
+				item: { count: 1, id: "immersiveengineering:fluid_pump" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+	]
+}

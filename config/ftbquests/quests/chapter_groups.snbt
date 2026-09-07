@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "4095E601814C7B15" }
+		{ icon: { id: "jackseconomy:thousand_dollar_bill" }, id: "10F6E11E30E5682A" }
+		{ icon: { id: "minecraft:emerald" }, id: "5E11000000000001" }
+	]
+}

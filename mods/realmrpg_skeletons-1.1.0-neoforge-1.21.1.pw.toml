@@ -1,0 +1,13 @@
+name = "Realm RPG: Fallen Adventurers"
+filename = "realmrpg_skeletons-1.1.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "769deb829b0299356d02b3c44c2bb91b3b524de7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6058914
+project-id = 916895

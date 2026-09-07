@@ -1,0 +1,13 @@
+name = "Polytone"
+filename = "polytone-1.21-4.1.0-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "911be4ff39396d5a8ccd680194c0ac33d9266e00"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8756682
+project-id = 958094

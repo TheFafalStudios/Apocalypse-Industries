@@ -1,0 +1,13 @@
+name = "Harder Spawners"
+filename = "neo_21.1_HarderSpawners_CC-0.30.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4e56fc742fd9e68a76c7f512efe5d8588aa86bb4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7501383
+project-id = 399413

@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "apocalypse_industries:biological_transport_map",
+              "decoration": "minecraft:target_x",
+              "zoom": 2,
+              "search_radius": 192,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Acheron Recovery Survey — Transport BR-17",
+                "color": "gold",
+                "italic": false
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "ACHERON RECOVERY SOLUTIONS // INTERNAL LOGISTICS",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "Last verified location of Transport BR-17",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Priority cargo recovery authorization attached",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

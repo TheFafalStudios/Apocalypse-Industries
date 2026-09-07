@@ -1,0 +1,26 @@
+{
+  "config": {
+    "percentageOfObtaining": 5.0,
+    "itemList": [
+      "minecraft:coal",
+      "minecraft:diamond",
+      "minecraft:iron_ingot",
+      "minecraft:gold_ingot",
+      "minecraft:emerald",
+      "minecraft:redstone",
+      "minecraft:flint",
+      "minecraft:lapis_lazuli",
+      "minecraft:glowstone_dust"
+    ],
+    "blockList": [
+      "minecraft:stone",
+      "minecraft:deepslate",
+      "minecraft:granite",
+      "minecraft:diorite",
+      "minecraft:andesite",
+      "minecraft:calcite",
+      "minecraft:tuff"
+    ],
+    "isEnable": true
+  }
+}

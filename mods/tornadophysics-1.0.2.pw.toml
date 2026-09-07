@@ -1,0 +1,13 @@
+name = "Weather Physics (Wind, Sails & Tornadoes)"
+filename = "tornadophysics-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb61fd7b806e579688fd56233c9d8ba9e13a6864"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8376264
+project-id = 1541520

@@ -1,0 +1,63 @@
+[
+  {
+    "name": "day_0_to_4",
+    "conditions": {
+      "maxdaycount": 5
+    }
+  },
+  {
+    "name": "day_5_to_14",
+    "conditions": {
+      "mindaycount": 5,
+      "maxdaycount": 15
+    }
+  },
+  {
+    "name": "day_15_to_24",
+    "conditions": {
+      "mindaycount": 15,
+      "maxdaycount": 25
+    }
+  },
+  {
+    "name": "day_25_to_34",
+    "conditions": {
+      "mindaycount": 25,
+      "maxdaycount": 35
+    }
+  },
+  {
+    "name": "day_35_to_44",
+    "conditions": {
+      "mindaycount": 35,
+      "maxdaycount": 45
+    }
+  },
+  {
+    "name": "day_45_to_54",
+    "conditions": {
+      "mindaycount": 45,
+      "maxdaycount": 55
+    }
+  },
+  {
+    "name": "day_55_to_64",
+    "conditions": {
+      "mindaycount": 55,
+      "maxdaycount": 65
+    }
+  },
+  {
+    "name": "day_65_to_74",
+    "conditions": {
+      "mindaycount": 65,
+      "maxdaycount": 75
+    }
+  },
+  {
+    "name": "day_75_plus",
+    "conditions": {
+      "mindaycount": 75
+    }
+  }
+]

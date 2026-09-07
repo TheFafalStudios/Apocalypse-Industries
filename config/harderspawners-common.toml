@@ -1,0 +1,87 @@
+	["Harder Spawners Control Values".debug]
+		#Debug Level: 0 = Off, 1 = Log, 2 = Chat + Log
+		# Default: 0
+		# Range: 0 ~ 2
+		debugLevel = 0
+		#0 = spawner chat messages on, 1 = spawner chat messages off
+		# Default: 1
+		# Range: 0 ~ 1
+		spawnerTextOff = 1
+
+	["Harder Spawners Control Values".spawner_behavior]
+		#Minutes a spawner is stunned instead of breaking. 0 = normal break.
+		# Default: 0
+		# Range: 0 ~ 27
+		spawnerMinutesStunned = 0
+		#Spawner break speed modifier. 0 = off, higher values = slower break speed.
+		# Default: 4
+		# Range: > 0
+		spawnerBreakSpeedModifier = 4
+		#Spawner revenge level. 0 = off, higher values increase retaliation.
+		# Default: 1
+		# Range: 0 ~ 11
+		spawnerRevengeLevel = 1
+		#Chance (percent) that a spawner explodes when broken.
+		# Default: 33.0
+		# Range: 0.0 ~ 100.0
+		spawnersExplodePercentage = 33.0
+
+	["Harder Spawners Control Values".environment]
+		#Chance (percent) to destroy nearby light sources.
+		# Default: 100
+		# Range: 0 ~ 100
+		destroyLightPercentage = 100
+		#Range in blocks for light destruction.
+		# Default: 7
+		# Range: 1 ~ 7
+		destroyLightRange = 7
+		#Custom maximum light level at which hostile spawners can spawn mobs.
+		# Default: 11
+		# Range: 0 ~ 15
+		hostileSpawnerLightLevel = 11
+		#Duration in ticks that undead spawned from spawners resist daylight fire.
+		# Default: 120
+		# Range: 0 ~ 9999
+		hostileSpawnerResistDaylightDuration = 120
+
+	["Harder Spawners Control Values".spawning]
+		#Player distance required for hostile spawners to activate.
+		# Default: 13
+		# Range: 7 ~ 256
+		requiredPlayerRange = 13
+		#Maximum number of nearby hostile entities allowed.
+		# Default: 9
+		# Range: 3 ~ 256
+		maxNearbyEntities = 9
+		#Maximum distance from spawner where mobs may spawn.
+		# Default: 9
+		# Range: 4 ~ 256
+		spawnRange = 9
+
+	["Harder Spawners Control Values".spawn_delay]
+		#If true, spawn delays are not overridden when spawners already
+		#have non-vanilla timing values. Vanilla is Min=200, Max=800.
+		preserveNonVanillaSpawnerTiming = true
+		#Minimum spawn delay override in ticks (vanilla is 200).
+		# Default: 200
+		# Range: 60 ~ 540
+		minSpawnDelayOverride = 200
+		#Maximum spawn delay override in ticks (vanilla is 800).
+		# Default: 800
+		# Range: 600 ~ 10000
+		maxSpawnDelayOverride = 800
+
+	["Harder Spawners Control Values".spawner_lifespan]
+		#This item adds time to the spawner lifespan.  (format: modid:item).
+		addLifespanItem = "minecraft:iron_block"
+		#Number of additional spawns granted by the addLifespanItem. 0 = disabled.
+		# Default: 5
+		# Range: 0 ~ 10000
+		extraLifespanAmount = 5
+		#Default spawn count ranges per entity. 0,0 = infinite.
+		defMobSpawnerSpawnsRanges = "harderspawners:default,200,600;minecraft:pig,0,0;minecraft:cow,0,0;minecraft:sheep,0,0;minecraft:parrot,0,0;minecraft:zombie,100,550;minecraft:blaze,0,0;"
+		#Determines what happens when a spawner reaches the end of its lifespan.
+		#DESTROYED - Spawner will be destroyed and may explode.
+		#LINGER - Spawner will only spawn ever 25 minutes.  Their lifespan can still be increased.
+		#Allowed Values: DESTROYED, LINGER
+		endOfLifespanAction = "DESTROYED"

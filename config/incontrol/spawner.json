@@ -1,0 +1,884 @@
+[
+  {
+    "phase": "day_0_to_4",
+    "mob": "minecraft:zombie",
+    "persecond": 0.055,
+    "attempts": 12,
+    "amount": {
+      "minimum": 2,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 36,
+      "maxdist": 105,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 70,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13000,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_0_to_4",
+    "mob": "minecraft:zombie",
+    "persecond": 0.055,
+    "attempts": 12,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 36,
+      "maxdist": 105,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 70,
+      "and": {
+        "mintime": 23000,
+        "maxtime": 23999,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_0_to_4",
+    "mob": "minecraft:zombie",
+    "persecond": 0.32,
+    "attempts": 20,
+    "amount": {
+      "minimum": 3,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 36,
+      "maxdist": 105,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 160,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_5_to_14",
+    "mob": "minecraft:zombie",
+    "persecond": 0.075,
+    "attempts": 14,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 34,
+      "maxdist": 105,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 90,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13000,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_5_to_14",
+    "mob": "minecraft:zombie",
+    "persecond": 0.075,
+    "attempts": 14,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 34,
+      "maxdist": 105,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 90,
+      "and": {
+        "mintime": 23000,
+        "maxtime": 23999,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_5_to_14",
+    "mob": "minecraft:zombie",
+    "persecond": 0.42,
+    "attempts": 24,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 34,
+      "maxdist": 105,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 200,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_15_to_24",
+    "mob": "minecraft:zombie",
+    "persecond": 0.105,
+    "attempts": 16,
+    "amount": {
+      "minimum": 2,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 32,
+      "maxdist": 100,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 115,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13000,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_15_to_24",
+    "mob": "minecraft:zombie",
+    "persecond": 0.105,
+    "attempts": 16,
+    "amount": {
+      "minimum": 2,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 32,
+      "maxdist": 100,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 115,
+      "and": {
+        "mintime": 23000,
+        "maxtime": 23999,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_15_to_24",
+    "mob": "minecraft:zombie",
+    "persecond": 0.56,
+    "attempts": 28,
+    "amount": {
+      "minimum": 3,
+      "maximum": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 32,
+      "maxdist": 100,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 250,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_25_to_34",
+    "mob": "minecraft:zombie",
+    "persecond": 0.135,
+    "attempts": 18,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 30,
+      "maxdist": 100,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 140,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13000,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_25_to_34",
+    "mob": "minecraft:zombie",
+    "persecond": 0.135,
+    "attempts": 18,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 30,
+      "maxdist": 100,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 140,
+      "and": {
+        "mintime": 23000,
+        "maxtime": 23999,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_25_to_34",
+    "mob": "minecraft:zombie",
+    "persecond": 0.7,
+    "attempts": 32,
+    "amount": {
+      "minimum": 4,
+      "maximum": 7
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 30,
+      "maxdist": 100,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 310,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_35_to_44",
+    "mob": "minecraft:zombie",
+    "persecond": 0.16,
+    "attempts": 20,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 28,
+      "maxdist": 95,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 165,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13000,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_35_to_44",
+    "mob": "minecraft:zombie",
+    "persecond": 0.16,
+    "attempts": 20,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 28,
+      "maxdist": 95,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 165,
+      "and": {
+        "mintime": 23000,
+        "maxtime": 23999,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_35_to_44",
+    "mob": "minecraft:zombie",
+    "persecond": 0.82,
+    "attempts": 36,
+    "amount": {
+      "minimum": 4,
+      "maximum": 8
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 28,
+      "maxdist": 95,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 360,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_45_to_54",
+    "mob": "minecraft:zombie",
+    "persecond": 0.19,
+    "attempts": 22,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 26,
+      "maxdist": 95,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 190,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13000,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_45_to_54",
+    "mob": "minecraft:zombie",
+    "persecond": 0.19,
+    "attempts": 22,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 26,
+      "maxdist": 95,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 190,
+      "and": {
+        "mintime": 23000,
+        "maxtime": 23999,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_45_to_54",
+    "mob": "minecraft:zombie",
+    "persecond": 0.9,
+    "attempts": 38,
+    "amount": {
+      "minimum": 4,
+      "maximum": 8
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 26,
+      "maxdist": 95,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 410,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_55_to_64",
+    "mob": "minecraft:zombie",
+    "persecond": 0.22,
+    "attempts": 24,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 24,
+      "maxdist": 90,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 220,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13000,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_55_to_64",
+    "mob": "minecraft:zombie",
+    "persecond": 0.22,
+    "attempts": 24,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 24,
+      "maxdist": 90,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 220,
+      "and": {
+        "mintime": 23000,
+        "maxtime": 23999,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_55_to_64",
+    "mob": "minecraft:zombie",
+    "persecond": 0.96,
+    "attempts": 40,
+    "amount": {
+      "minimum": 5,
+      "maximum": 9
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 24,
+      "maxdist": 90,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 470,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_65_to_74",
+    "mob": "minecraft:zombie",
+    "persecond": 0.255,
+    "attempts": 26,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 22,
+      "maxdist": 90,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 255,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13000,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_65_to_74",
+    "mob": "minecraft:zombie",
+    "persecond": 0.255,
+    "attempts": 26,
+    "amount": {
+      "minimum": 3,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 22,
+      "maxdist": 90,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 255,
+      "and": {
+        "mintime": 23000,
+        "maxtime": 23999,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_65_to_74",
+    "mob": "minecraft:zombie",
+    "persecond": 1.0,
+    "attempts": 44,
+    "amount": {
+      "minimum": 5,
+      "maximum": 10
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 22,
+      "maxdist": 90,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 540,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_75_plus",
+    "mob": "minecraft:zombie",
+    "persecond": 0.3,
+    "attempts": 28,
+    "amount": {
+      "minimum": 3,
+      "maximum": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 20,
+      "maxdist": 85,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 300,
+      "and": {
+        "mintime": 0,
+        "maxtime": 13000,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_75_plus",
+    "mob": "minecraft:zombie",
+    "persecond": 0.3,
+    "attempts": 28,
+    "amount": {
+      "minimum": 3,
+      "maximum": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 20,
+      "maxdist": 85,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 300,
+      "and": {
+        "mintime": 23000,
+        "maxtime": 23999,
+        "seesky": true,
+        "minlight_sky": 8
+      }
+    }
+  },
+  {
+    "phase": "day_75_plus",
+    "mob": "minecraft:zombie",
+    "persecond": 1.0,
+    "attempts": 48,
+    "amount": {
+      "minimum": 6,
+      "maximum": 11
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": true,
+      "mindist": 20,
+      "maxdist": 85,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 640,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_0_to_4",
+    "mob": "minecraft:enderman",
+    "persecond": 0.006,
+    "attempts": 3,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": false,
+      "mindist": 45,
+      "maxdist": 110,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 3,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_5_to_14",
+    "mob": "minecraft:enderman",
+    "persecond": 0.008,
+    "attempts": 4,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": false,
+      "mindist": 40,
+      "maxdist": 110,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 4,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_15_to_24",
+    "mob": "minecraft:enderman",
+    "persecond": 0.01,
+    "attempts": 4,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": false,
+      "mindist": 36,
+      "maxdist": 105,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 5,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_25_to_34",
+    "mob": "minecraft:enderman",
+    "persecond": 0.013,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": false,
+      "mindist": 32,
+      "maxdist": 105,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 6,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_35_to_44",
+    "mob": "minecraft:enderman",
+    "persecond": 0.016,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": false,
+      "mindist": 30,
+      "maxdist": 100,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 7,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_45_to_54",
+    "mob": "minecraft:enderman",
+    "persecond": 0.02,
+    "attempts": 6,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": false,
+      "mindist": 28,
+      "maxdist": 100,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 8,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_55_to_64",
+    "mob": "minecraft:enderman",
+    "persecond": 0.024,
+    "attempts": 6,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": false,
+      "mindist": 26,
+      "maxdist": 95,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 9,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_65_to_74",
+    "mob": "minecraft:enderman",
+    "persecond": 0.03,
+    "attempts": 7,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": false,
+      "mindist": 24,
+      "maxdist": 95,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 10,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  },
+  {
+    "phase": "day_75_plus",
+    "mob": "minecraft:enderman",
+    "persecond": 0.038,
+    "attempts": 8,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "norestrictions": false,
+      "mindist": 22,
+      "maxdist": 90,
+      "minheight": 15,
+      "maxheight": 320,
+      "maxthis": 12,
+      "and": {
+        "mintime": 13000,
+        "maxtime": 23000,
+        "maxlight_full": 7
+      }
+    }
+  }
+]

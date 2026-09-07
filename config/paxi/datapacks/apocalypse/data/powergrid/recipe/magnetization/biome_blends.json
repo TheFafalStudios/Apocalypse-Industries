@@ -1,0 +1,13 @@
+{
+  "type": "powergrid:magnetization",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    }
+  ],
+  "results": [
+    {
+      "id": "biomeblends:bland_blend"
+    }
+  ]
+}

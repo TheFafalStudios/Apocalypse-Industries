@@ -1,0 +1,7 @@
+{
+  "config": {
+    "shrinkScalePercentage": 50.0,
+    "speedPercentage": 110.0,
+    "isEnable": true
+  }
+}

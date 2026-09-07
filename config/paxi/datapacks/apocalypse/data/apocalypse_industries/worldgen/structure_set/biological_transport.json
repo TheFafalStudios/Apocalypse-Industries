@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "apocalypse_industries:biological_transport",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1906245173,
+    "spacing": 64,
+    "separation": 24,
+    "spread_type": "triangular"
+  }
+}

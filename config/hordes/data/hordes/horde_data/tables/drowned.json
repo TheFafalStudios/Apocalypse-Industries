@@ -1,0 +1,65 @@
+[
+    {
+        "entity": "minecraft:drowned",
+        "weight": 40,
+        "first_day": 0,
+        "last_day": 14
+    },
+    {
+        "entity": "minecraft:drowned",
+        "weight": 35,
+        "first_day": 15,
+        "last_day": 34
+    },
+    {
+        "entity": "minecraft:drowned",
+        "weight": 28,
+        "first_day": 35,
+        "last_day": 54
+    },
+    {
+        "entity": "minecraft:drowned",
+        "weight": 24,
+        "first_day": 55,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:drowned",
+        "weight": 3,
+        "first_day": 15,
+        "last_day": 34,
+        "nbt": "{HandItems:[{id:trident,Count:1b}]}"
+    },
+    {
+        "entity": "minecraft:drowned",
+        "weight": 5,
+        "first_day": 35,
+        "last_day": 54,
+        "nbt": "{HandItems:[{id:trident,Count:1b}]}"
+    },
+    {
+        "entity": "minecraft:drowned",
+        "weight": 8,
+        "first_day": 55,
+        "last_day": 0,
+        "nbt": "{HandItems:[{id:trident,Count:1b}]}"
+    },
+    {
+        "entity": "minecraft:guardian",
+        "weight": 2,
+        "first_day": 45,
+        "last_day": 64
+    },
+    {
+        "entity": "minecraft:guardian",
+        "weight": 4,
+        "first_day": 65,
+        "last_day": 0
+    },
+    {
+        "entity": "minecraft:elder_guardian",
+        "weight": 1,
+        "first_day": 75,
+        "last_day": 0
+    }
+]

@@ -1,0 +1,13 @@
+{
+  "type": "powergrid:magnetization",
+  "ingredients": [
+    {
+      "item": "ae2:certus_quartz_crystal"
+    }
+  ],
+  "results": [
+    {
+      "id": "ae2:charged_certus_quartz_crystal"
+    }
+  ]
+}

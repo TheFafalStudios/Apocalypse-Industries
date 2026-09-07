@@ -1,0 +1,13 @@
+name = "Create: Rock & Stone"
+filename = "create_rns-1.1.2-1.21.1-6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "386fc00f7aa9763d7274e9e0fd58f183c19f549d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7898677
+project-id = 1370563

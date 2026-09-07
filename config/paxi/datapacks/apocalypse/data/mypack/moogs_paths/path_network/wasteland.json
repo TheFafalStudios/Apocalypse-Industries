@@ -1,0 +1,14 @@
+{
+  "path_type": "mypack:stone_trail",
+  "biomes": [
+     "biomesoplenty:wasteland",
+    "biomesoplenty:wasteland_steppe"
+  ],
+  "weight": 3,
+  "region_size": 64,
+  "structure_sets": [
+    "moogs_paths:simple_andesite_lamp"
+  ],
+  "feature_decorator_sets": [],
+  "bush_decorator_sets": []
+}

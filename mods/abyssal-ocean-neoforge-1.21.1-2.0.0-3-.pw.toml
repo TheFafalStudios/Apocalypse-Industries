@@ -1,0 +1,13 @@
+name = "Abyssal Ocean"
+filename = "abyssal-ocean-neoforge-1.21.1-2.0.0(3).jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "47d19b480896ba66008b696081924b927d2d3e7d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8803229
+project-id = 1650557

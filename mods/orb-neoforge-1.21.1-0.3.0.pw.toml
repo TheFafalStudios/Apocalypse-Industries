@@ -1,0 +1,13 @@
+name = "ORB"
+filename = "orb-neoforge-1.21.1-0.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "22884b8907ca7aeafb86c3a325f52e8a1df9db28"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7236793
+project-id = 1385431

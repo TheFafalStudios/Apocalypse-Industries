@@ -1,0 +1,946 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "special_requests"
+	group: ""
+	icon: {
+		id: "jackseconomy:golden_exporter_manifest"
+	}
+	id: "2682E5A7226B3B2E"
+	images: [{
+		height: 1.5d
+		image: "quests:textures/quest/spec.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 4.0d
+		y: -3.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2F8970DAA41C12F1"]
+			hide_until_deps_complete: true
+			id: "034AF657B1C103EE"
+			rewards: [{
+				count: 7
+				id: "01A44FDFE654C396"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 6L
+					id: "29BBF66743D0DA4B"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+				{
+					count: 60L
+					id: "4A3BA3284DB5D8E9"
+					item: { count: 1, id: "ae2:item_storage_cell_1k" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["034AF657B1C103EE"]
+			hide_dependency_lines: true
+			id: "04AA269C06F2334E"
+			rewards: [{
+				count: 50
+				id: "30B1AC193C3D1F39"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 12L
+					id: "0D7B22AA33E87570"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+				{
+					count: 120L
+					id: "556B405C0274BD75"
+					item: { count: 1, id: "ae2:item_storage_cell_4k" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04AA269C06F2334E"]
+			hide_dependency_lines: true
+			id: "4DD1AC8C379EA2AF"
+			rewards: [{
+				count: 250
+				id: "678AECBD155AB90C"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 24L
+					id: "46FFFAC221A2BAD0"
+					item: { count: 1, id: "ae2:drive" }
+					type: "item"
+				}
+				{
+					count: 240L
+					id: "1FF14191A816E51A"
+					item: { count: 1, id: "ae2:item_storage_cell_16k" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "2DC8ED6C6145D1FA"
+			rewards: [{
+				count: 2
+				id: "07EC52319FC81D7A"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4906A3AE6B8DB12E"
+				item: { components: { "someassemblyrequired:sandwich_contents": [ { count: 1, id: "someassemblyrequired:bread_slice" }, { count: 1, id: "someassemblyrequired:tomato_slices" }, { count: 1, id: "farmersdelight:cabbage_leaf" }, { count: 1, id: "farmersdelight:cooked_bacon" }, { count: 1, id: "someassemblyrequired:bread_slice" } ] }, count: 1, id: "someassemblyrequired:sandwich" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CAE029C497AF43C"]
+			hide_until_deps_complete: true
+			id: "77A327FFEB77986C"
+			rewards: [{
+				count: 30
+				id: "58F96F6CB2A61EF2"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "730BDAFE8D28ED0D"
+					item: { components: { "ntgl:ammo": "cgs:round_gatling_piercing", "ntgl:ammo_count": 100, "ntgl:throw_mode": "ntgl:safe", "ntgl:weapon_component": { variant: "default" } }, count: 1, id: "cgs:gatling" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "55241CB2B37BD12A"
+					item: { count: 1, id: "cgs:round_gatling" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "30E3BA1C2B4D3EE6"
+					item: { count: 1, id: "cgs:round_gatling_piercing" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["239AB15E81898038"]
+			hide_until_deps_complete: true
+			id: "208A6A84C991E05B"
+			rewards: [{
+				count: 6
+				id: "797ACD7BE0A50CA7"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "2E8CA7B41E48C5DB"
+				item: { count: 1, id: "immersiveengineering:storage_steel" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3BD9D2D7B6E0B15C"]
+			hide_until_deps_complete: true
+			id: "15576AE53F2EA580"
+			rewards: [{
+				count: 2
+				id: "0996B7C570CF3CC7"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "6401E06137EA5991"
+					item: { count: 1, id: "farmersdelight:cake_slice" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "355B91DCD2DFC28E"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:candles)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["25CBFE30DA7C360D"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2446854AC22FB4EE"
+			rewards: [{
+				count: 4
+				id: "11E5C5F0227F82B4"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "75382D6723C597E3"
+				item: { count: 1, id: "ratatouille:cocoa_powder" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32205154C1A9FD61"]
+			hide_until_deps_complete: true
+			id: "446FD09ABEB5EE30"
+			rewards: [{
+				count: 2
+				id: "1B14EB6DEA7BD982"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "278B1D66AD25F202"
+				item: { count: 1, id: "offroad:monstrous_tire" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6FB2CBBF764F82F6"]
+			hide_until_deps_complete: true
+			id: "1BC0DD264A999A4F"
+			rewards: [{
+				count: 2
+				id: "3B2DC1D761C7C17F"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "0E3BDAEAE185DEA2"
+					item: { count: 1, id: "create:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "336BB3BB944FF8AE"
+					item: { count: 1, id: "create:fluid_tank" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "6B408D10907BD74C"
+					item: { count: 1, id: "create:fluid_valve" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E60723BF3749692"]
+			hide_until_deps_complete: true
+			id: "586A2641AE26AE2D"
+			rewards: [{
+				count: 7
+				id: "17BB43B43A5224D5"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "450F4C36FC180BA5"
+					item: { count: 1, id: "createbigcannons:cannon_loader" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "0833C7C4373893E1"
+					item: { count: 1, id: "createbigcannons:cast_iron_cannon_barrel" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5910B381E7F56126"]
+			hide_until_deps_complete: true
+			id: "541A09A0CF0EA920"
+			rewards: [{
+				count: 10
+				id: "6AC605BED7A96C31"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0926962328859E27"
+				item: { count: 1, id: "aeronautics:mounted_potato_cannon" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["287825F8B76A2062"]
+			hide_until_deps_complete: true
+			id: "0AEEA9D02B473A6A"
+			rewards: [{
+				id: "50144947C4F50F54"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "789F8749CBA160B3"
+				item: { count: 1, id: "createdeco:gold_coinstack" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5910B381E7F56126"]
+			hide_until_deps_complete: true
+			id: "75CAC33479978EC1"
+			rewards: [{
+				count: 20
+				id: "59104CFE5B93056A"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "78D9411D1E025D9E"
+				item: { count: 1, id: "createdieselgenerators:chemical_sprayer_lighter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "70FAEA8AFF597165"
+			rewards: [{
+				count: 30
+				id: "1B8C38FB0BC147AF"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "32C2AFAD7B41E6EA"
+				item: { count: 1, id: "create_submarine:underwater_mine" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["287825F8B76A2062"]
+			hide_until_deps_complete: true
+			id: "26A775006E133EE8"
+			rewards: [{
+				count: 5
+				id: "4EA87A51C05CD033"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "2D03A05966FD2553"
+				item: { count: 1, id: "create_submarine:submarine_propeller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "3CAE5E55973836C5"
+			rewards: [{
+				id: "110A4868D2C58CD7"
+				item: {
+					count: 1
+					id: "jackseconomy:fifty_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "0A5DC2AB7B99B270"
+					item: { count: 1, id: "biomesoplenty:dried_salt" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7B85C3E7D07689AC"
+					item: { count: 1, id: "biomesoplenty:dead_log" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33034B8A714E1A25"]
+			hide_until_deps_complete: true
+			id: "23DFDF6E52D5AC6F"
+			rewards: [{
+				count: 4
+				id: "1B7FC7D8FC4701B4"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "6E39006FB7C414AC"
+				item: { count: 1, id: "powergrid:string_light_cord" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13A226A6831EC157"]
+			hide_until_deps_complete: true
+			id: "6F17C7AA2B0E3C7B"
+			rewards: [{
+				count: 5
+				id: "02482AACD1366DB1"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "254927264A8B0BC4"
+				item: { count: 1, id: "minecraft:end_rod" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["28F3F4A0222BCCE9"]
+			hide_until_deps_complete: true
+			id: "760DF9560F1C2721"
+			rewards: [{
+				id: "1CBE499CED4F1320"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "6C01000C313F05D7"
+				item: { count: 1, id: "create:schedule" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["162E6F37DAC9C725"]
+			hide_until_deps_complete: true
+			id: "5E8E1F172126AB0C"
+			rewards: [{
+				id: "7FD03817D292AABC"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "74D080783B5F2151"
+				item: { count: 1, id: "create:sweet_roll" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["337AC67248B0200B"]
+			hide_until_deps_complete: true
+			id: "07321C0B0430A359"
+			rewards: [{
+				id: "2D9DD672D6785FD9"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "3CA65CCDB32FCABD"
+				item: { count: 1, id: "create:super_glue" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0716EED3B9E91867"]
+			hide_until_deps_complete: true
+			id: "4FFF31AE973267FA"
+			rewards: [{
+				count: 10
+				id: "038AD1D4EF5FD1DD"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "6B6CC7EEFF000A3C"
+				item: { count: 1, id: "aeronautics:smart_propeller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "705A5615BFB4AD06"
+			rewards: [{
+				count: 2
+				id: "4578A1C71DE5FF0B"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "3FF7CD3E77F842B5"
+				item: { count: 1, id: "aeronautics:aviators_goggles" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33034B8A714E1A25"]
+			hide_until_deps_complete: true
+			id: "4FA155D0F251D64E"
+			rewards: [{
+				id: "720495AB50890D29"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "077D662F7C19ECBE"
+				item: { count: 1, id: "powergrid:potato_battery" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6C7B688FAAA52AA2"]
+			hide_until_deps_complete: true
+			id: "1B8A26C7E05C1918"
+			rewards: [{
+				count: 2
+				id: "7DF850186656C31A"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "4200D55EFB999733"
+				item: { count: 1, id: "create_rns:polished_resonant_amethyst" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7BEEE0112760A0B7"]
+			hide_until_deps_complete: true
+			id: "72BC517731EBBB3B"
+			rewards: [{
+				count: 6
+				id: "5A9653D24046A0C2"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "6FD5EBB7EC6F181A"
+				item: { count: 1, id: "create_winery:champaign" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["214AD5103045C73C"]
+			hide_until_deps_complete: true
+			id: "52B913F2F2BF07E5"
+			rewards: [{
+				count: 2
+				id: "2FCCA53BCBEA7458"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "725252E688F93677"
+				item: { count: 1, id: "farmersdelight:melon_popsicle" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2E8051E327C73587"]
+			hide_until_deps_complete: true
+			id: "364008983909EACD"
+			rewards: [{
+				count: 20
+				id: "45C0AE87D39C6E64"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "7331E03ED62A02E0"
+				item: { count: 1, id: "create_deep_dark:echo_cake" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6B47323B012809C2"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "51A5F4FAE40B2E12"
+			rewards: [{
+				count: 5
+				id: "56D6E4993E83883D"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "74BC56C3B3C912C6"
+				item: { count: 1, id: "minecraft:wind_charge" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			id: "25CBFE30DA7C360D"
+			rewards: [{
+				count: 5
+				id: "0EA415EFBA829E37"
+				item: {
+					count: 1
+					id: "jackseconomy:hundred_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "4257621DC0DDA935"
+				item: { count: 1, id: "createcafe:roasted_coffee_beans" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38467FE0A56DE76F"]
+			hide_until_deps_complete: true
+			id: "2547049D93E40662"
+			rewards: [{
+				count: 10
+				id: "2B14A2D35BF9F2DB"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "4729AC098B10D2BC"
+				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["35F65DAB6867BC56"]
+			hide_until_deps_complete: true
+			id: "7D0D9E8939405560"
+			rewards: [{
+				id: "4A9BE6F493AC42B7"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "3A1DA86BF28AADC0"
+				item: { count: 1, id: "minecraft:pufferfish" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["3604273D73CACF71"]
+			hide_until_deps_complete: true
+			id: "386968447A6F8F46"
+			rewards: [{
+				count: 5
+				id: "63A21EAF65E7202E"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "6DED746D02022483"
+					item: { count: 1, id: "ratatouille:sausage" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "28FAF0D37BCA76AA"
+					item: { count: 1, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2547049D93E40662"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7FC4E4026B162658"
+			rewards: [{
+				count: 20
+				id: "48D67AF9F1D0F711"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0A08F391490FA7E4"
+				item: { count: 1, id: "createdieselgenerators:huge_diesel_engine" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			id: "46285F64822A1FD7"
+			icon: { count: 1, id: "kubejs:sealed_biocontainment_canister" }
+			rewards: [{
+				auto: "no_toast"
+				command: "/loot give @p loot apocalypse_industries:contract/biological_transport_map"
+				icon: { count: 1, id: "minecraft:filled_map" }
+				id: "1B70A9F6C4D23851"
+				permission_level: 2
+				silent: true
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "32FAFA1D8950264B"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["46285F64822A1FD7"]
+			dependency_requirement: "all_completed"
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "6EA6AC7A77A38A32"
+			icon: { count: 1, id: "kubejs:extracted_biological_sample" }
+			rewards: [{
+				count: 2
+				id: "5AEC5CF84B6C291C"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "427C0003A9BAD73A"
+				item: { count: 1, id: "kubejs:extracted_biological_sample" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+	]
+}

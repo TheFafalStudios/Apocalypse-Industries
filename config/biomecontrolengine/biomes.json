@@ -1,0 +1,1436 @@
+{
+  "ae2:spatial_storage": {
+    "id": "ae2:spatial_storage",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "biomesoplenty:aspen_glade": {
+    "id": "biomesoplenty:aspen_glade",
+    "size": 0.65,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "biomesoplenty:auroral_garden": {
+    "id": "biomesoplenty:auroral_garden",
+    "size": 0.45,
+    "rarity": 10.0,
+    "priority": false
+  },
+  "biomesoplenty:bayou": {
+    "id": "biomesoplenty:bayou",
+    "size": 0.65,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "biomesoplenty:bog": {
+    "id": "biomesoplenty:bog",
+    "size": 0.65,
+    "rarity": 4.0,
+    "priority": false
+  },
+  "biomesoplenty:cold_desert": {
+    "id": "biomesoplenty:cold_desert",
+    "size": 1.6,
+    "rarity": 0.7,
+    "priority": false
+  },
+  "biomesoplenty:coniferous_forest": {
+    "id": "biomesoplenty:coniferous_forest",
+    "size": 0.7,
+    "rarity": 4.0,
+    "priority": false
+  },
+  "biomesoplenty:crag": {
+    "id": "biomesoplenty:crag",
+    "size": 1.4,
+    "rarity": 0.7,
+    "priority": false
+  },
+  "biomesoplenty:crystalline_chasm": {
+    "id": "biomesoplenty:crystalline_chasm",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "biomesoplenty:dead_forest": {
+    "id": "biomesoplenty:dead_forest",
+    "size": 1.0,
+    "rarity": 100.0,
+    "priority": false
+  },
+  "biomesoplenty:dryland": {
+    "id": "biomesoplenty:dryland",
+    "size": 1.8,
+    "rarity": 0.5,
+    "priority": false
+  },
+  "biomesoplenty:dune_beach": {
+    "id": "biomesoplenty:dune_beach",
+    "size": 1.2,
+    "rarity": 0.9,
+    "priority": false
+  },
+  "biomesoplenty:end_corruption": {
+    "id": "biomesoplenty:end_corruption",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "biomesoplenty:end_reef": {
+    "id": "biomesoplenty:end_reef",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "biomesoplenty:end_wilds": {
+    "id": "biomesoplenty:end_wilds",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "biomesoplenty:erupting_inferno": {
+    "id": "biomesoplenty:erupting_inferno",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "biomesoplenty:field": {
+    "id": "biomesoplenty:field",
+    "size": 0.7,
+    "rarity": 4.0,
+    "priority": false
+  },
+  "biomesoplenty:fir_clearing": {
+    "id": "biomesoplenty:fir_clearing",
+    "size": 0.6,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "biomesoplenty:floodplain": {
+    "id": "biomesoplenty:floodplain",
+    "size": 0.6,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "biomesoplenty:forested_field": {
+    "id": "biomesoplenty:forested_field",
+    "size": 0.6,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "biomesoplenty:fungal_jungle": {
+    "id": "biomesoplenty:fungal_jungle",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "biomesoplenty:glowing_grotto": {
+    "id": "biomesoplenty:glowing_grotto",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "biomesoplenty:grassland": {
+    "id": "biomesoplenty:grassland",
+    "size": 0.7,
+    "rarity": 4.0,
+    "priority": false
+  },
+  "biomesoplenty:gravel_beach": {
+    "id": "biomesoplenty:gravel_beach",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "biomesoplenty:highland": {
+    "id": "biomesoplenty:highland",
+    "size": 1.1,
+    "rarity": 1.4,
+    "priority": false
+  },
+  "biomesoplenty:hot_springs": {
+    "id": "biomesoplenty:hot_springs",
+    "size": 0.55,
+    "rarity": 7.0,
+    "priority": false
+  },
+  "biomesoplenty:jacaranda_glade": {
+    "id": "biomesoplenty:jacaranda_glade",
+    "size": 0.45,
+    "rarity": 9.0,
+    "priority": false
+  },
+  "biomesoplenty:jade_cliffs": {
+    "id": "biomesoplenty:jade_cliffs",
+    "size": 0.6,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "biomesoplenty:lavender_field": {
+    "id": "biomesoplenty:lavender_field",
+    "size": 0.45,
+    "rarity": 9.0,
+    "priority": false
+  },
+  "biomesoplenty:lush_desert": {
+    "id": "biomesoplenty:lush_desert",
+    "size": 0.65,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "biomesoplenty:lush_savanna": {
+    "id": "biomesoplenty:lush_savanna",
+    "size": 0.65,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "biomesoplenty:maple_woods": {
+    "id": "biomesoplenty:maple_woods",
+    "size": 0.6,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "biomesoplenty:marsh": {
+    "id": "biomesoplenty:marsh",
+    "size": 0.6,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "biomesoplenty:mediterranean_forest": {
+    "id": "biomesoplenty:mediterranean_forest",
+    "size": 0.65,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "biomesoplenty:moor": {
+    "id": "biomesoplenty:moor",
+    "size": 0.9,
+    "rarity": 2.0,
+    "priority": false
+  },
+  "biomesoplenty:muskeg": {
+    "id": "biomesoplenty:muskeg",
+    "size": 0.8,
+    "rarity": 2.5,
+    "priority": false
+  },
+  "biomesoplenty:mystic_grove": {
+    "id": "biomesoplenty:mystic_grove",
+    "size": 0.4,
+    "rarity": 12.0,
+    "priority": false
+  },
+  "biomesoplenty:old_growth_dead_forest": {
+    "id": "biomesoplenty:old_growth_dead_forest",
+    "size": 1.0,
+    "rarity": 100.0,
+    "priority": false
+  },
+  "biomesoplenty:old_growth_woodland": {
+    "id": "biomesoplenty:old_growth_woodland",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "biomesoplenty:ominous_woods": {
+    "id": "biomesoplenty:ominous_woods",
+    "size": 0.8,
+    "rarity": 2.5,
+    "priority": false
+  },
+  "biomesoplenty:orchard": {
+    "id": "biomesoplenty:orchard",
+    "size": 0.55,
+    "rarity": 7.0,
+    "priority": false
+  },
+  "biomesoplenty:origin_valley": {
+    "id": "biomesoplenty:origin_valley",
+    "size": 0.45,
+    "rarity": 10.0,
+    "priority": false
+  },
+  "biomesoplenty:overgrown_greens": {
+    "id": "biomesoplenty:overgrown_greens",
+    "size": 0.45,
+    "rarity": 9.0,
+    "priority": false
+  },
+  "biomesoplenty:pasture": {
+    "id": "biomesoplenty:pasture",
+    "size": 0.65,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "biomesoplenty:prairie": {
+    "id": "biomesoplenty:prairie",
+    "size": 0.7,
+    "rarity": 4.0,
+    "priority": false
+  },
+  "biomesoplenty:pumpkin_patch": {
+    "id": "biomesoplenty:pumpkin_patch",
+    "size": 0.5,
+    "rarity": 8.0,
+    "priority": false
+  },
+  "biomesoplenty:rainforest": {
+    "id": "biomesoplenty:rainforest",
+    "size": 0.45,
+    "rarity": 9.0,
+    "priority": false
+  },
+  "biomesoplenty:redwood_forest": {
+    "id": "biomesoplenty:redwood_forest",
+    "size": 0.55,
+    "rarity": 7.0,
+    "priority": false
+  },
+  "biomesoplenty:rocky_rainforest": {
+    "id": "biomesoplenty:rocky_rainforest",
+    "size": 0.5,
+    "rarity": 8.0,
+    "priority": false
+  },
+  "biomesoplenty:rocky_shrubland": {
+    "id": "biomesoplenty:rocky_shrubland",
+    "size": 1.4,
+    "rarity": 0.75,
+    "priority": false
+  },
+  "biomesoplenty:scrubland": {
+    "id": "biomesoplenty:scrubland",
+    "size": 0.2,
+    "rarity": 3.9999228,
+    "priority": true
+  },
+  "biomesoplenty:seasonal_forest": {
+    "id": "biomesoplenty:seasonal_forest",
+    "size": 0.6,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "biomesoplenty:shrubland": {
+    "id": "biomesoplenty:shrubland",
+    "size": 0.8,
+    "rarity": 2.5,
+    "priority": false
+  },
+  "biomesoplenty:snowblossom_grove": {
+    "id": "biomesoplenty:snowblossom_grove",
+    "size": 0.45,
+    "rarity": 9.0,
+    "priority": false
+  },
+  "biomesoplenty:snowy_coniferous_forest": {
+    "id": "biomesoplenty:snowy_coniferous_forest",
+    "size": 0.65,
+    "rarity": 4.5,
+    "priority": false
+  },
+  "biomesoplenty:snowy_fir_clearing": {
+    "id": "biomesoplenty:snowy_fir_clearing",
+    "size": 0.6,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "biomesoplenty:snowy_maple_woods": {
+    "id": "biomesoplenty:snowy_maple_woods",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "biomesoplenty:spider_nest": {
+    "id": "biomesoplenty:spider_nest",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "biomesoplenty:tropics": {
+    "id": "biomesoplenty:tropics",
+    "size": 0.4,
+    "rarity": 10.0,
+    "priority": false
+  },
+  "biomesoplenty:tundra": {
+    "id": "biomesoplenty:tundra",
+    "size": 1.2,
+    "rarity": 1.1,
+    "priority": false
+  },
+  "biomesoplenty:undergrowth": {
+    "id": "biomesoplenty:undergrowth",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "biomesoplenty:visceral_heap": {
+    "id": "biomesoplenty:visceral_heap",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "biomesoplenty:volcanic_plains": {
+    "id": "biomesoplenty:volcanic_plains",
+    "size": 1.4,
+    "rarity": 0.8,
+    "priority": false
+  },
+  "biomesoplenty:volcano": {
+    "id": "biomesoplenty:volcano",
+    "size": 1.3,
+    "rarity": 2.2,
+    "priority": false
+  },
+  "biomesoplenty:wasteland": {
+    "id": "biomesoplenty:wasteland",
+    "size": 4.0,
+    "rarity": 0.2,
+    "priority": true
+  },
+  "biomesoplenty:wasteland_steppe": {
+    "id": "biomesoplenty:wasteland_steppe",
+    "size": 1.5527884,
+    "rarity": 0.4,
+    "priority": true
+  },
+  "biomesoplenty:wetland": {
+    "id": "biomesoplenty:wetland",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "biomesoplenty:wintry_origin_valley": {
+    "id": "biomesoplenty:wintry_origin_valley",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "biomesoplenty:withered_abyss": {
+    "id": "biomesoplenty:withered_abyss",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "biomesoplenty:woodland": {
+    "id": "biomesoplenty:woodland",
+    "size": 0.65,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "blueprint:original_source_marker": {
+    "id": "blueprint:original_source_marker",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "creatingspace:mars_cave": {
+    "id": "creatingspace:mars_cave",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "creatingspace:mars_plains": {
+    "id": "creatingspace:mars_plains",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "creatingspace:moon_cave": {
+    "id": "creatingspace:moon_cave",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "creatingspace:moon_plains": {
+    "id": "creatingspace:moon_plains",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "creatingspace:space": {
+    "id": "creatingspace:space",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "creatingspace:venus": {
+    "id": "creatingspace:venus",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "creatingspace:venus_hellground": {
+    "id": "creatingspace:venus_hellground",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "hadal_depths:abyssal_ocean": {
+    "id": "hadal_depths:abyssal_ocean",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:badlands": {
+    "id": "minecraft:badlands",
+    "size": 1.9,
+    "rarity": 0.45,
+    "priority": false
+  },
+  "minecraft:bamboo_jungle": {
+    "id": "minecraft:bamboo_jungle",
+    "size": 0.4,
+    "rarity": 10.0,
+    "priority": false
+  },
+  "minecraft:basalt_deltas": {
+    "id": "minecraft:basalt_deltas",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:beach": {
+    "id": "minecraft:beach",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:birch_forest": {
+    "id": "minecraft:birch_forest",
+    "size": 0.6,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "minecraft:cherry_grove": {
+    "id": "minecraft:cherry_grove",
+    "size": 0.4,
+    "rarity": 10.0,
+    "priority": false
+  },
+  "minecraft:cold_ocean": {
+    "id": "minecraft:cold_ocean",
+    "size": 1.0,
+    "rarity": 0.49514914,
+    "priority": true
+  },
+  "minecraft:crimson_forest": {
+    "id": "minecraft:crimson_forest",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:dark_forest": {
+    "id": "minecraft:dark_forest",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "minecraft:deep_cold_ocean": {
+    "id": "minecraft:deep_cold_ocean",
+    "size": 1.0,
+    "rarity": 0.49928215,
+    "priority": true
+  },
+  "minecraft:deep_dark": {
+    "id": "minecraft:deep_dark",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:deep_frozen_ocean": {
+    "id": "minecraft:deep_frozen_ocean",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:deep_lukewarm_ocean": {
+    "id": "minecraft:deep_lukewarm_ocean",
+    "size": 1.0,
+    "rarity": 0.50205666,
+    "priority": true
+  },
+  "minecraft:deep_ocean": {
+    "id": "minecraft:deep_ocean",
+    "size": 1.0,
+    "rarity": 0.49790066,
+    "priority": true
+  },
+  "minecraft:desert": {
+    "id": "minecraft:desert",
+    "size": 2.2,
+    "rarity": 0.35,
+    "priority": false
+  },
+  "minecraft:dripstone_caves": {
+    "id": "minecraft:dripstone_caves",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:end_barrens": {
+    "id": "minecraft:end_barrens",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:end_highlands": {
+    "id": "minecraft:end_highlands",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:end_midlands": {
+    "id": "minecraft:end_midlands",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:eroded_badlands": {
+    "id": "minecraft:eroded_badlands",
+    "size": 1.6,
+    "rarity": 0.6,
+    "priority": false
+  },
+  "minecraft:flower_forest": {
+    "id": "minecraft:flower_forest",
+    "size": 0.45,
+    "rarity": 8.0,
+    "priority": false
+  },
+  "minecraft:forest": {
+    "id": "minecraft:forest",
+    "size": 0.65,
+    "rarity": 4.0,
+    "priority": false
+  },
+  "minecraft:frozen_ocean": {
+    "id": "minecraft:frozen_ocean",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:frozen_peaks": {
+    "id": "minecraft:frozen_peaks",
+    "size": 1.0,
+    "rarity": 1.5,
+    "priority": false
+  },
+  "minecraft:frozen_river": {
+    "id": "minecraft:frozen_river",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:grove": {
+    "id": "minecraft:grove",
+    "size": 0.65,
+    "rarity": 4.0,
+    "priority": false
+  },
+  "minecraft:ice_spikes": {
+    "id": "minecraft:ice_spikes",
+    "size": 0.9,
+    "rarity": 2.0,
+    "priority": false
+  },
+  "minecraft:jagged_peaks": {
+    "id": "minecraft:jagged_peaks",
+    "size": 1.1,
+    "rarity": 1.2,
+    "priority": false
+  },
+  "minecraft:jungle": {
+    "id": "minecraft:jungle",
+    "size": 0.45,
+    "rarity": 8.0,
+    "priority": false
+  },
+  "minecraft:lukewarm_ocean": {
+    "id": "minecraft:lukewarm_ocean",
+    "size": 1.0,
+    "rarity": 0.5048466,
+    "priority": true
+  },
+  "minecraft:lush_caves": {
+    "id": "minecraft:lush_caves",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:mangrove_swamp": {
+    "id": "minecraft:mangrove_swamp",
+    "size": 0.45,
+    "rarity": 8.0,
+    "priority": false
+  },
+  "minecraft:meadow": {
+    "id": "minecraft:meadow",
+    "size": 0.6,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "minecraft:mushroom_fields": {
+    "id": "minecraft:mushroom_fields",
+    "size": 0.45,
+    "rarity": 10.0,
+    "priority": false
+  },
+  "minecraft:nether_wastes": {
+    "id": "minecraft:nether_wastes",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:ocean": {
+    "id": "minecraft:ocean",
+    "size": 1.0,
+    "rarity": 0.4958356,
+    "priority": true
+  },
+  "minecraft:old_growth_birch_forest": {
+    "id": "minecraft:old_growth_birch_forest",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "minecraft:old_growth_pine_taiga": {
+    "id": "minecraft:old_growth_pine_taiga",
+    "size": 0.6,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "minecraft:old_growth_spruce_taiga": {
+    "id": "minecraft:old_growth_spruce_taiga",
+    "size": 0.6,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "minecraft:plains": {
+    "id": "minecraft:plains",
+    "size": 0.75,
+    "rarity": 2.5,
+    "priority": false
+  },
+  "minecraft:river": {
+    "id": "minecraft:river",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:savanna": {
+    "id": "minecraft:savanna",
+    "size": 1.4,
+    "rarity": 0.85,
+    "priority": false
+  },
+  "minecraft:savanna_plateau": {
+    "id": "minecraft:savanna_plateau",
+    "size": 1.3,
+    "rarity": 0.9,
+    "priority": false
+  },
+  "minecraft:small_end_islands": {
+    "id": "minecraft:small_end_islands",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:snowy_beach": {
+    "id": "minecraft:snowy_beach",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:snowy_plains": {
+    "id": "minecraft:snowy_plains",
+    "size": 1.1,
+    "rarity": 1.4,
+    "priority": false
+  },
+  "minecraft:snowy_slopes": {
+    "id": "minecraft:snowy_slopes",
+    "size": 1.0,
+    "rarity": 1.4,
+    "priority": false
+  },
+  "minecraft:snowy_taiga": {
+    "id": "minecraft:snowy_taiga",
+    "size": 0.8,
+    "rarity": 2.5,
+    "priority": false
+  },
+  "minecraft:soul_sand_valley": {
+    "id": "minecraft:soul_sand_valley",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:sparse_jungle": {
+    "id": "minecraft:sparse_jungle",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "minecraft:stony_peaks": {
+    "id": "minecraft:stony_peaks",
+    "size": 1.3,
+    "rarity": 0.9,
+    "priority": false
+  },
+  "minecraft:stony_shore": {
+    "id": "minecraft:stony_shore",
+    "size": 1.1,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:sunflower_plains": {
+    "id": "minecraft:sunflower_plains",
+    "size": 0.55,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "minecraft:swamp": {
+    "id": "minecraft:swamp",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "minecraft:taiga": {
+    "id": "minecraft:taiga",
+    "size": 0.7,
+    "rarity": 4.0,
+    "priority": false
+  },
+  "minecraft:the_end": {
+    "id": "minecraft:the_end",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:the_void": {
+    "id": "minecraft:the_void",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:warm_ocean": {
+    "id": "minecraft:warm_ocean",
+    "size": 1.0,
+    "rarity": 0.4958356,
+    "priority": true
+  },
+  "minecraft:warped_forest": {
+    "id": "minecraft:warped_forest",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:windswept_forest": {
+    "id": "minecraft:windswept_forest",
+    "size": 0.6,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "minecraft:windswept_gravelly_hills": {
+    "id": "minecraft:windswept_gravelly_hills",
+    "size": 1.2,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:windswept_hills": {
+    "id": "minecraft:windswept_hills",
+    "size": 1.0,
+    "rarity": 1.5,
+    "priority": false
+  },
+  "minecraft:windswept_savanna": {
+    "id": "minecraft:windswept_savanna",
+    "size": 1.2,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "minecraft:wooded_badlands": {
+    "id": "minecraft:wooded_badlands",
+    "size": 1.3,
+    "rarity": 0.9,
+    "priority": false
+  },
+  "terrablender:deferred_placeholder": {
+    "id": "terrablender:deferred_placeholder",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "terralith:alpha_islands": {
+    "id": "terralith:alpha_islands",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "terralith:alpha_islands_winter": {
+    "id": "terralith:alpha_islands_winter",
+    "size": 0.8,
+    "rarity": 2.5,
+    "priority": false
+  },
+  "terralith:alpine_grove": {
+    "id": "terralith:alpine_grove",
+    "size": 0.8,
+    "rarity": 2.5,
+    "priority": false
+  },
+  "terralith:alpine_highlands": {
+    "id": "terralith:alpine_highlands",
+    "size": 1.0,
+    "rarity": 1.6,
+    "priority": false
+  },
+  "terralith:amethyst_canyon": {
+    "id": "terralith:amethyst_canyon",
+    "size": 1.1,
+    "rarity": 1.25,
+    "priority": false
+  },
+  "terralith:amethyst_rainforest": {
+    "id": "terralith:amethyst_rainforest",
+    "size": 1.0,
+    "rarity": 2.8,
+    "priority": false
+  },
+  "terralith:ancient_sands": {
+    "id": "terralith:ancient_sands",
+    "size": 2.4,
+    "rarity": 0.28,
+    "priority": false
+  },
+  "terralith:arid_highlands": {
+    "id": "terralith:arid_highlands",
+    "size": 2.0,
+    "rarity": 0.35,
+    "priority": false
+  },
+  "terralith:ashen_savanna": {
+    "id": "terralith:ashen_savanna",
+    "size": 1.8,
+    "rarity": 0.45,
+    "priority": false
+  },
+  "terralith:basalt_cliffs": {
+    "id": "terralith:basalt_cliffs",
+    "size": 1.5,
+    "rarity": 0.65,
+    "priority": false
+  },
+  "terralith:birch_taiga": {
+    "id": "terralith:birch_taiga",
+    "size": 0.6,
+    "rarity": 5.0,
+    "priority": false
+  },
+  "terralith:blooming_plateau": {
+    "id": "terralith:blooming_plateau",
+    "size": 1.0,
+    "rarity": 3.0,
+    "priority": false
+  },
+  "terralith:blooming_valley": {
+    "id": "terralith:blooming_valley",
+    "size": 1.0,
+    "rarity": 3.0,
+    "priority": false
+  },
+  "terralith:brushland": {
+    "id": "terralith:brushland",
+    "size": 1.4,
+    "rarity": 0.75,
+    "priority": false
+  },
+  "terralith:bryce_canyon": {
+    "id": "terralith:bryce_canyon",
+    "size": 1.1,
+    "rarity": 1.3,
+    "priority": false
+  },
+  "terralith:caldera": {
+    "id": "terralith:caldera",
+    "size": 1.4,
+    "rarity": 1.2,
+    "priority": false
+  },
+  "terralith:cave/andesite_caves": {
+    "id": "terralith:cave/andesite_caves",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "terralith:cave/deep_caves": {
+    "id": "terralith:cave/deep_caves",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "terralith:cave/diorite_caves": {
+    "id": "terralith:cave/diorite_caves",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "terralith:cave/frostfire_caves": {
+    "id": "terralith:cave/frostfire_caves",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "terralith:cave/fungal_caves": {
+    "id": "terralith:cave/fungal_caves",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "terralith:cave/granite_caves": {
+    "id": "terralith:cave/granite_caves",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "terralith:cave/infested_caves": {
+    "id": "terralith:cave/infested_caves",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "terralith:cave/mantle_caves": {
+    "id": "terralith:cave/mantle_caves",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "terralith:cave/thermal_caves": {
+    "id": "terralith:cave/thermal_caves",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "terralith:cave/tuff_caves": {
+    "id": "terralith:cave/tuff_caves",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "terralith:cave/underground_jungle": {
+    "id": "terralith:cave/underground_jungle",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "terralith:cloud_forest": {
+    "id": "terralith:cloud_forest",
+    "size": 0.45,
+    "rarity": 9.0,
+    "priority": false
+  },
+  "terralith:cold_shrubland": {
+    "id": "terralith:cold_shrubland",
+    "size": 0.9,
+    "rarity": 1.8,
+    "priority": false
+  },
+  "terralith:deep_warm_ocean": {
+    "id": "terralith:deep_warm_ocean",
+    "size": 1.0,
+    "rarity": 0.50205666,
+    "priority": true
+  },
+  "terralith:desert_canyon": {
+    "id": "terralith:desert_canyon",
+    "size": 2.3,
+    "rarity": 0.3,
+    "priority": false
+  },
+  "terralith:desert_oasis": {
+    "id": "terralith:desert_oasis",
+    "size": 1.0,
+    "rarity": 2.3,
+    "priority": false
+  },
+  "terralith:desert_spires": {
+    "id": "terralith:desert_spires",
+    "size": 1.9,
+    "rarity": 0.4,
+    "priority": false
+  },
+  "terralith:emerald_peaks": {
+    "id": "terralith:emerald_peaks",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "terralith:forested_highlands": {
+    "id": "terralith:forested_highlands",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "terralith:fractured_savanna": {
+    "id": "terralith:fractured_savanna",
+    "size": 1.4,
+    "rarity": 0.7,
+    "priority": false
+  },
+  "terralith:frozen_cliffs": {
+    "id": "terralith:frozen_cliffs",
+    "size": 1.2,
+    "rarity": 1.2,
+    "priority": false
+  },
+  "terralith:glacial_chasm": {
+    "id": "terralith:glacial_chasm",
+    "size": 1.1,
+    "rarity": 1.5,
+    "priority": false
+  },
+  "terralith:granite_cliffs": {
+    "id": "terralith:granite_cliffs",
+    "size": 1.5,
+    "rarity": 0.7,
+    "priority": false
+  },
+  "terralith:gravel_beach": {
+    "id": "terralith:gravel_beach",
+    "size": 1.1,
+    "rarity": 0.9,
+    "priority": false
+  },
+  "terralith:gravel_desert": {
+    "id": "terralith:gravel_desert",
+    "size": 2.2,
+    "rarity": 0.3,
+    "priority": false
+  },
+  "terralith:haze_mountain": {
+    "id": "terralith:haze_mountain",
+    "size": 1.1,
+    "rarity": 1.2,
+    "priority": false
+  },
+  "terralith:highlands": {
+    "id": "terralith:highlands",
+    "size": 1.0,
+    "rarity": 11.0,
+    "priority": false
+  },
+  "terralith:hot_shrubland": {
+    "id": "terralith:hot_shrubland",
+    "size": 1.0,
+    "rarity": 3.5,
+    "priority": false
+  },
+  "terralith:ice_marsh": {
+    "id": "terralith:ice_marsh",
+    "size": 0.7,
+    "rarity": 3.5,
+    "priority": false
+  },
+  "terralith:jungle_mountains": {
+    "id": "terralith:jungle_mountains",
+    "size": 1.1,
+    "rarity": 1.35,
+    "priority": false
+  },
+  "terralith:lavender_forest": {
+    "id": "terralith:lavender_forest",
+    "size": 0.4,
+    "rarity": 10.0,
+    "priority": false
+  },
+  "terralith:lavender_valley": {
+    "id": "terralith:lavender_valley",
+    "size": 0.4,
+    "rarity": 10.0,
+    "priority": false
+  },
+  "terralith:lush_desert": {
+    "id": "terralith:lush_desert",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "terralith:lush_valley": {
+    "id": "terralith:lush_valley",
+    "size": 1.0,
+    "rarity": 1.25,
+    "priority": false
+  },
+  "terralith:mirage_isles": {
+    "id": "terralith:mirage_isles",
+    "size": 1.1,
+    "rarity": 1.1,
+    "priority": false
+  },
+  "terralith:moonlight_grove": {
+    "id": "terralith:moonlight_grove",
+    "size": 1.0,
+    "rarity": 1.3,
+    "priority": false
+  },
+  "terralith:moonlight_valley": {
+    "id": "terralith:moonlight_valley",
+    "size": 1.0,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "terralith:orchid_swamp": {
+    "id": "terralith:orchid_swamp",
+    "size": 1.0,
+    "rarity": 2.8,
+    "priority": false
+  },
+  "terralith:painted_mountains": {
+    "id": "terralith:painted_mountains",
+    "size": 1.8,
+    "rarity": 0.45,
+    "priority": false
+  },
+  "terralith:red_oasis": {
+    "id": "terralith:red_oasis",
+    "size": 1.0,
+    "rarity": 1.2,
+    "priority": false
+  },
+  "terralith:rocky_jungle": {
+    "id": "terralith:rocky_jungle",
+    "size": 0.45,
+    "rarity": 9.0,
+    "priority": false
+  },
+  "terralith:rocky_mountains": {
+    "id": "terralith:rocky_mountains",
+    "size": 1.6,
+    "rarity": 0.6,
+    "priority": false
+  },
+  "terralith:rocky_shrubland": {
+    "id": "terralith:rocky_shrubland",
+    "size": 1.3,
+    "rarity": 0.8,
+    "priority": false
+  },
+  "terralith:sakura_grove": {
+    "id": "terralith:sakura_grove",
+    "size": 0.4,
+    "rarity": 11.0,
+    "priority": false
+  },
+  "terralith:sakura_valley": {
+    "id": "terralith:sakura_valley",
+    "size": 0.4,
+    "rarity": 11.0,
+    "priority": false
+  },
+  "terralith:sandstone_valley": {
+    "id": "terralith:sandstone_valley",
+    "size": 2.2,
+    "rarity": 0.3,
+    "priority": false
+  },
+  "terralith:savanna_badlands": {
+    "id": "terralith:savanna_badlands",
+    "size": 1.9,
+    "rarity": 0.4,
+    "priority": false
+  },
+  "terralith:savanna_slopes": {
+    "id": "terralith:savanna_slopes",
+    "size": 1.4,
+    "rarity": 0.75,
+    "priority": false
+  },
+  "terralith:scarlet_mountains": {
+    "id": "terralith:scarlet_mountains",
+    "size": 1.1,
+    "rarity": 1.2,
+    "priority": false
+  },
+  "terralith:shield": {
+    "id": "terralith:shield",
+    "size": 0.65,
+    "rarity": 4.5,
+    "priority": false
+  },
+  "terralith:shield_clearing": {
+    "id": "terralith:shield_clearing",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "terralith:shrubland": {
+    "id": "terralith:shrubland",
+    "size": 1.3,
+    "rarity": 0.85,
+    "priority": false
+  },
+  "terralith:siberian_grove": {
+    "id": "terralith:siberian_grove",
+    "size": 0.7,
+    "rarity": 4.0,
+    "priority": false
+  },
+  "terralith:siberian_taiga": {
+    "id": "terralith:siberian_taiga",
+    "size": 0.7,
+    "rarity": 4.0,
+    "priority": false
+  },
+  "terralith:skylands_autumn": {
+    "id": "terralith:skylands_autumn",
+    "size": 0.45,
+    "rarity": 9.0,
+    "priority": false
+  },
+  "terralith:skylands_spring": {
+    "id": "terralith:skylands_spring",
+    "size": 0.4,
+    "rarity": 11.0,
+    "priority": false
+  },
+  "terralith:skylands_summer": {
+    "id": "terralith:skylands_summer",
+    "size": 0.4,
+    "rarity": 11.0,
+    "priority": false
+  },
+  "terralith:skylands_winter": {
+    "id": "terralith:skylands_winter",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "terralith:snowy_badlands": {
+    "id": "terralith:snowy_badlands",
+    "size": 1.1,
+    "rarity": 1.3,
+    "priority": false
+  },
+  "terralith:snowy_cherry_grove": {
+    "id": "terralith:snowy_cherry_grove",
+    "size": 1.0,
+    "rarity": 3.5,
+    "priority": false
+  },
+  "terralith:snowy_maple_forest": {
+    "id": "terralith:snowy_maple_forest",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "terralith:snowy_shield": {
+    "id": "terralith:snowy_shield",
+    "size": 0.8,
+    "rarity": 2.5,
+    "priority": false
+  },
+  "terralith:steppe": {
+    "id": "terralith:steppe",
+    "size": 1.5,
+    "rarity": 0.65,
+    "priority": false
+  },
+  "terralith:stony_spires": {
+    "id": "terralith:stony_spires",
+    "size": 1.7,
+    "rarity": 0.55,
+    "priority": false
+  },
+  "terralith:temperate_highlands": {
+    "id": "terralith:temperate_highlands",
+    "size": 1.2,
+    "rarity": 1.2,
+    "priority": false
+  },
+  "terralith:tropical_jungle": {
+    "id": "terralith:tropical_jungle",
+    "size": 1.0,
+    "rarity": 3.0,
+    "priority": false
+  },
+  "terralith:valley_clearing": {
+    "id": "terralith:valley_clearing",
+    "size": 0.55,
+    "rarity": 6.0,
+    "priority": false
+  },
+  "terralith:volcanic_crater": {
+    "id": "terralith:volcanic_crater",
+    "size": 1.5,
+    "rarity": 0.9,
+    "priority": false
+  },
+  "terralith:volcanic_peaks": {
+    "id": "terralith:volcanic_peaks",
+    "size": 1.4,
+    "rarity": 0.9,
+    "priority": false
+  },
+  "terralith:warm_river": {
+    "id": "terralith:warm_river",
+    "size": 1.0,
+    "rarity": 1.0,
+    "priority": false
+  },
+  "terralith:warped_mesa": {
+    "id": "terralith:warped_mesa",
+    "size": 2.0,
+    "rarity": 0.35,
+    "priority": false
+  },
+  "terralith:white_cliffs": {
+    "id": "terralith:white_cliffs",
+    "size": 1.6,
+    "rarity": 0.6,
+    "priority": false
+  },
+  "terralith:white_mesa": {
+    "id": "terralith:white_mesa",
+    "size": 1.9,
+    "rarity": 0.4,
+    "priority": false
+  },
+  "terralith:windswept_spires": {
+    "id": "terralith:windswept_spires",
+    "size": 1.6,
+    "rarity": 0.6,
+    "priority": false
+  },
+  "terralith:wintry_forest": {
+    "id": "terralith:wintry_forest",
+    "size": 0.65,
+    "rarity": 4.5,
+    "priority": false
+  },
+  "terralith:wintry_lowlands": {
+    "id": "terralith:wintry_lowlands",
+    "size": 0.75,
+    "rarity": 3.0,
+    "priority": false
+  },
+  "terralith:yellowstone": {
+    "id": "terralith:yellowstone",
+    "size": 1.0,
+    "rarity": 6.5,
+    "priority": false
+  },
+  "terralith:yosemite_cliffs": {
+    "id": "terralith:yosemite_cliffs",
+    "size": 1.1,
+    "rarity": 1.25,
+    "priority": false
+  },
+  "terralith:yosemite_lowlands": {
+    "id": "terralith:yosemite_lowlands",
+    "size": 1.0,
+    "rarity": 1.25,
+    "priority": false
+  }
+}

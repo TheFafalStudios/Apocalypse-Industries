@@ -1,0 +1,13 @@
+name = "Restricted Portals"
+filename = "restrictedportals-neoforge-1.21.1-1.6.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8685d67447bf6a0b100b6870558e905670d0d40d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6194876
+project-id = 228266
