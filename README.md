@@ -16,3 +16,5 @@ Automatic update manifest:
 Friends install the pack once using `dist/Apocalypse-Industries-ATLauncher.zip`. Packwiz checks the manifest before every launch.
 
 See [docs/RELEASING.md](docs/RELEASING.md) for the update and release workflow.
+
+Dedicated-server twins and versioned deployment packets are documented in [docs/SERVER_RELEASES.md](docs/SERVER_RELEASES.md).

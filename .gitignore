@@ -2,6 +2,7 @@
 !/.gitignore
 !/.packwizignore
 !/.gitattributes
+!/AGENTS.md
 !/README.md
 !/CHANGELOG.md
 !/VERSION
