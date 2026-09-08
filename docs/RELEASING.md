@@ -3,21 +3,16 @@
 The live ATLauncher instance is the development source of truth.
 
 1. Make and test changes in the live instance.
-2. Regenerate mod reference metadata from `instance.json` and the active files in `mods/`.
-3. Run `scripts/Build-PackwizIndex.ps1 -PackwizPath <path-to-packwiz.exe>` so `index.toml` and the hash in `pack.toml` match the approved live distributable files. The script builds in a clean temporary directory because installed JARs coexist with their metadata in the live instance.
-4. Review `git status` and the changelog. No JAR, save, log, credential, database, or player-history file may be staged.
-5. Commit the tested snapshot and tag the release version.
-6. Export an installer snapshot and test it in a separate ATLauncher instance before sharing it.
+2. Run `scripts/Generate-PackwizModMetadata.ps1` to refresh external mod references from `instance.json`.
+3. Run `scripts/Build-PackwizIndex.ps1 -PackwizPath <path-to-packwiz.exe>` to rebuild the manifest in a clean staging directory.
+4. Run `scripts/Build-ATLauncherBootstrap.ps1` if the update URL or loader version changed.
+5. Review Git status and the changelog. Credentials, saves, logs, databases, and player histories must remain excluded.
+6. Commit tested work to `dev`, merge it to `main`, and tag the stable version.
 
-Automatic Packwiz updates require `pack.toml` and the indexed files to be available over HTTPS. A private GitHub repository cannot provide anonymous raw-file access to friends' launchers, so final distribution requires either making the metadata repository public or hosting release files on another public/static endpoint. Repository visibility must be chosen before enabling automatic updates.
+Automatic Packwiz updates use:
 
-## Versioning
+`https://raw.githubusercontent.com/TheFafalStudios/Apocalypse-Industries/main/pack.toml`
 
-- Patch: fixes and tuning that should preserve existing worlds.
-- Minor: new mods, mechanics, progression, or meaningful content changes.
-- Major: stable milestone or changes that require a new world/migration.
-- Development snapshots use `-dev.N` and are not sent to the stable channel.
+Friends import `dist/Apocalypse-Industries-ATLauncher.zip` once. Packwiz checks this manifest before every launch.
 
-## Binary policy
-
-Third-party mods are represented by CurseForge or Modrinth project/file references whenever possible. A modified or otherwise unmatched JAR must be reviewed for its license and replaced with a legal download reference, a separate original-code compatibility mod, or a patch before release.
+Normal third-party mods use CurseForge or Modrinth references. The three live patched JARs and the live resource/data packs are stored directly in this repository so the updater reproduces the working instance.

@@ -1,6 +1,4 @@
-# Default-deny the live instance. Only explicit pack sources are exported.
 /*
-
 !/config/
 !/config/**
 !/defaultconfigs/
@@ -11,9 +9,11 @@
 !/datapacks/**
 !/mods/
 !/mods/*.pw.toml
-!/mods/*.jar
-
-# Local/private state inside otherwise distributable directories.
+!/mods/moogs_paths-neoforge-1.21.1-1.0.2-hotfix-sable-chunksafety.jar
+!/mods/weather2-neoforge-1.21.0-2.8.7-hotfix-chunksafety.jar
+!/mods/weather2compat-1.6.0-hotfix-threadsafe.jar
+!/resourcepacks/
+!/resourcepacks/**
 /kubejs/config/web_server.json
 /config/jei/world/
 /config/xaero/
@@ -24,10 +24,3 @@
 **/*.db
 **/*.sqlite
 **/*.sqlite3
-
-# These third-party datapacks need source/license references before release.
-/datapacks/OWZA_Lite_LostCities_1.20.1_v0.1.0.zip
-/datapacks/village-nullifier-1.18.2-1.0.0.zip
-
-# Resource packs are held for source/license review before distribution.
-/resourcepacks/

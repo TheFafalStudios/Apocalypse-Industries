@@ -3061,6 +3061,10 @@ file = "datapacks/Apocalypse_Industries_BOP_Rain_1.21.1.zip"
 hash = "66702b52a2c4e0f863352dca6d8f4cd7ebf342ee60694c8fdff6b7366fa86ed5"
 
 [[files]]
+file = "datapacks/OWZA_Lite_LostCities_1.20.1_v0.1.0.zip"
+hash = "20e2ba885428790ba9ba4696f0fda2d8b251d3f2515b358234e3093325601250"
+
+[[files]]
 file = "datapacks/apocalypse_rare_livestock_spawns_v1.zip"
 hash = "58e67c8d577df38646c919d3d6cd339df970853ffd98b0c53cb84a0b574fb45d"
 
@@ -3071,6 +3075,10 @@ hash = "0e36cb5c846fae8ca582bfd0a4c58fb77d93da4218a478d0d61a991b483b0cf0"
 [[files]]
 file = "datapacks/dead_forest_sparse_dead_trees.zip"
 hash = "c59a01ed8e875ef1e52e8ff45fd49c80eec73a2837714a63f15f6d3b43dcbdb8"
+
+[[files]]
+file = "datapacks/village-nullifier-1.18.2-1.0.0.zip"
+hash = "00e66d4ef3b2a875d174ed644506ca47dc021fe37b54ed6dfa2c8c0024a4836e"
 
 [[files]]
 file = "defaultconfigs/ftbessentials-server.snbt"
@@ -3375,6 +3383,10 @@ hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
 [[files]]
 file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+
+[[files]]
+file = "kubejs/server_scripts/apocalypse_farming_core_test.js"
+hash = "966b1a6a8ad6fb5dec7fe89298938a9fa0b74b2e2881b7d862d1e442cf2ee0fe"
 
 [[files]]
 file = "kubejs/server_scripts/bio_canister_loot.js"
@@ -4181,6 +4193,10 @@ hash = "f31178ae24dd624ed236e3e785f3c91b28bcd1a5e0ff470d1a807989a973dbb4"
 metafile = true
 
 [[files]]
+file = "mods/moogs_paths-neoforge-1.21.1-1.0.2-hotfix-sable-chunksafety.jar"
+hash = "63d2b8dbd5d507f55c56c3a33eb60df5820082897ef7ef1f1682c660ae2b113d"
+
+[[files]]
 file = "mods/more_quest_types-neoforge-1.2.8.pw.toml"
 hash = "1375672b43975e26869917b41e6f6c9631f43c7d83ed713fc8ceb37f7aea4736"
 metafile = true
@@ -4386,6 +4402,14 @@ hash = "fd44e7f0f643be6cb044e467106698a1d48c5ccab825cf77e77ac6cdfb835902"
 metafile = true
 
 [[files]]
+file = "mods/weather2-neoforge-1.21.0-2.8.7-hotfix-chunksafety.jar"
+hash = "08c8569895353c3a75827934e76e1dd3cf0bb231635312596cdf2686835ec9b6"
+
+[[files]]
+file = "mods/weather2compat-1.6.0-hotfix-threadsafe.jar"
+hash = "d61ee7122d5c642b5053a335ce40bfc4bfd08f87e058e3aacabc929e0ad8b5dd"
+
+[[files]]
 file = "mods/weather2patch-1.1.1.pw.toml"
 hash = "5cff3da4327d9edef11e7b4cfda4f5e82fbca2d3bcfb5e0d9b5f611131af5e5c"
 metafile = true
@@ -4419,3 +4443,95 @@ metafile = true
 file = "mods/zombie_variants-neoforge-1.0.3-1.21.1.pw.toml"
 hash = "c1cb549f7398ecaca9cebcca7be74d3b6819f619d54f32dbdcc66ec64d6637f2"
 metafile = true
+
+[[files]]
+file = "resourcepacks/Apocalypse_Atmosphere_Polytone.zip"
+hash = "ca334285a16790fad4c13e107720079c9fec00dd3dc5403d98547814c4c084cd"
+
+[[files]]
+file = "resourcepacks/Apocalypse_Industries_Weather2_Toxic_Rain_1.21.1_ResourcePack.zip"
+hash = "aa6450ce8314af586a76ccc5078ecb0823e0cd1b6a9005e844eef897a5c02fc8"
+
+[[files]]
+file = "resourcepacks/BetterPanorama_Active/assets/minecraft/textures/gui/title/background/panorama_0.png"
+hash = "24bb2b46adf6854474a8f3c5a1319fc6449e35f21d774d42aa4e385757088bc3"
+
+[[files]]
+file = "resourcepacks/BetterPanorama_Active/assets/minecraft/textures/gui/title/background/panorama_1.png"
+hash = "24bb2b46adf6854474a8f3c5a1319fc6449e35f21d774d42aa4e385757088bc3"
+
+[[files]]
+file = "resourcepacks/BetterPanorama_Active/assets/minecraft/textures/gui/title/background/panorama_2.png"
+hash = "24bb2b46adf6854474a8f3c5a1319fc6449e35f21d774d42aa4e385757088bc3"
+
+[[files]]
+file = "resourcepacks/BetterPanorama_Active/assets/minecraft/textures/gui/title/background/panorama_3.png"
+hash = "24bb2b46adf6854474a8f3c5a1319fc6449e35f21d774d42aa4e385757088bc3"
+
+[[files]]
+file = "resourcepacks/BetterPanorama_Active/assets/minecraft/textures/gui/title/background/panorama_4.png"
+hash = "24bb2b46adf6854474a8f3c5a1319fc6449e35f21d774d42aa4e385757088bc3"
+
+[[files]]
+file = "resourcepacks/BetterPanorama_Active/assets/minecraft/textures/gui/title/background/panorama_5.png"
+hash = "24bb2b46adf6854474a8f3c5a1319fc6449e35f21d774d42aa4e385757088bc3"
+
+[[files]]
+file = "resourcepacks/BetterPanorama_Active/pack.mcmeta"
+hash = "d8d73ff859546c4a3b5049f6bc1bb7e67140711648d09034a3f46bad372aeca4"
+
+[[files]]
+file = "resourcepacks/BetterPanorama_Active/pack.png"
+hash = "24bb2b46adf6854474a8f3c5a1319fc6449e35f21d774d42aa4e385757088bc3"
+
+[[files]]
+file = "resourcepacks/Create FTB Quests 1.0.zip"
+hash = "ada1cf621a58f8fbb637e748ce06182772c32488101c30a7546e98d415bd1f10"
+
+[[files]]
+file = "resourcepacks/Create Style Interface 1.21.zip"
+hash = "5a85b6a71ab94b01d08a124d725d4ba1d4805afc1203db32eac61f01cc29f8f0"
+
+[[files]]
+file = "resourcepacks/Create Utility.zip"
+hash = "fe5b288d6e9d983a361bf77a2586150825359d5fe437696d90ec10e3661622f8"
+
+[[files]]
+file = "resourcepacks/CreateSophBackpacks.zip"
+hash = "cb63a5a33c142ce588f1df020c7d4615f57f0e312064e03d4e7901060803905d"
+
+[[files]]
+file = "resourcepacks/CreateSophStorage.zip"
+hash = "2920d92df7a14d5ff3fcc5b73c6f384d1586096bf86f9a38bfb3b7d33ecf53e1"
+
+[[files]]
+file = "resourcepacks/Create_Style_Hopper_24_5_29.zip"
+hash = "358edcfdb982c0ac40d4e3f9db3a6835c4b55e5833306f9ebbec25a127b2849d"
+
+[[files]]
+file = "resourcepacks/Create_Style_UI_L2Tabs_ModularGolems_Curios_v3_TESTED.zip"
+hash = "aa66a71173e74b07b8b20fcd050bf2415bb638d2ba7baf1732725fa23b27cec6"
+
+[[files]]
+file = "resourcepacks/Create_Ultra_2.0b.zip"
+hash = "d6b04df33dd47b68aa1f782b846eccf16f2be07765b5a95d61de1da1eb1988e3"
+
+[[files]]
+file = "resourcepacks/Etched+Exposure Create Style.zip"
+hash = "c689331b2bf5d76ad8feba488e9c6b2e669810fbd80b4c3d5621e235a32e39a4"
+
+[[files]]
+file = "resourcepacks/More Create Style Interfaces.zip"
+hash = "5daaf69e0a5981e8ae8df00a1e9361ee1a91434e6a771a3fdfbdd71574ee817c"
+
+[[files]]
+file = "resourcepacks/SmartCompass_v2.2.zip"
+hash = "9caca33a3a206e30e2d28f112072052bb1db66ddc7b8d1f37d5a058268632484"
+
+[[files]]
+file = "resourcepacks/Updated_Engineering_1.21.1_v1.8.zip"
+hash = "e75afe31a83584f726257f6a3486cad86ec4741e46200564415e9660ebf1e544"
+
+[[files]]
+file = "resourcepacks/create-trash-cans-1.2.zip"
+hash = "532a8e930427821d506435a54e1a606c08d0ff8fdcc9ca016801cb2b0db7af59"
