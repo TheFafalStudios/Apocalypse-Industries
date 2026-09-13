@@ -1,20 +1,13 @@
-# Apocalypse Industries
+# Apocalypse Industries v1
 
-Version-controlled source for the live Apocalypse Industries Minecraft modpack.
+Minecraft 1.21.1 | NeoForge 21.1.248 | ATLauncher
 
-- Minecraft: 1.21.1
-- Loader: NeoForge 21.1.248
-- Launcher: ATLauncher
-- Baseline ancestry: CurseForge `Apocalypse Industries 1.0.2` (file `8380248`)
+## Install
 
-The live ATLauncher instance is the development source of truth. This repository stores Packwiz download references, the three required patched JARs, the complete live resource/data packs, configuration, and KubeJS scripts. Player worlds, logs, launcher state, databases, histories, and credentials remain excluded.
+Download **Apocalypse-Industries-ATLauncher.zip** from this repository's `dist` folder or the v1 GitHub release assets and import it into ATLauncher. The included Packwiz bootstrap checks the manifest on GitHub main before launching.
 
-Automatic update manifest:
+Update manifest: https://raw.githubusercontent.com/TheFafalStudios/Apocalypse-Industries/main/pack.toml
 
-`https://raw.githubusercontent.com/TheFafalStudios/Apocalypse-Industries/main/pack.toml`
+This repository contains download references, exact custom/compatibility JARs, configs, KubeJS scripts, resource packs, datapacks and the selected shader. External mod references are downloaded by the installer; the GitHub source ZIP is not an offline full installation.
 
-Friends install the pack once using `dist/Apocalypse-Industries-ATLauncher.zip`. Packwiz checks the manifest before every launch.
-
-See [docs/RELEASING.md](docs/RELEASING.md) for the update and release workflow.
-
-Dedicated-server twins and versioned deployment packets are documented in [docs/SERVER_RELEASES.md](docs/SERVER_RELEASES.md).
+See CHANGELOG.md for v1 changes and docs/RELEASING.md for the build workflow. Existing players retain their options and may need to enable the stock-opacity toxic-rain resource pack manually. Dedicated-server updates follow docs/SERVER_RELEASES.md and require a separate deployment.

@@ -1,0 +1,86 @@
+import argparse,collections,hashlib,json,pathlib,re,shutil,subprocess,tomllib,zipfile
+p=argparse.ArgumentParser();p.add_argument('--instance',required=True);p.add_argument('--output',required=True);a=p.parse_args()
+src=pathlib.Path(a.instance).resolve();out=pathlib.Path(a.output).resolve()
+if out.exists(): raise SystemExit('Output must be a new directory')
+if src==out or src in out.parents: raise SystemExit('Output must be outside the live instance')
+repo=out/'repository';repo.mkdir(parents=True)
+def sha(p,algo='sha256'): return hashlib.new(algo,p.read_bytes()).hexdigest()
+def copy(p):
+ rel=p.relative_to(src);dest=repo/rel;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dest)
+blocked=[];payload=[];refs=[];direct=[];mods={p.name:p for p in (src/'mods').glob('*.jar')};ids=collections.defaultdict(list);packages=collections.defaultdict(set);fixpackages=set()
+for jar in mods.values():
+ with zipfile.ZipFile(jar) as z:
+  for meta in ('META-INF/neoforge.mods.toml','META-INF/mods.toml'):
+   if meta in z.namelist():
+    for m in tomllib.loads(z.read(meta).decode('utf-8-sig')).get('mods',[]):ids[m['modId']].append(jar.name)
+    break
+  pkgs={n.rsplit('/',1)[0] for n in z.namelist() if n.endswith('.class') and '/' in n and not n.startswith('META-INF/')}
+  for pkg in pkgs:packages[pkg].add(jar.name)
+  if jar.name.startswith('apocalypse-'):fixpackages.update(pkgs)
+dups={k:v for k,v in ids.items() if len(v)>1};collisions={k:sorted(packages[k]) for k in fixpackages if len(packages[k])>1}
+if dups or collisions:raise SystemExit(json.dumps({'duplicates':dups,'fix_collisions':collisions}))
+covered=set()
+for meta in sorted((src/'mods').glob('*.pw.toml')):
+ d=tomllib.loads(meta.read_text(encoding='utf-8-sig'));name=d['filename'];dl=d['download']
+ if name not in mods:blocked.append({'path':str(meta.relative_to(src)).replace('\\','/'),'reason':'superseded mod reference'});continue
+ if sha(mods[name],dl['hash-format'].replace('-',''))!=dl['hash'].lower():raise SystemExit('Download hash differs from working JAR: '+name)
+ if name in covered:raise SystemExit('Duplicate download destination: '+name)
+ copy(meta);refs.append(meta.relative_to(src).as_posix());covered.add(name)
+for name,jar in sorted(mods.items()):
+ if name not in covered:copy(jar);direct.append(jar.relative_to(src).as_posix())
+for root in ('config','defaultconfigs','kubejs','datapacks','resourcepacks'):
+ if not (src/root).exists():continue
+ for f in sorted((src/root).rglob('*')):
+  if not f.is_file():continue
+  rel=f.relative_to(src).as_posix();low=rel.lower()
+  excluded=(f.suffix.lower() in {'.bak','.old','.log','.db','.sqlite','.sqlite3','.pyc'} or low in {'kubejs/config/web_server.json','config/lostcities-server.toml','datapacks/owza_lite_lostcities_1.20.1_v0.1.0.zip','config/forgeendertech/cached.dat','config/biomecontrolengine/dimensions_cache.json','config/spark/activity.json','kubejs/all_recipes_dump.json'} or low.startswith(('config/jei/world/','config/xaero/','kubejs/exported/','kubejs/.cache/')))
+  if excluded:blocked.append({'path':rel,'reason':'local cache/private data/abandoned Lost Cities content'});continue
+  copy(f);payload.append(rel)
+shader='shaderpacks/ComplementaryUnbound_r5.8.1_APOCALYPSE_ATMOSPHERE_v1.1_PARSEFIX_TESTED.zip'
+copy(src/shader);payload.append(shader)
+# Only portable resource-pack selections become fresh-install defaults, not keybinds or account preferences.
+opts={}
+for line in (src/'options.txt').read_text(encoding='utf-8-sig').splitlines():
+ if line.startswith(('resourcePacks:','incompatibleResourcePacks:')):
+  k,v=line.split(':',1);opts[k]=[x for x in json.loads(v) if x in ('vanilla','mod_resources') or (x.startswith('file/') and (repo/'resourcepacks'/x[5:]).is_file())]
+(repo/'options.txt').write_text(''.join(k+':'+json.dumps(v,separators=(',',':'))+'\n' for k,v in opts.items()),encoding='utf-8');payload.append('options.txt')
+# Preserve repository documentation and tools, but replace the obsolete index builder below.
+for root in ('docs','scripts','bootstrap'):
+ if (src/root).exists():
+  for f in (src/root).rglob('*'):
+   if f.is_file() and '__pycache__' not in f.parts:copy(f)
+for name in ('README.md','CHANGELOG.md','VERSION','.gitattributes','AGENTS.md'):
+ if (src/name).exists():copy(src/name)
+shutil.copy2(pathlib.Path(__file__),repo/'scripts'/'prepare_distribution.py')
+(repo/'scripts'/'Build-PackwizIndex.ps1').write_text('''[CmdletBinding()]
+param([Parameter(Mandatory)][string]$InstanceRoot, [Parameter(Mandatory)][string]$OutputRoot, [string]$PythonPath = "python")
+$ErrorActionPreference = "Stop"
+& $PythonPath (Join-Path $PSScriptRoot "prepare_distribution.py") --instance $InstanceRoot --output $OutputRoot
+if ($LASTEXITCODE -ne 0) { throw "Distribution validation failed" }
+''',encoding='utf-8')
+entries=[]
+for rel in sorted(set(payload+refs+direct)):
+ e={'file':rel,'hash':sha(repo/rel)}
+ if rel in refs:e['metafile']=True
+ if rel=='options.txt':e['preserve']=True
+ entries.append(e)
+index='hash-format = "sha256"\n\n'+''.join('[[files]]\nfile = '+json.dumps(e['file'])+'\nhash = "'+e['hash']+'"\n'+('metafile = true\n' if e.get('metafile') else '')+('preserve = true\n' if e.get('preserve') else '')+'\n' for e in entries)
+(repo/'index.toml').write_text(index,encoding='utf-8')
+pack=(src/'pack.toml').read_text(encoding='utf-8-sig');pack=re.sub(r'(?m)^hash = "[^"]+"', 'hash = "'+sha(repo/'index.toml')+'"',pack,count=1);(repo/'pack.toml').write_text(pack,encoding='utf-8')
+(repo/'.gitignore').write_text('# This repository is a filtered release snapshot. Rebuild it from the live instance.\n.git/\n__pycache__/\n*.pyc\n',encoding='utf-8')
+(repo/'.packwizignore').write_text('/*\n'+''.join('!/'+x+'/\n!/'+x+'/**\n' for x in ('config','defaultconfigs','kubejs','datapacks','mods','resourcepacks','shaderpacks'))+'!/options.txt\n',encoding='utf-8')
+old=tomllib.loads((src/'index.toml').read_text(encoding='utf-8-sig'));oldpaths={e['file'] for e in old['files']};newpaths={e['file'] for e in entries}
+removed=sorted(oldpaths-newpaths)
+# Old external references imply deletion of their downloaded JARs too.
+for rel in oldpaths:
+ if rel.endswith('.pw.toml') and rel not in newpaths and (src/rel).exists():removed.append('mods/'+tomllib.loads((src/rel).read_text(encoding='utf-8-sig'))['filename'])
+(out/'deletions-from-previous-manifest.txt').write_text('\n'.join(sorted(set(removed)))+'\n')
+validation={'version':tomllib.loads(pack)['version'],'active_jars':len(mods),'external_references':len(refs),'direct_jars':len(direct),'indexed_files':len(entries),'duplicate_mod_ids':dups,'standalone_fix_package_collisions':collisions,'excluded':blocked,'user_validation':'User reports pack launches and can log onto server after startup repair. Clean installation of this candidate is not yet tested.','network_downloads_tested':False}
+(out/'validation.json').write_text(json.dumps(validation,indent=2));(out/'direct-jars.json').write_text(json.dumps([{'path':x,'sha256':sha(repo/x)} for x in direct],indent=2))
+(out/'working-mods.json').write_text(json.dumps([{'filename':n,'sha256':sha(f)} for n,f in sorted(mods.items())],indent=2))
+# Validate the serialized manifests independently of generation.
+for e in tomllib.loads((repo/'index.toml').read_text())['files']:
+ assert sha(repo/e['file'])==e['hash'],e['file']
+assert sha(repo/'index.toml')==tomllib.loads((repo/'pack.toml').read_text())['index']['hash']
+assert len(covered)+len(direct)==len(mods)
+print(json.dumps({k:v for k,v in validation.items() if k!='excluded'},indent=2));print(out)

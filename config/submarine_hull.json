@@ -3665,6 +3665,30 @@
     "maxWaterDepth": 89,
     "implosionChance": 0.46666667
   },
+  "cbcatfix:big_rocket_rail": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.78
+  },
+  "cbcatfix:big_rocket_rail_breech": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.78
+  },
+  "cbcatfix:flak_shell": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.78
+  },
+  "cbcatfix:heat_shell": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.78
+  },
+  "cbcatfix:heavy_he_shell": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.78
+  },
+  "cbcatfix:hesh_shell": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.78
+  },
   "cgs:deepslate_lead_ore": {
     "maxWaterDepth": 73,
     "implosionChance": 0.56
@@ -6852,6 +6876,130 @@
   "create_deep_dark:molten_echo": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
+  },
+  "create_dragons_plus:black_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:blue_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:brown_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:cyan_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dragon_breath": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:dragon_breath_cauldron": {
+    "maxWaterDepth": 36,
+    "implosionChance": 0.78
+  },
+  "create_dragons_plus:fluid_hatch": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "create_dragons_plus:fragile_fluid_tank": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "create_dragons_plus:gray_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:green_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:levitite_fragile_fluid_tank": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "create_dragons_plus:light_blue_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:light_gray_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:lime_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:magenta_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:orange_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:pink_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:purple_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:red_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:white_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_dragons_plus:yellow_dye": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_enchantment_industry:blaze_enchanter": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.28
+  },
+  "create_enchantment_industry:blaze_forger": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.28
+  },
+  "create_enchantment_industry:classic_blaze_enchanter": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.28
+  },
+  "create_enchantment_industry:experience": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "create_enchantment_industry:experience_hatch": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "create_enchantment_industry:experience_lantern": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.28
+  },
+  "create_enchantment_industry:grindstone_drain": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "create_enchantment_industry:mechanical_grindstone": {
+    "maxWaterDepth": 55,
+    "implosionChance": 0.67
+  },
+  "create_enchantment_industry:printer": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
+  },
+  "create_enchantment_industry:super_experience_block": {
+    "maxWaterDepth": 67,
+    "implosionChance": 0.6
   },
   "create_radar:auto_pitch_controller": {
     "maxWaterDepth": 14,

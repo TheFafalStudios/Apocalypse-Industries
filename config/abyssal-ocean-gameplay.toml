@@ -73,3 +73,21 @@
 	showPressureHud = true
 	#Apply survival pressure rules to creative and spectator players.
 	affectCreativePlayers = false
+
+	#Optional integrations. Neither Create nor Create: Deep Seas is required.
+	[survival.compatibility]
+		#Recognize Create's three-piece diving set: helmet, worn backtank and boots.
+		#The backtank must still contain pressurized air.
+		createDivingEquipment = true
+		#Maximum absolute pressure handled by a complete copper Create diving set.
+		# Default: 8.0
+		# Range: 1.0 ~ 40.0
+		createCopperSuitMaxAtmospheres = 8.0
+		#Maximum absolute pressure handled by a complete netherite Create diving set.
+		#The default 14 atmospheres reaches the normal Abyssal Ocean floor.
+		# Default: 14.0
+		# Range: 1.0 ~ 40.0
+		createNetheriteSuitMaxAtmospheres = 14.0
+		#Treat sealed Create: Deep Seas submarine compartments as pressurized shelter.
+		#Flooded or breached compartments remain exposed to water pressure.
+		createDeepSeasSealedCompartments = true
