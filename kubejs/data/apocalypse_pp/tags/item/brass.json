@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "protection_pixel:lancer_helmet",
+    "protection_pixel:workerhornet_chestplate",
+    "protection_pixel:plague_helmet",
+    "protection_pixel:magneticstorm_chestplate",
+    "protection_pixel:hammer_helmet",
+    "protection_pixel:closed_helmet",
+    "protection_pixel:typhoon_chestplate",
+    "protection_pixel:slingshot_leggings",
+    "protection_pixel:bloodprisoner_helmet",
+    "protection_pixel:pioneer_chestplate",
+    "protection_pixel:wingsofprism_chestplate",
+    "protection_pixel:buoyancy_leggings",
+    "protection_pixel:hellsnake_chestplate",
+    "protection_pixel:nightdemon_helmet",
+    "protection_pixel:anchorpoint_leggings",
+    "protection_pixel:breaker_chestplate",
+    "protection_pixel:falconnest_chestplate",
+    "protection_pixel:hunter_helmet"
+  ]
+}

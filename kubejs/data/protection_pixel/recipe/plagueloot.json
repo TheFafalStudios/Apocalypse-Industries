@@ -1,0 +1,45 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:brass_sheet"
+    },
+    "B": {
+      "item": "protection_pixel:emptywatertank"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "create:propeller"
+    },
+    "E": {
+      "item": "minecraft:iron_helmet"
+    },
+    "F": {
+      "item": "minecraft:iron_nugget"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "H": {
+      "tag": "c:ingots/brass"
+    },
+    "I": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    " ABA ",
+    "CDEDC",
+    " FGF ",
+    "  H  ",
+    "  I  "
+  ],
+  "result": {
+    "id": "protection_pixel:plague_helmet",
+    "count": 1
+  }
+}

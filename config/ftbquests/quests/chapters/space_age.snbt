@@ -579,5 +579,84 @@
 			x: 9.5d
 			y: -1.0d
 		}
+		{
+			dependencies: [
+				"4709097D00719B25"
+				"5D2F7F32F0758EEA"
+			]
+			id: "573AD89CB7072F8C"
+			optional: true
+			tasks: [{
+				consume_items: false
+				id: "2E9EDFF4D456D416"
+				item: { count: 1, id: "creatingspace:moon_regolith" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["573AD89CB7072F8C"]
+			id: "4376A61BFDEAB5D8"
+			optional: true
+			tasks: [{
+				consume_items: false
+				id: "1FB5C502E5F961D2"
+				item: { count: 1, id: "protection_pixel:floatshield_chestplate" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["573AD89CB7072F8C"]
+			id: "5D4668E0F0214CA5"
+			optional: true
+			tasks: [{
+				consume_items: false
+				id: "412615335E12E64C"
+				item: { count: 1, id: "protection_pixel:evasionwing" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["573AD89CB7072F8C"]
+			id: "05EDBE2B6CC01728"
+			optional: true
+			tasks: [{
+				consume_items: false
+				id: "2A269BD58F71A3E8"
+				item: { count: 1, id: "protection_pixel:lanceras_helmet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4376A61BFDEAB5D8"
+				"5D4668E0F0214CA5"
+				"05EDBE2B6CC01728"
+			]
+			id: "345CE577D8CC980E"
+			optional: true
+			rewards: [{
+				id: "4CF94DDED4E5EFBD"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A3A96282C681A1C"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
 	]
 }

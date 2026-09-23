@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "c c",
+    "dad"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:shroomlight"
+    },
+    "c": {
+      "item": "minecraft:chain"
+    },
+    "d": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "protection_pixel:armorhanger",
+    "count": 2
+  }
+}

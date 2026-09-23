@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="apocalypse_pp"
+version="1.1"
+displayName="Apocalypse Protection Pixel Integration"
+description="Echo resonance plates and bounded Protection Pixel mechanics for Apocalypse Industries."
+[[dependencies.apocalypse_pp]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,)"
+side="BOTH"
+[[dependencies.apocalypse_pp]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+side="BOTH"
+[[dependencies.apocalypse_pp]]
+modId="protection_pixel"
+type="required"
+versionRange="[2.2.1]"
+ordering="AFTER"
+side="BOTH"
+[[mixins]]
+config="apocalypse_pp.mixins.json"

@@ -6,7 +6,7 @@
 
 [brassplates]
 	#change armor value
-	armor = 2.0
+	armor = 1.5
 	#change toughness value
 	toughness = 1.0
 	#change weight value
@@ -22,7 +22,7 @@
 
 [alloyplates]
 	#change armor value
-	armor = 2.0
+	armor = 1.5
 	#change toughness value
 	toughness = 1.0
 	#change weight value

@@ -3,11 +3,14 @@ param([string]$InstanceRoot = (Split-Path -Parent $PSScriptRoot))
 $ErrorActionPreference = 'Stop'
 $bootstrap = Join-Path $InstanceRoot 'bootstrap/packwiz-installer-bootstrap.jar'
 if (-not (Test-Path -LiteralPath $bootstrap)) { throw "Missing $bootstrap" }
+$icon = Join-Path $InstanceRoot 'instance.png'
+if (-not (Test-Path -LiteralPath $icon)) { throw "Missing $icon" }
 $stage = Join-Path $env:TEMP ("apocalypse-atlauncher-" + [guid]::NewGuid().ToString('N'))
 $minecraftDir = Join-Path $stage '.minecraft'
 New-Item -ItemType Directory -Path $minecraftDir -Force | Out-Null
 try {
     Copy-Item -LiteralPath $bootstrap -Destination (Join-Path $minecraftDir 'packwiz-installer-bootstrap.jar')
+    Copy-Item -LiteralPath $icon -Destination (Join-Path $stage 'instance.png')
     $instanceCfg = @'
 InstanceType=OneSix
 name=Apocalypse Industries

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "protection_pixel:linkplate_chestplate",
+    "protection_pixel:floatshield_chestplate"
+  ]
+}

@@ -85,6 +85,14 @@
     {
       "name": "minecraft:village_taiga",
       "is_disabled": true
+    },
+    {
+      "name": "terralith:fortified_desert_village",
+      "is_disabled": true
+    },
+    {
+      "name": "terralith:fortified_village",
+      "is_disabled": true
     }
   ],
   "structure_sets": [],

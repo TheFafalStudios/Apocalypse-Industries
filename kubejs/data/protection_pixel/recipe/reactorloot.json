@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "Ga ",
+    "bcb",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "create:brass_sheet"
+    },
+    "b": {
+      "item": "create:fluid_pipe"
+    },
+    "c": {
+      "item": "create:fluid_tank"
+    },
+    "d": {
+      "item": "create:empty_blaze_burner"
+    },
+    "G": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "id": "protection_pixel:powerengine"
+  }
+}

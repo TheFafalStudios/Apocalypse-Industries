@@ -562,7 +562,7 @@ hash = "bed0d82c443ba94d2281e9080cf19e259114a9d106de777a479f6bb0f6a1a50f"
 
 [[files]]
 file = "config/create_connected-common.toml"
-hash = "0c352f9d7c4bcf09d676222a1cd1cba8689b0dd1ca0847ff90427bae620a5ec6"
+hash = "c53cf742a4d1256fad6424979b2a8596807efb46d249cc084ebf628b47cc6228"
 
 [[files]]
 file = "config/create_connected-server.toml"
@@ -1061,6 +1061,10 @@ file = "config/forgeendertech/Biomes/biomesoplenty$shrubland.cfg"
 hash = "1ab633b39ea2e745909a4313000cc2af91b33d25494601446daa94dc40caac93"
 
 [[files]]
+file = "config/forgeendertech/Biomes/biomesoplenty$snowblossom_grove.cfg"
+hash = "0209563037d0a953632c22c9f991cebcb9e14b43a96d4412ae57e46851eb5a6c"
+
+[[files]]
 file = "config/forgeendertech/Biomes/biomesoplenty$snowy_coniferous_forest.cfg"
 hash = "2052749b945b4e4782e29b4ddacf475c85f2f6ad61da7a1658ccbc214445a4d6"
 
@@ -1441,12 +1445,20 @@ file = "config/forgeendertech/Biomes/terralith$moonlight_grove.cfg"
 hash = "81f6df5fffc44d0320326fb42b1d8d4c8f96470d9781de5f7448c5ec57d2960f"
 
 [[files]]
+file = "config/forgeendertech/Biomes/terralith$orchid_swamp.cfg"
+hash = "e3e5b906cbe1a3e1954d78e905d065d39522d01edefc8841b6d72d41b25f4aa3"
+
+[[files]]
 file = "config/forgeendertech/Biomes/terralith$savanna_slopes.cfg"
 hash = "96a487780a8e2c6d3b74fde868107c08fc57da03e5b20d7d4090c952a9bb6bf2"
 
 [[files]]
 file = "config/forgeendertech/Biomes/terralith$shrubland.cfg"
 hash = "4c9de172dc017c47465444d73e50c32dc5440d9475744d195945d0de57198d21"
+
+[[files]]
+file = "config/forgeendertech/Biomes/terralith$siberian_grove.cfg"
+hash = "8c2ae7d5d59b8d9876f742d4174c7a5b4c75df089ca56f913e5fdf9d9d3dff1f"
 
 [[files]]
 file = "config/forgeendertech/Biomes/terralith$stony_spires.cfg"
@@ -1478,7 +1490,7 @@ hash = "cb62601ceb072ab1de0a61205b0e9f46576740ff48ae4ccfde014c7c517b63af"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "94e366efeff33fc3133c1f74c4fb07be05f5e331d3896c9bf3d2d47821b422f9"
+hash = "fadc2458b41c634607c0a4d338af1192b04fea2fc643774c33dfba06e9742aa5"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1506,7 +1518,7 @@ hash = "5869cecd4dc3107f0ff43c222b994567b0f3f6f50bd58640bc2bb7ac9727fc69"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/brass_age.snbt"
-hash = "6b6a33acf5c2f600c6efda5b4eb38c1bed39c9b23cbc48262651448aa2acfcf0"
+hash = "504b4c1acd93774181d7a763fe71d99d726bdd389a6ce44844079e0bee4c17b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/buy_armoury.snbt"
@@ -1538,7 +1550,7 @@ hash = "0a07a1ab53d9a9ff59b8eaa18432055e05379b437ec2c80e2ebbced46e625287"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electric_age.snbt"
-hash = "54f180df0a403d6e85b204a6a1a1da89b0d43225299981fe9cb3247434b003dc"
+hash = "05bce04993b1858dfdc5f1ea29b25052b091a59427ddb400fc2396757877c668"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/intro.snbt"
@@ -1582,11 +1594,11 @@ hash = "7310f0bf68a8e709f2eb87514fdeb3afcd34d91561e453ccff58c1d76b8643a1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/space_age.snbt"
-hash = "85be72a622be993a41fdc809e0755c4b3db914e850653d07de70d0af51c0eef7"
+hash = "3c404833a9fafa1a79936e3bcc28aa6ec3bcd7304723236183a58874651e0bf9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/special_requests.snbt"
-hash = "b37479a6ff2db850c8f30ea78a13fe8c3195a59df0cf2c495636ef15714d3837"
+hash = "3766d3ec8d866b239186763671f8a1c557dd2dab3a46fd7d163bb160e9c939b8"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -1594,7 +1606,7 @@ hash = "c7856906af94fe7badab4f3725205b4af109825df6c80a9d1a30355c7bebc4f1"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "13b50bc04232f9b59425a379d2871426c38d0c7539c281f04a9321f128a57bc3"
+hash = "6623fe500d356e53afa2863d1e4ae727d35d17d4a6ac6eb31c9deb323df7904f"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1858,7 +1870,7 @@ hash = "fb1d6732dba83710a92bd4ea40aa50590d1770bbd5842d098db2641bdf61222d"
 
 [[files]]
 file = "config/incontrol/spawner.json"
-hash = "97d890e71b552527f8cf13cef68f6f0090137df6d4ec1917413b6d45fae365ab"
+hash = "f93b9ebe5b684d3110169e55c1b4e2e2d41f85d938a456d9367045b99942b9ab"
 
 [[files]]
 file = "config/inventorysorter-client.toml"
@@ -1874,7 +1886,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "d5f147893c32be3bd28817912150dea762276c611b96c097a1012e424469320d"
+hash = "218493b6c7bfbfd284d31d4601fe302bddb68707ebe19333c40a21ddb87df54e"
 
 [[files]]
 file = "config/irisflw-client.toml"
@@ -1930,7 +1942,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "06f1df6c08262ba293d68cd020245bc865389eca1d2057a8f4d8e08f7904fe3e"
+hash = "e495d93da524494fdd842fe4fd4fe89d23df1b351b1bc23e10fb19bafe39c061"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -1938,7 +1950,7 @@ hash = "9be9f5ca14028eda8df857922eea736a3d1e76a85661ba90edae2682eeb0b502"
 
 [[files]]
 file = "config/jei/jei-client.ini"
-hash = "c94cb759748131fe792ee709b9639e3952f97792dc8e1ca3a6077e030226cc64"
+hash = "0c3068ef9e57533263d09c2d225178a789de69e831c788cdecd87a4b25f2f98a"
 
 [[files]]
 file = "config/jei/jei-colors.ini"
@@ -2007,6 +2019,10 @@ hash = "a9c9034135d0ce7d10b2b14e6958f12f8578af0313dae6528cc53b446511d953"
 [[files]]
 file = "config/l2configs/modulargolems-server.toml"
 hash = "37b2188b6c28640122daea30a8a4cf13abb35dd8beb2d3f0d0d6b98f2f1abe6f"
+
+[[files]]
+file = "config/ldlib2-client.toml"
+hash = "e954d5c9b5dc2c0e0e8bc98b62c7ed070d963647da8db59383e6e8dff83bcd5b"
 
 [[files]]
 file = "config/lighty/base.config"
@@ -2870,7 +2886,19 @@ hash = "bcc5c63cae96c47536ed432e5106b7d931f146c4f21a5e51f8df34fb8def54ea"
 
 [[files]]
 file = "config/protection-pixel.toml"
-hash = "c6a56527a7ec3d3707b975ee25a6b1b8e5477d67ca2042560264213e98f42f81"
+hash = "281f0d1be393fc15f54be4756315a75a3dda273fba1e0c81667e5541b89372c2"
+
+[[files]]
+file = "config/railways-client.toml"
+hash = "acb53d1890859db772be80af7a3fea68e5df9caf5250d5aa5894e408077d7e91"
+
+[[files]]
+file = "config/railways-common.toml"
+hash = "cb0af90a705f48886a1c4ec970dfeb70e91d6961f561b5f1d5a31f5e0cc1edd5"
+
+[[files]]
+file = "config/railways-server.toml"
+hash = "01d1370950239d1a78d2b166652e0ad7dce25d9e89e46565edc3021bec71e206"
 
 [[files]]
 file = "config/ratatouille-server.toml"
@@ -2897,12 +2925,12 @@ file = "config/sable-common.toml"
 hash = "2a6e4c1541f83960f510849cc4fdc31e763275aad379318974d4dc46abb2629d"
 
 [[files]]
-file = "config/sablejade-client.toml"
-hash = "30611be78edf1167f0f07f0ec9b68e41f4a7a2cf75b606b6151e369f5ac5ec48"
+file = "config/sable_schematic_api-server.toml"
+hash = "75dd915a19ff7f0b2b66b766e813c10c48eb21ef131d63234ee03d75f7a9c338"
 
 [[files]]
-file = "config/sablewaves.json"
-hash = "7cdf14631f243c5e669eb0a632f54e89bab0fe7c74c59e57ea7a1dc0eb92c982"
+file = "config/sablejade-client.toml"
+hash = "30611be78edf1167f0f07f0ec9b68e41f4a7a2cf75b606b6151e369f5ac5ec48"
 
 [[files]]
 file = "config/servercore/config.yml"
@@ -3002,7 +3030,7 @@ hash = "550c1c73d527b22970e4187fa06b0aa118aaceec603247a3cca4d40e81cbeb9e"
 
 [[files]]
 file = "config/structurify.json"
-hash = "a80b1dca86611d84d33c3e42eb592c3b012216077cf5c1cd76fd773de0136d9d"
+hash = "bdb8bb74226a7c8c73cc2f8f3499f8807bd029b13fc0336404b70aa9a2bd26c2"
 
 [[files]]
 file = "config/structurify/structurify_backup_2026-09-05_15-32-04.json"
@@ -3014,11 +3042,19 @@ hash = "9c2db4a74dffcc58553f9f376a76d9254955ff69074067bb8649aa87e6f696a6"
 
 [[files]]
 file = "config/submarine_hull.json"
-hash = "169600201fede07189e88c0c5b9e4be50439ac33c9618992ea57680375068d70"
+hash = "c147640ceca32949d9984a6b0b82a2756a43a2fd05a35290338b76d71c7e6da0"
 
 [[files]]
 file = "config/submarine_hull.json.bak.1781723158"
 hash = "0096975feac9da3a87aa1c16d5a64fb5b3c973d54c3b143f2a3f647bfe69461b"
+
+[[files]]
+file = "config/synaxis-server.toml"
+hash = "c608c0d45b7d9163afd931ce37a1ab32dbd6899bc252eb8eb20d18f34fb48397"
+
+[[files]]
+file = "config/synaxis/control_chair_bindings.json"
+hash = "e3677c58e525dddd7bf0c4b448e3196c787f153cdfc5b4be4def718bfe162a1f"
 
 [[files]]
 file = "config/tectonic.json"
@@ -3038,7 +3074,7 @@ hash = "633a90a36cf0947b199e9a6737c19982d8130820a18b69aa0d16240b584ec001"
 
 [[files]]
 file = "config/tornadophysics-common.toml"
-hash = "c6b00294ff8ff1312c8c544a15b3e4fe25cf397a2cabfa9294e7eb695bd17b4d"
+hash = "0c535dc09e6e410fcb58955586c6dd23afeb2046f2c421110cb418d5e58cd918"
 
 [[files]]
 file = "config/tracks-server.toml"
@@ -3086,7 +3122,7 @@ hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 
 [[files]]
 file = "config/zfastnoise.mixin.properties"
-hash = "b2c64ac81948fb723c08c8b6dfe6e922cf3cfdc559f4da4e7abdf3af82566abf"
+hash = "c75f9bb3ae02fbbdb299dcfddccd588c260ad28962f93c8131bd3ab8e29700ef"
 
 [[files]]
 file = "datapacks/Apocalypse_Industries_BOP_Rain_1.21.1.zip"
@@ -3409,6 +3445,258 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
+file = "kubejs/data/apocalypse_pp/recipe/echo_plate.json"
+hash = "26bda76757c66547725ff4b2d23179ef553b7b5d590a1ed4a62a85a2655b9008"
+
+[[files]]
+file = "kubejs/data/apocalypse_pp/recipe/reinforced_fiber_from_hemp.json"
+hash = "ce123db211e58be29b3d3f06178a64715cc4c9675ba5e7a26eaaf46a2a1c6800"
+
+[[files]]
+file = "kubejs/data/apocalypse_pp/tags/item/alloy.json"
+hash = "8bdcaf6b5b01c94142420bca600a63563c1df57b954b656ad8488badee23c401"
+
+[[files]]
+file = "kubejs/data/apocalypse_pp/tags/item/brass.json"
+hash = "fb6439c1384d42ec83bb1036db5227ec700b331ce72f8d8e877af571af5db553"
+
+[[files]]
+file = "kubejs/data/apocalypse_pp/tags/item/equipment.json"
+hash = "b84c71ecc2185b60a5a7917d8b5f608821c2597218ac73830bd20fabef93fb75"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/alloyplate.json"
+hash = "bbe3c0e449e399b4b2df0cab88bd168e0404b450ba1f79af4424ef02e76ce7f0"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/anchorpointasloot.json"
+hash = "feed04e98b27f1a0f3a3729ae3bb8ff083d2f6fdd72a0f1e0868bfed8294c39e"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/anchorpointloot.json"
+hash = "3d2a84a103f18f8428653d6b4529cabc948a8da208c3bb1a3de766e634b3299d"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/armorhangerloot.json"
+hash = "d9b13380cdd01f5edfddd842f67a9c560626882bd3560dc0456b5c42048324d4"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/blooddialysisdeviceloot.json"
+hash = "3516210a6e64ec393358206452a2ab906a279bc80e9992ff2ffc0832e9f35a6d"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/bloodprisonerasloot.json"
+hash = "2e369b0dd271fbd48efe6e04b4d5f051a7dd6bc62cfef232aacf2afe679039fa"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/bloodprisonerloot.json"
+hash = "792a3f5977f3131444ea34a1ed9e01f7c3e39a89f1d4798e9c5729e77bd426f2"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/breakerasloot.json"
+hash = "ca8f5efdee5758f4e369d8d516303205f42de7d00c7f04cd5cf9007873ff5572"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/breakerloot.json"
+hash = "c8569f8cde85f821e8892485c7aa6d1be0c1a977f307a5d501f3209ddae92244"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/buoyancyasloot.json"
+hash = "17b637620f4b110904a0294055851f001b56a785344f73ebe8296b751b4cfd26"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/buoyancyloot.json"
+hash = "0ce5fae3c7fb322035accd0dda21e5814bf5f7f60498a4516a6628455e125faf"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/cannonloot.json"
+hash = "b873c4123d04d42cff52b667708a8efc888d0ba2853bf76f2a210bcc0b556c50"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/cannonshellloot.json"
+hash = "bea5b53c19a63ca2f7bd7cd8f9c4879321f277c5581e06d7931bb6792c816e27"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/closedasloot.json"
+hash = "dd7fd960314ed207e75a9390e1ea27d21d25aad2c17ed1f064fdd1fe849e9ffb"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/closedloot.json"
+hash = "83b4628175390b3f5dd8721f128348c03111775f87d60bc9a60dd9b45d271339"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/evasionwingloot.json"
+hash = "ee2744c17e0fa89a7f9bf40e5e14ca953c078ac0c8609a399245ca871fba4073"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/falconnestasloot.json"
+hash = "3b318e91d0bb1b5e09f99a54941451c35a41616320e66703eb003014dbec8d61"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/falconnestloot.json"
+hash = "51114e48c80120bc37a460be63f06b9bbf056672c81d8a887a327b11571700f0"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/floatshieldloot.json"
+hash = "b0f254180eba50c46c0fb692eccaaedf796925b5a897af5d8167bde7947358ce"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/grende.json"
+hash = "b96feebfbe6e1abd02e32dd0420f0630a810d2f61878fe883c1f023fc5e525a5"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/hammerasloot.json"
+hash = "a224f0147804bc0744f97629651e3537139387a6dd6eb12aec1e146476b824a4"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/hammerloot.json"
+hash = "12c9cb0d7e3a8102ec45e7e6df24925ef0ecddb86bc68393c6778fae327df9fd"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/heatoverlockmechanismloot.json"
+hash = "39fa53e7c89d8773f5ce148a00be6dcfa38582f076335e8a7c03b522a6042629"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/hellsnakeasloot.json"
+hash = "33d33c04768bd494d480b18298fa9545aa3d3d8eea3f1170ae33db9a5dd85e2a"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/hellsnakeloot.json"
+hash = "e05d26b0f184039b0e03597f77cd34c3419bb2a7cc6efffe9b599e9acbf48fde"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/hookcannonloot.json"
+hash = "b392601457b6d599d36c1718ae976bdafd8397a913b0600a7db4b86028165388"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/hunterasloot.json"
+hash = "15534fbfd0b056d14782dcce8a7383b155958b4187b61b82baa13e896d817b58"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/hunterloot.json"
+hash = "93e68d5335d58add31e64073452a89d287a08bc23434500875dc05007fa08f47"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/lancerasloot.json"
+hash = "855db1c05bf4aca6302ba22d4d569229b42b24f57cd56983bc0d7aa84b3b2468"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/lancerloot.json"
+hash = "e4e970f9ee8bef35a7ebd891139d76ff184da465b4eedd82bacb95b4067f286f"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/magneticasloot.json"
+hash = "f73784b7ac5feea80634bdd40dbf95eca6d13ce4f3a431613bc1e7413d6a28f1"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/magneticloot.json"
+hash = "e8ab77961ac260b81cc6132e246cfd0f2132835c60a91d19637baa44128bfc96"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/nightdemonasloot.json"
+hash = "40b4d9da6513be15ecb8cb7a8c4da5440d378cc629a11e1101b1b90fc5f2aa6c"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/nightdemonloot.json"
+hash = "9a4b71009522e30af1d71a52f9759b20f5e17ee8f76fb73737a87a34687d933e"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/pioneerasloot.json"
+hash = "19f20d8a51f541f6aaf6bf2e3adcd981d341f2e440c45d1590e675e6ca60863a"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/pioneerloot.json"
+hash = "19fab6a478cb5a16bd0555058d0d8d645500750d0a04cb7aa1dd1f4ed125b197"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/plagueasloot.json"
+hash = "b8ae6c6a26d2c3ed310f49430ab8738df0626d0d0059025c5b3d359743369f07"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/plagueloot.json"
+hash = "fc24d836c52a4dbdd4235baa01d08d31a04264dfe1ae49afee006ac0ec00c9f5"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/platformloot.json"
+hash = "c1cfb30cbca6cb2a8b503675bab6a2dc30045fd3ff3691fa8405e942de269e89"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/prismasloot.json"
+hash = "70dc90ac966f33de0bc16f2f68a1ab12887587807d0a4a6262632d5c8239db54"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/prismloot.json"
+hash = "a0f1ca68754ba6122581e1ef7abce9c895a592c8cb9de18d775725baad29cc8b"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/reactorloot.json"
+hash = "253e04843531a76dc4a3921893b5efdd6c5dd22c797b600878d0e529c94b8a63"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/slingshotasloot.json"
+hash = "86eca1a6be0a27c1fd5798d2585c1f59ddb51363328c786d9318bd49b1c9d25e"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/slingshotloot.json"
+hash = "0393a2e417aa0d9ce516640e2dd43f1967701a5cec52c4c3c5129464f4decd9d"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/steamexoskeletonloot.json"
+hash = "5dd4d8d62f4116567f93c5c3430d538abe32a7d714e2b8fe714ff9c176e178ea"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/typhoonasloot.json"
+hash = "6602bc08917c3a54180b30830bbfa162575310aa1829faa290107096989b1d32"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/typhoonloot.json"
+hash = "fcf47728b870eeb03068d2eea94313a2887b97e684a3e0226b2a42537022116b"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/watertankloot_2.json"
+hash = "0aa692a24e2261aa7c2a6ba0748f43a34035993aa91381ca0b14bbe2cb4c5324"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/wingloot.json"
+hash = "a31bee86eee728aea9d195cd84b3ec951e895c4e51886e2c48476178dbd08a6a"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/workerasloot.json"
+hash = "b3dc45573dc639a480a50dd50d3042b115529a025380d20a4f0a23d67a7c681e"
+
+[[files]]
+file = "kubejs/data/protection_pixel/recipe/workerloot.json"
+hash = "999e7b5594ba106c567de9fd43c6bc1ba8df8a7bf77a2ab8dc7b7861916ead6e"
+
+[[files]]
+file = "kubejs/data/protection_pixel/tags/item/chest.json"
+hash = "d945cc674a7aafd8e048e57e768aff2107af4362a8c6978d9744d4e63d45f5c1"
+
+[[files]]
+file = "kubejs/data/protection_pixel/tags/item/foot.json"
+hash = "686a53c55642c7d2b99a9c94a2da36602d0084c9b6bfd13f2fa4cfd7e4439361"
+
+[[files]]
+file = "kubejs/data/protection_pixel/tags/item/head.json"
+hash = "140b5194db8960868029fe228ecfcf41b727f9c1b64399252cdd2492f625b4b5"
+
+[[files]]
+file = "kubejs/data/protection_pixel/tags/item/leg.json"
+hash = "d65e3a66a7705fd4f223c31f6cec6e659dd03336b44686fbe17de7f262aa66f8"
+
+[[files]]
+file = "kubejs/data/protection_pixel/tags/item/plates.json"
+hash = "bc3e3a47ea059cbf95ba333e44db43e7247c72287cf1f48557840ceb837bdf51"
+
+[[files]]
+file = "kubejs/data/protection_pixel/tags/item/protection.json"
+hash = "3285ea60dc0c194d8008cf0c5d89fca974f6714375d02ca1c44790270d6730b8"
+
+[[files]]
+file = "kubejs/server_scripts/apocalypse_zombie_armor_drops.js"
+hash = "850e0d46274e727a8e3608e31a61ec0867bbbfca4f433cc39e843f58cad5cb1c"
+
+[[files]]
 file = "kubejs/server_scripts/bio_canister_loot.js"
 hash = "0937f2bdfce301266c71583976d9df74e92674f4f78d36e8c180bc7647ef7fec"
 
@@ -3726,8 +4014,8 @@ file = "mods/apocalypse-moogs-paths-chunksafety-fix-1.0.0.jar"
 hash = "bc7c7479c0c13e495f49170c3eb4cc737df1b5f389f82d92f7dc42dabf5d7e3d"
 
 [[files]]
-file = "mods/apocalypse-sablewaves-safety-render-fix-1.0.0.jar"
-hash = "71566b30d4bc27782441eb495a45bfca18b033d556bb98f7a3ed651bb54b9bf0"
+file = "mods/apocalypse-protection-pixel-integration-1.1.jar"
+hash = "6cd4a7255b460d2a747c99d9c59a0f7bb8219e52a585517c2c4abd72270711e8"
 
 [[files]]
 file = "mods/apocalypse-weather2-chunksafety-fix-1.0.0.jar"
@@ -3825,6 +4113,10 @@ metafile = true
 file = "mods/compactflap-neoforge-1.21.1-1.0.4.1.pw.toml"
 hash = "6ca8d9e800770e0c2e051e058e974f134e1f77a72f9c33d24a747296346c3938"
 metafile = true
+
+[[files]]
+file = "mods/compactgearbox-1.0.2.jar"
+hash = "2a77dc79156aab783b12e78fbb468cc72c0194b824b77c9b2cdc9ecce441aad7"
 
 [[files]]
 file = "mods/copycats-3.0.4-mc.1.21.1-neoforge.pw.toml"
@@ -3972,6 +4264,10 @@ metafile = true
 file = "mods/createfixes-1.0.4.pw.toml"
 hash = "c32bd41c9e81dc328d402fc320b7ced2c79cf33472442fc258d92a54ec83d625"
 metafile = true
+
+[[files]]
+file = "mods/createframed-1.21.1-1.8.2.jar"
+hash = "a1f0434f5485de5ba5683320ebca7b71841488421a5249641ae357dbeeb35283"
 
 [[files]]
 file = "mods/createpropulsion-1.1.4.pw.toml"
@@ -4158,9 +4454,8 @@ hash = "f9e2b0b30313c4349ce91167f9bf5379c5f06d57cc1b630a4f11d14539c048df"
 metafile = true
 
 [[files]]
-file = "mods/jei-1.21.1-neoforge-19.32.0.359.pw.toml"
-hash = "93ea22bb0abb5d3c7c8008cdf3e3808ab70f9f8e80354134e1132f5826e78736"
-metafile = true
+file = "mods/jei-1.21.1-neoforge-19.39.0.368.jar"
+hash = "ac27623a1e425a05f95f170eea94974d26ea68ca2037e5695176fb66a090de84"
 
 [[files]]
 file = "mods/jeimultiblocks-1.21.1-1.0.6.pw.toml"
@@ -4191,6 +4486,10 @@ metafile = true
 file = "mods/l2library-3.0.8.pw.toml"
 hash = "9de023d8edd913996c753397dacf7d6a5677fb414e3c4529308c1bed3ccbf145"
 metafile = true
+
+[[files]]
+file = "mods/ldlib2-neoforge-1.21.1-2.2.37-all.jar"
+hash = "a3848cb43242c5367b984142e520ff8f4324ff67945b728e2a2b606846fc9484"
 
 [[files]]
 file = "mods/lighty-neoforge-3.0.0-beta.8-1.21.1.pw.toml"
@@ -4315,6 +4614,15 @@ hash = "6a5a07090027b42f8f1cc333f12bc652018af13de2f848b232c3d55daa7fbda1"
 metafile = true
 
 [[files]]
+file = "mods/protection-pixel.pw.toml"
+hash = "549ab9a114f5eb7637c6552858c12ff66891693ce0b749b3c195e56420cfe501"
+metafile = true
+
+[[files]]
+file = "mods/railways-0.2.1+neoforge-mc1.21.1.jar"
+hash = "b7636c8b1b0352ed1a130dfe67f8bb574e2fc08803ed1cda4d3ea00505193914"
+
+[[files]]
 file = "mods/realmrpg_skeletons-1.1.0-neoforge-1.21.1.pw.toml"
 hash = "7fdd7b12e8bd0b5ef0c03f28c1167e68da27b86be4a5eb025970e489f69f71cb"
 metafile = true
@@ -4345,13 +4653,13 @@ hash = "cafde3bd2444076696beac942fbce7046178099c4204eaf622a5b310fbf38cc4"
 metafile = true
 
 [[files]]
+file = "mods/sable-photomancy-1.0.1.jar"
+hash = "1d0805f537f27ce3160488331755497417514a3dfb30d5ca3fdca1b000e7e920"
+
+[[files]]
 file = "mods/sablejade-1.2.1.pw.toml"
 hash = "cbe77ba478dd2d4b1bd6eea499fd1f5777caa9d98b8618080dba9743affe309d"
 metafile = true
-
-[[files]]
-file = "mods/sablewaves-2.21.0.jar"
-hash = "e516bdc74e0fce5ab4d75a97465ce162fe21bdb710e4c9e53968d028e24f9baf"
 
 [[files]]
 file = "mods/servercore-neoforge-1.5.19-1.21.1.pw.toml"
@@ -4427,6 +4735,10 @@ metafile = true
 file = "mods/supermartijn642corelib-1.1.21-neoforge-mc1.21.pw.toml"
 hash = "54ad177c218120e288ab8939d55b44e5fe440da5d66f0b02b2c895eb9d788512"
 metafile = true
+
+[[files]]
+file = "mods/synaxis-1.5.0.jar"
+hash = "e3c60f0ba403c745c82d6c4a99e12eef1cf41acda2a041554f43d6d5be32b592"
 
 [[files]]
 file = "mods/tectonic-3.0.26-neoforge-21.1.pw.toml"
@@ -4601,3 +4913,4 @@ hash = "532a8e930427821d506435a54e1a606c08d0ff8fdcc9ca016801cb2b0db7af59"
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.8.1_APOCALYPSE_ATMOSPHERE_v1.1_PARSEFIX_TESTED.zip"
 hash = "f7204273897b8919e7795811240ebcb094e137261b37715beb29d86d377e5a22"
+

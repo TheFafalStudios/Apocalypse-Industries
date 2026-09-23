@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "key": {
+    "A": {
+      "item": "create:cogwheel"
+    },
+    "B": {
+      "item": "create:copper_sheet"
+    },
+    "C": {
+      "item": "create:steam_engine"
+    },
+    "D": {
+      "item": "minecraft:redstone"
+    },
+    "E": {
+      "item": "immersiveengineering:plate_steel"
+    },
+    "G": {
+      "item": "powergrid:magnet"
+    }
+  },
+  "pattern": [
+    "ABBBA",
+    "CDEDC",
+    " BEB ",
+    "AE EA",
+    "BB BB",
+    "  G  "
+  ],
+  "result": {
+    "id": "protection_pixel:steamectoskeleton",
+    "count": 1
+  }
+}

@@ -1,0 +1,879 @@
+[
+  {
+    "source": "creatingspace-1.21.1-1.7.20.jar",
+    "path": "data/creatingspace/recipe/crushing/moon_stone.json",
+    "outputs": [
+      "creatingspace:moon_regolith"
+    ],
+    "data": {
+      "type": "create:crushing",
+      "ingredients": [
+        {
+          "item": "creatingspace:moon_stone"
+        }
+      ],
+      "processing_time": 400,
+      "results": [
+        {
+          "id": "creatingspace:moon_regolith"
+        }
+      ]
+    }
+  },
+  {
+    "source": "powergrid-mc1.21.1-0.5.5.1.jar",
+    "path": "data/powergrid/recipe/magnetization/iron_ingot.json",
+    "outputs": [
+      "powergrid:magnet"
+    ],
+    "data": {
+      "type": "powergrid:magnetization",
+      "ingredients": [
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "powergrid:magnet"
+        }
+      ]
+    }
+  },
+  {
+    "source": "protection_pixel-2.2.1-neoforge-1.21.1.jar",
+    "path": "data/protection_pixel/recipe/alloyplate.json",
+    "outputs": [
+      "protection_pixel:alloyarmorplate"
+    ],
+    "data": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:smallnetheritesheet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:alloyarmorplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletealloyarmorplate"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletealloyarmorplate"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletealloyarmorplate"
+            },
+            {
+              "item": "create:iron_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletealloyarmorplate"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletealloyarmorplate"
+            },
+            {
+              "item": "create:andesite_alloy"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletealloyarmorplate"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletealloyarmorplate"
+      }
+    }
+  },
+  {
+    "source": "protection_pixel-2.2.1-neoforge-1.21.1.jar",
+    "path": "data/protection_pixel/recipe/evasionwingloot.json",
+    "outputs": [
+      "protection_pixel:evasionwing"
+    ],
+    "data": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:iron_sheet"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        },
+        "C": {
+          "item": "create:andesite_alloy"
+        },
+        "D": {
+          "item": "create:precision_mechanism"
+        },
+        "E": {
+          "item": "create:cogwheel"
+        },
+        "F": {
+          "item": "create:transmitter"
+        }
+      },
+      "pattern": [
+        "AB BA",
+        "ACACA",
+        "DEFED",
+        "A   A"
+      ],
+      "result": {
+        "id": "protection_pixel:evasionwing",
+        "count": 1
+      }
+    }
+  },
+  {
+    "source": "protection_pixel-2.2.1-neoforge-1.21.1.jar",
+    "path": "data/protection_pixel/recipe/floatshieldloot.json",
+    "outputs": [
+      "protection_pixel:floatshield_chestplate"
+    ],
+    "data": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "minecraft:lightning_rod"
+        },
+        "B": {
+          "item": "create:sturdy_sheet"
+        },
+        "C": {
+          "item": "minecraft:copper_ingot"
+        },
+        "D": {
+          "item": "create:copper_sheet"
+        },
+        "E": {
+          "item": "create:andesite_alloy"
+        },
+        "F": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "H": {
+          "item": "minecraft:heart_of_the_sea"
+        },
+        "I": {
+          "item": "minecraft:netherite_scrap"
+        },
+        "J": {
+          "item": "create:precision_mechanism"
+        },
+        "G": {
+          "item": "create:cogwheel"
+        }
+      },
+      "pattern": [
+        "AB BA",
+        "BCBCB",
+        "DEFED",
+        "BGHGB",
+        " IJI "
+      ],
+      "result": {
+        "id": "protection_pixel:floatshield_chestplate",
+        "count": 1
+      }
+    }
+  },
+  {
+    "source": "protection_pixel-2.2.1-neoforge-1.21.1.jar",
+    "path": "data/protection_pixel/recipe/heatoverlockmechanismloot.json",
+    "outputs": [
+      "protection_pixel:heatoverlockingmechanism"
+    ],
+    "data": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "create:sturdy_sheet"
+      },
+      "loops": 7,
+      "results": [
+        {
+          "chance": 100.0,
+          "id": "protection_pixel:heatoverlockingmechanism"
+        },
+        {
+          "chance": 10.0,
+          "id": "create:precision_mechanism"
+        },
+        {
+          "chance": 10.0,
+          "id": "create:sturdy_sheet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            },
+            {
+              "item": "minecraft:diamond"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            },
+            {
+              "item": "create:copper_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompleteheatoverlockmechanism"
+      }
+    }
+  },
+  {
+    "source": "protection_pixel-2.2.1-neoforge-1.21.1.jar",
+    "path": "data/protection_pixel/recipe/lancerasloot.json",
+    "outputs": [
+      "protection_pixel:lanceras_helmet"
+    ],
+    "data": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:lancer_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:lanceras_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletelancer"
+      }
+    }
+  },
+  {
+    "source": "kubejs",
+    "path": "kubejs/data/apocalypse_pp/recipe/echo_plate.json",
+    "outputs": [
+      "apocalypse_pp:echo_plate"
+    ],
+    "data": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "pattern": [
+        "DED",
+        "DND",
+        "DTD",
+        " U "
+      ],
+      "key": {
+        "D": {
+          "item": "minecraft:diamond"
+        },
+        "E": {
+          "item": "create_deep_dark:echo_ingot"
+        },
+        "N": {
+          "item": "minecraft:netherite_ingot"
+        },
+        "T": {
+          "item": "create_deep_dark:echo_upgrade_smithing_template"
+        },
+        "U": {
+          "item": "minecraft:netherite_upgrade_smithing_template"
+        }
+      },
+      "result": {
+        "id": "apocalypse_pp:echo_plate",
+        "count": 1
+      }
+    }
+  },
+  {
+    "source": "kubejs",
+    "path": "kubejs/data/protection_pixel/recipe/alloyplate.json",
+    "outputs": [
+      "protection_pixel:alloyarmorplate"
+    ],
+    "data": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:smallnetheritesheet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:alloyarmorplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletealloyarmorplate"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletealloyarmorplate"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletealloyarmorplate"
+            },
+            {
+              "item": "create:iron_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletealloyarmorplate"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletealloyarmorplate"
+            },
+            {
+              "item": "create:andesite_alloy"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletealloyarmorplate"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletealloyarmorplate"
+            },
+            {
+              "item": "powergrid:magnet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletealloyarmorplate"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletealloyarmorplate"
+      }
+    }
+  },
+  {
+    "source": "kubejs",
+    "path": "kubejs/data/protection_pixel/recipe/evasionwingloot.json",
+    "outputs": [
+      "protection_pixel:evasionwing"
+    ],
+    "data": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:iron_sheet"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        },
+        "C": {
+          "item": "create:andesite_alloy"
+        },
+        "D": {
+          "item": "create:precision_mechanism"
+        },
+        "E": {
+          "item": "create:cogwheel"
+        },
+        "F": {
+          "item": "create:transmitter"
+        },
+        "G": {
+          "item": "creatingspace:moon_regolith"
+        }
+      },
+      "pattern": [
+        "AB BA",
+        "ACACA",
+        "DEFED",
+        "A   A",
+        "  G  "
+      ],
+      "result": {
+        "id": "protection_pixel:evasionwing",
+        "count": 1
+      }
+    }
+  },
+  {
+    "source": "kubejs",
+    "path": "kubejs/data/protection_pixel/recipe/floatshieldloot.json",
+    "outputs": [
+      "protection_pixel:floatshield_chestplate"
+    ],
+    "data": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "minecraft:lightning_rod"
+        },
+        "B": {
+          "item": "create:sturdy_sheet"
+        },
+        "C": {
+          "item": "minecraft:copper_ingot"
+        },
+        "D": {
+          "item": "create:copper_sheet"
+        },
+        "E": {
+          "item": "create:andesite_alloy"
+        },
+        "F": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "H": {
+          "item": "minecraft:heart_of_the_sea"
+        },
+        "I": {
+          "item": "minecraft:netherite_scrap"
+        },
+        "J": {
+          "item": "create:precision_mechanism"
+        },
+        "G": {
+          "item": "create:cogwheel"
+        },
+        "K": {
+          "item": "creatingspace:moon_regolith"
+        }
+      },
+      "pattern": [
+        "AB BA",
+        "BCBCB",
+        "DEFED",
+        "BGHGB",
+        " IJI ",
+        "  K  "
+      ],
+      "result": {
+        "id": "protection_pixel:floatshield_chestplate",
+        "count": 1
+      }
+    }
+  },
+  {
+    "source": "kubejs",
+    "path": "kubejs/data/protection_pixel/recipe/heatoverlockmechanismloot.json",
+    "outputs": [
+      "protection_pixel:heatoverlockingmechanism"
+    ],
+    "data": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "create:sturdy_sheet"
+      },
+      "loops": 7,
+      "results": [
+        {
+          "chance": 100.0,
+          "id": "protection_pixel:heatoverlockingmechanism"
+        },
+        {
+          "chance": 10.0,
+          "id": "create:precision_mechanism"
+        },
+        {
+          "chance": 10.0,
+          "id": "create:sturdy_sheet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            },
+            {
+              "item": "minecraft:diamond"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            },
+            {
+              "item": "powergrid:magnet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompleteheatoverlockmechanism"
+      }
+    }
+  },
+  {
+    "source": "kubejs",
+    "path": "kubejs/data/protection_pixel/recipe/lancerasloot.json",
+    "outputs": [
+      "protection_pixel:lanceras_helmet"
+    ],
+    "data": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:lancer_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:lanceras_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "creatingspace:moon_regolith"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletelancer"
+      }
+    }
+  }
+]

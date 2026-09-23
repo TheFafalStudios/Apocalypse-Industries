@@ -25,3 +25,13 @@ After every successful GitHub push that changes the official distributed modpack
 ## **The GitHub modpack was updated to `<version>` (`<commit>`). Should I update the local Chunkserve twin and build its versioned server update packet now?**
 
 Wait for an explicit answer. A GitHub push does not authorize the server update. Workflow-only repository changes that do not change the distributed Packwiz manifest are not official pack updates and do not trigger this question.
+
+## Confirmed release decisions (2026-09-23)
+
+Keep the surface-only additional zombie spawning test. All 27 additional zombie rules must require sky visibility; verification remains in progress. Preserve natural cave spawning, progression scaling, the Spore lock, and unrelated rules. Do not ask the keep/discard question again.
+
+The retired ocean-wave mod and its dedicated compatibility addon have been removed at the user's request. Do not reintroduce them without a new user decision. Preserve core Sable/Aeronautics and unrelated compatibility fixes.
+
+The user manages server deployment and explicitly waived client/server deployment timing as a release blocker. Retain the existing confirmation before changing the local server twin. Published v1 is confirmed tested, working and playable; this does not claim the new candidate has been tested.
+
+Protection Pixel integration now uses public addon version 1.1.

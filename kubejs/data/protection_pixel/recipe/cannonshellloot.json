@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "aca",
+    "ca "
+  ],
+  "key": {
+    "a": {
+      "item": "create:andesite_alloy"
+    },
+    "b": {
+      "item": "immersiveengineering:ingot_steel"
+    },
+    "c": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "id": "protection_pixel:steelcorecannonshell",
+    "count": 2
+  }
+}

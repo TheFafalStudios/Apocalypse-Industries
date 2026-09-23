@@ -1,0 +1,48 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:ingots/brass"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "C": {
+      "item": "create:electron_tube"
+    },
+    "D": {
+      "item": "minecraft:iron_ingot"
+    },
+    "E": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "F": {
+      "item": "protection_pixel:chestplatelining"
+    },
+    "H": {
+      "item": "create:golden_sheet"
+    },
+    "I": {
+      "item": "create:cogwheel"
+    },
+    "G": {
+      "item": "minecraft:redstone"
+    },
+    "J": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    "ABCBA",
+    "DEFED",
+    "GHIHG",
+    "A   A",
+    "  J  "
+  ],
+  "result": {
+    "id": "protection_pixel:magneticstorm_chestplate",
+    "count": 1
+  }
+}

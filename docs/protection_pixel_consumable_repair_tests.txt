@@ -1,0 +1,8 @@
+[01:20:56] [Server thread/INFO] [KubeJS Server/]: server_scripts:zz_pp_quest_roundtrip.js#34: PP QUEST ROUNDTRIP PASS: 456 checks; exact titles, subtitles, task labels and stable IDs
+[01:20:57] [Server thread/INFO] [minecraft/MinecraftServer]: PP SELFTEST PASS: 178 assertions
+33 new native repair checks passed (178 total addon assertions).
+437 structural assertions passed.
+Both consumables: normal eligibility, direct enchant, helper/machine component write, raw component write, stored-enchantment component, legacy data, XP Mending selection, inventory cleanup, unchanged wear, actual Reforger tick.
+Controls: normal tool retains Mending and Reforger repair; Mending books and other enchantments preserved.
+Live GUI/machine contraption interaction was not exercised.
+Addon SHA256: 0e8dde3e06c558b91101c1a04041c17f71828b142c105cf2144f9274ebba31f2

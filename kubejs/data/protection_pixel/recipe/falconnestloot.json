@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:cogwheel"
+    },
+    "B": {
+      "item": "create:electron_tube"
+    },
+    "C": {
+      "item": "create:brass_sheet"
+    },
+    "D": {
+      "item": "minecraft:iron_ingot"
+    },
+    "E": {
+      "item": "protection_pixel:chestplatelining"
+    },
+    "F": {
+      "item": "create:propeller"
+    },
+    "G": {
+      "item": "create:transmitter"
+    },
+    "H": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    "AGCGA",
+    "DCECD",
+    "DFBFD",
+    "CC CC",
+    "  H  "
+  ],
+  "result": {
+    "id": "protection_pixel:falconnest_chestplate",
+    "count": 1
+  }
+}

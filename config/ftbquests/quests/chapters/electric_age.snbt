@@ -743,5 +743,93 @@
 			x: -5.0d
 			y: 4.0d
 		}
+		{
+			dependencies: [
+				"2B7909E14663FFBC"
+				"5036106AC24B4475"
+			]
+			id: "5D2F7F32F0758EEA"
+			optional: true
+			tasks: [
+				{
+					consume_items: false
+					id: "1E0FDDAB0E4595C2"
+					item: { count: 1, id: "powergrid:magnet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2991DF34BB4B1272"
+					item: { count: 1, id: "protection_pixel:alloyarmorplate" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D2F7F32F0758EEA"]
+			id: "1420AA297FAB413D"
+			optional: true
+			tasks: [{
+				consume_items: false
+				id: "7CE5DF17FCFE45FD"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(apocalypse_pp:alloy)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D2F7F32F0758EEA"]
+			id: "057C8DA60D98F85A"
+			optional: true
+			tasks: [{
+				consume_items: false
+				id: "066D99261214445A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(apocalypse_pp:equipment)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5D2F7F32F0758EEA"]
+			id: "54B46EEFE40EDF5A"
+			optional: true
+			tasks: [{
+				consume_items: false
+				id: "0160442E22ED6A9D"
+				item: { count: 1, id: "protection_pixel:steamectoskeleton" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"4D1740CBBF0CFB13"
+				"5036106AC24B4475"
+			]
+			id: "637F1F571C0CECF3"
+			optional: true
+			tasks: [{"consume_items": false, "count": 1, "id": "22C484378BCBD3C0", "item": {"count": 1, "id": "apocalypse_pp:echo_plate"}, "type": "item"}]
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			rewards: [{"id": "3C9AB8A29C58B8AA", "type": "item", "item": {"id": "protection_pixel:emptywatertank", "count": 1}, "count": 1, "team_reward": true}]
+			dependencies: ["637F1F571C0CECF3"]
+			id: "7BDEE1C5A87666E7"
+			optional: true
+			tasks: [{
+				advancement: "apocalypse_pp:resonance"
+				criterion: ""
+				id: "49C66DE1288E1FA6"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 11.0d
+		}
 	]
 }

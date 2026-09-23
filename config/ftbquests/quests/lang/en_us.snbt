@@ -109,6 +109,12 @@
 	]
 	quest.04AA269C06F2334E.title: "REQUEST: A Larger Data Centre"
 	quest.05371A2046C1C9C7.title: "Buy Gods Crown"
+	quest.057C8DA60D98F85A.quest_desc: [
+		"Choose one device: wings or thrusters for travel, Steam Booster for carrying capacity, oxygen supply for diving, or a launcher for combat. Check tooltips for controls and ammunition."
+		""
+		"The platform menu has one Motor Interface slot. Remove the previous device before installing another, and keep the reactor fueled."
+	]
+	quest.057C8DA60D98F85A.title: "External Systems"
 	quest.059344E00A522EC3.title: "Sell Sausage"
 	quest.0593FCC121439B2F.quest_desc: [
 		"A Battery is used to store Power Grid power."
@@ -127,6 +133,12 @@
 	quest.05C231632980B722.title: "Buy Ender Chest"
 	quest.05CA0B246E1FAEF6.title: "Buy Four Leaf Clover"
 	quest.05CCC7B85FD0D541.title: "Buy Backpack"
+	quest.05EDBE2B6CC01728.quest_desc: [
+		"Lancer-AS raises the movement-based attack bonus from 6 to 9 damage while powered."
+		""
+		"Choose it for mobile melee combat. Recover any Echo Plate before upgrading, then install it on the new helmet."
+	]
+	quest.05EDBE2B6CC01728.title: "Experimental Kinetics"
 	quest.05FB54B282869F33.title: "Buy Brass Funnel"
 	quest.062B38E36AD9095A.title: "Buy Cooked Cod Steak"
 	quest.063B5CA7F2E92D19.title: "Sell Magnet Upgrade"
@@ -372,6 +384,12 @@
 	quest.1211750DA836ABF6.title: "Internal: Commando Bounty Kill Tracker"
 	quest.121436CF64426682.title: "Sell LV Wire Coil"
 	quest.12269B425E971B9F.title: "Buy Hand crank"
+	quest.123464FCDEE687F1.quest_desc: [
+		"Link-Plate trades armor protection for a lighter, tough frame."
+		""
+		"Unlike most powered chestplates, it supports the Steam Exoskeleton introduced in Electric Age. Your leggings must also be compatible."
+	]
+	quest.123464FCDEE687F1.title: "Light Industrial Frame"
 	quest.1234E40413992BE6.title: "Buy Additional Force Loaded Chunk"
 	quest.123BFD5F0BFCA13A.title: "Sell Netherite Shulker Box"
 	quest.12440E4D3C68CA20.title: "Sell Carrot Crate"
@@ -417,6 +435,14 @@
 	quest.13DFDAB26F94AF6B.quest_subtitle: "Found in The End"
 	quest.1404DCDAB2D514F0.title: "Buy Blindfold"
 	quest.1416477E495968E2.title: "Sell Fluix Smart Cable"
+	quest.1420AA297FAB413D.quest_desc: [
+		"Upgrade the specialist you actually use through its Create assembly recipe."
+		""
+		"Remove Echo Plates first. Do not assume crafting preserves installed plates, enchantments or other additions; check the output before upgrading valuable armor."
+		""
+		"Lancer-AS belongs to the separate lunar branch."
+	]
+	quest.1420AA297FAB413D.title: "Reinforced Chassis"
 	quest.147D66DEA15EEEAC.title: "Buy Filter Upgrade"
 	quest.14819EC774ED820D.title: "Buy Lily of the Valley"
 	quest.14A5144ED0EC09EC.title: "Sell Merlot"
@@ -669,6 +695,16 @@
 	quest.20F82197DE1DAC31.quest_subtitle: "Internal kill tracker"
 	quest.20F82197DE1DAC31.title: "Internal: Zombie Bounty Kill Tracker"
 	quest.21181D36396D6346.title: "Buy Nether Wart"
+	quest.213AA495CCA1661A.quest_desc: [
+		"&lRequest&r"
+		""
+		"\"Management has approved a separate protection budget for management. Send Alloy plates, tanks and reactors.\""
+		""
+		"- Executive Office"
+		""
+		"Empty reactors before submitting. Supplies are consumed; one $8,000 payment per team."
+	]
+	quest.213AA495CCA1661A.title: "REQUEST: Executive Protection"
 	quest.214AD5103045C73C.quest_desc: ["A Mechanical Demolder is added by the Ratatouille mod and is used in food recipes, for example it can remove Chocolate from a Chocolate Mold which can be sold for a high price."]
 	quest.214AD5103045C73C.quest_subtitle: "Breaking the mold"
 	quest.214B8198BE86ADDA.title: "Buy Mechanical Fluid Exporter"
@@ -1047,6 +1083,12 @@
 	quest.340EC228EF4D7174.title: "Sell Fluix Glass Cable"
 	quest.341249BDBD399B03.title: "Sell Glue"
 	quest.3447530FFE49E213.title: "Buy Coke Coal"
+	quest.345CE577D8CC980E.quest_desc: [
+		"An optional collection award for obtaining Float Shield, Evasion Wing and Lancer-AS. They do not need to be equipped together."
+		""
+		"Management offers $1,000 per team. Storage space for the prototypes remains your problem."
+	]
+	quest.345CE577D8CC980E.title: "Walking Industrial Accident"
 	quest.34812CE1E36A6070.title: "Buy High explosive cartridge"
 	quest.3566A856BB7AD138.quest_subtitle: "The first of many"
 	quest.3566A856BB7AD138.title: "Your First Thousand"
@@ -1321,6 +1363,16 @@
 	quest.41CC7AA508BEB601.title: "Sell Heart Crystal"
 	quest.4200CD06FFE746F4.title: "Sell Blade Pottery Sherd"
 	quest.42070D8446C895AE.title: "Buy Sky Stone"
+	quest.42234988E85D91AC.quest_desc: [
+		"&lRequest&r"
+		""
+		"\"Employee retention has been reclassified as a hardware problem. Send replacement plates and tanks.\""
+		""
+		"- Personnel Department"
+		""
+		"Submitted supplies are consumed. One $1,000 payment per team."
+	]
+	quest.42234988E85D91AC.title: "REQUEST: Workplace Safety Initiative"
 	quest.4225DBDB5614E989.title: "Sell Brass Funnel"
 	quest.422AD2987957FC68.title: "Buy HV Wire Coil"
 	quest.424E9ADFDD616BD7.title: "Buy Sigil of Baphomet"
@@ -1337,6 +1389,12 @@
 	quest.4359DC8C6011A935.title: "Contract: Kill Heavy Weapons Pillager"
 	quest.4360CD7477F98462.quest_subtitle: "Found in Ocean Monument"
 	quest.43662D773F4841B2.title: "Sell Diamond Helmet"
+	quest.4376A61BFDEAB5D8.quest_desc: [
+		"Float Shield stores 25 shield points and restores roughly one every 1.25 seconds while powered. Repeated hits can overwhelm it."
+		""
+		"Its base armor is weak. Fit ordinary plates, including Echo Plates, at the Armor Load Platform. Use cover to recharge."
+	]
+	quest.4376A61BFDEAB5D8.title: "Active Protection System"
 	quest.43B0B7D6956F40E2.title: "Sell Dirt"
 	quest.43B8713BC54A9894.title: "Buy Shulker Shell"
 	quest.43D2CCAF2B25141A.quest_desc: [
@@ -1369,6 +1427,25 @@
 	quest.45A028F55DC5D7A2.title: "Buy Certus Quartz"
 	quest.45AAD0C30FAA9A66.title: "Buy Insulated Copper Wire Coil"
 	quest.46148CC7C4A0D3FE.title: "Buy ME System Starter"
+	quest.46285F64822A1FD7.quest_desc: [
+		"&lACHERON RECOVERY SOLUTIONS&r"
+		"&8Special Procurement Division // Contract ARS-BR-17&r"
+		""
+		"A private life-sciences client has requested recovery of a sealed pre-collapse archival specimen from a decommissioned secure transport."
+		""
+		"&7Surviving logistics records identify Transport BR-17 as the final assigned carrier. The vehicle failed to report after civil infrastructure collapse; an archived recovery survey has been reconstructed from its last verified telemetry.&r"
+		""
+		"&fSCOPE OF WORK&r"
+		"Accept the contract to receive the &fAcheron Recovery Survey&r. Locate &fTransport BR-17&r and recover the &fSealed Biocontainment Canister&r from its interior cargo mounting."
+		""
+		"&7The vessel was approved for long-duration specimen storage. Surviving records state that stored cultures were rendered non-viable before transport. Legacy biological-hazard markings remain on many archival containers and do not constitute an active hazard classification.&r"
+		""
+		"&aCOMPENSATION:&r $2,000 upon successful delivery of recovered sample material."
+		""
+		"&8By accepting, the contractor acknowledges that Acheron Recovery Solutions has supplied all handling and route information available in the surviving procurement record.&r"
+	]
+	quest.46285F64822A1FD7.quest_subtitle: "Recover archival cargo from Transport BR-17"
+	quest.46285F64822A1FD7.title: "REQUEST: Archival Specimen Recovery"
 	quest.464C7B11128B8ECB.title: "Sell Uranium"
 	quest.469ACFAB2910ADE8.quest_desc: [
 		"The commando bounty target has been defeated."
@@ -1561,6 +1638,12 @@
 	]
 	quest.501AB8C723528858.quest_subtitle: "Starts the 5 minute bounty timer"
 	quest.501AB8C723528858.title: "Enable Random Bounty Board"
+	quest.5036106AC24B4475.quest_desc: [
+		"Choose any Brass specialist: Pioneer helps mining, Night Demon helps exploration, and Lancer rewards moving melee attacks. Other choices are described in their tooltips; a matching suit is unnecessary."
+		""
+		"Wear a Protection Pixel piece with a working reactor to complete the powered-use task. Add armor plates before difficult combat."
+	]
+	quest.5036106AC24B4475.title: "Personal Protective Equipment"
 	quest.506220D309C6A28A.title: "Buy Copper Backpack"
 	quest.5062D28510B106D9.title: "Buy Azure Bluet"
 	quest.5072C4FB70E8D34E.title: "Buy Egg Sandwich"
@@ -1663,6 +1746,14 @@
 		"They can be powered from the side to power the wheels."
 	]
 	quest.54A96E8EB5B80973.quest_subtitle: "Wheely good"
+	quest.54B46EEFE40EDF5A.quest_desc: [
+		"Right-click the Exoskeleton in your hand to choose upper-body mining/combat support or lower-body movement support. Both need reactor power."
+		""
+		"Place it on an empty hanger, then sneak-right-click empty-handed to equip. Right-click an empty hanger empty-handed to remove it; click again to retrieve it."
+		""
+		"Most powered chestplates and leggings are incompatible; Link-Plate and Float Shield are exceptions."
+	]
+	quest.54B46EEFE40EDF5A.title: "Powered Exoskeleton"
 	quest.54BE04B46CAFF1F2.title: "Buy Reforger"
 	quest.54FD44874E62A879.quest_desc: ["Defeat Oz."]
 	quest.54FD44874E62A879.quest_subtitle: "Kill contract target"
@@ -1703,6 +1794,12 @@
 	quest.571C76BED4AAA745.title: "Sell Brass Plate"
 	quest.57253878193B8E78.title: "Buy Fertilizer"
 	quest.57356E5242597763.title: "Buy Duroplast Sheet"
+	quest.573AD89CB7072F8C.quest_desc: [
+		"Moon Regolith unlocks three optional projects: Float Shield, Evasion Wing and Lancer-AS."
+		""
+		"Choose what suits your loadout. Building all three is only necessary for the separate collection award."
+	]
+	quest.573AD89CB7072F8C.title: "R&D Department"
 	quest.574649B315015359.title: "Sell Aluminum"
 	quest.5757C3832A8AE88F.title: "Buy HV Connector"
 	quest.575A51A423C6F1EB.quest_desc: ["Defeat Angry Bee Swarm."]
@@ -1746,6 +1843,14 @@
 	quest.586A2641AE26AE2D.title: "REQUEST: Bigger Weapons"
 	quest.58743CD29B549099.title: "Sell Hastelloy Injector Grid"
 	quest.587D856ED750A114.title: "Sell Wireless crafting terminal"
+	quest.588D4ADEDFB08661.quest_desc: [
+		"Management approved putting the machinery on the employee."
+		""
+		"Pipe lava into the Armor Load Platform. Wear your armor, stand on it and press Armor Load Platform (Right Shift by default). Installing or removing ordinary plates costs 100 mB each."
+		""
+		"The hanger stores armor and fits Exoskeletons. Continue with Steam Powered to prepare your reactor."
+	]
+	quest.588D4ADEDFB08661.title: "Occupational Hazard"
 	quest.58B2D4D92F01738E.title: "Buy Netherite Chestplate"
 	quest.58BBC45AD99B095F.quest_desc: [
 		"&lTarget&r"
@@ -1969,12 +2074,24 @@
 	quest.5D05AD7853C1F76E.title: "Claim Zombie Bounty"
 	quest.5D27340C7304AF12.title: "Sell Netherite Scrap"
 	quest.5D2DF61D8E40A726.title: "Buy Dark Oak Wood"
+	quest.5D2F7F32F0758EEA.quest_desc: [
+		"Power Grid magnets unlock Alloy plates and heat-overlocking mechanisms. Alloy protects as well as Brass at lower weight."
+		""
+		"Choose armor upgrades, external equipment or an Exoskeleton. Check the seven-loop mechanism recipe before setting up production."
+	]
+	quest.5D2F7F32F0758EEA.title: "Heavy Industry, Personal Scale"
 	quest.5D364705DBF6A1E6.quest_desc: [
 		"The bulwark bounty target has been defeated."
 		"Click the checkmark to claim your payout. This then resets this bounty and starts its 5 minute timer again."
 	]
 	quest.5D364705DBF6A1E6.quest_subtitle: "Claim your bounty payout"
 	quest.5D364705DBF6A1E6.title: "Claim Reward: Bulwark Bounty"
+	quest.5D4668E0F0214CA5.quest_desc: [
+		"Evasion Wing spends a charge to avoid a direct attack, then recharges. Upgrades shorten the wait."
+		""
+		"Install it in the Motor Interface and keep the reactor powered. It replaces your other device and does not provide ordinary flight."
+	]
+	quest.5D4668E0F0214CA5.title: "Automatic Evasion"
 	quest.5D66A1A35E74E3DE.title: "Buy Formation Core"
 	quest.5D8AC05907BA73C0.title: "Buy Goat"
 	quest.5DBF4E68C94BF2A0.title: "Sell Annihilation Core"
@@ -2103,10 +2220,24 @@
 	quest.62FD9CC49EA2FF4A.title: "Buy Cobble"
 	quest.630846641EA68105.title: "Sell High explosive cartridge"
 	quest.63292068A9B2DB7D.title: "Buy Electrical Gizmo"
+	quest.634819F7295E2312.quest_desc: [
+		"Fill a Water Tank with 1,000 mB water. Right-click the reactor in your hand and insert the tank and a Flare Rod."
+		""
+		"On the platform, open the menu and put the reactor in the Power Interface. Remove it there to replace spent supplies."
+		""
+		"Extra rods increase carrying capacity. If abilities stop, check water and fuel; /ppresonance reports power status."
+	]
+	quest.634819F7295E2312.title: "Steam Powered"
 	quest.634AED838BD1B9C8.quest_desc: ["Defeat Griffin."]
 	quest.634AED838BD1B9C8.quest_subtitle: "Kill contract target"
 	quest.634AED838BD1B9C8.title: "Contract: Kill Griffin"
 	quest.637709E4BB019C2C.title: "Buy Redstone Wire Coil"
+	quest.637F1F571C0CECF3.quest_desc: [
+		"Craft Echo Plates from materials; no finished armor is consumed. They match Alloy plate stats and durability."
+		""
+		"Fit them in ordinary plate slots at the Armor Load Platform, including boots and Float Shield. Recover and repair worn plates there. Remove plates before upgrading armor."
+	]
+	quest.637F1F571C0CECF3.title: "Echo Resonance Plates"
 	quest.63D5A48740913646.title: "Sell Empty Circuit"
 	quest.63D9EC2A65774C10.title: "Buy Feather"
 	quest.6455FE5FB6293FBA.title: "Sell Wheat"
@@ -2127,6 +2258,14 @@
 	quest.65D2EB43D73E3F30.title: "Buy Heavy Autocannon Cartridge"
 	quest.65D3BD8632B77288.title: "Buy Super Magnet"
 	quest.65E7DCB257368F7F.title: "Buy Light Gloves"
+	quest.66070445C15D4C49.quest_desc: [
+		"Iron plates are light; Brass offers more protection but weighs more. Alloy later reduces that weight."
+		""
+		"Wear your armor and open its connection in the lava-fed platform menu to fit plates. If movement becomes sluggish, reduce weight or increase reactor capacity."
+		""
+		"Float Shield has no ordinary chestplate plate slots."
+	]
+	quest.66070445C15D4C49.title: "Bolt-On Protection"
 	quest.6620A0F3E251497F.title: "Sell Device connector"
 	quest.668AE8D9A80B9871.title: "Buy Mangrove Wood"
 	quest.66A8A82D71C79544.title: "Sell Extendo Grip"
@@ -2229,6 +2368,27 @@
 	quest.6E8B9C062D06A3F5.title: "Buy Blaze Nucleus"
 	quest.6EA6110991D1B532.quest_desc: ["The Heavy Engineering Block is used in many multiblock machines, most crucially the Arc Furnace."]
 	quest.6EA6110991D1B532.quest_subtitle: "Heavy load comin' through!"
+	quest.6EA6AC7A77A38A32.quest_desc: [
+		"&lACHERON RECOVERY SOLUTIONS&r"
+		"&8Material Processing Addendum // Contract ARS-BR-17&r"
+		""
+		"Transport recovery authorization confirmed. Remove the &fSealed Biocontainment Canister&r from its interior mounting and return only the preserved internal specimen; return of the storage vessel or vehicle is unnecessary."
+		""
+		"&7Due to prolonged environmental exposure, the locking collar may be seized. This is a common storage failure and does not alter the material classification supplied with the contract.&r"
+		""
+		"&fAPPROVED RECOVERY PROCEDURE&r"
+		"&61.&r Place the &fSealed Biocontainment Canister&r beneath a &fMechanical Press&r to deform the outer locking collar."
+		"&62.&r Remove the loosened cap from the resulting &fCompromised Biocontainment Canister&r by hand."
+		"&63.&r Submit the &fExtracted Biological Sample&r for client collection."
+		""
+		"&7Minor venting, discoloration, particulate release, odor, or residue encountered during opening may be consistent with long-term seal deterioration. These conditions do not require cancellation of the recovery request.&r"
+		""
+		"&aPAYMENT ON DELIVERY:&r $2,000"
+		""
+		"&8Acheron Recovery Solutions assumes no responsibility for loss of sample value caused by deviation from the approved recovery procedure.&r"
+	]
+	quest.6EA6AC7A77A38A32.quest_subtitle: "Recover and process the BR-17 archival specimen"
+	quest.6EA6AC7A77A38A32.title: "REQUEST: Sample Recovery"
 	quest.6EA7D6C0FDDFB19C.title: "Sell Cabbage"
 	quest.6EB21FF85FCDB826.title: "Buy Leather"
 	quest.6EBA351DD2FD16DE.quest_desc: [
@@ -2457,6 +2617,12 @@
 	quest.7BA676E537CB603C.title: "Sell Charged Certus Quartz"
 	quest.7BAC908050D76EED.title: "Buy Feeding Upgrade"
 	quest.7BDA751D78D8F5E2.title: "Buy Mangrove Propagule"
+	quest.7BDEE1C5A87666E7.quest_desc: [
+		"Wear an intact Echo Plate in each of the four armor pieces and power the reactor for Resistance II and Strength II."
+		""
+		"Extra plates do not increase the effects. Worn-out plates stop counting; recover and repair them. Use /ppresonance to check your set and power."
+	]
+	quest.7BDEE1C5A87666E7.title: "Four-Part Harmony"
 	quest.7BEEE0112760A0B7.quest_desc: [
 		"Create: Winery is an addon for Create that adds grapes and wines. "
 		""
@@ -2928,6 +3094,7 @@
 	quest.FF64C0989F878FFB.title: "Buy Frog"
 	quest.FFB31B99F01312CE.title: "Buy Resistor"
 	quest.FFE68D935D7D7ADC.title: "Sell Melon"
+	reward.1B70A9F6C4D23851.title: "Acheron Recovery Survey — Transport BR-17"
 	reward.239296654D0496E4.title: "Extra loaded claim"
 	reward.3290253E50C6EEA3.title: "Extra claim"
 	task.01612AFFCDC1E722.title: "Kill \"The Exile\""
@@ -2947,6 +3114,7 @@
 	task.2D2E63B42D19A14E.title: "Visit The End"
 	task.2DC515D599A6BDFE.title: "Kill the Warden"
 	task.324F1EEB70A0BD05.title: "Accept Contract"
+	task.32FAFA1D8950264B.title: "Accept Contract"
 	task.3355CA5F887DC4B4.title: "Any #kubejs:cgs_guns"
 	task.355B91DCD2DFC28E.title: "Any #minecraft:candles"
 	task.36EEDFED6CFED879.title: "Find the Deep Dark"
@@ -2998,47 +3166,28 @@
 	task.7A42687BB9F895AA.title: "Welcome to Apocalypse Industries"
 	task.7CD81679BC59A60D.title: "Build a Diesel Generator"
 	task.7DC7CC1CE57F2B82.title: "Kill the Guardian of the Pheonix"
-	quest.46285F64822A1FD7.quest_desc: [
-		"&lACHERON RECOVERY SOLUTIONS&r"
-		"&8Special Procurement Division // Contract ARS-BR-17&r"
-		""
-		"A private life-sciences client has requested recovery of a sealed pre-collapse archival specimen from a decommissioned secure transport."
-		""
-		"&7Surviving logistics records identify Transport BR-17 as the final assigned carrier. The vehicle failed to report after civil infrastructure collapse; an archived recovery survey has been reconstructed from its last verified telemetry.&r"
-		""
-		"&fSCOPE OF WORK&r"
-		"Accept the contract to receive the &fAcheron Recovery Survey&r. Locate &fTransport BR-17&r and recover the &fSealed Biocontainment Canister&r from its interior cargo mounting."
-		""
-		"&7The vessel was approved for long-duration specimen storage. Surviving records state that stored cultures were rendered non-viable before transport. Legacy biological-hazard markings remain on many archival containers and do not constitute an active hazard classification.&r"
-		""
-		"&aCOMPENSATION:&r $2,000 upon successful delivery of recovered sample material."
-		""
-		"&8By accepting, the contractor acknowledges that Acheron Recovery Solutions has supplied all handling and route information available in the surviving procurement record.&r"
-	]
-	quest.46285F64822A1FD7.quest_subtitle: "Recover archival cargo from Transport BR-17"
-	quest.46285F64822A1FD7.title: "REQUEST: Archival Specimen Recovery"
-
-	quest.6EA6AC7A77A38A32.quest_desc: [
-		"&lACHERON RECOVERY SOLUTIONS&r"
-		"&8Material Processing Addendum // Contract ARS-BR-17&r"
-		""
-		"Transport recovery authorization confirmed. Remove the &fSealed Biocontainment Canister&r from its interior mounting and return only the preserved internal specimen; return of the storage vessel or vehicle is unnecessary."
-		""
-		"&7Due to prolonged environmental exposure, the locking collar may be seized. This is a common storage failure and does not alter the material classification supplied with the contract.&r"
-		""
-		"&fAPPROVED RECOVERY PROCEDURE&r"
-		"&61.&r Place the &fSealed Biocontainment Canister&r beneath a &fMechanical Press&r to deform the outer locking collar."
-		"&62.&r Remove the loosened cap from the resulting &fCompromised Biocontainment Canister&r by hand."
-		"&63.&r Submit the &fExtracted Biological Sample&r for client collection."
-		""
-		"&7Minor venting, discoloration, particulate release, odor, or residue encountered during opening may be consistent with long-term seal deterioration. These conditions do not require cancellation of the recovery request.&r"
-		""
-		"&aPAYMENT ON DELIVERY:&r $2,000"
-		""
-		"&8Acheron Recovery Solutions assumes no responsibility for loss of sample value caused by deviation from the approved recovery procedure.&r"
-	]
-	quest.6EA6AC7A77A38A32.quest_subtitle: "Recover and process the BR-17 archival specimen"
-	quest.6EA6AC7A77A38A32.title: "REQUEST: Sample Recovery"
-	task.32FAFA1D8950264B.title: "Accept Contract"
-	reward.1B70A9F6C4D23851.title: "Acheron Recovery Survey — Transport BR-17"
+	quest.588D4ADEDFB08661.quest_subtitle: "Power armor: start here"
+	quest.634819F7295E2312.quest_subtitle: "Prepare, install and refuel your reactor"
+	quest.5036106AC24B4475.quest_subtitle: "Choose a specialist and power it up"
+	quest.66070445C15D4C49.quest_subtitle: "Fit protection without overloading yourself"
+	quest.123464FCDEE687F1.quest_subtitle: "Optional alternative: a lighter frame"
+	quest.5D2F7F32F0758EEA.quest_subtitle: "Electric workshop: lighter plates and upgrades"
+	quest.1420AA297FAB413D.quest_subtitle: "Upgrade the piece you actually use"
+	quest.057C8DA60D98F85A.quest_subtitle: "Choose one device for your Motor Interface"
+	quest.54B46EEFE40EDF5A.quest_subtitle: "Choose upper- or lower-body assistance"
+	quest.637F1F571C0CECF3.quest_subtitle: "Craft and install one plate in each armor slot"
+	quest.7BDEE1C5A87666E7.quest_subtitle: "Activate four equipped Echo Plates"
+	quest.573AD89CB7072F8C.quest_subtitle: "Space workshop: three optional experiments"
+	quest.4376A61BFDEAB5D8.quest_subtitle: "Rechargeable protection between attacks"
+	quest.5D4668E0F0214CA5.quest_subtitle: "A charged escape from direct attacks"
+	quest.05EDBE2B6CC01728.quest_subtitle: "Lunar specialist: stronger moving attacks"
+	quest.345CE577D8CC980E.quest_subtitle: "Optional collection award: all three experiments"
+	quest.42234988E85D91AC.quest_subtitle: "Delivery contract: basic replacement supplies"
+	quest.213AA495CCA1661A.quest_subtitle: "Delivery contract: management gets the good equipment"
+	task.38B15D779F6C5B36.title: "Craft any Brass specialist piece"
+	task.4391C3656C710DCE.title: "Wear Protection Pixel armor with a working reactor"
+	task.7CE5DF17FCFE45FD.title: "Craft any ordinary Alloy specialist piece"
+	task.066D99261214445A.title: "Craft any one external device"
+	task.49C66DE1288E1FA6.title: "Activate four powered Echo Plates"
+	task.7A3A96282C681A1C.title: "Claim the optional collection award"
 }

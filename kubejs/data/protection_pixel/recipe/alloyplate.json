@@ -1,0 +1,78 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "protection_pixel:smallnetheritesheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "protection_pixel:alloyarmorplate"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletealloyarmorplate"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletealloyarmorplate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletealloyarmorplate"
+        },
+        {
+          "item": "immersiveengineering:plate_steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletealloyarmorplate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletealloyarmorplate"
+        },
+        {
+          "item": "create:andesite_alloy"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletealloyarmorplate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "protection_pixel:incompletealloyarmorplate"
+        },
+        {
+          "item": "powergrid:magnet"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:incompletealloyarmorplate"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "protection_pixel:incompletealloyarmorplate"
+  }
+}

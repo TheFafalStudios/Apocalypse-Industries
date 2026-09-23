@@ -1,0 +1,214 @@
+[
+  {
+    "recipe": "protection_pixel:alloyplate",
+    "output": "protection_pixel:alloyarmorplate"
+  },
+  {
+    "recipe": "protection_pixel:anchorpointasloot",
+    "output": "protection_pixel:anchorpointas_leggings"
+  },
+  {
+    "recipe": "protection_pixel:anchorpointloot",
+    "output": "protection_pixel:anchorpoint_leggings"
+  },
+  {
+    "recipe": "protection_pixel:armorhangerloot",
+    "output": "protection_pixel:armorhanger"
+  },
+  {
+    "recipe": "protection_pixel:blooddialysisdeviceloot",
+    "output": "protection_pixel:blooddialysisdevice"
+  },
+  {
+    "recipe": "protection_pixel:bloodprisonerasloot",
+    "output": "protection_pixel:bloodprisoneras_helmet"
+  },
+  {
+    "recipe": "protection_pixel:bloodprisonerloot",
+    "output": "protection_pixel:bloodprisoner_helmet"
+  },
+  {
+    "recipe": "protection_pixel:breakerasloot",
+    "output": "protection_pixel:breakeras_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:breakerloot",
+    "output": "protection_pixel:breaker_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:buoyancyasloot",
+    "output": "protection_pixel:buoyancyas_leggings"
+  },
+  {
+    "recipe": "protection_pixel:buoyancyloot",
+    "output": "protection_pixel:buoyancy_leggings"
+  },
+  {
+    "recipe": "protection_pixel:cannonloot",
+    "output": "protection_pixel:cannonarm"
+  },
+  {
+    "recipe": "protection_pixel:cannonshellloot",
+    "output": "protection_pixel:steelcorecannonshell"
+  },
+  {
+    "recipe": "protection_pixel:closedasloot",
+    "output": "protection_pixel:closedas_helmet"
+  },
+  {
+    "recipe": "protection_pixel:closedloot",
+    "output": "protection_pixel:closed_helmet"
+  },
+  {
+    "recipe": "protection_pixel:evasionwingloot",
+    "output": "protection_pixel:evasionwing"
+  },
+  {
+    "recipe": "protection_pixel:falconnestasloot",
+    "output": "protection_pixel:falconnestas_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:falconnestloot",
+    "output": "protection_pixel:falconnest_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:floatshieldloot",
+    "output": "protection_pixel:floatshield_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:grende",
+    "output": "protection_pixel:pneumaticgrenadelauncharm"
+  },
+  {
+    "recipe": "protection_pixel:hammerasloot",
+    "output": "protection_pixel:hammeras_helmet"
+  },
+  {
+    "recipe": "protection_pixel:hammerloot",
+    "output": "protection_pixel:hammer_helmet"
+  },
+  {
+    "recipe": "protection_pixel:heatoverlockmechanismloot",
+    "output": "protection_pixel:heatoverlockingmechanism"
+  },
+  {
+    "recipe": "protection_pixel:hellsnakeasloot",
+    "output": "protection_pixel:hellsnakeas_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:hellsnakeloot",
+    "output": "protection_pixel:hellsnake_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:hookcannonloot",
+    "output": "protection_pixel:hookcannon"
+  },
+  {
+    "recipe": "protection_pixel:hunterasloot",
+    "output": "protection_pixel:hunteras_helmet"
+  },
+  {
+    "recipe": "protection_pixel:hunterloot",
+    "output": "protection_pixel:hunter_helmet"
+  },
+  {
+    "recipe": "protection_pixel:lancerasloot",
+    "output": "protection_pixel:lanceras_helmet"
+  },
+  {
+    "recipe": "protection_pixel:lancerloot",
+    "output": "protection_pixel:lancer_helmet"
+  },
+  {
+    "recipe": "protection_pixel:magneticasloot",
+    "output": "protection_pixel:magneticstormas_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:magneticloot",
+    "output": "protection_pixel:magneticstorm_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:nightdemonasloot",
+    "output": "protection_pixel:nightdemonas_helmet"
+  },
+  {
+    "recipe": "protection_pixel:nightdemonloot",
+    "output": "protection_pixel:nightdemon_helmet"
+  },
+  {
+    "recipe": "protection_pixel:pioneerasloot",
+    "output": "protection_pixel:pioneeras_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:pioneerloot",
+    "output": "protection_pixel:pioneer_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:plagueasloot",
+    "output": "protection_pixel:plagueas_helmet"
+  },
+  {
+    "recipe": "protection_pixel:plagueloot",
+    "output": "protection_pixel:plague_helmet"
+  },
+  {
+    "recipe": "protection_pixel:platformloot",
+    "output": "protection_pixel:armorloadplatform"
+  },
+  {
+    "recipe": "protection_pixel:prismasloot",
+    "output": "protection_pixel:wingsofprismas_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:prismloot",
+    "output": "protection_pixel:wingsofprism_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:reactorloot",
+    "output": "protection_pixel:powerengine"
+  },
+  {
+    "recipe": "protection_pixel:slingshotasloot",
+    "output": "protection_pixel:slingshotas_leggings"
+  },
+  {
+    "recipe": "protection_pixel:slingshotloot",
+    "output": "protection_pixel:slingshot_leggings"
+  },
+  {
+    "recipe": "protection_pixel:steamexoskeletonloot",
+    "output": "protection_pixel:steamectoskeleton"
+  },
+  {
+    "recipe": "protection_pixel:typhoonasloot",
+    "output": "protection_pixel:typhoonas_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:typhoonloot",
+    "output": "protection_pixel:typhoon_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:watertankloot_2",
+    "output": "protection_pixel:watertank"
+  },
+  {
+    "recipe": "protection_pixel:wingloot",
+    "output": "protection_pixel:maneuveringwing"
+  },
+  {
+    "recipe": "protection_pixel:workerasloot",
+    "output": "protection_pixel:workerhornetas_chestplate"
+  },
+  {
+    "recipe": "protection_pixel:workerloot",
+    "output": "protection_pixel:workerhornet_chestplate"
+  },
+  {
+    "recipe": "apocalypse_pp:echo_plate",
+    "output": "apocalypse_pp:echo_plate"
+  },
+  {
+    "recipe": "apocalypse_pp:reinforced_fiber_from_hemp",
+    "output": "protection_pixel:reinforcedfiber"
+  }
+]

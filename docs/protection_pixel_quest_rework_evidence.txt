@@ -1,0 +1,6 @@
+[00:55:21] [Server thread/INFO] [KubeJS Server/]: server_scripts:zz_pp_quest_roundtrip.js#29: PP QUEST RUNTIME BEFORE SAVE PASS: 238 checks
+[00:55:21] [Server thread/INFO] [KubeJS Server/]: server_scripts:zz_pp_quest_roundtrip.js#34: PP QUEST ROUNDTRIP PASS: 476 checks; exact titles, subtitles, task labels and stable IDs
+[00:55:21] [Server thread/INFO] [minecraft/MinecraftServer]: PP SELFTEST PASS: 145 assertions
+449 static checks passed.
+Only the 19 owned descriptions changed in the concision correction.
+Description lengths: median 98 -> 40 words; longest 340 -> 64.

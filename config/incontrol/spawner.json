@@ -69,7 +69,8 @@
       "and": {
         "mintime": 13000,
         "maxtime": 23000,
-        "maxlight_full": 7
+        "maxlight_full": 7,
+        "seesky": true
       }
     }
   },
@@ -143,7 +144,8 @@
       "and": {
         "mintime": 13000,
         "maxtime": 23000,
-        "maxlight_full": 7
+        "maxlight_full": 7,
+        "seesky": true
       }
     }
   },
@@ -217,7 +219,8 @@
       "and": {
         "mintime": 13000,
         "maxtime": 23000,
-        "maxlight_full": 7
+        "maxlight_full": 7,
+        "seesky": true
       }
     }
   },
@@ -291,7 +294,8 @@
       "and": {
         "mintime": 13000,
         "maxtime": 23000,
-        "maxlight_full": 7
+        "maxlight_full": 7,
+        "seesky": true
       }
     }
   },
@@ -365,7 +369,8 @@
       "and": {
         "mintime": 13000,
         "maxtime": 23000,
-        "maxlight_full": 7
+        "maxlight_full": 7,
+        "seesky": true
       }
     }
   },
@@ -439,7 +444,8 @@
       "and": {
         "mintime": 13000,
         "maxtime": 23000,
-        "maxlight_full": 7
+        "maxlight_full": 7,
+        "seesky": true
       }
     }
   },
@@ -513,7 +519,8 @@
       "and": {
         "mintime": 13000,
         "maxtime": 23000,
-        "maxlight_full": 7
+        "maxlight_full": 7,
+        "seesky": true
       }
     }
   },
@@ -587,7 +594,8 @@
       "and": {
         "mintime": 13000,
         "maxtime": 23000,
-        "maxlight_full": 7
+        "maxlight_full": 7,
+        "seesky": true
       }
     }
   },
@@ -661,7 +669,8 @@
       "and": {
         "mintime": 13000,
         "maxtime": 23000,
-        "maxlight_full": 7
+        "maxlight_full": 7,
+        "seesky": true
       }
     }
   },

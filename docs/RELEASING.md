@@ -12,3 +12,11 @@ The live ATLauncher instance is the development source. Build outputs and resear
 The generated options.txt contains only portable resource-pack defaults and is marked preserve=true. Existing players keep their preferences. Never distribute worlds, Distant Horizons generated data, credentials or player histories.
 
 Only original top-level mod JARs plus named compatibility mods should be active. Do not reintroduce the old patched Moogs Paths/Weather2/Weather2Compat JARs alongside standalone fixes.
+
+## Reconciled testing workflow (2026-09-20)
+
+Local VERSION and pack.toml use v1-dev until an official release label is selected. This is an unpublished development build based on GitHub v1. Preserve the pending zombie-spawning decision in AGENTS.md before publishing.
+
+Fetch origin/main before building. Run `scripts/Build-PackwizIndex.ps1 -OutputRoot <new directory outside the instance>`; it selects Python 3.11+ and accepts -PythonPath when needed. The builder compares deletions against origin/main (override with -BaselineRef), not the partially refreshed live index. It writes fresh pack/index hashes into the output repository only. Do not copy portable generated options.txt over live player preferences or run validation on the live folder as if it were a filtered release.
+
+Build/test folders are excluded from source-tool copies. The local instance icon and CI workflow are retained. Generated validation reports never inherit runtime-test claims from an older release. Validate and build the ATLauncher ZIP in the generated repository before publication. No automatic push occurs.

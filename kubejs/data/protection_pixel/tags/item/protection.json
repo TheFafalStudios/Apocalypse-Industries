@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "protection_pixel:linkplate_helmet",
+    "protection_pixel:linkplate_chestplate",
+    "protection_pixel:linkplate_leggings",
+    "protection_pixel:linkplate_boots",
+    "protection_pixel:floatshield_chestplate"
+  ]
+}

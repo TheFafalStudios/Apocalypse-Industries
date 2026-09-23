@@ -1,0 +1,39 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:iron_sheet"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "create:andesite_alloy"
+    },
+    "D": {
+      "item": "powergrid:constant_speed_motor"
+    },
+    "E": {
+      "item": "create:cogwheel"
+    },
+    "F": {
+      "item": "create:transmitter"
+    },
+    "G": {
+      "item": "creatingspace:moon_regolith"
+    }
+  },
+  "pattern": [
+    "AB BA",
+    "ACACA",
+    "DEFED",
+    "A   A",
+    "  G  "
+  ],
+  "result": {
+    "id": "protection_pixel:evasionwing",
+    "count": 1
+  }
+}

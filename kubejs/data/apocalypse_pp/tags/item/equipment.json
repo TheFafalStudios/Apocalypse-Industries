@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "protection_pixel:maneuveringwing",
+    "protection_pixel:blooddialysisdevice",
+    "protection_pixel:steambooster",
+    "protection_pixel:cannonarm",
+    "protection_pixel:pneumaticgrenadelauncharm",
+    "protection_pixel:heatpulsethruster",
+    "protection_pixel:hookcannon",
+    "protection_pixel:tacticaloxygensupplydevice",
+    "protection_pixel:suspjetpack"
+  ]
+}

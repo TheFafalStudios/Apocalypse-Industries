@@ -1,0 +1,1008 @@
+[
+  {
+    "key": "setup",
+    "chapter": "brass_age",
+    "title": "Occupational Hazard",
+    "parents": [
+      "5910B381E7F56126"
+    ],
+    "tasks": [
+      {
+        "id": "protection_pixel:armorhanger",
+        "count": 1,
+        "consume": false
+      },
+      {
+        "id": "protection_pixel:armorloadplatform",
+        "count": 1,
+        "consume": false
+      }
+    ],
+    "text": [
+      "Management approved putting the machinery on the employee.",
+      "",
+      "Pipe lava into the Armor Load Platform. Wear your armor, stand on it and press Armor Load Platform (Right Shift by default). Installing or removing ordinary plates costs 100 mB each.",
+      "",
+      "The hanger stores armor and fits Exoskeletons. Continue with Steam Powered to prepare your reactor."
+    ],
+    "x": -5.0,
+    "y": 1.0,
+    "cash": 0,
+    "id": "588D4ADEDFB08661",
+    "parent_ids": [
+      "5910B381E7F56126"
+    ],
+    "previous_id": "B2C7E1BD4B4904B8",
+    "runtime_tasks": [
+      {
+        "consume_items": false,
+        "id": "51CF91F953532C3F",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:armorhanger"
+        },
+        "type": "item"
+      },
+      {
+        "consume_items": false,
+        "id": "5F3998730C3E234D",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:armorloadplatform"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [
+      {
+        "id": "657428B2BC2DDABE",
+        "type": "item",
+        "item": {
+          "id": "minecraft:lava_bucket",
+          "count": 1
+        },
+        "count": 1,
+        "team_reward": true
+      }
+    ],
+    "subtitle": "Power armor: start here",
+    "task_titles": []
+  },
+  {
+    "key": "power",
+    "chapter": "brass_age",
+    "title": "Steam Powered",
+    "parents": [
+      "588D4ADEDFB08661"
+    ],
+    "tasks": [
+      {
+        "id": "protection_pixel:powerengine",
+        "count": 1,
+        "consume": false
+      },
+      {
+        "id": "protection_pixel:watertank",
+        "count": 1,
+        "consume": false
+      },
+      {
+        "id": "protection_pixel:flarerod",
+        "count": 1,
+        "consume": false
+      }
+    ],
+    "text": [
+      "Fill a Water Tank with 1,000 mB water. Right-click the reactor in your hand and insert the tank and a Flare Rod.",
+      "",
+      "On the platform, open the menu and put the reactor in the Power Interface. Remove it there to replace spent supplies.",
+      "",
+      "Extra rods increase carrying capacity. If abilities stop, check water and fuel; /ppresonance reports power status."
+    ],
+    "x": -7.5,
+    "y": 4.5,
+    "cash": 0,
+    "id": "634819F7295E2312",
+    "parent_ids": [
+      "588D4ADEDFB08661"
+    ],
+    "previous_id": "EC40A6924A41ADE7",
+    "runtime_tasks": [
+      {
+        "consume_items": false,
+        "id": "465487401AB0BAC1",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:powerengine"
+        },
+        "type": "item"
+      },
+      {
+        "consume_items": false,
+        "id": "05850469777608AF",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:watertank"
+        },
+        "type": "item"
+      },
+      {
+        "consume_items": false,
+        "id": "621690BE224C26DE",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:flarerod"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [
+      {
+        "id": "1FB6EC3666CA8EC0",
+        "type": "item",
+        "item": {
+          "id": "protection_pixel:emptywatertank",
+          "count": 1
+        },
+        "count": 1,
+        "team_reward": true
+      }
+    ],
+    "subtitle": "Prepare, install and refuel your reactor",
+    "task_titles": []
+  },
+  {
+    "key": "first",
+    "chapter": "brass_age",
+    "title": "Personal Protective Equipment",
+    "parents": [
+      "588D4ADEDFB08661"
+    ],
+    "tasks": [
+      {
+        "filter": "apocalypse_pp:brass",
+        "count": 1
+      },
+      {
+        "advancement": "apocalypse_pp:powered_loadout"
+      }
+    ],
+    "text": [
+      "Choose any Brass specialist: Pioneer helps mining, Night Demon helps exploration, and Lancer rewards moving melee attacks. Other choices are described in their tooltips; a matching suit is unnecessary.",
+      "",
+      "Wear a Protection Pixel piece with a working reactor to complete the powered-use task. Add armor plates before difficult combat."
+    ],
+    "x": -4.0,
+    "y": 6.0,
+    "cash": 0,
+    "id": "5036106AC24B4475",
+    "parent_ids": [
+      "588D4ADEDFB08661"
+    ],
+    "previous_id": "5036106AC24B4475",
+    "runtime_tasks": [
+      {
+        "consume_items": false,
+        "id": "38B15D779F6C5B36",
+        "item": {
+          "components": {
+            "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(apocalypse_pp:brass)"
+          },
+          "count": 1.0,
+          "id": "ftbfiltersystem:smart_filter"
+        },
+        "type": "item"
+      },
+      {
+        "id": "4391C3656C710DCE",
+        "type": "advancement",
+        "advancement": "apocalypse_pp:powered_loadout",
+        "criterion": ""
+      }
+    ],
+    "runtime_rewards": [
+      {
+        "id": "069EEA33E3836940",
+        "type": "item",
+        "item": {
+          "id": "protection_pixel:ironarmorplate",
+          "count": 1
+        },
+        "count": 2,
+        "team_reward": true
+      }
+    ],
+    "subtitle": "Choose a specialist and power it up",
+    "task_titles": [
+      "Craft any Brass specialist piece",
+      "Wear Protection Pixel armor with a working reactor"
+    ]
+  },
+  {
+    "key": "plates",
+    "chapter": "brass_age",
+    "title": "Bolt-On Protection",
+    "parents": [
+      "588D4ADEDFB08661"
+    ],
+    "tasks": [
+      {
+        "id": "protection_pixel:ironarmorplate",
+        "count": 1,
+        "consume": false
+      },
+      {
+        "id": "protection_pixel:brassarmorplate",
+        "count": 1,
+        "consume": false
+      }
+    ],
+    "text": [
+      "Iron plates are light; Brass offers more protection but weighs more. Alloy later reduces that weight.",
+      "",
+      "Wear your armor and open its connection in the lava-fed platform menu to fit plates. If movement becomes sluggish, reduce weight or increase reactor capacity.",
+      "",
+      "Float Shield has no ordinary chestplate plate slots."
+    ],
+    "x": -2.0,
+    "y": 3.5,
+    "cash": 0,
+    "id": "66070445C15D4C49",
+    "parent_ids": [
+      "588D4ADEDFB08661"
+    ],
+    "previous_id": "B047BF8104FED257",
+    "runtime_tasks": [
+      {
+        "consume_items": false,
+        "id": "36344ED278C1D5CE",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:ironarmorplate"
+        },
+        "type": "item"
+      },
+      {
+        "consume_items": false,
+        "id": "7AC749A5127FE1D3",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:brassarmorplate"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [],
+    "subtitle": "Fit protection without overloading yourself",
+    "task_titles": []
+  },
+  {
+    "key": "link",
+    "chapter": "brass_age",
+    "title": "Light Industrial Frame",
+    "parents": [
+      "588D4ADEDFB08661"
+    ],
+    "tasks": [
+      {
+        "id": "protection_pixel:linkplate_chestplate",
+        "count": 1,
+        "consume": false
+      }
+    ],
+    "text": [
+      "Link-Plate trades armor protection for a lighter, tough frame.",
+      "",
+      "Unlike most powered chestplates, it supports the Steam Exoskeleton introduced in Electric Age. Your leggings must also be compatible."
+    ],
+    "x": -5.5,
+    "y": 5.0,
+    "cash": 0,
+    "id": "123464FCDEE687F1",
+    "parent_ids": [
+      "588D4ADEDFB08661"
+    ],
+    "previous_id": "8FCCFD1F13A69BB5",
+    "runtime_tasks": [
+      {
+        "consume_items": false,
+        "id": "04C369BAB94F9C9C",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:linkplate_chestplate"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [],
+    "subtitle": "Optional alternative: a lighter frame",
+    "task_titles": []
+  },
+  {
+    "key": "alloy",
+    "chapter": "electric_age",
+    "title": "Heavy Industry, Personal Scale",
+    "parents": [
+      "2B7909E14663FFBC",
+      "5036106AC24B4475"
+    ],
+    "tasks": [
+      {
+        "id": "powergrid:magnet",
+        "count": 1,
+        "consume": false
+      },
+      {
+        "id": "protection_pixel:alloyarmorplate",
+        "count": 1,
+        "consume": false
+      }
+    ],
+    "text": [
+      "Power Grid magnets unlock Alloy plates and heat-overlocking mechanisms. Alloy protects as well as Brass at lower weight.",
+      "",
+      "Choose armor upgrades, external equipment or an Exoskeleton. Check the seven-loop mechanism recipe before setting up production."
+    ],
+    "x": -6.0,
+    "y": 9.0,
+    "cash": 0,
+    "id": "5D2F7F32F0758EEA",
+    "parent_ids": [
+      "2B7909E14663FFBC",
+      "5036106AC24B4475"
+    ],
+    "previous_id": "B4F50681B12BBC5D",
+    "runtime_tasks": [
+      {
+        "consume_items": false,
+        "id": "1E0FDDAB0E4595C2",
+        "item": {
+          "count": 1.0,
+          "id": "powergrid:magnet"
+        },
+        "type": "item"
+      },
+      {
+        "consume_items": false,
+        "id": "2991DF34BB4B1272",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:alloyarmorplate"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [],
+    "subtitle": "Electric workshop: lighter plates and upgrades",
+    "task_titles": []
+  },
+  {
+    "key": "chassis",
+    "chapter": "electric_age",
+    "title": "Reinforced Chassis",
+    "parents": [
+      "5D2F7F32F0758EEA"
+    ],
+    "tasks": [
+      {
+        "filter": "apocalypse_pp:alloy",
+        "count": 1
+      }
+    ],
+    "text": [
+      "Upgrade the specialist you actually use through its Create assembly recipe.",
+      "",
+      "Remove Echo Plates first. Do not assume crafting preserves installed plates, enchantments or other additions; check the output before upgrading valuable armor.",
+      "",
+      "Lancer-AS belongs to the separate lunar branch."
+    ],
+    "x": -4.0,
+    "y": 9.0,
+    "cash": 0,
+    "id": "1420AA297FAB413D",
+    "parent_ids": [
+      "5D2F7F32F0758EEA"
+    ],
+    "previous_id": "1420AA297FAB413D",
+    "runtime_tasks": [
+      {
+        "consume_items": false,
+        "id": "7CE5DF17FCFE45FD",
+        "item": {
+          "components": {
+            "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(apocalypse_pp:alloy)"
+          },
+          "count": 1.0,
+          "id": "ftbfiltersystem:smart_filter"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [],
+    "subtitle": "Upgrade the piece you actually use",
+    "task_titles": [
+      "Craft any ordinary Alloy specialist piece"
+    ]
+  },
+  {
+    "key": "external",
+    "chapter": "electric_age",
+    "title": "External Systems",
+    "parents": [
+      "5D2F7F32F0758EEA"
+    ],
+    "tasks": [
+      {
+        "filter": "apocalypse_pp:equipment",
+        "count": 1
+      }
+    ],
+    "text": [
+      "Choose one device: wings or thrusters for travel, Steam Booster for carrying capacity, oxygen supply for diving, or a launcher for combat. Check tooltips for controls and ammunition.",
+      "",
+      "The platform menu has one Motor Interface slot. Remove the previous device before installing another, and keep the reactor fueled."
+    ],
+    "x": -6.0,
+    "y": 11.0,
+    "cash": 0,
+    "id": "057C8DA60D98F85A",
+    "parent_ids": [
+      "5D2F7F32F0758EEA"
+    ],
+    "previous_id": "8B6B1AB37ED49CAF",
+    "runtime_tasks": [
+      {
+        "consume_items": false,
+        "id": "066D99261214445A",
+        "item": {
+          "components": {
+            "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(apocalypse_pp:equipment)"
+          },
+          "count": 1.0,
+          "id": "ftbfiltersystem:smart_filter"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [],
+    "subtitle": "Choose one device for your Motor Interface",
+    "task_titles": [
+      "Craft any one external device"
+    ]
+  },
+  {
+    "key": "exo",
+    "chapter": "electric_age",
+    "title": "Powered Exoskeleton",
+    "parents": [
+      "5D2F7F32F0758EEA"
+    ],
+    "tasks": [
+      {
+        "id": "protection_pixel:steamectoskeleton",
+        "count": 1,
+        "consume": false
+      }
+    ],
+    "text": [
+      "Right-click the Exoskeleton in your hand to choose upper-body mining/combat support or lower-body movement support. Both need reactor power.",
+      "",
+      "Place it on an empty hanger, then sneak-right-click empty-handed to equip. Right-click an empty hanger empty-handed to remove it; click again to retrieve it.",
+      "",
+      "Most powered chestplates and leggings are incompatible; Link-Plate and Float Shield are exceptions."
+    ],
+    "x": -4.0,
+    "y": 11.0,
+    "cash": 0,
+    "id": "54B46EEFE40EDF5A",
+    "parent_ids": [
+      "5D2F7F32F0758EEA"
+    ],
+    "previous_id": "54B46EEFE40EDF5A",
+    "runtime_tasks": [
+      {
+        "consume_items": false,
+        "id": "0160442E22ED6A9D",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:steamectoskeleton"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [],
+    "subtitle": "Choose upper- or lower-body assistance",
+    "task_titles": []
+  },
+  {
+    "key": "echo",
+    "chapter": "electric_age",
+    "title": "Echo Resonance Plates",
+    "parents": [
+      "4D1740CBBF0CFB13",
+      "5036106AC24B4475"
+    ],
+    "tasks": [
+      {
+        "id": "apocalypse_pp:echo_plate",
+        "count": 1,
+        "consume": false
+      }
+    ],
+    "text": [
+      "Craft Echo Plates from materials; no finished armor is consumed. They match Alloy plate stats and durability.",
+      "",
+      "Fit them in ordinary plate slots at the Armor Load Platform, including boots and Float Shield. Recover and repair worn plates there. Remove plates before upgrading armor."
+    ],
+    "x": -8.0,
+    "y": 9.0,
+    "cash": 0,
+    "id": "637F1F571C0CECF3",
+    "parent_ids": [
+      "4D1740CBBF0CFB13",
+      "5036106AC24B4475"
+    ],
+    "previous_id": "B19AB3A424AD64A1",
+    "runtime_tasks": [
+      {
+        "consume_items": false,
+        "count": 1,
+        "id": "22C484378BCBD3C0",
+        "item": {
+          "count": 1.0,
+          "id": "apocalypse_pp:echo_plate"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [],
+    "subtitle": "Craft and install one plate in each armor slot",
+    "task_titles": []
+  },
+  {
+    "key": "resonance",
+    "chapter": "electric_age",
+    "title": "Four-Part Harmony",
+    "parents": [
+      "637F1F571C0CECF3"
+    ],
+    "tasks": [
+      {
+        "advancement": "apocalypse_pp:resonance"
+      }
+    ],
+    "text": [
+      "Wear an intact Echo Plate in each of the four armor pieces and power the reactor for Resistance II and Strength II.",
+      "",
+      "Extra plates do not increase the effects. Worn-out plates stop counting; recover and repair them. Use /ppresonance to check your set and power."
+    ],
+    "x": -8.0,
+    "y": 11.0,
+    "cash": 0,
+    "id": "7BDEE1C5A87666E7",
+    "parent_ids": [
+      "637F1F571C0CECF3"
+    ],
+    "previous_id": "B69B184168B0CBAF",
+    "runtime_tasks": [
+      {
+        "advancement": "apocalypse_pp:resonance",
+        "criterion": "",
+        "id": "49C66DE1288E1FA6",
+        "type": "advancement"
+      }
+    ],
+    "runtime_rewards": [
+      {
+        "id": "3C9AB8A29C58B8AA",
+        "type": "item",
+        "item": {
+          "id": "protection_pixel:emptywatertank",
+          "count": 1
+        },
+        "count": 1,
+        "team_reward": true
+      }
+    ],
+    "subtitle": "Activate four equipped Echo Plates",
+    "task_titles": [
+      "Activate four powered Echo Plates"
+    ]
+  },
+  {
+    "key": "rd",
+    "chapter": "space_age",
+    "title": "R&D Department",
+    "parents": [
+      "4709097D00719B25",
+      "5D2F7F32F0758EEA"
+    ],
+    "tasks": [
+      {
+        "id": "creatingspace:moon_regolith",
+        "count": 1,
+        "consume": false
+      }
+    ],
+    "text": [
+      "Moon Regolith unlocks three optional projects: Float Shield, Evasion Wing and Lancer-AS.",
+      "",
+      "Choose what suits your loadout. Building all three is only necessary for the separate collection award."
+    ],
+    "x": -4.0,
+    "y": 4.0,
+    "cash": 0,
+    "id": "573AD89CB7072F8C",
+    "parent_ids": [
+      "4709097D00719B25",
+      "5D2F7F32F0758EEA"
+    ],
+    "previous_id": "94CE408A4A30C055",
+    "runtime_tasks": [
+      {
+        "consume_items": false,
+        "id": "2E9EDFF4D456D416",
+        "item": {
+          "count": 1.0,
+          "id": "creatingspace:moon_regolith"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [],
+    "subtitle": "Space workshop: three optional experiments",
+    "task_titles": []
+  },
+  {
+    "key": "shield",
+    "chapter": "space_age",
+    "title": "Active Protection System",
+    "parents": [
+      "573AD89CB7072F8C"
+    ],
+    "tasks": [
+      {
+        "id": "protection_pixel:floatshield_chestplate",
+        "count": 1,
+        "consume": false
+      }
+    ],
+    "text": [
+      "Float Shield stores 25 shield points and restores roughly one every 1.25 seconds while powered. Repeated hits can overwhelm it.",
+      "",
+      "Its base armor is weak. Fit ordinary plates, including Echo Plates, at the Armor Load Platform. Use cover to recharge."
+    ],
+    "x": -6.0,
+    "y": 6.0,
+    "cash": 0,
+    "id": "4376A61BFDEAB5D8",
+    "parent_ids": [
+      "573AD89CB7072F8C"
+    ],
+    "previous_id": "4376A61BFDEAB5D8",
+    "runtime_tasks": [
+      {
+        "consume_items": false,
+        "id": "1FB5C502E5F961D2",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:floatshield_chestplate"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [],
+    "subtitle": "Rechargeable protection between attacks",
+    "task_titles": []
+  },
+  {
+    "key": "evasion",
+    "chapter": "space_age",
+    "title": "Automatic Evasion",
+    "parents": [
+      "573AD89CB7072F8C"
+    ],
+    "tasks": [
+      {
+        "id": "protection_pixel:evasionwing",
+        "count": 1,
+        "consume": false
+      }
+    ],
+    "text": [
+      "Evasion Wing spends a charge to avoid a direct attack, then recharges. Upgrades shorten the wait.",
+      "",
+      "Install it in the Motor Interface and keep the reactor powered. It replaces your other device and does not provide ordinary flight."
+    ],
+    "x": -4.0,
+    "y": 6.0,
+    "cash": 0,
+    "id": "5D4668E0F0214CA5",
+    "parent_ids": [
+      "573AD89CB7072F8C"
+    ],
+    "previous_id": "5D4668E0F0214CA5",
+    "runtime_tasks": [
+      {
+        "consume_items": false,
+        "id": "412615335E12E64C",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:evasionwing"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [],
+    "subtitle": "A charged escape from direct attacks",
+    "task_titles": []
+  },
+  {
+    "key": "lancer_as",
+    "chapter": "space_age",
+    "title": "Experimental Kinetics",
+    "parents": [
+      "573AD89CB7072F8C"
+    ],
+    "tasks": [
+      {
+        "id": "protection_pixel:lanceras_helmet",
+        "count": 1,
+        "consume": false
+      }
+    ],
+    "text": [
+      "Lancer-AS raises the movement-based attack bonus from 6 to 9 damage while powered.",
+      "",
+      "Choose it for mobile melee combat. Recover any Echo Plate before upgrading, then install it on the new helmet."
+    ],
+    "x": -2.0,
+    "y": 6.0,
+    "cash": 0,
+    "id": "05EDBE2B6CC01728",
+    "parent_ids": [
+      "573AD89CB7072F8C"
+    ],
+    "previous_id": "05EDBE2B6CC01728",
+    "runtime_tasks": [
+      {
+        "consume_items": false,
+        "id": "2A269BD58F71A3E8",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:lanceras_helmet"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [],
+    "subtitle": "Lunar specialist: stronger moving attacks",
+    "task_titles": []
+  },
+  {
+    "key": "collector",
+    "chapter": "space_age",
+    "title": "Walking Industrial Accident",
+    "parents": [
+      "4376A61BFDEAB5D8",
+      "5D4668E0F0214CA5",
+      "05EDBE2B6CC01728"
+    ],
+    "tasks": [
+      {
+        "checkmark": true
+      }
+    ],
+    "text": [
+      "An optional collection award for obtaining Float Shield, Evasion Wing and Lancer-AS. They do not need to be equipped together.",
+      "",
+      "Management offers $1,000 per team. Storage space for the prototypes remains your problem."
+    ],
+    "x": -4.0,
+    "y": 8.0,
+    "cash": 1000,
+    "id": "345CE577D8CC980E",
+    "parent_ids": [
+      "4376A61BFDEAB5D8",
+      "5D4668E0F0214CA5",
+      "05EDBE2B6CC01728"
+    ],
+    "previous_id": "9039021466BBF900",
+    "runtime_tasks": [
+      {
+        "id": "7A3A96282C681A1C",
+        "type": "checkmark"
+      }
+    ],
+    "runtime_rewards": [
+      {
+        "id": "4CF94DDED4E5EFBD",
+        "item": {
+          "count": 1.0,
+          "id": "jackseconomy:thousand_dollar_bill"
+        },
+        "team_reward": true,
+        "type": "item"
+      }
+    ],
+    "subtitle": "Optional collection award: all three experiments",
+    "task_titles": [
+      "Claim the optional collection award"
+    ]
+  },
+  {
+    "key": "sr_brass",
+    "chapter": "special_requests",
+    "title": "REQUEST: Workplace Safety Initiative",
+    "parents": [
+      "5036106AC24B4475"
+    ],
+    "tasks": [
+      {
+        "id": "protection_pixel:ironarmorplate",
+        "count": 16,
+        "consume": true
+      },
+      {
+        "id": "protection_pixel:emptywatertank",
+        "count": 8,
+        "consume": true
+      },
+      {
+        "id": "protection_pixel:brassarmorplate",
+        "count": 8,
+        "consume": true
+      }
+    ],
+    "text": [
+      "&lRequest&r",
+      "",
+      "\"Employee retention has been reclassified as a hardware problem. Send replacement plates and tanks.\"",
+      "",
+      "- Personnel Department",
+      "",
+      "Submitted supplies are consumed. One $1,000 payment per team."
+    ],
+    "x": 0.0,
+    "y": 13.0,
+    "cash": 1000,
+    "id": "42234988E85D91AC",
+    "parent_ids": [
+      "5036106AC24B4475"
+    ],
+    "previous_id": "42234988E85D91AC",
+    "runtime_tasks": [
+      {
+        "consume_items": true,
+        "count": 16.0,
+        "id": "5020DF5976973B5A",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:ironarmorplate"
+        },
+        "type": "item"
+      },
+      {
+        "consume_items": true,
+        "count": 8.0,
+        "id": "2DDA96F47E57452C",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:emptywatertank"
+        },
+        "type": "item"
+      },
+      {
+        "consume_items": true,
+        "count": 8.0,
+        "id": "05E12BC38428FD1C",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:brassarmorplate"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [
+      {
+        "id": "3459416551573C3E",
+        "item": {
+          "count": 1.0,
+          "id": "jackseconomy:thousand_dollar_bill"
+        },
+        "team_reward": true,
+        "type": "item"
+      }
+    ],
+    "subtitle": "Delivery contract: basic replacement supplies",
+    "task_titles": []
+  },
+  {
+    "key": "sr_alloy",
+    "chapter": "special_requests",
+    "title": "REQUEST: Executive Protection",
+    "parents": [
+      "1420AA297FAB413D"
+    ],
+    "tasks": [
+      {
+        "id": "protection_pixel:alloyarmorplate",
+        "count": 4,
+        "consume": true
+      },
+      {
+        "id": "protection_pixel:emptywatertank",
+        "count": 16,
+        "consume": true
+      },
+      {
+        "id": "protection_pixel:powerengine",
+        "count": 2,
+        "consume": true
+      }
+    ],
+    "text": [
+      "&lRequest&r",
+      "",
+      "\"Management has approved a separate protection budget for management. Send Alloy plates, tanks and reactors.\"",
+      "",
+      "- Executive Office",
+      "",
+      "Empty reactors before submitting. Supplies are consumed; one $8,000 payment per team."
+    ],
+    "x": 2.0,
+    "y": 13.0,
+    "cash": 8000,
+    "id": "213AA495CCA1661A",
+    "parent_ids": [
+      "1420AA297FAB413D"
+    ],
+    "previous_id": "213AA495CCA1661A",
+    "runtime_tasks": [
+      {
+        "consume_items": true,
+        "count": 4.0,
+        "id": "12D417025479DEF0",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:alloyarmorplate"
+        },
+        "type": "item"
+      },
+      {
+        "consume_items": true,
+        "count": 16.0,
+        "id": "364BC20B33F744B4",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:emptywatertank"
+        },
+        "type": "item"
+      },
+      {
+        "consume_items": true,
+        "count": 2.0,
+        "id": "60C8A7F104ECEBEF",
+        "item": {
+          "count": 1.0,
+          "id": "protection_pixel:powerengine"
+        },
+        "type": "item"
+      }
+    ],
+    "runtime_rewards": [
+      {
+        "count": 8.0,
+        "id": "5EDF0A1B54403523",
+        "item": {
+          "count": 1.0,
+          "id": "jackseconomy:thousand_dollar_bill"
+        },
+        "team_reward": true,
+        "type": "item"
+      }
+    ],
+    "subtitle": "Delivery contract: management gets the good equipment",
+    "task_titles": []
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:ingots/brass"
+    },
+    "B": {
+      "item": "create:fluid_pipe"
+    },
+    "C": {
+      "item": "create:chute"
+    },
+    "D": {
+      "item": "create:cogwheel"
+    },
+    "E": {
+      "item": "protection_pixel:chestplatelining"
+    },
+    "F": {
+      "item": "create:portable_fluid_interface"
+    },
+    "G": {
+      "item": "create:mechanical_pump"
+    },
+    "H": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    "ABCBA",
+    "DAEAD",
+    "FGAGF",
+    "  H  "
+  ],
+  "result": {
+    "id": "protection_pixel:hellsnake_chestplate",
+    "count": 1
+  }
+}

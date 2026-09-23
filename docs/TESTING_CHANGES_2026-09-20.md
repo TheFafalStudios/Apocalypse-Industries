@@ -1,0 +1,266 @@
+> Historical snapshot: superseded by the audited unreleased section in [CHANGELOG.md](../CHANGELOG.md), dated 2026-09-23. In particular, drowned support and native Echo fitting have since changed.
+
+# Testing-pack changes — 2026-09-20
+
+Compared current disk contents against GitHub main 6c2e739917ffde3e04035af0fd3ae26f1f0238bf, whose pack release is v1 (release commit 1e685ca). Local HEAD is older, d70eb54; ordinary git diff therefore mislabels existing untracked files as missing. Published Packwiz payloads were compared using their recorded hashes. This is a current-state catalogue, not a reconstruction of reverted intermediate experiments.
+
+## Mods
+217 active JARs versus 209 published: eight additions and one replacement. All other published mod binaries match their published hashes.
+- Added Protection Pixel 2.2.1.
+- Added Apocalypse Protection Pixel Integration 1.0.0 (locally rebuilt).
+- Added Compact Gearbox 1.0.2.
+- Added Create Framed 1.8.2.
+- Added LDLib2 2.2.37.
+- Added Railways 0.2.1.
+- Added Sable Photomancy 1.0.1.
+- Added Synaxis 1.5.0.
+- Updated JEI 19.32.0.359 to 19.39.0.368. The old JAR is absent.
+
+## Protection Pixel gameplay, recipes and art
+- Added 49 PP recipe overrides, one Echo Plate recipe and three equipment tags.
+- Corrected Create fluid ingredient serialization while retaining processing/sequenced assembly.
+- Introduced Precision Mechanism entry requirements, Power Grid magnet requirements for Electric equipment, and Moon Regolith requirements for Float Shield, Evasion Wing and Lancer-AS.
+- Added a material-crafted Echo Plate and separate resonance socket: one plate in each of four worn armor slots plus working reactor grants Resistance II and Strength II. Added installation/removal handling and completion advancement.
+- Brass and Alloy plates reduced from 2 to 1.5 armor each; toughness/weight retained.
+- Lancer bonus caps +6/+9, reactor validation improvements, and clearing inactive Exoskeleton attack/mining bonuses.
+- Disposable Water Tanks and Flare Rods cannot receive/retain Mending or be selected for Reforger repairs; other enchantments and ordinary equipment remain unaffected.
+- Echo Plate art iterated and normalized to a native 16x16 sprite; the latest texture-scale note supersedes earlier large-image instructions.
+
+## Quests and economy
+- Added/reworked 19 optional Protection Pixel quests spanning Brass, Electric, Space and Special Requests; English localization changed accordingly.
+- Repaired invalid signed-long IDs, stale translations and missing prerequisite links while preserving live identities/progress.
+- Rewrote player instructions and subtitles; added a powered-equipment use milestone and first-plate crafting milestone, retaining full four-piece resonance completion.
+- Added modest nonrepeatable team rewards (lava bucket, empty water tanks and Iron Armor Plates).
+- Added Brass/Alloy supply contracts paying $1,000/$8,000. No finished Echo armor is consumed.
+
+## Other gameplay/configuration
+- New zombie death-drop script caps recoverable armor at steel tier; stronger worn armor is removed from drops. Normal loot/weapons and combat equipment remain unchanged.
+- Tornado Physics windMode ALL -> SAILS_ONLY.
+- Create Connected redstone_link_wildcard true -> false.
+- Submarine hull registry adds 912 block entries across new mod namespaces; no existing entries removed or changed.
+- Added LDLib2, Railways, Sable schematic API and Synaxis configuration, including Synaxis control-chair bindings. Additional Lost Cities server config exists locally.
+
+## Visuals and generated local state
+- Iris shaders enabled -> disabled; selected atmosphere shader name remains unchanged.
+- Added local stock Complementary Unbound r5.8.1 and OPPRESSIVE_SUN shader ZIPs and shader option files. Published atmosphere shader and resource-pack binaries still match.
+- JEI toast reflow setting added and mod sorting expanded.
+- FTB Chunks entity-icon map reordered with unchanged entity boolean values; zfastnoise only has a changed timestamp.
+- options.txt contains full local preferences/keybindings rather than the two published resource-pack settings. Enabled resource-pack list matches; incompatible-pack list has an extra local path.
+- Biome/dimension caches, three extra ForgeEndertech biome configs, Spark activity, recipe dump, backups, map/JEI histories and private runtime files exist outside the published payload. These are not assumed release content.
+
+## Tooling and pending release checks
+- Added Protection Pixel source/build/generation/verification scripts, quest audit records, test evidence and texture sources; added zombie-drop tests and notes.
+- Surface-only extra-zombie test is NOT applied: live spawner.json matches GitHub, with 18 of 27 zombie rules requiring sky visibility. Keep/discard decision remains required before the next official push.
+- Drowned conversion armor-drop loophole is documented but not implemented: the live script targets minecraft:zombie only.
+- Wind-altitude ramp is documentation-only, not implemented.
+- Existing test notes record static and isolated native checks; this catalogue did not run Minecraft or assert full multiplayer balance validation.
+
+## File-level published payload differences
+- changed: `config/create_connected-common.toml`
+- changed: `config/ftbchunks-client.snbt`
+- changed: `config/ftbquests/quests/chapters/brass_age.snbt`
+- changed: `config/ftbquests/quests/chapters/electric_age.snbt`
+- changed: `config/ftbquests/quests/chapters/space_age.snbt`
+- changed: `config/ftbquests/quests/chapters/special_requests.snbt`
+- changed: `config/ftbquests/quests/lang/en_us.snbt`
+- changed: `config/iris.properties`
+- changed: `config/jei/ingredient-list-mod-sort-order.ini`
+- changed: `config/jei/jei-client.ini`
+- changed: `config/protection-pixel.toml`
+- changed: `config/submarine_hull.json`
+- changed: `config/tornadophysics-common.toml`
+- changed: `config/zfastnoise.mixin.properties`
+- missing: `mods/jei-1.21.1-neoforge-19.32.0.359.jar`
+- changed: `options.txt`
+
+## Additional files under pack content roots
+
+These are absent from the published manifest, not necessarily newly created after publication. Runtime/private files are listed by path only; no credential contents are included.
+
+- `mods/apocalypse-protection-pixel-integration-1.0.0.jar`
+- `mods/compactgearbox-1.0.2.jar`
+- `mods/createframed-1.21.1-1.8.2.jar`
+- `mods/jei-1.21.1-neoforge-19.39.0.368.jar`
+- `mods/ldlib2-neoforge-1.21.1-2.2.37-all.jar`
+- `mods/protection_pixel-2.2.1-neoforge-1.21.1.jar`
+- `mods/railways-0.2.1+neoforge-mc1.21.1.jar`
+- `mods/sable-photomancy-1.0.1.jar`
+- `mods/synaxis-1.5.0.jar`
+- `config/abyssal-ocean-1.toml.bak`
+- `config/abyssal-ocean-gameplay-1.toml.bak`
+- `config/adlods-common-1.toml.bak`
+- `config/adlods-common-2.toml.bak`
+- `config/create_aeronautics_automated_logistics-common-1.toml.bak`
+- `config/create_aeronautics_automated_logistics-common-2.toml.bak`
+- `config/create_connected-server-1.toml.bak`
+- `config/create_simulated_thrusters-common-1.toml.bak`
+- `config/create_submarine-common-1.toml.bak`
+- `config/create_submarine-common-2.toml.bak`
+- `config/creatingspace-common-1.toml.bak`
+- `config/creatingspace-server-1.toml.bak`
+- `config/flywheel-client-1.toml.bak`
+- `config/ldlib2-client.toml`
+- `config/lostcities-server.toml`
+- `config/railways-client.toml`
+- `config/railways-common.toml`
+- `config/railways-server.toml`
+- `config/sable-client-1.toml.bak`
+- `config/sable-common-1.toml.bak`
+- `config/sable_schematic_api-server.toml`
+- `config/simulated-client-1.toml.bak`
+- `config/simulated-server-1.toml.bak`
+- `config/sophisticatedbackpacks-server-1.toml.bak`
+- `config/sophisticatedbackpacks-server-2.toml.bak`
+- `config/sophisticatedbackpacks-server-3.toml.bak`
+- `config/sophisticatedstorage-client-1.toml.bak`
+- `config/sophisticatedstorage-server-1.toml.bak`
+- `config/synaxis-server.toml`
+- `config/tornadophysics-common-1.toml.bak`
+- `config/almostunified/unification/materials.json.bak`
+- `config/biomecontrolengine/dimensions_cache.json`
+- `config/fancymenu/user_variables.db`
+- `config/forgeendertech/cached.dat`
+- `config/forgeendertech/Biomes/biomesoplenty$snowblossom_grove.cfg`
+- `config/forgeendertech/Biomes/terralith$orchid_swamp.cfg`
+- `config/forgeendertech/Biomes/terralith$siberian_grove.cfg`
+- `config/jei/world/local/New World/lookupHistory.json`
+- `config/jei/world/local/New World (3)/lookupHistory.json`
+- `config/jei/world/local/New World (4)/lookupHistory.json`
+- `config/jei/world/local/New World (5)/lookupHistory.json`
+- `config/jei/world/local/New World (6)/lookupHistory.json`
+- `config/jei/world/local/New_World/lookupHistory.json`
+- `config/jei/world/local/New_World__1/lookupHistory.json`
+- `config/jei/world/local/New_World__10/lookupHistory.json`
+- `config/jei/world/local/New_World__102/lookupHistory.json`
+- `config/jei/world/local/New_World__11/lookupHistory.json`
+- `config/jei/world/local/New_World__14/lookupHistory.json`
+- `config/jei/world/local/New_World__16/lookupHistory.json`
+- `config/jei/world/local/New_World__17/bookmarks.json`
+- `config/jei/world/local/New_World__17/lookupHistory.json`
+- `config/jei/world/local/New_World__19/lookupHistory.json`
+- `config/jei/world/local/New_World__2/lookupHistory.json`
+- `config/jei/world/local/New_World__20/lookupHistory.json`
+- `config/jei/world/local/New_World__21/lookupHistory.json`
+- `config/jei/world/local/New_World__24/lookupHistory.json`
+- `config/jei/world/local/New_World__25/lookupHistory.json`
+- `config/jei/world/local/New_World__27/lookupHistory.json`
+- `config/jei/world/local/New_World__28/lookupHistory.json`
+- `config/jei/world/local/New_World__29/lookupHistory.json`
+- `config/jei/world/local/New_World__30/lookupHistory.json`
+- `config/jei/world/local/New_World__31/lookupHistory.json`
+- `config/jei/world/local/New_World__32/lookupHistory.json`
+- `config/jei/world/local/New_World__33/lookupHistory.json`
+- `config/jei/world/local/New_World__34/lookupHistory.json`
+- `config/jei/world/local/New_World__35/lookupHistory.json`
+- `config/jei/world/local/New_World__36/lookupHistory.json`
+- `config/jei/world/local/New_World__38/lookupHistory.json`
+- `config/jei/world/local/New_World__39/lookupHistory.json`
+- `config/jei/world/local/New_World__4/lookupHistory.json`
+- `config/jei/world/local/New_World__47/lookupHistory.json`
+- `config/jei/world/local/New_World__5/lookupHistory.json`
+- `config/jei/world/local/New_World__57/lookupHistory.json`
+- `config/jei/world/local/New_World__6/lookupHistory.json`
+- `config/jei/world/local/New_World__62/lookupHistory.json`
+- `config/jei/world/local/New_World__63/lookupHistory.json`
+- `config/jei/world/local/New_World__65/bookmarks.json`
+- `config/jei/world/local/New_World__65/lookupHistory.json`
+- `config/jei/world/local/New_World__66/lookupHistory.json`
+- `config/jei/world/local/New_World__69/lookupHistory.json`
+- `config/jei/world/local/New_World__7/lookupHistory.json`
+- `config/jei/world/local/New_World__71/lookupHistory.json`
+- `config/jei/world/local/New_World__72/lookupHistory.json`
+- `config/jei/world/local/New_World__73/lookupHistory.json`
+- `config/jei/world/local/New_World__76/lookupHistory.json`
+- `config/jei/world/local/New_World__82/lookupHistory.json`
+- `config/jei/world/local/New_World__84/lookupHistory.json`
+- `config/jei/world/local/New_World__85/lookupHistory.json`
+- `config/jei/world/local/New_World__86/lookupHistory.json`
+- `config/jei/world/local/New_World__88/lookupHistory.json`
+- `config/jei/world/local/New_World__9/lookupHistory.json`
+- `config/jei/world/local/New_World__94/lookupHistory.json`
+- `config/jei/world/local/New_World__95/lookupHistory.json`
+- `config/jei/world/local/New_World__96/lookupHistory.json`
+- `config/jei/world/local/Superflat/bookmarks.json`
+- `config/jei/world/local/Superflat/lookupHistory.json`
+- `config/jei/world/local/test3/lookupHistory.json`
+- `config/jei/world/server/Bloompunk (pl2_chsrv_pl 52029)/bookmarks.json`
+- `config/jei/world/server/Bloompunk (pl2_chsrv_pl 52029)/lookupHistory.json`
+- `config/jei/world/server/Minecraft_Server_b8332793/lookupHistory.json`
+- `config/spark/activity.json`
+- `config/synaxis/control_chair_bindings.json`
+- `config/xaero/lib/client.cfg`
+- `config/xaero/lib/common.cfg`
+- `config/xaero/lib/profiles/default.cfg`
+- `config/xaero/lib/server_profiles/default.cfg`
+- `config/xaero/minimap/client.cfg`
+- `config/xaero/minimap/common.cfg`
+- `config/xaero/minimap/default_radar_categories_client.json`
+- `config/xaero/minimap/default_radar_categories_server.json`
+- `config/xaero/minimap/profiles/default.cfg`
+- `config/xaero/minimap/profiles/info_display_config/default.cfg.txt`
+- `config/xaero/minimap/server_profiles/default.cfg`
+- `config/xaero/world-map/client.cfg`
+- `config/xaero/world-map/common.cfg`
+- `config/xaero/world-map/profiles/default.cfg`
+- `config/xaero/world-map/server_profiles/default.cfg`
+- `kubejs/all_recipes_dump.json`
+- `kubejs/config/web_server.json`
+- `kubejs/data/apocalypse_pp/recipe/echo_plate.json`
+- `kubejs/data/apocalypse_pp/tags/item/alloy.json`
+- `kubejs/data/apocalypse_pp/tags/item/brass.json`
+- `kubejs/data/apocalypse_pp/tags/item/equipment.json`
+- `kubejs/data/protection_pixel/recipe/alloyplate.json`
+- `kubejs/data/protection_pixel/recipe/anchorpointasloot.json`
+- `kubejs/data/protection_pixel/recipe/anchorpointloot.json`
+- `kubejs/data/protection_pixel/recipe/armorhangerloot.json`
+- `kubejs/data/protection_pixel/recipe/bloodprisonerasloot.json`
+- `kubejs/data/protection_pixel/recipe/bloodprisonerloot.json`
+- `kubejs/data/protection_pixel/recipe/breakerasloot.json`
+- `kubejs/data/protection_pixel/recipe/breakerloot.json`
+- `kubejs/data/protection_pixel/recipe/buoyancyasloot.json`
+- `kubejs/data/protection_pixel/recipe/buoyancyloot.json`
+- `kubejs/data/protection_pixel/recipe/cannonloot.json`
+- `kubejs/data/protection_pixel/recipe/closedasloot.json`
+- `kubejs/data/protection_pixel/recipe/closedloot.json`
+- `kubejs/data/protection_pixel/recipe/evasionwingloot.json`
+- `kubejs/data/protection_pixel/recipe/falconnestasloot.json`
+- `kubejs/data/protection_pixel/recipe/falconnestloot.json`
+- `kubejs/data/protection_pixel/recipe/floatshieldloot.json`
+- `kubejs/data/protection_pixel/recipe/grende.json`
+- `kubejs/data/protection_pixel/recipe/hammerasloot.json`
+- `kubejs/data/protection_pixel/recipe/hammerloot.json`
+- `kubejs/data/protection_pixel/recipe/heatoverlockmechanismloot.json`
+- `kubejs/data/protection_pixel/recipe/hellsnakeasloot.json`
+- `kubejs/data/protection_pixel/recipe/hellsnakeloot.json`
+- `kubejs/data/protection_pixel/recipe/hookcannonloot.json`
+- `kubejs/data/protection_pixel/recipe/hunterasloot.json`
+- `kubejs/data/protection_pixel/recipe/hunterloot.json`
+- `kubejs/data/protection_pixel/recipe/lancerasloot.json`
+- `kubejs/data/protection_pixel/recipe/lancerloot.json`
+- `kubejs/data/protection_pixel/recipe/magneticasloot.json`
+- `kubejs/data/protection_pixel/recipe/magneticloot.json`
+- `kubejs/data/protection_pixel/recipe/nightdemonasloot.json`
+- `kubejs/data/protection_pixel/recipe/nightdemonloot.json`
+- `kubejs/data/protection_pixel/recipe/pioneerasloot.json`
+- `kubejs/data/protection_pixel/recipe/pioneerloot.json`
+- `kubejs/data/protection_pixel/recipe/plagueasloot.json`
+- `kubejs/data/protection_pixel/recipe/plagueloot.json`
+- `kubejs/data/protection_pixel/recipe/platformloot.json`
+- `kubejs/data/protection_pixel/recipe/prismasloot.json`
+- `kubejs/data/protection_pixel/recipe/prismloot.json`
+- `kubejs/data/protection_pixel/recipe/reactorloot.json`
+- `kubejs/data/protection_pixel/recipe/slingshotasloot.json`
+- `kubejs/data/protection_pixel/recipe/slingshotloot.json`
+- `kubejs/data/protection_pixel/recipe/steamexoskeletonloot.json`
+- `kubejs/data/protection_pixel/recipe/typhoonasloot.json`
+- `kubejs/data/protection_pixel/recipe/typhoonloot.json`
+- `kubejs/data/protection_pixel/recipe/watertankloot_2.json`
+- `kubejs/data/protection_pixel/recipe/wingloot.json`
+- `kubejs/data/protection_pixel/recipe/workerasloot.json`
+- `kubejs/data/protection_pixel/recipe/workerloot.json`
+- `kubejs/server_scripts/apocalypse_zombie_armor_drops.js`
+- `shaderpacks/ComplementaryUnbound_r5.8.1.zip`
+- `shaderpacks/ComplementaryUnbound_r5.8.1.zip.txt`
+- `shaderpacks/ComplementaryUnbound_r5.8.1_APOCALYPSE_ATMOSPHERE_v1.1_PARSEFIX_TESTED.zip.txt`
+- `shaderpacks/ComplementaryUnbound_r5.8.1_OPPRESSIVE_SUN.zip`
+- `shaderpacks/ComplementaryUnbound_r5.8.1_OPPRESSIVE_SUN.zip.txt`

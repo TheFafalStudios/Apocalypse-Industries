@@ -540,8 +540,8 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: 1.0d
+			x: -9.0d
+			y: 3.0d
 		}
 		{
 			id: "2C9279035BF20E92"
@@ -770,6 +770,99 @@
 			]
 			x: -1.0d
 			y: 1.0d
+		}
+		{
+			rewards: [{"id": "657428B2BC2DDABE", "type": "item", "item": {"id": "minecraft:lava_bucket", "count": 1}, "count": 1, "team_reward": true}]
+			dependencies: ["5910B381E7F56126"]
+			id: "588D4ADEDFB08661"
+			optional: true
+			tasks: [
+				{
+					consume_items: false
+					id: "51CF91F953532C3F"
+					item: { count: 1, id: "protection_pixel:armorhanger" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5F3998730C3E234D"
+					item: { count: 1, id: "protection_pixel:armorloadplatform" }
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			rewards: [{"id": "1FB6EC3666CA8EC0", "type": "item", "item": {"id": "protection_pixel:emptywatertank", "count": 1}, "count": 1, "team_reward": true}]
+			dependencies: ["588D4ADEDFB08661"]
+			id: "634819F7295E2312"
+			optional: true
+			tasks: [
+				{
+					consume_items: false
+					id: "465487401AB0BAC1"
+					item: { count: 1, id: "protection_pixel:powerengine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "05850469777608AF"
+					item: { count: 1, id: "protection_pixel:watertank" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "621690BE224C26DE"
+					item: { count: 1, id: "protection_pixel:flarerod" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			rewards: [{"id": "069EEA33E3836940", "type": "item", "item": {"id": "protection_pixel:ironarmorplate", "count": 1}, "count": 2, "team_reward": true}]
+			dependencies: ["588D4ADEDFB08661"]
+			id: "5036106AC24B4475"
+			optional: true
+			tasks: [{"consume_items": false, "id": "38B15D779F6C5B36", "item": {"components": {"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(apocalypse_pp:brass)"}, "count": 1, "id": "ftbfiltersystem:smart_filter"}, "type": "item"}, {"id": "4391C3656C710DCE", "type": "advancement", "advancement": "apocalypse_pp:powered_loadout", "criterion": ""}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["588D4ADEDFB08661"]
+			id: "66070445C15D4C49"
+			optional: true
+			tasks: [
+				{
+					consume_items: false
+					id: "36344ED278C1D5CE"
+					item: { count: 1, id: "protection_pixel:ironarmorplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7AC749A5127FE1D3"
+					item: { count: 1, id: "protection_pixel:brassarmorplate" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["588D4ADEDFB08661"]
+			id: "123464FCDEE687F1"
+			optional: true
+			tasks: [{
+				consume_items: false
+				id: "04C369BAB94F9C9C"
+				item: { count: 1, id: "protection_pixel:linkplate_chestplate" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
 		}
 	]
 }

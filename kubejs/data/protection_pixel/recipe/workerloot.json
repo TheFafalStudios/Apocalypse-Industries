@@ -1,0 +1,48 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:cogwheel"
+    },
+    "B": {
+      "tag": "c:ingots/brass"
+    },
+    "C": {
+      "item": "protection_pixel:emptywatertank"
+    },
+    "D": {
+      "item": "create:brass_sheet"
+    },
+    "E": {
+      "item": "minecraft:iron_ingot"
+    },
+    "F": {
+      "item": "create:andesite_alloy"
+    },
+    "G": {
+      "item": "protection_pixel:chestplatelining"
+    },
+    "I": {
+      "item": "create:brass_hand"
+    },
+    "H": {
+      "item": "create:iron_sheet"
+    },
+    "J": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    " A A ",
+    "BCDCB",
+    "EFGFE",
+    "HIBIH",
+    "  J  "
+  ],
+  "result": {
+    "id": "protection_pixel:workerhornet_chestplate",
+    "count": 1
+  }
+}

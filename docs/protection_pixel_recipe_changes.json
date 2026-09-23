@@ -1,0 +1,7028 @@
+[
+  {
+    "recipe": "protection_pixel:alloyplate",
+    "output": "protection_pixel:alloyarmorplate",
+    "reason": [
+      "Electric magnetization gate",
+      "Approved: steel reinforcement replaces iron sheet"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:smallnetheritesheet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:alloyarmorplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletealloyarmorplate"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletealloyarmorplate"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletealloyarmorplate"
+            },
+            {
+              "item": "create:iron_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletealloyarmorplate"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletealloyarmorplate"
+            },
+            {
+              "item": "create:andesite_alloy"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletealloyarmorplate"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletealloyarmorplate"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:smallnetheritesheet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:alloyarmorplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletealloyarmorplate"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletealloyarmorplate"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletealloyarmorplate"
+            },
+            {
+              "item": "immersiveengineering:plate_steel"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletealloyarmorplate"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletealloyarmorplate"
+            },
+            {
+              "item": "create:andesite_alloy"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletealloyarmorplate"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletealloyarmorplate"
+            },
+            {
+              "item": "powergrid:magnet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletealloyarmorplate"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletealloyarmorplate"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:anchorpointasloot",
+    "output": "protection_pixel:anchorpointas_leggings",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:anchorpoint_leggings"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:anchorpointas_leggings"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteanchorpoint"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteanchorpoint"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteanchorpoint"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteanchorpoint"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteanchorpoint"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteanchorpoint"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteanchorpoint"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteanchorpoint"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteanchorpoint"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteanchorpoint"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteanchorpoint"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteanchorpoint"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompleteanchorpoint"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:anchorpoint_leggings"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:anchorpointas_leggings"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteanchorpoint"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteanchorpoint"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteanchorpoint"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteanchorpoint"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteanchorpoint"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteanchorpoint"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteanchorpoint"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteanchorpoint"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteanchorpoint"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteanchorpoint"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteanchorpoint"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteanchorpoint"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompleteanchorpoint"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:anchorpointloot",
+    "output": "protection_pixel:anchorpoint_leggings",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_sheet"
+        },
+        "B": {
+          "item": "create:cogwheel"
+        },
+        "C": {
+          "item": "protection_pixel:leggingslining"
+        },
+        "D": {
+          "item": "create:andesite_alloy"
+        },
+        "E": {
+          "item": "minecraft:iron_ingot"
+        },
+        "F": {
+          "tag": "c:ingots/brass"
+        }
+      },
+      "pattern": [
+        " A A ",
+        "ABCBA",
+        "DE ED",
+        "AF FA"
+      ],
+      "result": {
+        "id": "protection_pixel:anchorpoint_leggings",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_sheet"
+        },
+        "B": {
+          "item": "create:cogwheel"
+        },
+        "C": {
+          "item": "protection_pixel:leggingslining"
+        },
+        "D": {
+          "item": "create:andesite_alloy"
+        },
+        "E": {
+          "item": "minecraft:iron_ingot"
+        },
+        "F": {
+          "tag": "c:ingots/brass"
+        },
+        "G": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        " A A ",
+        "ABCBA",
+        "DE ED",
+        "AF FA",
+        "  G  "
+      ],
+      "result": {
+        "id": "protection_pixel:anchorpoint_leggings",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:armorhangerloot",
+    "output": "protection_pixel:armorhanger",
+    "reason": [
+      "Approved: restore native hanger recipe without Precision Mechanism"
+    ],
+    "old": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        "aba",
+        "c c",
+        "dad"
+      ],
+      "key": {
+        "a": {
+          "item": "minecraft:iron_ingot"
+        },
+        "b": {
+          "item": "minecraft:shroomlight"
+        },
+        "c": {
+          "item": "minecraft:chain"
+        },
+        "d": {
+          "item": "minecraft:iron_nugget"
+        }
+      },
+      "result": {
+        "id": "protection_pixel:armorhanger",
+        "count": 2
+      }
+    },
+    "new": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        "aba",
+        "c c",
+        "dad"
+      ],
+      "key": {
+        "a": {
+          "item": "minecraft:iron_ingot"
+        },
+        "b": {
+          "item": "minecraft:shroomlight"
+        },
+        "c": {
+          "item": "minecraft:chain"
+        },
+        "d": {
+          "item": "minecraft:iron_nugget"
+        }
+      },
+      "result": {
+        "id": "protection_pixel:armorhanger",
+        "count": 2
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:blooddialysisdeviceloot",
+    "output": "protection_pixel:blooddialysisdevice",
+    "reason": [
+      "Approved: functional industrial component substitution"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:electron_tube"
+        },
+        "B": {
+          "item": "create:iron_sheet"
+        },
+        "C": {
+          "item": "create:precision_mechanism"
+        },
+        "D": {
+          "item": "create:fluid_tank"
+        },
+        "E": {
+          "item": "create:whisk"
+        },
+        "F": {
+          "item": "create:mechanical_pump"
+        }
+      },
+      "pattern": [
+        "ABCBA",
+        "ADEDA",
+        "DF FD",
+        " B B "
+      ],
+      "result": {
+        "id": "protection_pixel:blooddialysisdevice",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:electron_tube"
+        },
+        "B": {
+          "item": "create:iron_sheet"
+        },
+        "C": {
+          "item": "create_connected:control_chip"
+        },
+        "D": {
+          "item": "create:fluid_tank"
+        },
+        "E": {
+          "item": "create:whisk"
+        },
+        "F": {
+          "item": "create:mechanical_pump"
+        }
+      },
+      "pattern": [
+        " BCB ",
+        "ADEDA",
+        "DF FD",
+        " B B "
+      ],
+      "result": {
+        "id": "protection_pixel:blooddialysisdevice",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:bloodprisonerasloot",
+    "output": "protection_pixel:bloodprisoneras_helmet",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:bloodprisoner_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:bloodprisoneras_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebloodprisoner"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebloodprisoner"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebloodprisoner"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebloodprisoner"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebloodprisoner"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebloodprisoner"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebloodprisoner"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebloodprisoner"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebloodprisoner"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebloodprisoner"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebloodprisoner"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebloodprisoner"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletebloodprisoner"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:bloodprisoner_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:bloodprisoneras_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebloodprisoner"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebloodprisoner"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebloodprisoner"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebloodprisoner"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebloodprisoner"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebloodprisoner"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebloodprisoner"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebloodprisoner"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebloodprisoner"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebloodprisoner"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebloodprisoner"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebloodprisoner"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletebloodprisoner"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:bloodprisonerloot",
+    "output": "protection_pixel:bloodprisoner_helmet",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "C": {
+          "tag": "forge:ingots/brass"
+        },
+        "B": {
+          "item": "minecraft:glass_pane"
+        },
+        "D": {
+          "item": "minecraft:iron_helmet"
+        },
+        "A": {
+          "item": "minecraft:iron_ingot"
+        },
+        "E": {
+          "item": "create:fluid_pipe"
+        },
+        "F": {
+          "item": "create:iron_sheet"
+        },
+        "G": {
+          "item": "create:fluid_valve"
+        }
+      },
+      "pattern": [
+        " ABA ",
+        "ACDCA",
+        "EFGFE"
+      ],
+      "result": {
+        "id": "protection_pixel:bloodprisoner_helmet",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "C": {
+          "tag": "forge:ingots/brass"
+        },
+        "B": {
+          "item": "minecraft:glass_pane"
+        },
+        "D": {
+          "item": "minecraft:iron_helmet"
+        },
+        "A": {
+          "item": "minecraft:iron_ingot"
+        },
+        "E": {
+          "item": "create:fluid_pipe"
+        },
+        "F": {
+          "item": "create:iron_sheet"
+        },
+        "G": {
+          "item": "create:fluid_valve"
+        },
+        "H": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        " ABA ",
+        "ACDCA",
+        "EFGFE",
+        "  H  "
+      ],
+      "result": {
+        "id": "protection_pixel:bloodprisoner_helmet",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:breakerasloot",
+    "output": "protection_pixel:breakeras_chestplate",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:breaker_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:breakeras_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebreaker"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebreaker"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebreaker"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebreaker"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebreaker"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebreaker"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebreaker"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebreaker"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebreaker"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebreaker"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebreaker"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebreaker"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletebreaker"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:breaker_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:breakeras_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebreaker"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebreaker"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebreaker"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebreaker"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebreaker"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebreaker"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebreaker"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebreaker"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebreaker"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebreaker"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebreaker"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebreaker"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletebreaker"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:breakerloot",
+    "output": "protection_pixel:breaker_chestplate",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:cogwheel"
+        },
+        "B": {
+          "tag": "c:ingots/brass"
+        },
+        "C": {
+          "item": "create:brass_sheet"
+        },
+        "D": {
+          "item": "minecraft:iron_ingot"
+        },
+        "E": {
+          "item": "create:andesite_alloy"
+        },
+        "F": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "G": {
+          "item": "create:mechanical_piston"
+        }
+      },
+      "pattern": [
+        "ABCBA",
+        "DEFED",
+        "CGCGC",
+        " C C "
+      ],
+      "result": {
+        "id": "protection_pixel:breaker_chestplate",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:cogwheel"
+        },
+        "B": {
+          "tag": "c:ingots/brass"
+        },
+        "C": {
+          "item": "create:brass_sheet"
+        },
+        "D": {
+          "item": "minecraft:iron_ingot"
+        },
+        "E": {
+          "item": "create:andesite_alloy"
+        },
+        "F": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "G": {
+          "item": "create:mechanical_piston"
+        },
+        "H": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        "ABCBA",
+        "DEFED",
+        "CGCGC",
+        " C C ",
+        "  H  "
+      ],
+      "result": {
+        "id": "protection_pixel:breaker_chestplate",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:buoyancyasloot",
+    "output": "protection_pixel:buoyancyas_leggings",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:buoyancy_leggings"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:buoyancyas_leggings"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebuoyancy"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebuoyancy"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebuoyancy"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebuoyancy"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebuoyancy"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebuoyancy"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebuoyancy"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebuoyancy"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebuoyancy"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebuoyancy"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebuoyancy"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebuoyancy"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletebuoyancy"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:buoyancy_leggings"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:buoyancyas_leggings"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebuoyancy"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebuoyancy"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebuoyancy"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebuoyancy"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebuoyancy"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebuoyancy"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebuoyancy"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebuoyancy"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebuoyancy"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebuoyancy"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletebuoyancy"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletebuoyancy"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletebuoyancy"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:buoyancyloot",
+    "output": "protection_pixel:buoyancy_leggings",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_sheet"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        },
+        "C": {
+          "item": "protection_pixel:leggingslining"
+        },
+        "D": {
+          "item": "create:fluid_pipe"
+        },
+        "E": {
+          "item": "create:propeller"
+        },
+        "F": {
+          "tag": "c:ingots/brass"
+        }
+      },
+      "pattern": [
+        " A A ",
+        "DBCBD",
+        "AE EA",
+        "AF FA"
+      ],
+      "result": {
+        "id": "protection_pixel:buoyancy_leggings",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_sheet"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        },
+        "C": {
+          "item": "protection_pixel:leggingslining"
+        },
+        "D": {
+          "item": "create:fluid_pipe"
+        },
+        "E": {
+          "item": "create:propeller"
+        },
+        "F": {
+          "tag": "c:ingots/brass"
+        },
+        "G": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        " A A ",
+        "DBCBD",
+        "AE EA",
+        "AF FA",
+        "  G  "
+      ],
+      "result": {
+        "id": "protection_pixel:buoyancy_leggings",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:cannonloot",
+    "output": "protection_pixel:cannonarm",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:potato_cannon"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        },
+        "C": {
+          "item": "create:andesite_alloy"
+        },
+        "D": {
+          "item": "create:gantry_shaft"
+        },
+        "E": {
+          "item": "create:cogwheel"
+        },
+        "F": {
+          "item": "create:sturdy_sheet"
+        }
+      },
+      "pattern": [
+        "AFBFA",
+        "BCDCB",
+        "EC CE"
+      ],
+      "result": {
+        "id": "protection_pixel:cannonarm",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:potato_cannon"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        },
+        "C": {
+          "item": "create:andesite_alloy"
+        },
+        "D": {
+          "item": "create:gantry_shaft"
+        },
+        "E": {
+          "item": "create:cogwheel"
+        },
+        "F": {
+          "item": "create:sturdy_sheet"
+        },
+        "G": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        "AFBFA",
+        "BCDCB",
+        "EC CE",
+        "  G  "
+      ],
+      "result": {
+        "id": "protection_pixel:cannonarm",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:cannonshellloot",
+    "output": "protection_pixel:steelcorecannonshell",
+    "reason": [
+      "Approved: functional industrial component substitution"
+    ],
+    "old": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        " ab",
+        "aca",
+        "ca "
+      ],
+      "key": {
+        "a": {
+          "item": "create:andesite_alloy"
+        },
+        "b": {
+          "item": "minecraft:iron_ingot"
+        },
+        "c": {
+          "item": "minecraft:gunpowder"
+        }
+      },
+      "result": {
+        "id": "protection_pixel:steelcorecannonshell",
+        "count": 2
+      }
+    },
+    "new": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        " ab",
+        "aca",
+        "ca "
+      ],
+      "key": {
+        "a": {
+          "item": "create:andesite_alloy"
+        },
+        "b": {
+          "item": "immersiveengineering:ingot_steel"
+        },
+        "c": {
+          "item": "minecraft:gunpowder"
+        }
+      },
+      "result": {
+        "id": "protection_pixel:steelcorecannonshell",
+        "count": 2
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:closedasloot",
+    "output": "protection_pixel:closedas_helmet",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:closed_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:closedas_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteclosed"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteclosed"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteclosed"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteclosed"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteclosed"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteclosed"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteclosed"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteclosed"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteclosed"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteclosed"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteclosed"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteclosed"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompleteclosed"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:closed_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:closedas_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteclosed"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteclosed"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteclosed"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteclosed"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteclosed"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteclosed"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteclosed"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteclosed"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteclosed"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteclosed"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteclosed"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteclosed"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompleteclosed"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:closedloot",
+    "output": "protection_pixel:closed_helmet",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:iron_sheet"
+        },
+        "B": {
+          "item": "minecraft:glass_pane"
+        },
+        "C": {
+          "item": "minecraft:iron_ingot"
+        },
+        "D": {
+          "item": "minecraft:iron_helmet"
+        },
+        "E": {
+          "tag": "c:ingots/brass"
+        },
+        "F": {
+          "item": "create:brass_sheet"
+        }
+      },
+      "pattern": [
+        " A A ",
+        " BBB ",
+        "CBDBC",
+        " EFE "
+      ],
+      "result": {
+        "id": "protection_pixel:closed_helmet",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:iron_sheet"
+        },
+        "B": {
+          "item": "minecraft:glass_pane"
+        },
+        "C": {
+          "item": "minecraft:iron_ingot"
+        },
+        "D": {
+          "item": "minecraft:iron_helmet"
+        },
+        "E": {
+          "tag": "c:ingots/brass"
+        },
+        "F": {
+          "item": "create:brass_sheet"
+        },
+        "G": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        " A A ",
+        " BBB ",
+        "CBDBC",
+        " EFE ",
+        "  G  "
+      ],
+      "result": {
+        "id": "protection_pixel:closed_helmet",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:evasionwingloot",
+    "output": "protection_pixel:evasionwing",
+    "reason": [
+      "Post-lunar material gate; no quest-only lock",
+      "Approved: functional industrial component substitution"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:iron_sheet"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        },
+        "C": {
+          "item": "create:andesite_alloy"
+        },
+        "D": {
+          "item": "create:precision_mechanism"
+        },
+        "E": {
+          "item": "create:cogwheel"
+        },
+        "F": {
+          "item": "create:transmitter"
+        }
+      },
+      "pattern": [
+        "AB BA",
+        "ACACA",
+        "DEFED",
+        "A   A"
+      ],
+      "result": {
+        "id": "protection_pixel:evasionwing",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:iron_sheet"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        },
+        "C": {
+          "item": "create:andesite_alloy"
+        },
+        "D": {
+          "item": "powergrid:constant_speed_motor"
+        },
+        "E": {
+          "item": "create:cogwheel"
+        },
+        "F": {
+          "item": "create:transmitter"
+        },
+        "G": {
+          "item": "creatingspace:moon_regolith"
+        }
+      },
+      "pattern": [
+        "AB BA",
+        "ACACA",
+        "DEFED",
+        "A   A",
+        "  G  "
+      ],
+      "result": {
+        "id": "protection_pixel:evasionwing",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:falconnestasloot",
+    "output": "protection_pixel:falconnestas_chestplate",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:falconnest_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:falconnestas_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletefalconnest"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletefalconnest"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletefalconnest"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletefalconnest"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletefalconnest"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletefalconnest"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletefalconnest"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletefalconnest"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletefalconnest"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletefalconnest"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletefalconnest"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletefalconnest"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletefalconnest"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:falconnest_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:falconnestas_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletefalconnest"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletefalconnest"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletefalconnest"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletefalconnest"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletefalconnest"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletefalconnest"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletefalconnest"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletefalconnest"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletefalconnest"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletefalconnest"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletefalconnest"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletefalconnest"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletefalconnest"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:falconnestloot",
+    "output": "protection_pixel:falconnest_chestplate",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:cogwheel"
+        },
+        "B": {
+          "item": "create:electron_tube"
+        },
+        "C": {
+          "item": "create:brass_sheet"
+        },
+        "D": {
+          "item": "minecraft:iron_ingot"
+        },
+        "E": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "F": {
+          "item": "create:propeller"
+        },
+        "G": {
+          "item": "create:transmitter"
+        }
+      },
+      "pattern": [
+        "AGCGA",
+        "DCECD",
+        "DFBFD",
+        "CC CC"
+      ],
+      "result": {
+        "id": "protection_pixel:falconnest_chestplate",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:cogwheel"
+        },
+        "B": {
+          "item": "create:electron_tube"
+        },
+        "C": {
+          "item": "create:brass_sheet"
+        },
+        "D": {
+          "item": "minecraft:iron_ingot"
+        },
+        "E": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "F": {
+          "item": "create:propeller"
+        },
+        "G": {
+          "item": "create:transmitter"
+        },
+        "H": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        "AGCGA",
+        "DCECD",
+        "DFBFD",
+        "CC CC",
+        "  H  "
+      ],
+      "result": {
+        "id": "protection_pixel:falconnest_chestplate",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:floatshieldloot",
+    "output": "protection_pixel:floatshield_chestplate",
+    "reason": [
+      "Post-lunar material gate; no quest-only lock",
+      "Approved: functional industrial component substitution"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "minecraft:lightning_rod"
+        },
+        "B": {
+          "item": "create:sturdy_sheet"
+        },
+        "C": {
+          "item": "minecraft:copper_ingot"
+        },
+        "D": {
+          "item": "create:copper_sheet"
+        },
+        "E": {
+          "item": "create:andesite_alloy"
+        },
+        "F": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "H": {
+          "item": "minecraft:heart_of_the_sea"
+        },
+        "I": {
+          "item": "minecraft:netherite_scrap"
+        },
+        "J": {
+          "item": "create:precision_mechanism"
+        },
+        "G": {
+          "item": "create:cogwheel"
+        }
+      },
+      "pattern": [
+        "AB BA",
+        "BCBCB",
+        "DEFED",
+        "BGHGB",
+        " IJI "
+      ],
+      "result": {
+        "id": "protection_pixel:floatshield_chestplate",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "minecraft:lightning_rod"
+        },
+        "B": {
+          "item": "create:sturdy_sheet"
+        },
+        "C": {
+          "item": "immersiveengineering:ingot_electrum"
+        },
+        "D": {
+          "item": "create:copper_sheet"
+        },
+        "E": {
+          "item": "create:andesite_alloy"
+        },
+        "F": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "H": {
+          "item": "minecraft:heart_of_the_sea"
+        },
+        "I": {
+          "item": "minecraft:netherite_scrap"
+        },
+        "J": {
+          "item": "powergrid:battery"
+        },
+        "G": {
+          "item": "create:cogwheel"
+        },
+        "K": {
+          "item": "creatingspace:moon_regolith"
+        }
+      },
+      "pattern": [
+        "AB BA",
+        "BCBCB",
+        "DEFED",
+        "BGHGB",
+        " IJI ",
+        "  K  "
+      ],
+      "result": {
+        "id": "protection_pixel:floatshield_chestplate",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:grende",
+    "output": "protection_pixel:pneumaticgrenadelauncharm",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:potato_cannon"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        },
+        "C": {
+          "item": "create:andesite_alloy"
+        },
+        "D": {
+          "item": "create:gantry_shaft"
+        },
+        "E": {
+          "item": "create:cogwheel"
+        }
+      },
+      "pattern": [
+        "A B A",
+        "BCDCB",
+        "EC CE"
+      ],
+      "result": {
+        "id": "protection_pixel:pneumaticgrenadelauncharm",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:potato_cannon"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        },
+        "C": {
+          "item": "create:andesite_alloy"
+        },
+        "D": {
+          "item": "create:gantry_shaft"
+        },
+        "E": {
+          "item": "create:cogwheel"
+        },
+        "G": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        "A B A",
+        "BCDCB",
+        "EC CE",
+        "  G  "
+      ],
+      "result": {
+        "id": "protection_pixel:pneumaticgrenadelauncharm",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:hammerasloot",
+    "output": "protection_pixel:hammeras_helmet",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:hammer_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:hammeras_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehammer"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehammer"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehammer"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehammer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehammer"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehammer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehammer"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehammer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehammer"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehammer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehammer"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehammer"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletehammer"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:hammer_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:hammeras_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehammer"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehammer"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehammer"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehammer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehammer"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehammer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehammer"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehammer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehammer"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehammer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehammer"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehammer"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletehammer"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:hammerloot",
+    "output": "protection_pixel:hammer_helmet",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_sheet"
+        },
+        "B": {
+          "tag": "c:ingots/brass"
+        },
+        "C": {
+          "item": "create:iron_sheet"
+        },
+        "D": {
+          "item": "minecraft:iron_helmet"
+        },
+        "E": {
+          "item": "minecraft:glass_pane"
+        },
+        "F": {
+          "item": "minecraft:redstone"
+        }
+      },
+      "pattern": [
+        " AEA ",
+        "BFEFB",
+        "ACDCA",
+        "BCCCB"
+      ],
+      "result": {
+        "id": "protection_pixel:hammer_helmet",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_sheet"
+        },
+        "B": {
+          "tag": "c:ingots/brass"
+        },
+        "C": {
+          "item": "create:iron_sheet"
+        },
+        "D": {
+          "item": "minecraft:iron_helmet"
+        },
+        "E": {
+          "item": "minecraft:glass_pane"
+        },
+        "F": {
+          "item": "minecraft:redstone"
+        },
+        "G": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        " AEA ",
+        "BFEFB",
+        "ACDCA",
+        "BCCCB",
+        "  G  "
+      ],
+      "result": {
+        "id": "protection_pixel:hammer_helmet",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:heatoverlockmechanismloot",
+    "output": "protection_pixel:heatoverlockingmechanism",
+    "reason": [
+      "Shared Alloy/equipment upgrade gate: replace seven repeated copper sheets with seven magnets; keep seven-loop manufacturing"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "create:sturdy_sheet"
+      },
+      "loops": 7,
+      "results": [
+        {
+          "chance": 100.0,
+          "id": "protection_pixel:heatoverlockingmechanism"
+        },
+        {
+          "chance": 10.0,
+          "id": "create:precision_mechanism"
+        },
+        {
+          "chance": 10.0,
+          "id": "create:sturdy_sheet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            },
+            {
+              "item": "minecraft:diamond"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            },
+            {
+              "item": "create:copper_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompleteheatoverlockmechanism"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "create:sturdy_sheet"
+      },
+      "loops": 7,
+      "results": [
+        {
+          "chance": 100.0,
+          "id": "protection_pixel:heatoverlockingmechanism"
+        },
+        {
+          "chance": 10.0,
+          "id": "create:precision_mechanism"
+        },
+        {
+          "chance": 10.0,
+          "id": "create:sturdy_sheet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            },
+            {
+              "item": "minecraft:diamond"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            },
+            {
+              "item": "powergrid:magnet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteheatoverlockmechanism"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompleteheatoverlockmechanism"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:hellsnakeasloot",
+    "output": "protection_pixel:hellsnakeas_chestplate",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:hellsnake_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:hellsnakeas_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehellsnake"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehellsnake"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehellsnake"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehellsnake"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehellsnake"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehellsnake"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehellsnake"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehellsnake"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehellsnake"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehellsnake"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehellsnake"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehellsnake"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletehellsnake"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:hellsnake_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:hellsnakeas_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehellsnake"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehellsnake"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehellsnake"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehellsnake"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehellsnake"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehellsnake"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehellsnake"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehellsnake"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehellsnake"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehellsnake"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehellsnake"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehellsnake"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletehellsnake"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:hellsnakeloot",
+    "output": "protection_pixel:hellsnake_chestplate",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:ingots/brass"
+        },
+        "B": {
+          "item": "create:fluid_pipe"
+        },
+        "C": {
+          "item": "create:chute"
+        },
+        "D": {
+          "item": "create:cogwheel"
+        },
+        "E": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "F": {
+          "item": "create:portable_fluid_interface"
+        },
+        "G": {
+          "item": "create:mechanical_pump"
+        }
+      },
+      "pattern": [
+        "ABCBA",
+        "DAEAD",
+        "FGAGF"
+      ],
+      "result": {
+        "id": "protection_pixel:hellsnake_chestplate",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:ingots/brass"
+        },
+        "B": {
+          "item": "create:fluid_pipe"
+        },
+        "C": {
+          "item": "create:chute"
+        },
+        "D": {
+          "item": "create:cogwheel"
+        },
+        "E": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "F": {
+          "item": "create:portable_fluid_interface"
+        },
+        "G": {
+          "item": "create:mechanical_pump"
+        },
+        "H": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        "ABCBA",
+        "DAEAD",
+        "FGAGF",
+        "  H  "
+      ],
+      "result": {
+        "id": "protection_pixel:hellsnake_chestplate",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:hookcannonloot",
+    "output": "protection_pixel:hookcannon",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "protection_pixel:hookitem"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        },
+        "C": {
+          "item": "create:minecart_coupling"
+        },
+        "D": {
+          "item": "create:iron_sheet"
+        },
+        "E": {
+          "item": "create:whisk"
+        },
+        "F": {
+          "item": "minecraft:string"
+        },
+        "G": {
+          "item": "create:cogwheel"
+        }
+      },
+      "pattern": [
+        "A   A",
+        "BCDCB",
+        "EF FE",
+        "G   G"
+      ],
+      "result": {
+        "id": "protection_pixel:hookcannon",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "protection_pixel:hookitem"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        },
+        "C": {
+          "item": "create:minecart_coupling"
+        },
+        "D": {
+          "item": "create:iron_sheet"
+        },
+        "E": {
+          "item": "create:whisk"
+        },
+        "F": {
+          "item": "minecraft:string"
+        },
+        "G": {
+          "item": "create:cogwheel"
+        },
+        "H": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        "A   A",
+        "BCDCB",
+        "EF FE",
+        "G   G",
+        "  H  "
+      ],
+      "result": {
+        "id": "protection_pixel:hookcannon",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:hunterasloot",
+    "output": "protection_pixel:hunteras_helmet",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:hunter_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:hunteras_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehunter"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehunter"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehunter"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehunter"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehunter"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehunter"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehunter"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehunter"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehunter"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehunter"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehunter"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehunter"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletehunter"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:hunter_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:hunteras_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehunter"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehunter"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehunter"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehunter"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehunter"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehunter"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehunter"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehunter"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehunter"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehunter"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletehunter"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletehunter"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletehunter"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:hunterloot",
+    "output": "protection_pixel:hunter_helmet",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained",
+      "Approved: functional industrial component substitution"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:ingots/brass"
+        },
+        "B": {
+          "item": "minecraft:amethyst_shard"
+        },
+        "C": {
+          "item": "create:brass_sheet"
+        },
+        "D": {
+          "item": "create:electron_tube"
+        },
+        "E": {
+          "item": "minecraft:iron_helmet"
+        },
+        "F": {
+          "item": "create:iron_sheet"
+        }
+      },
+      "pattern": [
+        "AB BA",
+        " ACA ",
+        " DEC ",
+        " FAF "
+      ],
+      "result": {
+        "id": "protection_pixel:hunter_helmet",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:ingots/brass"
+        },
+        "B": {
+          "item": "minecraft:amethyst_shard"
+        },
+        "C": {
+          "item": "create:brass_sheet"
+        },
+        "D": {
+          "item": "create:electron_tube"
+        },
+        "E": {
+          "item": "minecraft:iron_helmet"
+        },
+        "F": {
+          "item": "create:iron_sheet"
+        },
+        "G": {
+          "item": "create_connected:control_chip"
+        }
+      },
+      "pattern": [
+        "AB BA",
+        " ACA ",
+        " DEC ",
+        " FAF ",
+        "  G  "
+      ],
+      "result": {
+        "id": "protection_pixel:hunter_helmet",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:lancerasloot",
+    "output": "protection_pixel:lanceras_helmet",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6",
+      "Post-lunar material gate; no quest-only lock"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:lancer_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:lanceras_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletelancer"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:lancer_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:lanceras_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletelancer"
+            },
+            {
+              "item": "creatingspace:moon_regolith"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletelancer"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletelancer"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:lancerloot",
+    "output": "protection_pixel:lancer_helmet",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:ingots/brass"
+        },
+        "B": {
+          "item": "create:brass_sheet"
+        },
+        "C": {
+          "item": "create:cogwheel"
+        },
+        "D": {
+          "item": "minecraft:iron_ingot"
+        },
+        "E": {
+          "item": "minecraft:glass_pane"
+        },
+        "F": {
+          "item": "minecraft:iron_helmet"
+        },
+        "G": {
+          "item": "create:iron_sheet"
+        }
+      },
+      "pattern": [
+        "  A  ",
+        " BCB ",
+        "DEFED",
+        " AGA "
+      ],
+      "result": {
+        "id": "protection_pixel:lancer_helmet",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:ingots/brass"
+        },
+        "B": {
+          "item": "create:brass_sheet"
+        },
+        "C": {
+          "item": "create:cogwheel"
+        },
+        "D": {
+          "item": "minecraft:iron_ingot"
+        },
+        "E": {
+          "item": "minecraft:glass_pane"
+        },
+        "F": {
+          "item": "minecraft:iron_helmet"
+        },
+        "G": {
+          "item": "create:iron_sheet"
+        },
+        "H": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        "  A  ",
+        " BCB ",
+        "DEFED",
+        " AGA ",
+        "  H  "
+      ],
+      "result": {
+        "id": "protection_pixel:lancer_helmet",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:magneticasloot",
+    "output": "protection_pixel:magneticstormas_chestplate",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:magneticstorm_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:magneticstormas_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletemagneticstorm"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletemagneticstorm"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletemagneticstorm"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletemagneticstorm"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletemagneticstorm"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletemagneticstorm"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletemagneticstorm"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletemagneticstorm"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletemagneticstorm"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletemagneticstorm"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletemagneticstorm"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletemagneticstorm"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletemagneticstorm"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:magneticstorm_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:magneticstormas_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletemagneticstorm"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletemagneticstorm"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletemagneticstorm"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletemagneticstorm"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletemagneticstorm"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletemagneticstorm"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletemagneticstorm"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletemagneticstorm"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletemagneticstorm"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletemagneticstorm"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletemagneticstorm"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletemagneticstorm"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletemagneticstorm"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:magneticloot",
+    "output": "protection_pixel:magneticstorm_chestplate",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:ingots/brass"
+        },
+        "B": {
+          "item": "create:brass_sheet"
+        },
+        "C": {
+          "item": "create:electron_tube"
+        },
+        "D": {
+          "item": "minecraft:iron_ingot"
+        },
+        "E": {
+          "item": "minecraft:netherite_scrap"
+        },
+        "F": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "H": {
+          "item": "create:golden_sheet"
+        },
+        "I": {
+          "item": "create:cogwheel"
+        },
+        "G": {
+          "item": "minecraft:redstone"
+        }
+      },
+      "pattern": [
+        "ABCBA",
+        "DEFED",
+        "GHIHG",
+        "A   A"
+      ],
+      "result": {
+        "id": "protection_pixel:magneticstorm_chestplate",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "tag": "c:ingots/brass"
+        },
+        "B": {
+          "item": "create:brass_sheet"
+        },
+        "C": {
+          "item": "create:electron_tube"
+        },
+        "D": {
+          "item": "minecraft:iron_ingot"
+        },
+        "E": {
+          "item": "minecraft:netherite_scrap"
+        },
+        "F": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "H": {
+          "item": "create:golden_sheet"
+        },
+        "I": {
+          "item": "create:cogwheel"
+        },
+        "G": {
+          "item": "minecraft:redstone"
+        },
+        "J": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        "ABCBA",
+        "DEFED",
+        "GHIHG",
+        "A   A",
+        "  J  "
+      ],
+      "result": {
+        "id": "protection_pixel:magneticstorm_chestplate",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:nightdemonasloot",
+    "output": "protection_pixel:nightdemonas_helmet",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:nightdemon_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:nightdemonas_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletenightdemon"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletenightdemon"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletenightdemon"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletenightdemon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletenightdemon"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletenightdemon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletenightdemon"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletenightdemon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletenightdemon"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletenightdemon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletenightdemon"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletenightdemon"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletenightdemon"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:nightdemon_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:nightdemonas_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletenightdemon"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletenightdemon"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletenightdemon"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletenightdemon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletenightdemon"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletenightdemon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletenightdemon"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletenightdemon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletenightdemon"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletenightdemon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletenightdemon"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletenightdemon"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletenightdemon"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:nightdemonloot",
+    "output": "protection_pixel:nightdemon_helmet",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:iron_sheet"
+        },
+        "B": {
+          "item": "minecraft:quartz"
+        },
+        "C": {
+          "item": "create:electron_tube"
+        },
+        "D": {
+          "item": "create:brass_sheet"
+        },
+        "E": {
+          "item": "minecraft:glass_pane"
+        },
+        "F": {
+          "item": "minecraft:iron_helmet"
+        },
+        "G": {
+          "tag": "c:ingots/brass"
+        }
+      },
+      "pattern": [
+        "ABCBA",
+        "DEFED",
+        " AGA "
+      ],
+      "result": {
+        "id": "protection_pixel:nightdemon_helmet",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:iron_sheet"
+        },
+        "B": {
+          "item": "minecraft:quartz"
+        },
+        "C": {
+          "item": "create:electron_tube"
+        },
+        "D": {
+          "item": "create:brass_sheet"
+        },
+        "E": {
+          "item": "minecraft:glass_pane"
+        },
+        "F": {
+          "item": "minecraft:iron_helmet"
+        },
+        "G": {
+          "tag": "c:ingots/brass"
+        },
+        "H": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        "ABCBA",
+        "DEFED",
+        " AGA ",
+        "  H  "
+      ],
+      "result": {
+        "id": "protection_pixel:nightdemon_helmet",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:pioneerasloot",
+    "output": "protection_pixel:pioneeras_chestplate",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:pioneer_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:pioneeras_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletepioneer"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletepioneer"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletepioneer"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletepioneer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletepioneer"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletepioneer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletepioneer"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletepioneer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletepioneer"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletepioneer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletepioneer"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletepioneer"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletepioneer"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:pioneer_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:pioneeras_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletepioneer"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletepioneer"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletepioneer"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletepioneer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletepioneer"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletepioneer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletepioneer"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletepioneer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletepioneer"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletepioneer"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletepioneer"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletepioneer"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletepioneer"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:pioneerloot",
+    "output": "protection_pixel:pioneer_chestplate",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_sheet"
+        },
+        "B": {
+          "tag": "c:ingots/brass"
+        },
+        "C": {
+          "item": "create:cogwheel"
+        },
+        "D": {
+          "item": "create:electron_tube"
+        },
+        "E": {
+          "item": "create:andesite_alloy"
+        },
+        "F": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "G": {
+          "item": "minecraft:iron_pickaxe"
+        },
+        "H": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "pattern": [
+        " A A ",
+        "BCDCB",
+        "EBFBE",
+        "GHBHG"
+      ],
+      "result": {
+        "id": "protection_pixel:pioneer_chestplate",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_sheet"
+        },
+        "B": {
+          "tag": "c:ingots/brass"
+        },
+        "C": {
+          "item": "create:cogwheel"
+        },
+        "D": {
+          "item": "create:electron_tube"
+        },
+        "E": {
+          "item": "create:andesite_alloy"
+        },
+        "F": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "G": {
+          "item": "minecraft:iron_pickaxe"
+        },
+        "H": {
+          "item": "minecraft:iron_ingot"
+        },
+        "I": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        " A A ",
+        "BCDCB",
+        "EBFBE",
+        "GHBHG",
+        "  I  "
+      ],
+      "result": {
+        "id": "protection_pixel:pioneer_chestplate",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:plagueasloot",
+    "output": "protection_pixel:plagueas_helmet",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:plague_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:plagueas_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteplague"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteplague"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteplague"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteplague"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteplague"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteplague"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteplague"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteplague"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteplague"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteplague"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteplague"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteplague"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompleteplague"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:plague_helmet"
+      },
+      "loops": 1,
+      "results": [
+        {
+          "id": "protection_pixel:plagueas_helmet"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteplague"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteplague"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteplague"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteplague"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteplague"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteplague"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteplague"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteplague"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteplague"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteplague"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteplague"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteplague"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompleteplague"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:plagueloot",
+    "output": "protection_pixel:plague_helmet",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_sheet"
+        },
+        "B": {
+          "item": "protection_pixel:emptywatertank"
+        },
+        "C": {
+          "item": "minecraft:iron_ingot"
+        },
+        "D": {
+          "item": "create:propeller"
+        },
+        "E": {
+          "item": "minecraft:iron_helmet"
+        },
+        "F": {
+          "item": "minecraft:iron_nugget"
+        },
+        "G": {
+          "item": "minecraft:glass_pane"
+        },
+        "H": {
+          "tag": "c:ingots/brass"
+        }
+      },
+      "pattern": [
+        " ABA ",
+        "CDEDC",
+        " FGF ",
+        "  H  "
+      ],
+      "result": {
+        "id": "protection_pixel:plague_helmet",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_sheet"
+        },
+        "B": {
+          "item": "protection_pixel:emptywatertank"
+        },
+        "C": {
+          "item": "minecraft:iron_ingot"
+        },
+        "D": {
+          "item": "create:propeller"
+        },
+        "E": {
+          "item": "minecraft:iron_helmet"
+        },
+        "F": {
+          "item": "minecraft:iron_nugget"
+        },
+        "G": {
+          "item": "minecraft:glass_pane"
+        },
+        "H": {
+          "tag": "c:ingots/brass"
+        },
+        "I": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        " ABA ",
+        "CDEDC",
+        " FGF ",
+        "  H  ",
+        "  I  "
+      ],
+      "result": {
+        "id": "protection_pixel:plague_helmet",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:platformloot",
+    "output": "protection_pixel:armorloadplatform",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "B": {
+          "item": "create:cogwheel"
+        },
+        "D": {
+          "item": "create:brass_casing"
+        },
+        "F": {
+          "item": "create:large_cogwheel"
+        }
+      },
+      "pattern": [
+        "AB BA",
+        "AB BA",
+        " DFD "
+      ],
+      "result": {
+        "id": "protection_pixel:armorloadplatform",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:andesite_alloy"
+        },
+        "B": {
+          "item": "create:cogwheel"
+        },
+        "D": {
+          "item": "create:brass_casing"
+        },
+        "F": {
+          "item": "create:large_cogwheel"
+        },
+        "G": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        "AB BA",
+        "AB BA",
+        " DFD ",
+        "  G  "
+      ],
+      "result": {
+        "id": "protection_pixel:armorloadplatform",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:prismasloot",
+    "output": "protection_pixel:wingsofprismas_chestplate",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:wingsofprism_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:wingsofprismas_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletewingsofprism"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletewingsofprism"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletewingsofprism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletewingsofprism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletewingsofprism"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletewingsofprism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletewingsofprism"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletewingsofprism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletewingsofprism"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletewingsofprism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletewingsofprism"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletewingsofprism"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletewingsofprism"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:wingsofprism_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:wingsofprismas_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletewingsofprism"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletewingsofprism"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletewingsofprism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletewingsofprism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletewingsofprism"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletewingsofprism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletewingsofprism"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletewingsofprism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletewingsofprism"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletewingsofprism"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletewingsofprism"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletewingsofprism"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletewingsofprism"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:prismloot",
+    "output": "protection_pixel:wingsofprism_chestplate",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_sheet"
+        },
+        "B": {
+          "tag": "c:ingots/brass"
+        },
+        "C": {
+          "item": "create:large_cogwheel"
+        },
+        "D": {
+          "item": "minecraft:iron_ingot"
+        },
+        "E": {
+          "item": "create:andesite_alloy"
+        },
+        "F": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "H": {
+          "item": "create:electron_tube"
+        },
+        "G": {
+          "item": "create:gantry_shaft"
+        }
+      },
+      "pattern": [
+        "ABCBA",
+        "DEFED",
+        "AGHGA",
+        "A   A"
+      ],
+      "result": {
+        "id": "protection_pixel:wingsofprism_chestplate",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_sheet"
+        },
+        "B": {
+          "tag": "c:ingots/brass"
+        },
+        "C": {
+          "item": "create:large_cogwheel"
+        },
+        "D": {
+          "item": "minecraft:iron_ingot"
+        },
+        "E": {
+          "item": "create:andesite_alloy"
+        },
+        "F": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "H": {
+          "item": "create:electron_tube"
+        },
+        "G": {
+          "item": "create:gantry_shaft"
+        },
+        "I": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        "ABCBA",
+        "DEFED",
+        "AGHGA",
+        "A   A",
+        "  I  "
+      ],
+      "result": {
+        "id": "protection_pixel:wingsofprism_chestplate",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:reactorloot",
+    "output": "protection_pixel:powerengine",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        " a ",
+        "bcb",
+        " d "
+      ],
+      "key": {
+        "a": {
+          "item": "create:brass_sheet"
+        },
+        "b": {
+          "item": "create:fluid_pipe"
+        },
+        "c": {
+          "item": "create:fluid_tank"
+        },
+        "d": {
+          "item": "create:empty_blaze_burner"
+        }
+      },
+      "result": {
+        "id": "protection_pixel:powerengine"
+      }
+    },
+    "new": {
+      "type": "minecraft:crafting_shaped",
+      "category": "misc",
+      "pattern": [
+        "Ga ",
+        "bcb",
+        " d "
+      ],
+      "key": {
+        "a": {
+          "item": "create:brass_sheet"
+        },
+        "b": {
+          "item": "create:fluid_pipe"
+        },
+        "c": {
+          "item": "create:fluid_tank"
+        },
+        "d": {
+          "item": "create:empty_blaze_burner"
+        },
+        "G": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "result": {
+        "id": "protection_pixel:powerengine"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:slingshotasloot",
+    "output": "protection_pixel:slingshotas_leggings",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:slingshot_leggings"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:slingshotas_leggings"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteslingshot"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteslingshot"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteslingshot"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteslingshot"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteslingshot"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteslingshot"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteslingshot"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteslingshot"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteslingshot"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteslingshot"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteslingshot"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteslingshot"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompleteslingshot"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:slingshot_leggings"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:slingshotas_leggings"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteslingshot"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteslingshot"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteslingshot"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteslingshot"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteslingshot"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteslingshot"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteslingshot"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteslingshot"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteslingshot"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteslingshot"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteslingshot"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteslingshot"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompleteslingshot"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:slingshotloot",
+    "output": "protection_pixel:slingshot_leggings",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_sheet"
+        },
+        "B": {
+          "item": "create:andesite_alloy"
+        },
+        "C": {
+          "item": "protection_pixel:leggingslining"
+        },
+        "D": {
+          "tag": "c:ingots/brass"
+        },
+        "E": {
+          "item": "create:minecart_coupling"
+        },
+        "F": {
+          "item": "minecraft:iron_ingot"
+        }
+      },
+      "pattern": [
+        " A A ",
+        "ABCBA",
+        "DE ED",
+        "AF FA"
+      ],
+      "result": {
+        "id": "protection_pixel:slingshot_leggings",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:brass_sheet"
+        },
+        "B": {
+          "item": "create:andesite_alloy"
+        },
+        "C": {
+          "item": "protection_pixel:leggingslining"
+        },
+        "D": {
+          "tag": "c:ingots/brass"
+        },
+        "E": {
+          "item": "create:minecart_coupling"
+        },
+        "F": {
+          "item": "minecraft:iron_ingot"
+        },
+        "G": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        " A A ",
+        "ABCBA",
+        "DE ED",
+        "AF FA",
+        "  G  "
+      ],
+      "result": {
+        "id": "protection_pixel:slingshot_leggings",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:steamexoskeletonloot",
+    "output": "protection_pixel:steamectoskeleton",
+    "reason": [
+      "Electric magnetization gate",
+      "Approved: functional industrial component substitution"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "key": {
+        "A": {
+          "item": "create:cogwheel"
+        },
+        "B": {
+          "item": "create:copper_sheet"
+        },
+        "C": {
+          "item": "create:steam_engine"
+        },
+        "D": {
+          "item": "minecraft:redstone"
+        },
+        "E": {
+          "item": "create:iron_sheet"
+        }
+      },
+      "pattern": [
+        "ABBBA",
+        "CDEDC",
+        " BEB ",
+        "AE EA",
+        "BB BB"
+      ],
+      "result": {
+        "id": "protection_pixel:steamectoskeleton",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "key": {
+        "A": {
+          "item": "create:cogwheel"
+        },
+        "B": {
+          "item": "create:copper_sheet"
+        },
+        "C": {
+          "item": "create:steam_engine"
+        },
+        "D": {
+          "item": "minecraft:redstone"
+        },
+        "E": {
+          "item": "immersiveengineering:plate_steel"
+        },
+        "G": {
+          "item": "powergrid:magnet"
+        }
+      },
+      "pattern": [
+        "ABBBA",
+        "CDEDC",
+        " BEB ",
+        "AE EA",
+        "BB BB",
+        "  G  "
+      ],
+      "result": {
+        "id": "protection_pixel:steamectoskeleton",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:typhoonasloot",
+    "output": "protection_pixel:typhoonas_chestplate",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:typhoon_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:typhoonas_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletetyphoon"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletetyphoon"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletetyphoon"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletetyphoon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletetyphoon"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletetyphoon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletetyphoon"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletetyphoon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletetyphoon"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletetyphoon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletetyphoon"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletetyphoon"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletetyphoon"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:typhoon_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:typhoonas_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletetyphoon"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletetyphoon"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletetyphoon"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletetyphoon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletetyphoon"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletetyphoon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletetyphoon"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletetyphoon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletetyphoon"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletetyphoon"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompletetyphoon"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompletetyphoon"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompletetyphoon"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:typhoonloot",
+    "output": "protection_pixel:typhoon_chestplate",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:fluid_pipe"
+        },
+        "B": {
+          "item": "create:cogwheel"
+        },
+        "C": {
+          "item": "create:electron_tube"
+        },
+        "D": {
+          "item": "create:andesite_alloy"
+        },
+        "E": {
+          "item": "create:brass_sheet"
+        },
+        "F": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "G": {
+          "item": "create:iron_sheet"
+        },
+        "H": {
+          "item": "create:fluid_tank"
+        }
+      },
+      "pattern": [
+        "ABCBA",
+        "DEFED",
+        "EGHGE",
+        "EE EE"
+      ],
+      "result": {
+        "id": "protection_pixel:typhoon_chestplate",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:fluid_pipe"
+        },
+        "B": {
+          "item": "create:cogwheel"
+        },
+        "C": {
+          "item": "create:electron_tube"
+        },
+        "D": {
+          "item": "create:andesite_alloy"
+        },
+        "E": {
+          "item": "create:brass_sheet"
+        },
+        "F": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "G": {
+          "item": "create:iron_sheet"
+        },
+        "H": {
+          "item": "create:fluid_tank"
+        },
+        "I": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        "ABCBA",
+        "DEFED",
+        "EGHGE",
+        "EE EE",
+        "  I  "
+      ],
+      "result": {
+        "id": "protection_pixel:typhoon_chestplate",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:watertankloot_2",
+    "output": "protection_pixel:watertank",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "protection_pixel:emptywatertank"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 1000,
+          "fluid": "minecraft:water"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:watertank"
+        }
+      ]
+    },
+    "new": {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "protection_pixel:emptywatertank"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 1000,
+          "fluid": "minecraft:water"
+        }
+      ],
+      "results": [
+        {
+          "id": "protection_pixel:watertank"
+        }
+      ]
+    }
+  },
+  {
+    "recipe": "protection_pixel:wingloot",
+    "output": "protection_pixel:maneuveringwing",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:minecart_coupling"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        },
+        "C": {
+          "item": "create:andesite_alloy"
+        },
+        "D": {
+          "item": "create:propeller"
+        },
+        "E": {
+          "item": "minecraft:elytra"
+        },
+        "F": {
+          "item": "minecraft:phantom_membrane"
+        }
+      },
+      "pattern": [
+        "AB BA",
+        "CDEDC",
+        "CFBFC"
+      ],
+      "result": {
+        "id": "protection_pixel:maneuveringwing",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:minecart_coupling"
+        },
+        "B": {
+          "item": "minecraft:iron_ingot"
+        },
+        "C": {
+          "item": "create:andesite_alloy"
+        },
+        "D": {
+          "item": "create:propeller"
+        },
+        "E": {
+          "item": "minecraft:elytra"
+        },
+        "F": {
+          "item": "minecraft:phantom_membrane"
+        },
+        "G": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        "AB BA",
+        "CDEDC",
+        "CFBFC",
+        "  G  "
+      ],
+      "result": {
+        "id": "protection_pixel:maneuveringwing",
+        "count": 1
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:workerasloot",
+    "output": "protection_pixel:workerhornetas_chestplate",
+    "reason": [
+      "Correct legacy fluid ingredient serializer for NeoForge/Create 6"
+    ],
+    "old": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:workerhornet_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:workerhornetas_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteworkerhornet"
+            },
+            {
+              "type": "fluid_stack",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteworkerhornet"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteworkerhornet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteworkerhornet"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteworkerhornet"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteworkerhornet"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteworkerhornet"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteworkerhornet"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteworkerhornet"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteworkerhornet"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteworkerhornet"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteworkerhornet"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompleteworkerhornet"
+      }
+    },
+    "new": {
+      "type": "create:sequenced_assembly",
+      "ingredient": {
+        "item": "protection_pixel:workerhornet_chestplate"
+      },
+      "loops": 2,
+      "results": [
+        {
+          "id": "protection_pixel:workerhornetas_chestplate"
+        }
+      ],
+      "sequence": [
+        {
+          "type": "create:filling",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteworkerhornet"
+            },
+            {
+              "type": "neoforge:single",
+              "amount": 250,
+              "fluid": "minecraft:lava"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteworkerhornet"
+            }
+          ]
+        },
+        {
+          "type": "create:pressing",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteworkerhornet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteworkerhornet"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteworkerhornet"
+            },
+            {
+              "item": "create:sturdy_sheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteworkerhornet"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteworkerhornet"
+            },
+            {
+              "item": "protection_pixel:heatoverlockingmechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteworkerhornet"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteworkerhornet"
+            },
+            {
+              "item": "create:precision_mechanism"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteworkerhornet"
+            }
+          ]
+        },
+        {
+          "type": "create:deploying",
+          "ingredients": [
+            {
+              "item": "protection_pixel:incompleteworkerhornet"
+            },
+            {
+              "item": "protection_pixel:smallnetheritesheet"
+            }
+          ],
+          "results": [
+            {
+              "id": "protection_pixel:incompleteworkerhornet"
+            }
+          ]
+        }
+      ],
+      "transitional_item": {
+        "id": "protection_pixel:incompleteworkerhornet"
+      }
+    }
+  },
+  {
+    "recipe": "protection_pixel:workerloot",
+    "output": "protection_pixel:workerhornet_chestplate",
+    "reason": [
+      "Processed Brass entry component; economy access deliberately retained"
+    ],
+    "old": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:cogwheel"
+        },
+        "B": {
+          "tag": "c:ingots/brass"
+        },
+        "C": {
+          "item": "protection_pixel:emptywatertank"
+        },
+        "D": {
+          "item": "create:brass_sheet"
+        },
+        "E": {
+          "item": "minecraft:iron_ingot"
+        },
+        "F": {
+          "item": "create:andesite_alloy"
+        },
+        "G": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "I": {
+          "item": "create:brass_hand"
+        },
+        "H": {
+          "item": "create:iron_sheet"
+        }
+      },
+      "pattern": [
+        " A A ",
+        "BCDCB",
+        "EFGFE",
+        "HIBIH"
+      ],
+      "result": {
+        "id": "protection_pixel:workerhornet_chestplate",
+        "count": 1
+      }
+    },
+    "new": {
+      "type": "create:mechanical_crafting",
+      "accept_mirrored": true,
+      "category": "misc",
+      "key": {
+        "A": {
+          "item": "create:cogwheel"
+        },
+        "B": {
+          "tag": "c:ingots/brass"
+        },
+        "C": {
+          "item": "protection_pixel:emptywatertank"
+        },
+        "D": {
+          "item": "create:brass_sheet"
+        },
+        "E": {
+          "item": "minecraft:iron_ingot"
+        },
+        "F": {
+          "item": "create:andesite_alloy"
+        },
+        "G": {
+          "item": "protection_pixel:chestplatelining"
+        },
+        "I": {
+          "item": "create:brass_hand"
+        },
+        "H": {
+          "item": "create:iron_sheet"
+        },
+        "J": {
+          "item": "create:precision_mechanism"
+        }
+      },
+      "pattern": [
+        " A A ",
+        "BCDCB",
+        "EFGFE",
+        "HIBIH",
+        "  J  "
+      ],
+      "result": {
+        "id": "protection_pixel:workerhornet_chestplate",
+        "count": 1
+      }
+    }
+  }
+]

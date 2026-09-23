@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "tag": "c:ingots/brass"
+    },
+    "B": {
+      "item": "create:brass_sheet"
+    },
+    "C": {
+      "item": "create:cogwheel"
+    },
+    "D": {
+      "item": "minecraft:iron_ingot"
+    },
+    "E": {
+      "item": "minecraft:glass_pane"
+    },
+    "F": {
+      "item": "minecraft:iron_helmet"
+    },
+    "G": {
+      "item": "create:iron_sheet"
+    },
+    "H": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    "  A  ",
+    " BCB ",
+    "DEFED",
+    " AGA ",
+    "  H  "
+  ],
+  "result": {
+    "id": "protection_pixel:lancer_helmet",
+    "count": 1
+  }
+}

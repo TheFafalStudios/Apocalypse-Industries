@@ -896,12 +896,16 @@
 			y: 11.0d
 		}
 		{
+			icon: {
+				id: "kubejs:sealed_biocontainment_canister"
+			}
 			id: "46285F64822A1FD7"
-			icon: { count: 1, id: "kubejs:sealed_biocontainment_canister" }
 			rewards: [{
 				auto: "no_toast"
 				command: "/loot give @p loot apocalypse_industries:contract/biological_transport_map"
-				icon: { count: 1, id: "minecraft:filled_map" }
+				icon: {
+					id: "minecraft:filled_map"
+				}
 				id: "1B70A9F6C4D23851"
 				permission_level: 2
 				silent: true
@@ -917,11 +921,12 @@
 		}
 		{
 			dependencies: ["46285F64822A1FD7"]
-			dependency_requirement: "all_completed"
 			hide_dependency_lines: false
 			hide_until_deps_complete: true
+			icon: {
+				id: "kubejs:extracted_biological_sample"
+			}
 			id: "6EA6AC7A77A38A32"
-			icon: { count: 1, id: "kubejs:extracted_biological_sample" }
 			rewards: [{
 				count: 2
 				id: "5AEC5CF84B6C291C"
@@ -934,13 +939,95 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "427C0003A9BAD73A"
 				item: { count: 1, id: "kubejs:extracted_biological_sample" }
 				type: "item"
 			}]
 			x: -2.0d
 			y: 1.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["5036106AC24B4475"]
+			hide_until_deps_complete: true
+			id: "42234988E85D91AC"
+			optional: true
+			rewards: [{
+				id: "3459416551573C3E"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "5020DF5976973B5A"
+					item: { count: 1, id: "protection_pixel:ironarmorplate" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "2DDA96F47E57452C"
+					item: { count: 1, id: "protection_pixel:emptywatertank" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "05E12BC38428FD1C"
+					item: { count: 1, id: "protection_pixel:brassarmorplate" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["1420AA297FAB413D"]
+			hide_until_deps_complete: true
+			id: "213AA495CCA1661A"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "5EDF0A1B54403523"
+				item: {
+					count: 1
+					id: "jackseconomy:thousand_dollar_bill"
+				}
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "12D417025479DEF0"
+					item: { count: 1, id: "protection_pixel:alloyarmorplate" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "364BC20B33F744B4"
+					item: { count: 1, id: "protection_pixel:emptywatertank" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "60C8A7F104ECEBEF"
+					item: { count: 1, id: "protection_pixel:powerengine" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 13.0d
 		}
 	]
 }

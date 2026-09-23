@@ -74,7 +74,7 @@
 [wind]
 	#Enable wind physics
 	#Allowed Values: OFF, ALL, SAILS_ONLY
-	windMode = "ALL"
+	windMode = "SAILS_ONLY"
 	#Wind speed multiplier
 	# Default: 0.8
 	# Range: 0.0 ~ 10000.0

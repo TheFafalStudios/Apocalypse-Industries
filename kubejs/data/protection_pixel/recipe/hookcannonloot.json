@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": true,
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "protection_pixel:hookitem"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "create:minecart_coupling"
+    },
+    "D": {
+      "item": "create:iron_sheet"
+    },
+    "E": {
+      "item": "create:whisk"
+    },
+    "F": {
+      "item": "minecraft:string"
+    },
+    "G": {
+      "item": "create:cogwheel"
+    },
+    "H": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    "A   A",
+    "BCDCB",
+    "EF FE",
+    "G   G",
+    "  H  "
+  ],
+  "result": {
+    "id": "protection_pixel:hookcannon",
+    "count": 1
+  }
+}
