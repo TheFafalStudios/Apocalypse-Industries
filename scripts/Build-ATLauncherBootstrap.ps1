@@ -5,15 +5,17 @@ $bootstrap = Join-Path $InstanceRoot 'bootstrap/packwiz-installer-bootstrap.jar'
 if (-not (Test-Path -LiteralPath $bootstrap)) { throw "Missing $bootstrap" }
 $icon = Join-Path $InstanceRoot 'instance.png'
 if (-not (Test-Path -LiteralPath $icon)) { throw "Missing $icon" }
+$iconKey = 'apocalypse-industries'
 $stage = Join-Path $env:TEMP ("apocalypse-atlauncher-" + [guid]::NewGuid().ToString('N'))
 $minecraftDir = Join-Path $stage '.minecraft'
 New-Item -ItemType Directory -Path $minecraftDir -Force | Out-Null
 try {
     Copy-Item -LiteralPath $bootstrap -Destination (Join-Path $minecraftDir 'packwiz-installer-bootstrap.jar')
-    Copy-Item -LiteralPath $icon -Destination (Join-Path $stage 'instance.png')
+    Copy-Item -LiteralPath $icon -Destination (Join-Path $stage ("$iconKey.png"))
     $instanceCfg = @'
 InstanceType=OneSix
 name=Apocalypse Industries
+iconKey=apocalypse-industries
 OverrideCommands=true
 PreLaunchCommand="$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/TheFafalStudios/Apocalypse-Industries/main/pack.toml
 '@
