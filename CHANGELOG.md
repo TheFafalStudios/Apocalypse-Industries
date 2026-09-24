@@ -1,5 +1,11 @@
 # Changelog
 
+## Apocalypse Industries v1.1.2 — 2026-09-24
+
+- Add an unheated Create Mechanical Mixer recipe: 4 sand, 2 gravel, 2 clay balls and 1,000 mB water produce 8 Immersive Engineering concrete blocks. Shared ingredient tags match IE's crafting recipe.
+- Existing concrete recipes remain available. No additional mods required.
+- JavaScript syntax and distribution hashes validated; in-game mixing verification remains pending.
+
 ## Apocalypse Industries v1.1.1 — 2026-09-24
 
 - Restore axe effectiveness for BOP dead logs, dead wood, and both stripped variants after the existing tag removal.

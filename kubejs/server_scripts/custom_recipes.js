@@ -60,6 +60,14 @@ event.recipes.create.mixing([
         Ingredient.of('immersiveengineering:dust_iron')
     ]).heated()
 
+    // Match IE's crafting quantities; the mixer supplies water directly without a bucket.
+    event.recipes.create.mixing(['8x immersiveengineering:concrete'], [
+        Ingredient.of('#c:sands', 4),
+        Ingredient.of('#c:gravels', 2),
+        Ingredient.of('#c:clay', 2),
+        Fluid.of('minecraft:water', 1000)
+    ]).id('kubejs:mixing/immersiveengineering_concrete')
+
     event.recipes.create.mixing(['biomesoplenty:dried_salt'], [
         Ingredient.of('ratatouille:salt', 4),
         Ingredient.of('minecraft:sand')

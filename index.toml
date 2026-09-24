@@ -3706,7 +3706,7 @@ hash = "2c575c92c589d07ddbd650a08357f2ac9010849d92f2ec297ca1947fb1e33106"
 
 [[files]]
 file = "kubejs/server_scripts/custom_recipes.js"
-hash = "42d4d0caab3f605c6b04eebc1e2a48cec171b15f2517d8bd6d98818d931b802a"
+hash = "62312855645091b16cc6a71f982ee788a853b102fbcd624a3f5004b790684243"
 
 [[files]]
 file = "kubejs/server_scripts/deadlogs_changes.js"
