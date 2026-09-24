@@ -1,5 +1,11 @@
 # Changelog
 
+## Apocalypse Industries v1.1.1 — 2026-09-24
+
+- Restore axe effectiveness for BOP dead logs, dead wood, and both stripped variants after the existing tag removal.
+- Preserve custom dead-wood recipes and item-tag restrictions. No other gameplay changes.
+- Distribution hashes validated; in-game mining verification remains pending.
+
 ## Apocalypse Industries v1.1 — 2026-09-23
 
 - Removed the retired ocean-wave mod, its dedicated fix, configuration, registry and launcher references, and isolated test copies. Core Sable/Aeronautics is retained. Historical diagnostics were archived outside the pack.

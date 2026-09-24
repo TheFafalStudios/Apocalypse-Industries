@@ -3710,7 +3710,7 @@ hash = "42d4d0caab3f605c6b04eebc1e2a48cec171b15f2517d8bd6d98818d931b802a"
 
 [[files]]
 file = "kubejs/server_scripts/deadlogs_changes.js"
-hash = "a9774ee630f45b8c656f7795caf42d17b59cbf808f95ff4ff3af2d8cfdf5a351"
+hash = "58075b37e4c356356ce6baf64ee6ab6a56e2bd8c72d157f7e2907ea426a741df"
 
 [[files]]
 file = "kubejs/server_scripts/driedsalt.js"
