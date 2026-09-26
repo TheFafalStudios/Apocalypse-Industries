@@ -60,8 +60,8 @@ event.recipes.create.mixing([
         Ingredient.of('immersiveengineering:dust_iron')
     ]).heated()
 
-    // Match IE's crafting quantities; the mixer supplies water directly without a bucket.
-    event.recipes.create.mixing(['8x immersiveengineering:concrete'], [
+    // Match IE's crafting quantities. Explicit Item.of avoids the same-ID concrete fluid.
+    event.recipes.create.mixing([Item.of('immersiveengineering:concrete', 8)], [
         Ingredient.of('#c:sands', 4),
         Ingredient.of('#c:gravels', 2),
         Ingredient.of('#c:clay', 2),

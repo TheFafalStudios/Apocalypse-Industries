@@ -1,5 +1,10 @@
 # Changelog
 
+## Apocalypse Industries v1.1.3 - 2026-09-26
+
+- Fix Create concrete mixing to explicitly output 8 concrete blocks instead of resolving the shared identifier as liquid concrete. Ingredient quantities are unchanged.
+- User confirmed the corrected recipe works in-game.
+
 ## Apocalypse Industries v1.1.2 — 2026-09-24
 
 - Add an unheated Create Mechanical Mixer recipe: 4 sand, 2 gravel, 2 clay balls and 1,000 mB water produce 8 Immersive Engineering concrete blocks. Shared ingredient tags match IE's crafting recipe.
