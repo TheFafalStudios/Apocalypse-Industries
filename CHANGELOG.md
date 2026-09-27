@@ -1,5 +1,11 @@
 # Changelog
 
+## Apocalypse Industries v1.1.4 — 2026-09-27
+
+- Treat players on assembled Sable sublevels as sheltered from toxic rain because Weather2's ordinary sky check cannot reliably interpret moving or rotated sublevel plots. Existing exposure recovers at the normal sheltered rate.
+- A complete four-piece armor set prevents toxic rain from applying Poison. Exposure, warnings, Weakness and Slowness remain active; actual armor items and correctly armor-tagged modded equipment qualify.
+- JavaScript syntax, installed Sable API symbols and distribution hashes validated. Live gameplay verification remains pending.
+
 ## Apocalypse Industries v1.1.3 - 2026-09-26
 
 - Fix Create concrete mixing to explicitly output 8 concrete blocks instead of resolving the shared identifier as liquid concrete. Ingredient quantities are unchanged.

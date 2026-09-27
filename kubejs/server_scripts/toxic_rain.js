@@ -1,4 +1,4 @@
-// Weather2 Toxic Rain v0.3
+// Weather2 Toxic Rain v0.5
 // Minecraft 1.21.1 NeoForge + KubeJS 7.x
 //
 // Weather2 Compat redirects Level.isRainingAt(BlockPos) to Weather2's
@@ -25,6 +25,29 @@ const TOXIC_RAIN = {
 const EXPOSURE_KEY = 'weather2ToxicRainExposure'
 const TIER_KEY = 'weather2ToxicRainTier'
 const LAST_TICK_KEY = 'weather2ToxicRainLastProcessedTick'
+
+// Sable stores assembled vehicles in sub-level plots. Weather2's rain check
+// does not understand those moving spaces, especially when they are rotated,
+// so players on a sub-level need an explicit shelter exemption.
+const Sable = Java.loadClass('dev.ryanhcode.sable.Sable')
+const EquipmentSlot = Java.loadClass('net.minecraft.world.entity.EquipmentSlot')
+const ArmorItem = Java.loadClass('net.minecraft.world.item.ArmorItem')
+
+function isOnSableSubLevel(player) {
+  return Sable.HELPER.getContaining(player) !== null
+}
+
+function isArmorEquipped(player, slot, armorTag) {
+  const stack = player.getItemBySlot(slot)
+  return !stack.isEmpty() && (stack.getItem() instanceof ArmorItem || stack.hasTag(armorTag))
+}
+
+function hasFullArmorSet(player) {
+  return isArmorEquipped(player, EquipmentSlot.HEAD, 'minecraft:head_armor') &&
+    isArmorEquipped(player, EquipmentSlot.CHEST, 'minecraft:chest_armor') &&
+    isArmorEquipped(player, EquipmentSlot.LEGS, 'minecraft:leg_armor') &&
+    isArmorEquipped(player, EquipmentSlot.FEET, 'minecraft:foot_armor')
+}
 
 function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value))
@@ -69,16 +92,21 @@ function notifyTierChange(player, oldTier, newTier) {
 
 function applyExposureEffects(player, exposure) {
   const effects = player.potionEffects
+  const protectedFromPoison = hasFullArmorSet(player)
 
   if (exposure >= TOXIC_RAIN.severeThreshold) {
-    effects.add('minecraft:poison', TOXIC_RAIN.effectDurationTicks, 1)
+    if (!protectedFromPoison) {
+      effects.add('minecraft:poison', TOXIC_RAIN.effectDurationTicks, 1)
+    }
     effects.add('minecraft:weakness', TOXIC_RAIN.effectDurationTicks, 1)
     effects.add('minecraft:slowness', TOXIC_RAIN.effectDurationTicks, 0)
     return
   }
 
   if (exposure >= TOXIC_RAIN.poisonThreshold) {
-    effects.add('minecraft:poison', TOXIC_RAIN.effectDurationTicks, 0)
+    if (!protectedFromPoison) {
+      effects.add('minecraft:poison', TOXIC_RAIN.effectDurationTicks, 0)
+    }
     effects.add('minecraft:weakness', TOXIC_RAIN.effectDurationTicks, 0)
     return
   }
@@ -101,7 +129,8 @@ function processPlayer(player, serverTick) {
   // Weather2 Compat makes this localized Weather2 rain-aware.
   // isRainingAt also checks actual exposure to the sky.
   const rainPos = player.blockPosition().above()
-  const exposedToToxicRain = player.level.isRainingAt(rainPos)
+  const onSableSubLevel = isOnSableSubLevel(player)
+  const exposedToToxicRain = !onSableSubLevel && player.level.isRainingAt(rainPos)
 
   if (exposedToToxicRain) {
     exposure += TOXIC_RAIN.exposureGain
@@ -146,13 +175,14 @@ ServerEvents.basicCommand('toxicrain_status', event => {
   const player = event.player
   const data = player.persistentData
   const exposure = data.getInt(EXPOSURE_KEY)
-  const rainingHere = player.level.isRainingAt(player.blockPosition().above())
+  const onSableSubLevel = isOnSableSubLevel(player)
+  const rainingHere = !onSableSubLevel && player.level.isRainingAt(player.blockPosition().above())
   const lastTick = data.getLong(LAST_TICK_KEY)
   const serverTick = event.server.tickCount
   const ticksSinceProcess = lastTick > 0 ? (serverTick - lastTick) : -1
 
   player.tell(
-    `§7Toxic rain: §f${rainingHere ? 'EXPOSED' : 'sheltered/clear'}§7 | ` +
+    `§7Toxic rain: §f${rainingHere ? 'EXPOSED' : onSableSubLevel ? 'SABLE SHELTER' : 'sheltered/clear'}§7 | ` +
     `Exposure: §f${exposure}/${TOXIC_RAIN.maxExposure}§7 | ` +
     `Last processed: §f${ticksSinceProcess >= 0 ? ticksSinceProcess + ' ticks ago' : 'NEVER'}`
   )
