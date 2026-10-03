@@ -1,4 +1,4 @@
-// Weather2 Toxic Rain v0.5
+// Weather2 Toxic Rain v0.7
 // Minecraft 1.21.1 NeoForge + KubeJS 7.x
 //
 // Weather2 Compat redirects Level.isRainingAt(BlockPos) to Weather2's
@@ -26,27 +26,13 @@ const EXPOSURE_KEY = 'weather2ToxicRainExposure'
 const TIER_KEY = 'weather2ToxicRainTier'
 const LAST_TICK_KEY = 'weather2ToxicRainLastProcessedTick'
 
-// Sable stores assembled vehicles in sub-level plots. Weather2's rain check
-// does not understand those moving spaces, especially when they are rotated,
-// so players on a sub-level need an explicit shelter exemption.
+// Standing players remain in world space; Sable tracks the supporting sub-level.
+// Include seated players through the vehicle lookup. Any tracked sub-level
+// provides shelter, including open decks, as the agreed gameplay compromise.
 const Sable = Java.loadClass('dev.ryanhcode.sable.Sable')
-const EquipmentSlot = Java.loadClass('net.minecraft.world.entity.EquipmentSlot')
-const ArmorItem = Java.loadClass('net.minecraft.world.item.ArmorItem')
 
 function isOnSableSubLevel(player) {
-  return Sable.HELPER.getContaining(player) !== null
-}
-
-function isArmorEquipped(player, slot, armorTag) {
-  const stack = player.getItemBySlot(slot)
-  return !stack.isEmpty() && (stack.getItem() instanceof ArmorItem || stack.hasTag(armorTag))
-}
-
-function hasFullArmorSet(player) {
-  return isArmorEquipped(player, EquipmentSlot.HEAD, 'minecraft:head_armor') &&
-    isArmorEquipped(player, EquipmentSlot.CHEST, 'minecraft:chest_armor') &&
-    isArmorEquipped(player, EquipmentSlot.LEGS, 'minecraft:leg_armor') &&
-    isArmorEquipped(player, EquipmentSlot.FEET, 'minecraft:foot_armor')
+  return Sable.HELPER.getTrackingOrVehicleSubLevel(player) !== null
 }
 
 function clamp(value, min, max) {
@@ -92,21 +78,16 @@ function notifyTierChange(player, oldTier, newTier) {
 
 function applyExposureEffects(player, exposure) {
   const effects = player.potionEffects
-  const protectedFromPoison = hasFullArmorSet(player)
 
   if (exposure >= TOXIC_RAIN.severeThreshold) {
-    if (!protectedFromPoison) {
-      effects.add('minecraft:poison', TOXIC_RAIN.effectDurationTicks, 1)
-    }
+    effects.add('minecraft:poison', TOXIC_RAIN.effectDurationTicks, 1)
     effects.add('minecraft:weakness', TOXIC_RAIN.effectDurationTicks, 1)
     effects.add('minecraft:slowness', TOXIC_RAIN.effectDurationTicks, 0)
     return
   }
 
   if (exposure >= TOXIC_RAIN.poisonThreshold) {
-    if (!protectedFromPoison) {
-      effects.add('minecraft:poison', TOXIC_RAIN.effectDurationTicks, 0)
-    }
+    effects.add('minecraft:poison', TOXIC_RAIN.effectDurationTicks, 0)
     effects.add('minecraft:weakness', TOXIC_RAIN.effectDurationTicks, 0)
     return
   }

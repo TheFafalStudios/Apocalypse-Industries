@@ -3746,7 +3746,7 @@ hash = "ae98d08742b7ccebf170b76b3490619194de8f1ebd02090e8cdc31d875d26797"
 
 [[files]]
 file = "kubejs/server_scripts/toxic_rain.js"
-hash = "6a7f1880b44d18f30d893ccf4b3d43486a2c0f22cfbcbf63c7e0b94abd47c61a"
+hash = "91442660122e4b978731e7043558fafe031ee1f83e4f88522d6799ff6800a3d5"
 
 [[files]]
 file = "kubejs/server_scripts/villager_trades.js"

@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.1.5 - 2026-10-03
+
+- Fix Sable toxic-rain shelter detection by checking the supporting or ridden sublevel instead of the storage plot. Standing players and seated riders receive the agreed shelter exemption, including open decks.
+- Roll back full-armor Poison immunity. Poison applies at the normal exposure thresholds again; Weakness and Slowness retain their existing behavior.
+- Syntax and isolated behavior checks passed. Live gameplay validation remains pending activation.
+
 ## Apocalypse Industries v1.1.4 — 2026-09-27
 
 - Treat players on assembled Sable sublevels as sheltered from toxic rain because Weather2's ordinary sky check cannot reliably interpret moving or rotated sublevel plots. Existing exposure recovers at the normal sheltered rate.
