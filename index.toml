@@ -4914,3 +4914,12 @@ hash = "532a8e930427821d506435a54e1a606c08d0ff8fdcc9ca016801cb2b0db7af59"
 file = "shaderpacks/ComplementaryUnbound_r5.8.1_APOCALYPSE_ATMOSPHERE_v1.1_PARSEFIX_TESTED.zip"
 hash = "f7204273897b8919e7795811240ebcb094e137261b37715beb29d86d377e5a22"
 
+
+[[files]]
+file = "mods/apocalypse-gunsmithing-enchantments-1.1.0+mc1.21.1.jar"
+hash = "295fc223b628fb8a7dfdab9ec49eba7a0f68372534832394bfce226fcc83da73"
+
+[[files]]
+file = "mods/apocalypse-importer-safety-fix-1.0.0.jar"
+hash = "e462669c88fbb75703f737fa88a1f4ab9fa912894a5fae766f0ffef2a4a707ca"
+

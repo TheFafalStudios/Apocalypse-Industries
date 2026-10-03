@@ -1,0 +1,134 @@
+diff --git a/src/main/java/me/khajiitos/jackseconomy/blockentity/ImporterBlockEntity.java b/src/main/java/me/khajiitos/jackseconomy/blockentity/ImporterBlockEntity.java
+index 7a5a4cf..c1b5234 100644
+--- a/src/main/java/me/khajiitos/jackseconomy/blockentity/ImporterBlockEntity.java
++++ b/src/main/java/me/khajiitos/jackseconomy/blockentity/ImporterBlockEntity.java
+@@ -201,7 +201,10 @@ public class ImporterBlockEntity extends TransactionMachineBlockEntity implement
+         ItemDescription selectedDescription = null;
+         ItemStack itemStackToAdd = ItemStack.EMPTY;
+ 
+-        if (!items.isEmpty() && importer.selectedItem == null) {
++        // A replacement manifest may no longer contain the previous selection.
++        if (items.isEmpty()) {
++            importer.selectedItem = null;
++        } else if (importer.selectedItem == null || !items.contains(importer.selectedItem)) {
+             importer.selectedItem = items.get(0);
+         }
+ 
+@@ -217,7 +220,13 @@ public class ImporterBlockEntity extends TransactionMachineBlockEntity implement
+ 
+         double price = importer.selectedItem == null ? -1 : PriceManager.getImporterBuyPrice(importer.selectedItem, 1);
+ 
+-        if (ticketItemStack.isEmpty() || !importer.canAddItem(itemStackToAdd, slotsOutput) || price < 0 || importer.currency.compareTo(new BigDecimal(price)) < 0) {
++        if (selectedDescription == null || itemStackToAdd.isEmpty() || !Double.isFinite(price) || price <= 0) {
++            importer.progress = 0.f;
++            importer.markUpdated();
++            return;
++        }
++
++        if (ticketItemStack.isEmpty() || !importer.canAddItem(itemStackToAdd, slotsOutput) || importer.currency.compareTo(new BigDecimal(price)) < 0) {
+             if (importer.progress >= 0.f) {
+                 importer.progress = Math.max(0.f, importer.progress - 0.01f);
+             }
+@@ -247,6 +256,12 @@ public class ImporterBlockEntity extends TransactionMachineBlockEntity implement
+     }
+ 
+     public void buyItems(ItemStack itemStackToBuy, ItemDescription selectedDescription, double price, ItemStack ticketItem) {
++        // Never enter the purchase loop with an empty stack or an invalid divisor.
++        if (itemStackToBuy.isEmpty() || selectedDescription == null || ticketItem.isEmpty()
++                || !Double.isFinite(price) || price <= 0) {
++            return;
++        }
++
+         Supplier<Integer> availableSpaces = () -> {
+             int spaces = 0;
+ 
+@@ -273,15 +288,20 @@ public class ImporterBlockEntity extends TransactionMachineBlockEntity implement
+                     amountAffordable.get()
+                             .min(BigDecimal.valueOf(Math.min(availableSpaces.get(), Math.min(maxProcesses - processCount, itemStackToBuy.getMaxStackSize())))).intValue()
+             );
+-            BigDecimal totalPrice = BigDecimal.valueOf(price).multiply(BigDecimal.valueOf(stack.getCount()));
++            // Every iteration must make progress, even if a stack becomes invalid.
++            if (stack.isEmpty()) break;
++            int purchasedCount = stack.getCount();
++            BigDecimal totalPrice = BigDecimal.valueOf(price).multiply(BigDecimal.valueOf(purchasedCount));
+ 
+             if (!canAddItem(stack, slotsOutput) || getBalance().compareTo(totalPrice) < 0) break;
+             currency = currency.subtract(totalPrice);
+             addItem(stack, slotsOutput);
+ 
+-            processCount += stack.getCount();
++            processCount += purchasedCount;
+         }
+ 
++        if (processCount == 0) return;
++
+         TicketItem.handleDamageWithSound(ticketItem, 1, level, worldPosition);
+ 
+         PurchaseManager.addPurchase(PurchaseManager.Purchase.of(
+diff --git a/src/main/java/me/khajiitos/jackseconomy/blockentity/MechanicalImporterBlockEntity.java b/src/main/java/me/khajiitos/jackseconomy/blockentity/MechanicalImporterBlockEntity.java
+index 58b17a0..7fd2607 100644
+--- a/src/main/java/me/khajiitos/jackseconomy/blockentity/MechanicalImporterBlockEntity.java
++++ b/src/main/java/me/khajiitos/jackseconomy/blockentity/MechanicalImporterBlockEntity.java
+@@ -189,7 +189,10 @@ public class MechanicalImporterBlockEntity extends TransactionKineticMachineBloc
+         ItemDescription selectedDescription = null;
+         ItemStack itemStackToAdd = ItemStack.EMPTY;
+ 
+-        if (!items.isEmpty() && importer.selectedItem == null) {
++        // A replacement manifest may no longer contain the previous selection.
++        if (items.isEmpty()) {
++            importer.selectedItem = null;
++        } else if (importer.selectedItem == null || !items.contains(importer.selectedItem)) {
+             importer.selectedItem = items.get(0);
+         }
+ 
+@@ -205,7 +208,13 @@ public class MechanicalImporterBlockEntity extends TransactionKineticMachineBloc
+ 
+         double price = importer.selectedItem == null ? -1 : PriceManager.getImporterBuyPrice(importer.selectedItem, 1);
+ 
+-        if (ticketItemStack.isEmpty() || !importer.canAddItem(itemStackToAdd, slotsOutput) || price < 0 || importer.currency.compareTo(new BigDecimal(price)) < 0) {
++        if (selectedDescription == null || itemStackToAdd.isEmpty() || !Double.isFinite(price) || price <= 0) {
++            importer.progress = 0.f;
++            importer.markUpdated();
++            return;
++        }
++
++        if (ticketItemStack.isEmpty() || !importer.canAddItem(itemStackToAdd, slotsOutput) || importer.currency.compareTo(new BigDecimal(price)) < 0) {
+             if (importer.progress >= 0.f) {
+                 importer.progress = Math.max(0.f, importer.progress - 0.01f);
+             }
+@@ -233,6 +242,12 @@ public class MechanicalImporterBlockEntity extends TransactionKineticMachineBloc
+     }
+ 
+     public void buyItems(ItemStack itemStackToBuy, ItemDescription selectedDescription, double price, ItemStack ticketItem) {
++        // Never enter the purchase loop with an empty stack or an invalid divisor.
++        if (itemStackToBuy.isEmpty() || selectedDescription == null || ticketItem.isEmpty()
++                || !Double.isFinite(price) || price <= 0) {
++            return;
++        }
++
+         Supplier<Integer> availableSpaces = () -> {
+             int spaces = 0;
+ 
+@@ -259,15 +274,20 @@ public class MechanicalImporterBlockEntity extends TransactionKineticMachineBloc
+                     amountAffordable.get()
+                             .min(BigDecimal.valueOf(Math.min(availableSpaces.get(), Math.min(maxProcesses - processCount, itemStackToBuy.getMaxStackSize())))).intValue()
+             );
+-            BigDecimal totalPrice = BigDecimal.valueOf(price).multiply(BigDecimal.valueOf(stack.getCount()));
++            // Every iteration must make progress, even if a stack becomes invalid.
++            if (stack.isEmpty()) break;
++            int purchasedCount = stack.getCount();
++            BigDecimal totalPrice = BigDecimal.valueOf(price).multiply(BigDecimal.valueOf(purchasedCount));
+ 
+             if (!canAddItem(stack, slotsOutput) || getBalance().compareTo(totalPrice) < 0) break;
+             currency = currency.subtract(totalPrice);
+             addItem(stack, slotsOutput);
+ 
+-            processCount += stack.getCount();
++            processCount += purchasedCount;
+         }
+ 
++        if (processCount == 0) return;
++
+         TicketItem.handleDamageWithSound(ticketItem, 1, level, worldPosition);
+ 
+         PurchaseManager.addPurchase(PurchaseManager.Purchase.of(

@@ -1,0 +1,12 @@
+{
+  "anvil_cost": 4,
+  "description": {"translate": "enchantment.apocalypse_gunsmithing.quick_hands"},
+  "effects": {},
+  "max_cost": {"base": 51, "per_level_above_first": 10},
+  "max_level": 2,
+  "min_cost": {"base": 1, "per_level_above_first": 10},
+  "primary_items": "#apocalypse_gunsmithing:guns",
+  "slots": ["mainhand", "offhand"],
+  "supported_items": "#apocalypse_gunsmithing:guns",
+  "weight": 5
+}

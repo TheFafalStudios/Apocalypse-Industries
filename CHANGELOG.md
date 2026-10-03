@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.1.6 - 2026-10-03
+
+- Add Gunsmithing Enchantments 1.1.0: Quick Hands, Trigger Finger, Lightweight and Sharpshooter, with Create: Enchantment Industry extra-level support. Piercing revolver and Gatling rounds ignore 65% of armor points while preserving toughness, their existing damage boost and penetration. Passed 589 native dedicated-server checks and 91 isolated enchantment checks; the prior 1.0.0 enchantment implementation was confirmed working by the pack author.
+- Add Importer Safety Fix 1.0.0: prevent normal and Mechanical Importers from hanging the server when item manifests change; preserve valid selections and reject invalid or zero-progress purchases. Passed 56 native regression checks. The original Jack's Economy mod remains installed.
+- Both final addons passed their 645 native assertions together in a disposable server and shut down cleanly. Full-pack gameplay testing remains pending.
+- Both client and dedicated server require a restart. This release adds only these two runtime JARs and their source/docs; existing quests, recipes, configurations and unrelated WIP work are preserved.
+
+
 ## v1.1.5 - 2026-10-03
 
 - Fix Sable toxic-rain shelter detection by checking the supporting or ridden sublevel instead of the storage plot. Standing players and seated riders receive the agreed shelter exemption, including open decks.

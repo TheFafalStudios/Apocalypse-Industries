@@ -1,0 +1,12 @@
+{
+  "anvil_cost": 8,
+  "description": {"translate": "enchantment.apocalypse_gunsmithing.sharpshooter"},
+  "effects": {},
+  "max_cost": {"base": 30, "per_level_above_first": 8},
+  "max_level": 4,
+  "min_cost": {"base": 10, "per_level_above_first": 8},
+  "primary_items": "#apocalypse_gunsmithing:guns",
+  "slots": ["mainhand", "offhand"],
+  "supported_items": "#apocalypse_gunsmithing:guns",
+  "weight": 2
+}

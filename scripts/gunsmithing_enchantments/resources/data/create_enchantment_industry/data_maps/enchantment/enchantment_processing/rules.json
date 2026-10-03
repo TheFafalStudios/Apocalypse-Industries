@@ -1,0 +1,35 @@
+{
+  "replace": false,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create_enchantment_industry"
+    }
+  ],
+  "values": {
+    "apocalypse_gunsmithing:quick_hands": {
+      "level_extension": {
+        "blaze_enchanter": 1,
+        "blaze_forger": 1
+      }
+    },
+    "apocalypse_gunsmithing:trigger_finger": {
+      "level_extension": {
+        "blaze_enchanter": 1,
+        "blaze_forger": 1
+      }
+    },
+    "apocalypse_gunsmithing:lightweight": {
+      "level_extension": {
+        "blaze_enchanter": 1,
+        "blaze_forger": 1
+      }
+    },
+    "apocalypse_gunsmithing:sharpshooter": {
+      "level_extension": {
+        "blaze_enchanter": 1,
+        "blaze_forger": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "cgs:flintlock",
+    "cgs:revolver",
+    "cgs:shotgun",
+    "cgs:nailgun",
+    "cgs:gatling",
+    "cgs:blazegun",
+    "cgs:launcher"
+  ]
+}

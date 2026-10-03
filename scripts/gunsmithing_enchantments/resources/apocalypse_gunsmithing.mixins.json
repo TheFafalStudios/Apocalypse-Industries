@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rafal.apocalypsegunsmithing.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CgsGunItemMixin",
+    "WeaponItemMixin",
+    "WeaponModifierHelperMixin",
+    "ProjectileEntityMixin",
+    "CombatRulesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
