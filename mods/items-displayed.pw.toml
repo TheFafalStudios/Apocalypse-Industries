@@ -1,0 +1,8 @@
+name = "Items Displayed"
+filename = "ItemsDisplayed-NeoForge-2.0.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PuR4vDBo/versions/8ZZWElcA/ItemsDisplayed-NeoForge-2.0.10.jar"
+hash-format = "sha256"
+hash = "a0a691e050778fc18120f8ba87d8ac9619db84ad229ff3ebafe53a0da6f28a4a"

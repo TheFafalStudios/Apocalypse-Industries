@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.1.7 - 2026-10-03
+
+- Add Dead's Displays 1.1.0, Items Displayed 2.0.10, and Armor Poser 6.2.4 for Minecraft 1.21.1 / NeoForge.
+- All three are distributed to both clients and dedicated servers. No additional required libraries or custom configuration changes.
+- Verified downloaded hashes, JAR integrity, embedded loader/dependency requirements, distinct mod IDs, and Packwiz manifests. Full-pack gameplay testing remains pending.
+- Restart clients and the server to activate. Server restart is managed by the pack author. Existing configurations, quests and unrelated development work are preserved.
+
+
 ## v1.1.6 - 2026-10-03
 
 - Add Gunsmithing Enchantments 1.1.0: Quick Hands, Trigger Finger, Lightweight and Sharpshooter, with Create: Enchantment Industry extra-level support. Piercing revolver and Gatling rounds ignore 65% of armor points while preserving toughness, their existing damage boost and penetration. Passed 589 native dedicated-server checks and 91 isolated enchantment checks; the prior 1.0.0 enchantment implementation was confirmed working by the pack author.

@@ -1,0 +1,8 @@
+name = "Armor Poser"
+filename = "ArmorPoser-neoforge-1.21.1-6.2.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PFwYNrHb/versions/KlLmtvb1/ArmorPoser-neoforge-1.21.1-6.2.4.jar"
+hash-format = "sha256"
+hash = "f276156fe480079f6ba56ec2315ab7f6b41a2c77215b83e34e686b0a06028456"

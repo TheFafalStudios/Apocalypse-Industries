@@ -4923,3 +4923,18 @@ hash = "295fc223b628fb8a7dfdab9ec49eba7a0f68372534832394bfce226fcc83da73"
 file = "mods/apocalypse-importer-safety-fix-1.0.0.jar"
 hash = "e462669c88fbb75703f737fa88a1f4ab9fa912894a5fae766f0ffef2a4a707ca"
 
+
+[[files]]
+file = "mods/armor-poser.pw.toml"
+hash = "587f55e82760cdcd862f649fab5ea9fec84c8eb3226729cb58b7fce863400c9d"
+metafile = true
+
+[[files]]
+file = "mods/items-displayed.pw.toml"
+hash = "6ac9ecf299102e5375710f3197bac7392c4ebb28bd3b66b2428ab0b63b5bf0d1"
+metafile = true
+
+[[files]]
+file = "mods/deads-displays.pw.toml"
+hash = "128589b50011f5323188ae28aa36dfbcf5215e645ae00baa6dad22673262abb4"
+metafile = true

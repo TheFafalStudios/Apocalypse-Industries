@@ -1,0 +1,8 @@
+name = "Dead's Displays"
+filename = "deads_displays-neoforge-1.21.1-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/8884/61/deads_displays-neoforge-1.21.1-1.1.0.jar"
+hash-format = "sha256"
+hash = "0a55c272eee2f87fd7957498d5277d5ae2cea69963bdf20516a0d308283cee28"
