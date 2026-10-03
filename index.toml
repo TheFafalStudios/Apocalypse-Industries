@@ -4938,3 +4938,7 @@ metafile = true
 file = "mods/deads-displays.pw.toml"
 hash = "128589b50011f5323188ae28aa36dfbcf5215e645ae00baa6dad22673262abb4"
 metafile = true
+
+[[files]]
+file = "mods/apocalypse-attachment-removal-1.0.0+mc1.21.1.jar"
+hash = "3b08f3d3ddadf899f122ed070030197406ef6d81be936de9221bbfd41898223d"

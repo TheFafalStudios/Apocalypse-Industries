@@ -6,3 +6,6 @@ __pycache__/
 # v1.1.6 tested standalone addons
 !/mods/apocalypse-gunsmithing-enchantments-1.1.0+mc1.21.1.jar
 !/mods/apocalypse-importer-safety-fix-1.0.0.jar
+
+# Survival attachment removal compatibility addon
+!/mods/apocalypse-attachment-removal-1.0.0+mc1.21.1.jar

@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="apocalypse_attachment_removal"
+version="1.0.0"
+displayName="Apocalypse Survival Attachment Removal"
+description="Allows Survival and Adventure players to remove NTGL gun attachments through the normal attachment menu."
+[[mixins]]
+config="apocalypse_attachments.mixins.json"
+[[dependencies.apocalypse_attachment_removal]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+side="BOTH"
+[[dependencies.apocalypse_attachment_removal]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,)"
+side="BOTH"
+[[dependencies.apocalypse_attachment_removal]]
+modId="ntgl"
+type="required"
+versionRange="[3.1.8]"
+ordering="AFTER"
+side="BOTH"

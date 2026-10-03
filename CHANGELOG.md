@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.1.8 - 2026-10-04
+
+- Add Survival Attachment Removal 1.0.0 for pinned NTGL 3.1.8. Survival and Adventure players can remove gun attachments by ordinary pickup or shift-click; Creative remains allowed and occupied-slot Spectator removal remains blocked.
+- Split excess ammunition refunds into valid item stacks, fixing NTGL's full-inventory fallback that could create unsaveable oversized drops after removing a larger magazine. Ammo quantities, normal attachment storage and existing gun enchantments are preserved.
+- Passed 1,501 native dedicated-server checks across 72 removal combinations, including save/parse roundtrips, repeated removal, incompatible swaps, full inventories and a 300-to-100-round Gatling drum refund. Tested alongside the existing Gunsmithing Enchantments addon. Full-pack/client gameplay testing remains pending.
+- Required on both client and server; restart both to activate. Server restart remains user-managed. Unrelated configuration, quests and development work are preserved.
+
+
 ## v1.1.7 - 2026-10-03
 
 - Add Dead's Displays 1.1.0, Items Displayed 2.0.10, and Armor Poser 6.2.4 for Minecraft 1.21.1 / NeoForge.
