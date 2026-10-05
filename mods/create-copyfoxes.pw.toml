@@ -1,0 +1,13 @@
+name = "Create: Copyfoxes"
+filename = "copyfoxies-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VmFTbxHn/versions/Vy1jr1jl/copyfoxies-2.0.0.jar"
+hash-format = "sha256"
+hash = "289e06145a7e2455e1ccbc6a85c2a85c43636ac7f5911dec1275c27e1660ba07"
+
+[update]
+[update.modrinth]
+mod-id = "VmFTbxHn"
+version = "Vy1jr1jl"

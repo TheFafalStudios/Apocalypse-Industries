@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.1.9 - 2026-10-06
+
+- Add Create: Copyfoxes 2.0.0 (copyfoxies-2.0.0.jar) and Sable CleanUp 0.3.0 for Minecraft 1.21.1 / NeoForge on both client and server.
+- Pin publisher downloads and SHA-256 hashes. Existing NeoForge 21.1.248, Create 6.0.10, Copycats+ 3.0.4 and Sable 2.0.3 satisfy their declared requirements; no dependency upgrades are required.
+- Verify dedicated-server loading, Copyfoxies block/item registration and Sable CleanUp command permissions in an isolated disposable test. Full-pack gameplay and client GUI testing remain pending.
+- Preserve unrelated client development work, server configuration/quest changes and server-only mods. Activation requires client/server restarts; server restart remains user-managed.
+
+
 ## v1.1.8 - 2026-10-04
 
 - Add Survival Attachment Removal 1.0.0 for pinned NTGL 3.1.8. Survival and Adventure players can remove gun attachments by ordinary pickup or shift-click; Creative remains allowed and occupied-slot Spectator removal remains blocked.

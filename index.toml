@@ -4942,3 +4942,13 @@ metafile = true
 [[files]]
 file = "mods/apocalypse-attachment-removal-1.0.0+mc1.21.1.jar"
 hash = "3b08f3d3ddadf899f122ed070030197406ef6d81be936de9221bbfd41898223d"
+
+[[files]]
+file = "mods/create-copyfoxes.pw.toml"
+hash = "29ec5fa2d5100cc29464cb9cbc06074d1a275763bf59709830eec737c34843e9"
+metafile = true
+
+[[files]]
+file = "mods/sable-cleanup.pw.toml"
+hash = "bbb6ca993d9980d2db5c12b65ef0bac2a81e1c5bba0fcd431f78c1a508495748"
+metafile = true
