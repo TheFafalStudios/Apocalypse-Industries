@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
       { item: 'create:zinc_nugget' },
       {
         type: 'neoforge:single',
-        amount: 500,
+        amount: 1000,
         fluid: 'create_enchantment_industry:experience'
       }
     ],
