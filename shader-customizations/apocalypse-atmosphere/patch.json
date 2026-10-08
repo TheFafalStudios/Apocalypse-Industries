@@ -1,0 +1,361 @@
+{
+  "format": 1,
+  "base": "Complementary Unbound r5.8.1 + Euphoria Patches 1.9.3",
+  "output": "ApocalypseAtmosphere_r5.8.1_EP1.9.3_v1.1.zip",
+  "files": [
+    {
+      "path": "shaders/lib/atmospherics/fog/mainFog.glsl",
+      "before_sha256": "79a90535623a4d28e6d960c50d6696b79a3da935837d7a512f5d40b69f363422",
+      "after_sha256": "2eede43f826390eb5e5c9e7000ddac6f9235d501ce64ab34a1eafb1e34b7e65d",
+      "operations": [
+        {
+          "start": 108,
+          "end": 109,
+          "replacement": [
+            "            vec3 baseFogColor = atmFogColor * mix(\n"
+          ]
+        },
+        {
+          "start": 117,
+          "end": 117,
+          "replacement": [
+            "\n",
+            "            // Persistent industrial smog. Clear days are dirty ochre; rain becomes cold ash-grey.\n",
+            "            #ifdef SPECIAL_BIOME_WEATHER\n",
+            "                float aiFogDust = inDry * invRainFactor;\n",
+            "            #else\n",
+            "                float aiFogDust = 0.0;\n",
+            "            #endif\n",
+            "            float aiFogLuma = dot(baseFogColor, vec3(0.2126, 0.7152, 0.0722));\n",
+            "            vec3 aiFogDayTint = mix(vec3(1.08, 0.94, 0.71), vec3(0.80, 0.83, 0.80), rainFactor);\n",
+            "            aiFogDayTint = mix(aiFogDayTint, vec3(1.14, 0.90, 0.60), 0.40 * aiFogDust);\n",
+            "            vec3 aiFogNightTint = vec3(0.72, 0.77, 0.80);\n",
+            "            vec3 aiFogTint = mix(aiFogNightTint, aiFogDayTint, sunFactor);\n",
+            "            float aiFogGrade = clamp01(0.30 + 0.18 * rainFactor + 0.14 * aiFogDust);\n",
+            "            return mix(baseFogColor, aiFogLuma * aiFogTint, aiFogGrade);\n"
+          ]
+        },
+        {
+          "start": 178,
+          "end": 178,
+          "replacement": [
+            "\n",
+            "            // Additional low-altitude pollution veil. It combines with Complementary's existing\n",
+            "            // atmospheric fog instead of replacing it, and therefore keeps the DH/VOXY branches intact.\n",
+            "            float aiFogWorldY = playerPos.y + cameraPosition.y;\n",
+            "            float aiLowAltitude = clamp01((190.0 - aiFogWorldY) / 130.0);\n",
+            "            aiLowAltitude = sqrt(aiLowAltitude);\n",
+            "            float aiSmogDistance = 1.0 - exp(-max0(lViewPos - 24.0) * (0.0020 + 0.0007 * rainFactor));\n",
+            "            #ifdef SPECIAL_BIOME_WEATHER\n",
+            "                float aiDrySmog = inDry * invRainFactor;\n",
+            "            #else\n",
+            "                float aiDrySmog = 0.0;\n",
+            "            #endif\n",
+            "            float aiSmogStrength = (0.16 + 0.10 * sunFactor + 0.10 * rainFactor + 0.13 * aiDrySmog) * aiLowAltitude;\n",
+            "            float aiSmogFog = clamp01(aiSmogDistance * aiSmogStrength);\n",
+            "            fog = 1.0 - (1.0 - clamp01(fog)) * (1.0 - aiSmogFog);\n"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "shaders/lib/atmospherics/sky.glsl",
+      "before_sha256": "a275c070f17424ce91e6eaffd1a689def57dc11db83e9f8573a67a6c4a436043",
+      "after_sha256": "a052a8370542294d615cb5c920d6b405f1a97c87fd051da649dbf63790ac98a9",
+      "operations": [
+        {
+          "start": 97,
+          "end": 98,
+          "replacement": [
+            "                    glare *= 0.95;\n"
+          ]
+        },
+        {
+          "start": 100,
+          "end": 101,
+          "replacement": [
+            "                    vec3 glareColor = mix(vec3(0.38, 0.4, 0.5) * 0.3, vec3(1.75, 0.58, 0.16) + vec3(0.0, 0.18, 0.12) * noonFactor, sunVisibility);\n"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "shaders/lib/atmospherics/stars.glsl",
+      "before_sha256": "779065d20e0016fd3b05fdfee62c108beb81e33fbaeb07f4770fe31c6833063c",
+      "after_sha256": "aa64072fe2f1ffc4467bbf3e1a4235e24223200cb4ee0e502d1ff0abbd2eb968",
+      "operations": [
+        {
+          "start": 109,
+          "end": 110,
+          "replacement": [
+            "    // Apocalypse Industries: industrial haze attenuates remaining stars.\n",
+            "    return stars * 0.58;\n"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "shaders/lib/colors/cloudColors.glsl",
+      "before_sha256": "e705c4e3d1e89d4e64a9b60461fbd70e7813b898ae1631174550612043a8b5c1",
+      "after_sha256": "71a66efbf46fe30d51daaf133f3a0255682dff66a2ee6bffd5fd1f17d25efe61",
+      "operations": [
+        {
+          "start": 1,
+          "end": 3,
+          "replacement": [
+            "\n",
+            "vec3 aiCloudAmbientRaw = mix(\n",
+            "    ambientColor * (sunVisibility2 * (0.55 + 0.17 * noonFactor) + 0.35),\n",
+            "    cloudRainColor * 0.5,\n",
+            "    rainFactor\n",
+            ") * mix(CLOUD_NIGHT_AMBIENT_MULTIPLIER, CLOUD_AMBIENT_MULTIPLIER, sunVisibility2);\n",
+            "vec3 aiCloudLightRaw = mix(\n"
+          ]
+        },
+        {
+          "start": 7,
+          "end": 7,
+          "replacement": [
+            "\n",
+            "// Apocalypse Industries: ash-heavy cloud palette.\n",
+            "float aiCloudAmbientLuma = dot(aiCloudAmbientRaw, vec3(0.2126, 0.7152, 0.0722));\n",
+            "float aiCloudLightLuma = dot(aiCloudLightRaw, vec3(0.2126, 0.7152, 0.0722));\n",
+            "vec3 aiCloudAshTint = mix(\n",
+            "    vec3(0.94, 0.91, 0.82),\n",
+            "    vec3(0.73, 0.76, 0.74),\n",
+            "    rainFactor\n",
+            ");\n",
+            "\n",
+            "vec3 cloudAmbientColor = mix(\n",
+            "    aiCloudAmbientRaw,\n",
+            "    aiCloudAmbientLuma * aiCloudAshTint,\n",
+            "    0.18 + 0.30 * rainFactor\n",
+            ") * (1.0 - 0.14 * rainFactor);\n",
+            "\n",
+            "vec3 cloudLightColor = mix(\n",
+            "    aiCloudLightRaw,\n",
+            "    aiCloudLightLuma * aiCloudAshTint,\n",
+            "    0.12 + 0.24 * rainFactor\n",
+            ") * (1.0 - 0.10 * rainFactor);\n"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "shaders/lib/colors/skyColors.glsl",
+      "before_sha256": "e8594bb8b99d432bd3b8ceaadf9e0d8d910fbe694c932f53a727155629c63e0a",
+      "after_sha256": "2119d811d1b4d66c13240fbc8e91d78332ee9af4ea8cbca631635878c7091f8e",
+      "operations": [
+        {
+          "start": 48,
+          "end": 53,
+          "replacement": [
+            "        // Apocalypse Industries: persistent industrial haze.\n",
+            "        // This file is included at global shader scope, so every calculation\n",
+            "        // below is expressed as a declaration initializer.\n",
+            "        #ifdef SPECIAL_BIOME_WEATHER\n",
+            "            float aiDustFactor = inDry * invRainFactor;\n",
+            "        #else\n",
+            "            float aiDustFactor = 0.0;\n",
+            "        #endif\n"
+          ]
+        },
+        {
+          "start": 54,
+          "end": 58,
+          "replacement": [
+            "        float aiPollutionFactor = clamp01(0.22 + 0.18 * rainFactor + 0.14 * aiDustFactor);\n",
+            "        vec3 aiUpperTint  = mix(vec3(0.92, 0.96, 0.90), vec3(0.77, 0.81, 0.79), rainFactor);\n",
+            "        vec3 aiMiddleTint = mix(vec3(1.03, 0.96, 0.80), vec3(0.80, 0.82, 0.79), rainFactor);\n",
+            "        vec3 aiHorizonTint = mix(\n",
+            "            mix(vec3(1.13, 0.93, 0.67), vec3(0.82, 0.81, 0.75), rainFactor),\n",
+            "            vec3(1.16, 0.91, 0.59),\n",
+            "            0.45 * aiDustFactor\n",
+            "        );\n",
+            "\n",
+            "        vec3 aiNoonUpRaw = pow(skyColorM, vec3(2.9))\n",
+            "                         * (vec3(0.85, 0.92, 0.81) + rainFactor * nuscWeatherM);\n",
+            "        vec3 aiNoonMiddleRaw = pow(skyColorM, vec3(1.5))\n",
+            "                             * (vec3(1.3) + rainFactor * (nmscWeatherM + nmscRainM + nmscSnowM + nmscDryM))\n",
+            "                             + aiNoonUpRaw * 0.65;\n",
+            "        vec3 aiNoonDownRaw = skyColorM\n",
+            "                           * (vec3(0.9) + rainFactor * (ndscWeatherM + ndscRainM + ndscSnowM + ndscDryM))\n",
+            "                           + aiNoonUpRaw * 0.25;\n",
+            "\n",
+            "        float aiNoonUpLuma = dot(aiNoonUpRaw, vec3(0.2126, 0.7152, 0.0722));\n",
+            "        float aiNoonMiddleLuma = dot(aiNoonMiddleRaw, vec3(0.2126, 0.7152, 0.0722));\n",
+            "        float aiNoonDownLuma = dot(aiNoonDownRaw, vec3(0.2126, 0.7152, 0.0722));\n",
+            "\n",
+            "        vec3 noonUpSkyColor = mix(\n",
+            "            aiNoonUpRaw,\n",
+            "            aiNoonUpLuma * aiUpperTint,\n",
+            "            aiPollutionFactor * 0.48\n",
+            "        );\n",
+            "        vec3 noonMiddleSkyColor = mix(\n",
+            "            aiNoonMiddleRaw,\n",
+            "            aiNoonMiddleLuma * aiMiddleTint,\n",
+            "            aiPollutionFactor * 0.72\n",
+            "        );\n",
+            "        vec3 noonDownSkyColor = mix(\n",
+            "            aiNoonDownRaw,\n",
+            "            aiNoonDownLuma * aiHorizonTint,\n",
+            "            aiPollutionFactor\n",
+            "        );\n",
+            "\n",
+            "        vec3 sunsetUpSkyColor = skyColorM2\n",
+            "                              * (vec3(0.72, 0.522, 0.47) + vec3(0.1, 0.2, 0.35) * rainFactor2);\n",
+            "        vec3 sunsetMiddleSkyColor = skyColorM2\n",
+            "                                  * (vec3(1.8, 1.3, 1.2) + vec3(0.15, 0.25, -0.05) * rainFactor2);\n",
+            "\n",
+            "        vec3 aiSunsetDownRawP = vec3(1.45, 0.86, 0.5) - vec3(0.8, 0.3, 0.0) * rainFactor;\n",
+            "        vec3 aiSunsetDownRaw = aiSunsetDownRawP * 0.5 + 0.25 * sunsetMiddleSkyColor;\n",
+            "        float aiSunsetDownLuma = dot(aiSunsetDownRaw, vec3(0.2126, 0.7152, 0.0722));\n",
+            "        vec3 aiSunsetTint = mix(vec3(1.20, 0.78, 0.43), vec3(0.84, 0.78, 0.69), rainFactor);\n",
+            "\n",
+            "        vec3 sunsetDownSkyColorP = mix(\n",
+            "            aiSunsetDownRawP,\n",
+            "            vec3(1.28, 0.61, 0.27),\n",
+            "            0.22 * invRainFactor\n",
+            "        );\n",
+            "        vec3 sunsetDownSkyColor = mix(\n",
+            "            aiSunsetDownRaw,\n",
+            "            aiSunsetDownLuma * aiSunsetTint,\n",
+            "            0.28 + 0.20 * rainFactor\n",
+            "        );\n"
+          ]
+        },
+        {
+          "start": 63,
+          "end": 67,
+          "replacement": [
+            "        vec3 nightColFactor = 0.9 * vec3(0.07, 0.14, 0.24)\n",
+            "                            * (1.0 - 0.5 * rainFactor) + skyColorTweaked;\n",
+            "        vec3 aiNightUpRaw = pow(nightColFactor, vec3(0.90)) * 0.45;\n",
+            "        vec3 aiNightMiddleRaw = sqrt(aiNightUpRaw) * 0.65;\n",
+            "        vec3 aiNightDownRaw = aiNightMiddleRaw * vec3(0.82, 0.82, 0.88);\n",
+            "\n",
+            "        float aiNightUpLuma = dot(aiNightUpRaw, vec3(0.2126, 0.7152, 0.0722));\n",
+            "        float aiNightMidLuma = dot(aiNightMiddleRaw, vec3(0.2126, 0.7152, 0.0722));\n",
+            "        float aiNightDownLuma = dot(aiNightDownRaw, vec3(0.2126, 0.7152, 0.0722));\n",
+            "\n",
+            "        vec3 nightUpSkyColor = mix(\n",
+            "            aiNightUpRaw,\n",
+            "            aiNightUpLuma * vec3(0.76, 0.82, 0.86),\n",
+            "            0.24\n",
+            "        );\n",
+            "        vec3 nightMiddleSkyColor = mix(\n",
+            "            aiNightMiddleRaw,\n",
+            "            aiNightMidLuma * vec3(0.78, 0.81, 0.82),\n",
+            "            0.28\n",
+            "        );\n",
+            "        vec3 nightDownSkyColor = mix(\n",
+            "            aiNightDownRaw,\n",
+            "            aiNightDownLuma * vec3(0.84, 0.80, 0.72),\n",
+            "            0.30\n",
+            "        );\n"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "shaders/lib/shaderSettings/clouds.glsl",
+      "before_sha256": "f75892a42a4bf3db037e71dff462960adfc969da9a9b019315cb98d5446ccda3",
+      "after_sha256": "15eec8adc7ecb0bd94ce9da376e0e939fa096238469d49aa92908173787dcae9",
+      "operations": [
+        {
+          "start": 7,
+          "end": 9,
+          "replacement": [
+            "#define CLOUD_UNBOUND_AMOUNT 1.12 //[0.70 0.71 0.72 0.73 0.74 0.75 0.76 0.77 0.78 0.79 0.80 0.81 0.82 0.83 0.84 0.85 0.86 0.87 0.88 0.89 0.90 0.91 0.92 0.93 0.94 0.95 0.96 0.97 0.98 0.99 1.00 1.02 1.04 1.06 1.08 1.10 1.12 1.14 1.16 1.18 1.20 1.22 1.24 1.26 1.28 1.30 1.32 1.34 1.36 1.38 1.40 1.42 1.44 1.46 1.48 1.50 1.55 1.60 1.65 1.70 1.75 1.80 1.85 1.90 1.95 2.00 2.10 2.20 2.30 2.40 2.50 2.60 2.70 2.80 2.90 3.00]\n",
+            "#define CLOUD_UNBOUND_RAIN_ADD 0.70 //[0.00 0.05 0.06 0.07 0.08 0.09 0.10 0.12 0.14 0.16 0.18 0.22 0.26 0.30 0.35 0.40 0.45 0.50 0.55 0.60 0.65 0.70 0.75 0.80 0.85 0.90 0.95 1.00 1.05 1.10 1.15 1.20 1.25 1.30 1.35 1.40 1.45 1.50]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "shaders/lib/shaderSettings/composite1.glsl",
+      "before_sha256": "3168a079f22a7d82a712b28491ceef7b00aaeaaa6cd8d4bd0bc69a8451afc639",
+      "after_sha256": "f882a791a69611e55d0ef94c4385fa5e94d4d54b5b2def8f4b4c22c149df12d0",
+      "operations": [
+        {
+          "start": 5,
+          "end": 6,
+          "replacement": [
+            "#define RAINBOWS 0 //[0 1 3]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "shaders/lib/shaderSettings/stars.glsl",
+      "before_sha256": "9b68b0c29f797c88cd5babb080dea50226b24a65eb90f3546f8edfcef07d7591",
+      "after_sha256": "5ed35502161d247090629df38384c33a0d48432d726e34299c8aaefd339d0c5e",
+      "operations": [
+        {
+          "start": 3,
+          "end": 4,
+          "replacement": [
+            "#define NIGHT_STAR_AMOUNT 1 //[0 1 2 3 4]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "shaders/program/gbuffers_skybasic.glsl",
+      "before_sha256": "469235bbf40bc418c0280cc5a4e69a867ae98ed1dc43450abade2376776160ce",
+      "after_sha256": "0be09e8fb1b21e8c8bd6ea32ba32fd9fd5fef3f7c16563a402f65258940815c9",
+      "operations": [
+        {
+          "start": 153,
+          "end": 155,
+          "replacement": [
+            "                float sunSizeFactor1 = 0.9944;\n",
+            "                float sunSizeFactor2 = 178.571;\n"
+          ]
+        },
+        {
+          "start": 159,
+          "end": 161,
+          "replacement": [
+            "                float sunSizeFactor1 = 0.996175;\n",
+            "                float sunSizeFactor2 = 261.438;\n"
+          ]
+        },
+        {
+          "start": 180,
+          "end": 182,
+          "replacement": [
+            "                    float sunBrightness = 28.0;\n",
+            "                    if (tonemap == ACESTonemap) color.rgb = mix(color.rgb, vec3(1.0, 0.38, 0.10) * sunBrightness, sunMoonMixer);\n"
+          ]
+        },
+        {
+          "start": 183,
+          "end": 184,
+          "replacement": [
+            "                    color.rgb = mix(color.rgb, vec3(1.0, 0.38, 0.10) * sunBrightness, sunMoonMixer);\n"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "shaders/shaders.properties",
+      "before_sha256": "49aae857b87349d0c05c08b83e65fdc6967e69ac38160851814cf875612ddae9",
+      "after_sha256": "48f77fa929134550e7fe197b21fe8d0de67a044be54f38cc8834dbd69c15f9dd",
+      "operations": [
+        {
+          "start": 572,
+          "end": 572,
+          "replacement": [
+            "    #else\n",
+            "    uniform.float.inPaleGarden=0.0\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "licenses": {
+    "ComplementaryLicense.txt": "4f163db2ce29b99fd43a013ebb84309a370c903ff20b65791afacc351a17e500",
+    "EuphoriaPatchesLicense.txt": "f4741b89a3067b304b76b457172b1d2569056e48c522593329bc927af86d492c"
+  }
+}
