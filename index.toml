@@ -4746,8 +4746,8 @@ hash = "3b2502a4de01edcd1c514628091f814fd0eeff5c2db32c3f655f02cebc657c34"
 metafile = true
 
 [[files]]
-file = "mods/tornadophysics-1.0.2.pw.toml"
-hash = "577cba4919e203cb753096a7dbebf4453ca72297998bbb289bc95d616f9ddcf5"
+file = "mods/tornadophysics-1.0.3.pw.toml"
+hash = "070f5636da359d7a61e7a8c32422829c74670b37cd2a2848443f63564fecd6bd"
 metafile = true
 
 [[files]]

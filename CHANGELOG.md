@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.1.10 - 2026-10-08
+
+- Update Weather Physics (Wind, Sails & Tornadoes) from 1.0.2 to 1.0.3 on client and server, pinned to CurseForge file 8468173.
+- Fix ordinary wind slowing wheels and other vehicle propulsion. Upstream changes are limited to WindPhysics and the version metadata; tornado forces, lifetimes and all pack configuration remain unchanged.
+- Verify JAR integrity, unchanged dependency requirements, matching installed Sable/Weather2/Aeronautics dependency hashes and Packwiz distribution hashes. Full-pack startup and gameplay testing of 1.0.3 remain pending.
+- Server upload only: restart and activation remain pending at the pack author's request. Preserve existing server overrides and unrelated development work.
+
 ## v1.1.9 - 2026-10-06
 
 - Add Create: Copyfoxes 2.0.0 (copyfoxies-2.0.0.jar) and Sable CleanUp 0.3.0 for Minecraft 1.21.1 / NeoForge on both client and server.
