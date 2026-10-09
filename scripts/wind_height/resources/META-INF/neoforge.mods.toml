@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="apocalypse_wind_height"
+version="0.1.0-prototype"
+displayName="Apocalypse Positional Wind (Prototype)"
+description="Makes Weather Physics sample Weather2 wind at each ship's world position."
+[[mixins]]
+config="apocalypse_wind_height.mixins.json"
+[[dependencies.apocalypse_wind_height]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,)"
+side="BOTH"
+[[dependencies.apocalypse_wind_height]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+side="BOTH"
+[[dependencies.apocalypse_wind_height]]
+modId="weather2"
+type="required"
+versionRange="[1.21.0-2.8.7]"
+side="BOTH"
+[[dependencies.apocalypse_wind_height]]
+modId="tornadophysics"
+type="required"
+versionRange="[1.0.3]"
+side="BOTH"
+[[dependencies.apocalypse_wind_height]]
+modId="sable"
+type="required"
+versionRange="[2.0.3]"
+side="BOTH"

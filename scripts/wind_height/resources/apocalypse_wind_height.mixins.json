@@ -1,0 +1,1 @@
+{"required":true,"minVersion":"0.8","package":"dev.apocalypse.windheight.mixin","compatibilityLevel":"JAVA_21","mixins":["WindPhysicsMixin"],"injectors":{"defaultRequire":1}}

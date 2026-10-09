@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.1.11 - 2026-10-09
+
+- Add the positional-wind prototype: Weather Physics 1.0.3 now samples Weather2 at each ship world position, using existing altitude scaling, local storm influence and caches.
+- Prototype passed isolated dedicated-server loading and positional API checks; flight balance and full-pack gameplay remain unverified. Weather2 altitude boost and speed caps are preserved.
+- Narrow upload only; server restart remains pending. Existing server configuration and quest overrides are preserved.
+
 ## v1.1.10 - 2026-10-08
 
 - Update Weather Physics (Wind, Sails & Tornadoes) from 1.0.2 to 1.0.3 on client and server, pinned to CurseForge file 8468173.

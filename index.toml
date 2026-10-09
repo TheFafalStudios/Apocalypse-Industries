@@ -4952,3 +4952,7 @@ metafile = true
 file = "mods/sable-cleanup.pw.toml"
 hash = "bbb6ca993d9980d2db5c12b65ef0bac2a81e1c5bba0fcd431f78c1a508495748"
 metafile = true
+
+[[files]]
+file = "mods/apocalypse-wind-height-0.1.0-prototype.jar"
+hash = "dd3a3b585f1075da4b9855c04461757626bd4e85adb923f732099f3546a4d1cf"
