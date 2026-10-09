@@ -1,5 +1,9 @@
 # Apocalypse Industries workspace instructions
 
+## Standing restart instruction (2026-10-09)
+
+The user manages all server restarts and reloads. Do not perform them or ask about restart/reload timing or permission. After a deployment, state when a restart or reload is required and leave activation to the user. This supersedes conflicting restart/reload confirmation instructions below; deployment still requires task authorization.
+
 ## Local dedicated server twin
 
 Chunkserve cannot be accessed by the agent. Do not attempt SFTP access or claim direct validation of the remote server.

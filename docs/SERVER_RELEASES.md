@@ -1,5 +1,9 @@
 # Server release workflow
 
+## Standing restart instruction (2026-10-09)
+
+The user manages all server restarts and reloads. Do not perform them or ask about restart/reload timing or permission. After a deployment, state when a restart or reload is required and leave activation to the user. This supersedes conflicting restart/reload confirmation instructions below; deployment still requires task authorization.
+
 The agent cannot access Chunkserve directly. The folder `Q:\Other Games\ATLauncher\servers\Chunkserve - Apocalypse Industries` is the theoretical local twin used to prepare and validate server updates. The folder `Q:\Other Games\ATLauncher\servers\Apocalypse Industries versions` stores immutable, versioned deployment artifacts.
 
 ## Official pack update sequence

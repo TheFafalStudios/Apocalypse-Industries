@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.1.12 - 2026-10-09
+
+- Guard 518 optional block loot tables with NeoForge item-existence conditions: 256 Design n' Decor, 246 Steam 'n' Rails and 16 Create Connected tables. Preserve each original table whenever its item is registered; skip missing optional items before parsing.
+- Targets 1,036 repeated loot parsing messages in the reviewed server startup. No mods, recipes, gameplay costs, world data or server overrides are changed.
+- Validate JSON, original loot-body preservation, published/source mod hashes and all Packwiz distribution hashes. Runtime error reduction and gameplay verification remain pending user activation.
+- Client and server share this release. Upload only: the user manages restarts/reloads; report when activation is required without asking or interrupting the server.
+
 ## v1.1.11 - 2026-10-09
 
 - Add the positional-wind prototype: Weather Physics 1.0.3 now samples Weather2 at each ship world position, using existing altitude scaling, local storm influence and caches.
