@@ -1,6 +1,5 @@
 const removedRecipeIds = [
     'biomesoplenty:dead_planks',
-    'minecraft:copper_ingot',
     'createdieselgenerators:crafting/hammer',
     'createdieselgenerators:compat/immersiveengineering/aluminum_sheet',
     'createdieselgenerators:compat/immersiveengineering/constantan_sheet',

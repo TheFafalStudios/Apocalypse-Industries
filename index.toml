@@ -3734,7 +3734,7 @@ hash = "5c7663cf1c3672dff5080b0d9c701fb49b0848a5b184b05fb3ad71affc632533"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_removals.js"
-hash = "618316c3e1c41ea4d3538fa8c1a1c4c61412d8da7e6bacc25d8398074c0b7276"
+hash = "f39a557d76eae41b1cdb04b6cb50328c2ca735bc2f98585295d690d780190e7c"
 
 [[files]]
 file = "kubejs/server_scripts/salvage.js"

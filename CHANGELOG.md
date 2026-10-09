@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.1.14 - 2026-10-09
+
+- Restore the vanilla copper block to nine copper ingots crafting recipe, allowing Sophisticated Storage compression to recognize the reversible ingot/block conversion.
+- Remove only minecraft:copper_ingot from the recipe-removal list; preserve all other removals and copper-block blasting salvage.
+- JavaScript syntax, recipe-removal behavior and Packwiz distribution hashes validated. In-game compression verification remains pending user activation.
+- Narrow client/server hotfix; reload server recipes or restart to activate. Server activation remains user-managed.
+
 ## v1.1.13 - 2026-10-09
 
 - Add Local Envelope Damage 1.0.0. Weather Physics envelope punctures now require a close airborne funnel encounter: 30-block envelope clearance, 5-block lower-ship clearance, and a maximum 32-block radius around actual funnel layers.
