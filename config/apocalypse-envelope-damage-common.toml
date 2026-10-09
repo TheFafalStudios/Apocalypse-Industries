@@ -1,0 +1,30 @@
+#False restores upstream envelope destruction.
+enabled = true
+#Minimum envelope height above local terrain.
+# Default: 30.0
+# Range: 0.0 ~ 512.0
+minimumEnvelopeClearance = 30.0
+#Minimum lower ship bounding-box clearance above terrain sampled at center and four corners.
+# Default: 5.0
+# Range: 0.0 ~ 128.0
+minimumHullClearance = 5.0
+#Extra blocks around actual server funnel layers, including vertical end tolerance.
+# Default: 8.0
+# Range: 0.0 ~ 32.0
+funnelMargin = 8.0
+#Maximum horizontal puncture radius, including the margin.
+# Default: 32.0
+# Range: 1.0 ~ 128.0
+maximumDamageRadius = 32.0
+#Maximum chance per eligible opportunity; quadratic falloff to zero at radius.
+# Default: 0.1
+# Range: 0.0 ~ 1.0
+maximumChance = 0.1
+#Minimum ticks between opportunities, shared across all storms and envelope candidates.
+# Default: 100
+# Range: 1 ~ 12000
+opportunityIntervalTicks = 100
+#Ship-wide cooldown after a successful single-block puncture.
+# Default: 600
+# Range: 1 ~ 12000
+successfulPunctureCooldownTicks = 600

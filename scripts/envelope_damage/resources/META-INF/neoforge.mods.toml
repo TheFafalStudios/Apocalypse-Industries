@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="apocalypse_envelope_damage"
+version="1.0.0"
+displayName="Apocalypse Local Envelope Damage"
+description="Makes Weather Physics envelope punctures local to airborne funnel encounters and occasional per ship."
+[[mixins]]
+config="apocalypse_envelope.mixins.json"
+[[dependencies.apocalypse_envelope_damage]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+side="BOTH"
+[[dependencies.apocalypse_envelope_damage]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,)"
+side="BOTH"
+[[dependencies.apocalypse_envelope_damage]]
+modId="weather2"
+type="required"
+versionRange="[1.21.0-2.8.7]"
+side="BOTH"
+[[dependencies.apocalypse_envelope_damage]]
+modId="tornadophysics"
+type="required"
+versionRange="[1.0.3]"
+side="BOTH"
+[[dependencies.apocalypse_envelope_damage]]
+modId="sable"
+type="required"
+versionRange="[2.0.3]"
+side="BOTH"

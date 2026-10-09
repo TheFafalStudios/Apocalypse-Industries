@@ -1,0 +1,15 @@
+{
+  "startup_passed": true,
+  "exit_code": 0,
+  "scope": "Dedicated server, actual Mixin local captures and real Aeronautics envelope blocks on assembled Sable ships in a disposable flat world. Automated puncture/geometry/cooldown checks; flight feel, containment pressure and full pack gameplay not tested.",
+  "mods": {
+    "create-1.21.1-6.0.10.jar": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+    "weather2-neoforge-1.21.0-2.8.7.jar": "a9eefd33a8966767e9eee62aacfcb001466460c5adcce9d71540007e97824e45",
+    "tornadophysics-1.0.3.jar": "b72c8faaa9d75e346ed39451224afaa7895ed83e5477e3728a0d7a670623f91b",
+    "coroutil-neoforge-1.21.0-1.3.9.jar": "097434e256a428335cc4e9b718ad7bb9c6804c2c775aa3dd7149a6904adca2bc",
+    "sable-neoforge-1.21.1-2.0.3.jar": "da6c3b66238586603d1dcaa2afb012d36815fbce0a2d5938fbb2936701d42279",
+    "create-aeronautics-bundled-1.21.1-1.3.0.jar": "482c90e0e6fe72f33fe7abb079e5fda581cd660ee53c38c44448a64283e1044c",
+    "apocalypse-wind-height-0.1.0-prototype.jar": "dd3a3b585f1075da4b9855c04461757626bd4e85adb923f732099f3546a4d1cf",
+    "apocalypse-envelope-damage-1.0.0+mc1.21.1.jar": "c56b944b5f7abc062c03a31f6d194ea5d6ca40dae43a3584f782a6c2f885ed86"
+  }
+}

@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.1.13 - 2026-10-09
+
+- Add Local Envelope Damage 1.0.0. Weather Physics envelope punctures now require a close airborne funnel encounter: 30-block envelope clearance, 5-block lower-ship clearance, and a maximum 32-block radius around actual funnel layers.
+- Limit eligible opportunities to once per ship per 5 seconds, with up to 10% chance and quadratic distance falloff. A successful single-block puncture starts a shared 30-second cooldown; overlapping storms cannot multiply damage.
+- Preserve upstream wind/tornado forces, non-envelope destruction and intentional server overrides. Use normal Aeronautics block removal for containment updates; no separate pressure/explosion mechanic is added.
+- Passed 878 native dedicated-server assertions with actual Aeronautics envelopes and Sable ships, including Mixin application, parked/distant/vertical protection, overlap/cooldown checks, explicit block IDs and SABLE single punctures. Full-pack client and flight/pressure gameplay testing remain pending.
+- Install on client and server; restart to activate. Server restart remains user-managed.
+
+
 ## v1.1.12 - 2026-10-09
 
 - Guard 518 optional block loot tables with NeoForge item-existence conditions: 256 Design n' Decor, 246 Steam 'n' Rails and 16 Create Connected tables. Preserve each original table whenever its item is registered; skip missing optional items before parsing.

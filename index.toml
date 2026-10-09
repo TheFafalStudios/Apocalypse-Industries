@@ -417,6 +417,10 @@ file = "config/almostunified/unification/materials.json"
 hash = "4ce91a3908e10af3b8766c8bd4d374300a82a02e2e412218f8a469ff2e1debd6"
 
 [[files]]
+file = "config/apocalypse-envelope-damage-common.toml"
+hash = "3d7d3a80211e83d899d55e7541af079977860808d5e087ab975f724f791b8338"
+
+[[files]]
 file = "config/appleskin-client.toml"
 hash = "7127a276c7305371397053cd8d0833e6825c828850626e4067b9fed1430ed217"
 
@@ -4008,6 +4012,10 @@ metafile = true
 file = "mods/almostunified_ie-neoforge-1.21.1-1.0.1.pw.toml"
 hash = "e3d4f51b774458368bcbefffb21c967195169b7563cbe762c1798e41ff4b35ce"
 metafile = true
+
+[[files]]
+file = "mods/apocalypse-envelope-damage-1.0.0+mc1.21.1.jar"
+hash = "c56b944b5f7abc062c03a31f6d194ea5d6ca40dae43a3584f782a6c2f885ed86"
 
 [[files]]
 file = "mods/apocalypse-moogs-paths-chunksafety-fix-1.0.0.jar"
