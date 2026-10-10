@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "dragonloot:dragon_scale"
+  },
+  "base": {
+    "item": "minecraft:netherite_spear"
+  },
+  "result": {
+    "count": 1,
+    "id": "dragonloot:dragon_spear"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "dragonloot:dragon_scale"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "dragonloot:dragon_spear"
+    }
+  ]
+}

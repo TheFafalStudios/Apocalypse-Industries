@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.apocalypse.spears.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "SpearInventoryModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

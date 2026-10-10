@@ -1,0 +1,9 @@
+{
+  "values": [
+    {
+      "id": "dragonloot:dragon_spear",
+      "required": false
+    }
+  ],
+  "replace": true
+}

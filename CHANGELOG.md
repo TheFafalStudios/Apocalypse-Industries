@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.1.15 - 2026-10-10
+
+- Add Backported Spears 1.8.0 and Apocalypse Echo Spears 1.0.8 for Minecraft 1.21.1 NeoForge.
+- Echo Spear copies Netherite Spear behavior, durability, repairs and enchantability, with attack speed reduced by 0.1 and the Echo-template/Netherite-spear/Echo-ingot smithing recipe.
+- Include working right-click charging, five-second Weakness/Darkness effects and the Echo Sword description/config behavior.
+- Use chestplate-derived Echo spearhead colors, preserve bevel shading and the original brown shaft and outline. Fix base spear inventory icons.
+- User confirmed gameplay, visuals and Super Forging/Lunge IV work. Prior isolated runtime checks passed 97 assertions; release manifests and deployed file hashes verified separately.
+- Narrow client/server release; preserve unrelated configs and quests. Restart the client and server to load the new mods. Server restart remains user-managed.
+
 ## v1.1.14 - 2026-10-09
 
 - Restore the vanilla copper block to nine copper ingots crafting recipe, allowing Sophisticated Storage compression to recognize the reversible ingot/block conversion.

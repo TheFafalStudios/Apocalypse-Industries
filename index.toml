@@ -7036,3 +7036,16 @@ hash = "061c50dd891c4b0bcea9520362cc709445290e90d28b47bbd1ad5a8582583062"
 [[files]]
 file = "kubejs/data/railways/loot_table/blocks/track_twilightforest_twilight_oak_wide.json"
 hash = "025a18d30f0f7abe0e8f841d63989d96fdfb3cb5549bdb4abd981062a0a0deca"
+
+[[files]]
+file = "mods/apocalypse-echo-spears-1.0.8.jar"
+hash = "a1814e7387d4006d903a4604f1dc36d82c39d3ea293aca43080501f783a00cf4"
+
+[[files]]
+file = "mods/backported-spears.pw.toml"
+hash = "0389fb8edf29f979faa06e31816bdb09ee8e786c7e96a40cd58d0af07b9add73"
+metafile = true
+
+[[files]]
+file = "config/spears-common.toml"
+hash = "8b767c48aea89647c0216f594d4a8549722cb290e3356ecfbb37d4132c8bd3dc"

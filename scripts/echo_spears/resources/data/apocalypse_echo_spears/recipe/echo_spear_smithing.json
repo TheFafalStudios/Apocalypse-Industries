@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "create_deep_dark:echo_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_spear"
+  },
+  "addition": {
+    "item": "create_deep_dark:echo_ingot"
+  },
+  "result": {
+    "id": "apocalypse_echo_spears:echo_spear"
+  }
+}

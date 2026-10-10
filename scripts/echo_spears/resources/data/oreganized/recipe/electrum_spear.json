@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "oreganized:electrum_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_spear"
+  },
+  "result": {
+    "count": 1,
+    "id": "oreganized:electrum_spear"
+  },
+  "template": {
+    "item": "oreganized:electrum_upgrade_smithing_template"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "oreganized:electrum_ingot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "oreganized:electrum_spear"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "oreganized:electrum_upgrade_smithing_template"
+    }
+  ]
+}

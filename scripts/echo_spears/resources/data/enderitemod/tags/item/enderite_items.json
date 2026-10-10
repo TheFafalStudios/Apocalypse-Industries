@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "enderitemod:enderite_spear",
+      "required": false
+    }
+  ]
+}
