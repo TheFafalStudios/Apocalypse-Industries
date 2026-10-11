@@ -2,3 +2,5 @@
 .git/
 __pycache__/
 *.pyc
+
+!/mods/apocalypse-l2-serial-fix-1.0.0.jar

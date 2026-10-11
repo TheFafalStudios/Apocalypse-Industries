@@ -7167,3 +7167,8 @@ hash = "532a8e930427821d506435a54e1a606c08d0ff8fdcc9ca016801cb2b0db7af59"
 file = "shaderpacks/ComplementaryUnbound_r5.8.1_APOCALYPSE_ATMOSPHERE_v1.1_PARSEFIX_TESTED.zip"
 hash = "f7204273897b8919e7795811240ebcb094e137261b37715beb29d86d377e5a22"
 
+
+[[files]]
+file = "mods/apocalypse-l2-serial-fix.pw.toml"
+hash = "254715dc5fe1aedbdad006bb7c9aaa760743f1d5d4438b14671d4e0b2587437f"
+metafile = true

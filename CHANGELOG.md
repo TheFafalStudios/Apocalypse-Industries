@@ -2,6 +2,10 @@
 
 ## v1.2 - 2026-10-11
 
+### Client connection hotfix
+
+- Add the client-only L2 Serial compatibility addon. It matches the running server's name-based registry encoding and fixes Golem Dungeons custom-payload decoding disconnects. Reconnection was confirmed in the running client; fresh-launch addon activation remains untested.
+
 
 Cumulative release notes: includes the v1.1.1â€“v1.1.15 updates already released, plus the local changes queued for v1.2. Minecraft remains 1.21.1 and NeoForge remains 21.1.248. Publication/deployment file checks are recorded separately; activation and combined gameplay validation remain user-managed.
 

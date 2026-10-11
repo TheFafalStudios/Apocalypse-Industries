@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="apocalypse_l2_serial_fix"
+version="1.0.0"
+displayName="Apocalypse L2 Serial Compatibility Fix"
+description="Matches the dedicated server's name-based built-in registry encoding in L2 Serial."
+[[dependencies.apocalypse_l2_serial_fix]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+side="CLIENT"
+[[dependencies.apocalypse_l2_serial_fix]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248]"
+side="CLIENT"
+[[dependencies.apocalypse_l2_serial_fix]]
+modId="l2library"
+type="required"
+versionRange="[3.0.8]"
+ordering="AFTER"
+side="CLIENT"
+[[mixins]]
+config="apocalypse_l2_serial_fix.mixins.json"
