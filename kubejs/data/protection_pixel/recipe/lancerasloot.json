@@ -48,7 +48,7 @@
           "item": "protection_pixel:incompletelancer"
         },
         {
-          "item": "create:sturdy_sheet"
+          "item": "immersiveengineering:plate_aluminum"
         }
       ],
       "results": [
@@ -97,22 +97,6 @@
         },
         {
           "item": "protection_pixel:smallnetheritesheet"
-        }
-      ],
-      "results": [
-        {
-          "id": "protection_pixel:incompletelancer"
-        }
-      ]
-    },
-    {
-      "type": "create:deploying",
-      "ingredients": [
-        {
-          "item": "protection_pixel:incompletelancer"
-        },
-        {
-          "item": "creatingspace:moon_regolith"
         }
       ],
       "results": [

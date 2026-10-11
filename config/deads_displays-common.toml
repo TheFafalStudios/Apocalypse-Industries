@@ -1,0 +1,11 @@
+#If true, Display Stands resist explosions like obsidian so a creeper cannot
+#scatter a trophy room. The stored item always drops when a stand is destroyed
+#by any other means.
+displayStandExplosionProof = true
+#If true, only the player who placed a Display Stand (or an operator) can open it,
+#change its item, or change how the item is displayed. Everyone can still look at it.
+displayStandOwnerProtection = true
+#If true, a Display Stand can only be broken by its owner or an operator.
+#Requires displayStandOwnerProtection. Off by default so normal claim/protection
+#mods and vanilla rules keep deciding who may break blocks.
+displayStandOwnerOnlyBreak = false

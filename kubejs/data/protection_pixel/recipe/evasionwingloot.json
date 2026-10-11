@@ -4,7 +4,7 @@
   "category": "misc",
   "key": {
     "A": {
-      "item": "create:iron_sheet"
+      "item": "immersiveengineering:plate_aluminum"
     },
     "B": {
       "item": "minecraft:iron_ingot"
@@ -20,17 +20,13 @@
     },
     "F": {
       "item": "create:transmitter"
-    },
-    "G": {
-      "item": "creatingspace:moon_regolith"
     }
   },
   "pattern": [
     "AB BA",
     "ACACA",
     "DEFED",
-    "A   A",
-    "  G  "
+    "A   A"
   ],
   "result": {
     "id": "protection_pixel:evasionwing",

@@ -23,6 +23,8 @@ import net.neoforged.neoforge.event.entity.player.ItemTooltipEvent;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.minecraft.commands.Commands;
 import net.mcreator.protectionpixel.network.ProtectionPixelModVariables;
+import net.mcreator.protectionpixel.init.ProtectionPixelModTabs;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 
 @Mod(ApocalypsePP.ID)
 public final class ApocalypsePP {
@@ -30,11 +32,20 @@ public final class ApocalypsePP {
     public static final EquipmentSlot[] SLOTS = {EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET};
     private static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ID);
     public static final DeferredItem<Item> ECHO_PLATE = ITEMS.register("echo_plate", EchoPlate::new);
+    public static final DeferredItem<Item> INCOMPLETE_ECHO_PLATE = ITEMS.register("incomplete_echo_plate",
+        () -> new com.simibubi.create.content.processing.sequenced.SequencedAssemblyItem(new Item.Properties().fireResistant()));
+    public static final DeferredItem<Item> UNFINISHED_ECHO_PLATE = ITEMS.registerSimpleItem("unfinished_echo_plate",new Item.Properties().fireResistant());
     public ApocalypsePP(IEventBus bus) {
         ITEMS.register(bus);
+        bus.addListener(this::creativeTabContents);
         NeoForge.EVENT_BUS.addListener(this::tooltip);
         NeoForge.EVENT_BUS.addListener(EventPriority.LOWEST, this::tick);
         NeoForge.EVENT_BUS.addListener(this::commands);
+    }
+    private void creativeTabContents(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey().equals(ProtectionPixelModTabs.PP.getKey())) {
+            event.accept(ECHO_PLATE.get());
+        }
     }
     public static String id(ItemStack s) { return BuiltInRegistries.ITEM.getKey(s.getItem()).toString(); }
     public static boolean eligible(ItemStack s) {

@@ -818,16 +818,12 @@
 			y: 9.0d
 		}
 		{
+			icon: {"id": "apocalypse_pp:echo_plate", "count": 1}
 			rewards: [{"id": "3C9AB8A29C58B8AA", "type": "item", "item": {"id": "protection_pixel:emptywatertank", "count": 1}, "count": 1, "team_reward": true}]
 			dependencies: ["637F1F571C0CECF3"]
 			id: "7BDEE1C5A87666E7"
 			optional: true
-			tasks: [{
-				advancement: "apocalypse_pp:resonance"
-				criterion: ""
-				id: "49C66DE1288E1FA6"
-				type: "advancement"
-			}]
+			tasks: [{"advancement": "apocalypse_pp:resonance", "criterion": "", "id": "49C66DE1288E1FA6", "type": "advancement", "icon": {"id": "apocalypse_pp:echo_plate", "count": 1}}]
 			x: -8.0d
 			y: 11.0d
 		}

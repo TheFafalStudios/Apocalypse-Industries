@@ -1,6 +1,6 @@
 # Piercing-round armor bypass — 2026-10-03
 
-Release v1.1.6 includes this addon. The following installation/test notes describe the earlier local preparation. Publication and server activation have separate deployment records.
+Deployment update: published in v1.1.6 (8868178f5dc2ad99954271e11fc4be56de87b6ca) and uploaded to Chunkserve with final readback hash verification. The user will restart manually; activation remains pending. Earlier local-preparation notes below are historical. Evidence: Apocalypse Industries versions/v1.1.6.
 
 Implemented and installed in local WIP: Gunsmithing Enchantments **1.1.0**.
 

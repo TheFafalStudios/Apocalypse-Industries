@@ -208,6 +208,10 @@
     "output": "apocalypse_pp:echo_plate"
   },
   {
+    "recipe": "apocalypse_pp:echo_plate_assembly",
+    "output": "apocalypse_pp:unfinished_echo_plate"
+  },
+  {
     "recipe": "apocalypse_pp:reinforced_fiber_from_hemp",
     "output": "protection_pixel:reinforcedfiber"
   }

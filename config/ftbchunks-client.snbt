@@ -138,90 +138,90 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"spore:braiomil": true
-			"minecraft:witch": true
-			"minecraft:glow_squid": true
-			"minecraft:zombified_piglin": true
-			"minecraft:wither_skeleton": true
 			"decilib:scalebane_archer": true
-			"minecraft:zombie_horse": true
-			"zombie_variants:dripstone_zombie": true
-			"minecraft:zoglin": true
-			"spore:scamper": true
-			"minecraft:cave_spider": true
-			"minecraft:camel": true
-			"minecraft:magma_cube": true
-			"spore:protector": true
-			"minecraft:iron_golem": true
-			"spore:busser": true
-			"minecraft:drowned": true
-			"minecraft:evoker": true
-			"hordes:zombie_player": true
-			"minecraft:enderman": true
-			"decilib:scalebane_striker": true
-			"spore:inf_diseased_villager": true
-			"minecraft:piglin": true
-			"minecraft:spider": true
-			"minecraft:cod": false
-			"spore:wendigo": true
-			"minecraft:wolf": true
-			"spore:knight": true
-			"minecraft:strider": true
-			"decilib:dire_wolf": true
-			"spore:leaper": true
-			"spore:inf_wanderer": true
-			"minecraft:creeper": true
-			"minecraft:husk": true
-			"minecraft:squid": true
 			"immersiveengineering:fusilier": true
-			"minecraft:sheep": true
-			"minecraft:bat": true
-			"minecraft:cow": true
-			"minecraft:rabbit": true
-			"minecraft:salmon": false
-			"minecraft:skeleton": true
-			"minecraft:villager": true
-			"minecraft:pillager": true
-			"minecraft:horse": true
-			"decilib:shadow_fist": true
-			"minecraft:polar_bear": true
+			"zombie_variants:dripstone_zombie": true
+			"spore:leaper": true
+			"decilib:dire_wolf": true
+			"minecraft:armadillo": true
+			"minecraft:drowned": true
+			"minecraft:husk": true
+			"minecraft:bogged": true
+			"minecraft:slime": true
+			"decilib:scalebane_viper": true
 			"minecraft:vindicator": true
-			"decilib:rat": true
+			"minecraft:wither_skeleton": true
+			"spore:slasher": true
+			"minecraft:chicken": true
 			"minecraft:guardian": true
-			"minecraft:pufferfish": false
-			"minecraft:pig": true
-			"spore:inf_human": true
-			"minecraft:elder_guardian": true
-			"spore:inf_pillager": true
+			"minecraft:donkey": true
+			"minecraft:ghast": true
 			"spore:inf_vindicator": true
+			"minecraft:magma_cube": true
+			"minecraft:sheep": true
+			"minecraft:squid": true
+			"minecraft:pufferfish": false
+			"spore:wendigo": true
 			"spore:griefer": true
-			"minecraft:goat": true
-			"spore:inf_witch": true
 			"spore:inf_drowned": true
-			"spore:inf_villager": true
-			"minecraft:axolotl": true
-			"minecraft:zombie_villager": true
+			"minecraft:salmon": false
+			"minecraft:tropical_fish": false
+			"spore:braiomil": true
+			"minecraft:zoglin": true
+			"spore:inf_pillager": true
+			"minecraft:iron_golem": true
+			"spore:knight": true
+			"minecraft:cow": true
+			"spore:gargoyle": true
 			"minecraft:phantom": true
 			"zombie_variants:lush_zombie": true
+			"minecraft:elder_guardian": true
+			"spore:protector": true
+			"minecraft:enderman": true
+			"hordes:zombie_player": true
+			"minecraft:spider": true
+			"minecraft:horse": true
+			"decilib:rat": true
+			"spore:inf_villager": true
 			"immersiveengineering:commando": true
-			"minecraft:ghast": true
-			"minecraft:tropical_fish": false
-			"minecraft:donkey": true
-			"zombie_variants:badlands_zombie": true
-			"minecraft:slime": true
 			"spore:inf_player": true
-			"zombie_variants:cave_zombie": true
-			"decilib:scalebane_viper": true
-			"minecraft:armadillo": true
-			"spore:slasher": true
-			"minecraft:bogged": true
+			"spore:inf_human": true
+			"minecraft:piglin": true
+			"minecraft:zombie_horse": true
 			"minecraft:fox": true
-			"minecraft:dolphin": true
+			"minecraft:bat": true
+			"minecraft:strider": true
+			"minecraft:cod": false
+			"minecraft:rabbit": true
+			"minecraft:skeleton": true
+			"minecraft:pillager": true
+			"spore:inf_wanderer": true
+			"minecraft:evoker": true
 			"minecraft:vex": true
-			"minecraft:chicken": true
+			"spore:busser": true
+			"zombie_variants:cave_zombie": true
+			"minecraft:glow_squid": true
+			"decilib:shadow_fist": true
+			"minecraft:wolf": true
+			"minecraft:zombified_piglin": true
+			"minecraft:goat": true
+			"minecraft:dolphin": true
+			"spore:inf_witch": true
+			"minecraft:cave_spider": true
+			"minecraft:pig": true
+			"minecraft:zombie_villager": true
+			"zombie_variants:badlands_zombie": true
+			"decilib:scalebane_striker": true
+			"minecraft:villager": true
+			"minecraft:witch": true
+			"minecraft:creeper": true
 			"minecraft:zombie": true
+			"minecraft:camel": true
+			"minecraft:axolotl": true
+			"spore:scamper": true
+			"spore:inf_diseased_villager": true
+			"minecraft:polar_bear": true
 			"minecraft:bee": true
-			"spore:gargoyle": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

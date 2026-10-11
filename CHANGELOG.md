@@ -1,5 +1,94 @@
 # Changelog
 
+## v1.2 - 2026-10-11
+
+
+Cumulative release notes: includes the v1.1.1â€“v1.1.15 updates already released, plus the local changes queued for v1.2. Minecraft remains 1.21.1 and NeoForge remains 21.1.248. Publication/deployment file checks are recorded separately; activation and combined gameplay validation remain user-managed.
+
+### Already released in v1.1.x
+
+- **Spears and Echo Spear:** add Backported Spears and the custom Echo Spear, with native charging/Lunge controls, Echo smithing, reduced attack speed, Weakness/Darkness effects and corrected inventory icons. Spear gameplay and Super Forging/Lunge IV were confirmed by the user. (v1.1.15)
+- **Gun enchantments:** add Quick Hands, Trigger Finger, Lightweight and Sharpshooter, including Create: Enchantment Industry's extra enchantment levels. Piercing revolver and Gatling rounds bypass 65% of armor points while preserving toughness and the normal subsequent defenses. (v1.1.6)
+- **Survival attachment removal:** allow ordinary pickup and shift-click removal of gun attachments in Survival/Adventure; split large ammunition refunds into valid stacks to prevent oversized, unsaveable stacks. (v1.1.8)
+- **Displays and decoration:** add Dead's Displays, Items Displayed and Armor Poser. (v1.1.7)
+- **Create and ship utilities:** add Create: Copyfoxes and Sable CleanUp. (v1.1.9)
+- **Weather-driven ship wind:** update Weather Physics to 1.0.3, fixing ordinary wind slowing wheels/vehicle propulsion; introduce the positional-wind prototype that samples Weather2 at each ship's world position, including its existing altitude and local-storm behavior. Flight balance/performance still need gameplay verification. (v1.1.10â€“v1.1.11)
+- **Envelope storm damage:** restrict punctures to close airborne funnel encounters, with terrain-clearance checks, distance falloff, a capped chance and shared ship cooldowns. Preserve the configured destruction controls and other storm physics. (v1.1.13)
+- **Toxic-rain shelter:** recognize standing/riding on assembled Sable sublevels as shelter and retain normal sheltered exposure recovery. The temporary full-armor Poison immunity was rolled back; armor does not grant that immunity in the final behavior. (v1.1.4â€“v1.1.5)
+- **Crafting and mining fixes:** restore axe effectiveness for BOP dead logs/wood and stripped variants; add unheated Create mixing for eight IE concrete blocks and correct its output to blocks rather than fluid; restore nine-ingot copper-block unpacking for Sophisticated Storage compression. (v1.1.1â€“v1.1.3, v1.1.14)
+- **Stability and server loading:** fix normal/Mechanical Importer hangs on invalid or non-progressing purchases; guard 518 optional block loot tables against missing items, reducing the targeted startup parsing errors. (v1.1.6, v1.1.12)
+
+### Added in v1.2
+
+- **Weapon model library:** consolidate the approved weapon models into one active pack, with 262 assigned RP Renames entries, material/weapon restrictions, approved lower-tier exceptions and 17 retained unassigned designs. Archive rejected families and duplicates outside Minecraft. Include a categorized, textured 3D browser catalogue.
+- **Flexible model names and rendering:** allow words before/after model names and font/color formatting; resolve overlapping names without changing unnamed items. Normalize trident held/throwing poses and scale, preserve named models in flight, and fix spear inventory/RP Renames previews. Client bridge 1.3.2 and pinned RP Renames/Connector/Forgified Fabric API dependencies accompany the library. The user confirmed the final weapon-library setup works.
+- **Better Combat:** introduce the scoped sword, axe and trident trial with upstream movement/dual-wield balance settings. Keep spears, guns, the pneumatic hammer and vanilla mace outside its scope; preserve native spear/trident charging and projectile release. Full-pack client animation and gunplay validation remain pending.
+- **Mace visuals:** use Improved Mace Hammer for the vanilla mace, with Breach thorns, animated Wind Burst variants and the mace-only The Zephyr appearance. Repair wind-sprite activity/UVs and add the third band's offset animation phase. Mace combat remains vanilla. The user confirmed the final Wind Burst animation works after the phase-offset repair. Broader mace gameplay and combined-release checks remain pending.
+- **Echo Plate production:** replace mechanical crafting with eight Create assembly loops from an undamaged Alloy Plate, yielding an Inert Echo Plate, then finish with heated basin compacting. No random failures or upgrade templates; native plate/resonance mechanics remain unchanged. Isolated recipe registration and sequence tests passed.
+- **Protection Pixel aluminum progression:** replace relevant existing sheet/deployment ingredients with aluminum plates for Float Shield, Evasion Wing and Lancer-AS; move the Space equipment branch beneath the aluminum milestone while preserving its Electric prerequisite. Preserve native recipe patterns and equipment mechanics.
+- **Protection Pixel discovery and quest clarity:** expose Echo Resonance Plate in JEI and the Protection Pixel creative tab through integration 1.1.1. Add explicit reactor/Echo quest icons, put reactor onboarding before powered equipment, correct Float Shield plating guidance and possession-task labels, and clarify Space equipment titles and movement-dependent Lancer bonuses. Preserve existing quest IDs/progress, rewards and completion checks.
+- **Weather2Compat crash fix:** update the standalone safety addon to skip sand/snow particle-storm objects in rain and precipitation/sky-brightness checks, preventing the save-loading ClassCastException while preserving its earlier thread-safety fix and Weather2 particle events.
+
+### Experiments and remaining checks
+
+- The Euphoria sky-history shader candidate, Aeronautics/Deep Seas/Distant Horizons upgrade research and Endgame visual quest prototype remain experiments or design work; they are not advertised as completed v1.2 features. The proposed nuclear progression remains a design constraint, not an installed integration.
+- Historical static/isolated tests and published file verification do not establish complete multiplayer compatibility. Combined v1.2 fresh-install/update, client rendering, flight balance and applicable server-payload validation remain pending. Preserve intentional server overrides; no restart/reload is performed by changelog preparation.
+
+See [the v1.2 changelog evidence](CHANGELOG_EVIDENCE.json) and [weapon-library integration notes](WEAPON_LIBRARY.md). See [combat and mace integration notes](COMBAT_AND_MACE.md) for the exact scope, validation and asset redistribution prerequisite. Detailed historical release notes remain in the root CHANGELOG.md.
+
+
+## Pending v1.2 — Major changes since v1.1 (2026-10-11)
+
+Cumulative release notes: includes the v1.1.1–v1.1.15 updates already released, plus the local changes queued for v1.2. Minecraft remains 1.21.1 and NeoForge remains 21.1.248. This is a draft changelog, not publication or deployment confirmation.
+
+### Already released in v1.1.x
+
+- **Spears and Echo Spear:** add Backported Spears and the custom Echo Spear, with native charging/Lunge controls, Echo smithing, reduced attack speed, Weakness/Darkness effects and corrected inventory icons. Spear gameplay and Super Forging/Lunge IV were confirmed by the user. (v1.1.15)
+- **Gun enchantments:** add Quick Hands, Trigger Finger, Lightweight and Sharpshooter, including Create: Enchantment Industry's extra enchantment levels. Piercing revolver and Gatling rounds bypass 65% of armor points while preserving toughness and the normal subsequent defenses. (v1.1.6)
+- **Survival attachment removal:** allow ordinary pickup and shift-click removal of gun attachments in Survival/Adventure; split large ammunition refunds into valid stacks to prevent oversized, unsaveable stacks. (v1.1.8)
+- **Displays and decoration:** add Dead's Displays, Items Displayed and Armor Poser. (v1.1.7)
+- **Create and ship utilities:** add Create: Copyfoxes and Sable CleanUp. (v1.1.9)
+- **Weather-driven ship wind:** update Weather Physics to 1.0.3, fixing ordinary wind slowing wheels/vehicle propulsion; introduce the positional-wind prototype that samples Weather2 at each ship's world position, including its existing altitude and local-storm behavior. Flight balance/performance still need gameplay verification. (v1.1.10–v1.1.11)
+- **Envelope storm damage:** restrict punctures to close airborne funnel encounters, with terrain-clearance checks, distance falloff, a capped chance and shared ship cooldowns. Preserve the configured destruction controls and other storm physics. (v1.1.13)
+- **Toxic-rain shelter:** recognize standing/riding on assembled Sable sublevels as shelter and retain normal sheltered exposure recovery. The temporary full-armor Poison immunity was rolled back; armor does not grant that immunity in the final behavior. (v1.1.4–v1.1.5)
+- **Crafting and mining fixes:** restore axe effectiveness for BOP dead logs/wood and stripped variants; add unheated Create mixing for eight IE concrete blocks and correct its output to blocks rather than fluid; restore nine-ingot copper-block unpacking for Sophisticated Storage compression. (v1.1.1–v1.1.3, v1.1.14)
+- **Stability and server loading:** fix normal/Mechanical Importer hangs on invalid or non-progressing purchases; guard 518 optional block loot tables against missing items, reducing the targeted startup parsing errors. (v1.1.6, v1.1.12)
+
+### Queued local changes for v1.2
+
+- **Weapon model library:** consolidate the approved weapon models into one active pack, with 262 assigned RP Renames entries, material/weapon restrictions, approved lower-tier exceptions and 17 retained unassigned designs. Archive rejected families and duplicates outside Minecraft. Include a categorized, textured 3D browser catalogue.
+- **Flexible model names and rendering:** allow words before/after model names and font/color formatting; resolve overlapping names without changing unnamed items. Normalize trident held/throwing poses and scale, preserve named models in flight, and fix spear inventory/RP Renames previews. Client bridge 1.3.2 and pinned RP Renames/Connector/Forgified Fabric API dependencies accompany the library. The user confirmed the final weapon-library setup works.
+- **Better Combat:** introduce the scoped sword, axe and trident trial with upstream movement/dual-wield balance settings. Keep spears, guns, the pneumatic hammer and vanilla mace outside its scope; preserve native spear/trident charging and projectile release. Full-pack client animation and gunplay validation remain pending.
+- **Mace visuals:** use Improved Mace Hammer for the vanilla mace, with Breach thorns, animated Wind Burst variants and the mace-only The Zephyr appearance. Repair wind-sprite activity/UVs and add the third band's offset animation phase. Mace combat remains vanilla. The latest visual follow-up still needs gameplay confirmation.
+- **Echo Plate production:** replace mechanical crafting with eight Create assembly loops from an undamaged Alloy Plate, yielding an Inert Echo Plate, then finish with heated basin compacting. No random failures or upgrade templates; native plate/resonance mechanics remain unchanged. Isolated recipe registration and sequence tests passed.
+- **Protection Pixel aluminum progression:** replace relevant existing sheet/deployment ingredients with aluminum plates for Float Shield, Evasion Wing and Lancer-AS; move the Space equipment branch beneath the aluminum milestone while preserving its Electric prerequisite. Preserve native recipe patterns and equipment mechanics.
+- **Protection Pixel discovery and quest clarity:** expose Echo Resonance Plate in JEI and the Protection Pixel creative tab through integration 1.1.1. Add explicit reactor/Echo quest icons, put reactor onboarding before powered equipment, correct Float Shield plating guidance and possession-task labels, and clarify Space equipment titles and movement-dependent Lancer bonuses. Preserve existing quest IDs/progress, rewards and completion checks.
+- **Weather2Compat crash fix:** update the standalone safety addon to skip sand/snow particle-storm objects in rain and precipitation/sky-brightness checks, preventing the save-loading ClassCastException while preserving its earlier thread-safety fix and Weather2 particle events.
+
+### Experiments and remaining checks
+
+- The Euphoria sky-history shader candidate, Aeronautics/Deep Seas/Distant Horizons upgrade research and Endgame visual quest prototype remain experiments or design work; they are not advertised as completed v1.2 features. The proposed nuclear progression remains a design constraint, not an installed integration.
+- Historical static/isolated tests and published file verification do not establish complete multiplayer compatibility. Combined v1.2 fresh-install/update, client rendering, flight balance and applicable server-payload validation remain pending. Preserve intentional server overrides; no restart/reload is performed by changelog preparation.
+
+See [the v1.2 changelog evidence](docs/releases/v1.2/CHANGELOG_EVIDENCE.json) and [weapon-library integration notes](docs/releases/v1.2/WEAPON_LIBRARY.md). Detailed historical release notes follow below.
+
+## Unreleased WIP - Weather2Compat particle-storm fix (2026-10-11)
+
+- Upgrade the standalone Weather2Compat safety addon to 1.0.1. Skip non-rain/thunderstorm objects in both rain detection and precipitation/sky brightness checks, preventing sand/snow particle storms from causing ClassCastException. Preserve the original snapshot/thread-safety fix and Weather2 particle events.
+- Regression tests passed with the actual addon helper and minimal storm fixtures; the old addon fails the same test. Both packaged call sites audited. Minecraft gameplay validation remains pending. Local testing instance only; next client launch loads the fix. No publication or server deployment.
+- See docs/WEATHER2COMPAT_PARTICLE_STORM_FIX.md for rollback and evidence.
+
+## Unreleased WIP - Better Combat trial (2026-10-10)
+
+- Add Better Combat 2.4.0 for swords, axes and tridents; retain all original balance settings, including movement slowdown and dual-wield speed bonus.
+- Add Apocalypse Combat Scope 1.0.1 to exclude spears, guns, the pneumatic hammer and other weapon classes, including explicit/synchronized preset assignments. Disable the spear-only duplicate Better Combat swing bridge; preserve native spear controls and animations.
+- The restored scope 1.0.1 previously passed 667 isolated native-server assertions, including original trident melee profile, named-trident eligibility, charging in both hands and native projectile release. Client animation, Lunge and full-pack gunplay verification remain pending. Local WIP only; restart the client to activate. No publication or server deployment.
+- Enable tridents on 2026-10-11 with the upstream one-handed stab profile; preserve throwing and all Better Combat balance settings.
+- Revert Better Combat mace eligibility on 2026-10-11 for vanilla testing, restoring the previously verified scope 1.0.1. Retain Improved Mace Hammer, enchantment models and the mace-only The Zephyr rename.
+- Add Improved Mace Hammer as the default vanilla mace appearance, with original Breach thorns and Wind Burst models. Rename only a vanilla mace to The Zephyr for the alternative model through the existing Polytone/CIT library. Client-only model selector; 700 isolated runtime checks passed, with rendering still pending client verification.
+- See docs/BETTER_COMBAT.md for evidence, test checklist and rollback.
+
+
 ## v1.1.15 - 2026-10-10
 
 - Add Backported Spears 1.8.0 and Apocalypse Echo Spears 1.0.8 for Minecraft 1.21.1 NeoForge.
@@ -23,6 +112,7 @@
 - Preserve upstream wind/tornado forces, non-envelope destruction and intentional server overrides. Use normal Aeronautics block removal for containment updates; no separate pressure/explosion mechanic is added.
 - Passed 878 native dedicated-server assertions with actual Aeronautics envelopes and Sable ships, including Mixin application, parked/distant/vertical protection, overlap/cooldown checks, explicit block IDs and SABLE single punctures. Full-pack client and flight/pressure gameplay testing remain pending.
 - Install on client and server; restart to activate. Server restart remains user-managed.
+
 
 
 ## v1.1.12 - 2026-10-09
@@ -77,36 +167,18 @@
 - Both client and dedicated server require a restart. This release adds only these two runtime JARs and their source/docs; existing quests, recipes, configurations and unrelated WIP work are preserved.
 
 
-## v1.1.5 - 2026-10-03
+- Published to GitHub main and v1.1.6 at 8868178f5dc2ad99954271e11fc4be56de87b6ca. Both addon JARs were uploaded to Chunkserve and downloaded back with matching hashes. Activation is pending the user-managed restart.
 
-- Fix Sable toxic-rain shelter detection by checking the supporting or ridden sublevel instead of the storage plot. Standing players and seated riders receive the agreed shelter exemption, including open decks.
-- Roll back full-armor Poison immunity. Poison applies at the normal exposure thresholds again; Weakness and Slowness retain their existing behavior.
-- Syntax and isolated behavior checks passed. Live gameplay validation remains pending activation.
 
-## Apocalypse Industries v1.1.4 — 2026-09-27
+## Unreleased â€” queued after v1.1
 
-- Treat players on assembled Sable sublevels as sheltered from toxic rain because Weather2's ordinary sky check cannot reliably interpret moving or rotated sublevel plots. Existing exposure recovers at the normal sheltered rate.
-- A complete four-piece armor set prevents toxic rain from applying Poison. Exposure, warnings, Weakness and Slowness remain active; actual armor items and correctly armor-tagged modded equipment qualify.
-- JavaScript syntax, installed Sable API symbols and distribution hashes validated. Live gameplay verification remains pending.
 
-## Apocalypse Industries v1.1.3 - 2026-09-26
 
-- Fix Create concrete mixing to explicitly output 8 concrete blocks instead of resolving the shared identifier as liquid concrete. Ingredient quantities are unchanged.
-- User confirmed the corrected recipe works in-game.
 
-## Apocalypse Industries v1.1.2 — 2026-09-24
 
-- Add an unheated Create Mechanical Mixer recipe: 4 sand, 2 gravel, 2 clay balls and 1,000 mB water produce 8 Immersive Engineering concrete blocks. Shared ingredient tags match IE's crafting recipe.
-- Existing concrete recipes remain available. No additional mods required.
-- JavaScript syntax and distribution hashes validated; in-game mixing verification remains pending.
+- Protection Pixel integration 1.1.1: add Echo Resonance Plate to the Protection Pixel creative tab, making it discoverable by JEI with its normal hidden-item setting. Item ID, crafting recipe, texture and native plate behavior are unchanged. Requires a client restart. Pending the next GitHub distribution; not published.
 
-## Apocalypse Industries v1.1.1 — 2026-09-24
-
-- Restore axe effectiveness for BOP dead logs, dead wood, and both stripped variants after the existing tag removal.
-- Preserve custom dead-wood recipes and item-tag restrictions. No other gameplay changes.
-- Distribution hashes validated; in-game mining verification remains pending.
-
-## Apocalypse Industries v1.1 — 2026-09-23
+## Apocalypse Industries v1.1 â€” 2026-09-23
 
 - Removed the retired ocean-wave mod, its dedicated fix, configuration, registry and launcher references, and isolated test copies. Core Sable/Aeronautics is retained. Historical diagnostics were archived outside the pack.
 - Enabled sky visibility for the nine remaining nighttime additional-zombie rules: all 27 additional-zombie rules now require sky visibility. Other spawn settings and natural cave spawning are unchanged. Gameplay verification remains in progress.

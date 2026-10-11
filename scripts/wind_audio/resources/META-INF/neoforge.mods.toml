@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="apocalypse_wind_audio"
+version="0.1.0-prototype"
+displayName="Apocalypse Wind Audio (Prototype)"
+description="Client-side ambient sound driven by Weather2 wind speed."
+[[dependencies.apocalypse_wind_audio]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,)"
+side="CLIENT"
+[[dependencies.apocalypse_wind_audio]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+side="CLIENT"
+[[dependencies.apocalypse_wind_audio]]
+modId="weather2"
+type="required"
+versionRange="[1.21.0-2.8.7]"
+ordering="AFTER"
+side="CLIENT"

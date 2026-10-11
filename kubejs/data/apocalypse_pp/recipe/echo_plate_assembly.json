@@ -1,0 +1,147 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "type": "neoforge:components",
+    "items": "protection_pixel:alloyarmorplate",
+    "components": {
+      "minecraft:damage": 0
+    },
+    "strict": false
+  },
+  "loops": 8,
+  "transitional_item": {
+    "id": "apocalypse_pp:incomplete_echo_plate"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "apocalypse_pp:incomplete_echo_plate"
+        },
+        {
+          "type": "neoforge:single",
+          "fluid": "minecraft:lava",
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "id": "apocalypse_pp:incomplete_echo_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "apocalypse_pp:incomplete_echo_plate"
+        }
+      ],
+      "results": [
+        {
+          "id": "apocalypse_pp:incomplete_echo_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "apocalypse_pp:incomplete_echo_plate"
+        },
+        {
+          "type": "neoforge:single",
+          "fluid": "create_deep_dark:molten_echo",
+          "amount": 50
+        }
+      ],
+      "results": [
+        {
+          "id": "apocalypse_pp:incomplete_echo_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apocalypse_pp:incomplete_echo_plate"
+        },
+        {
+          "item": "minecraft:blaze_powder"
+        }
+      ],
+      "results": [
+        {
+          "id": "apocalypse_pp:incomplete_echo_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "apocalypse_pp:incomplete_echo_plate"
+        }
+      ],
+      "results": [
+        {
+          "id": "apocalypse_pp:incomplete_echo_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "apocalypse_pp:incomplete_echo_plate"
+        },
+        {
+          "type": "neoforge:single",
+          "fluid": "minecraft:lava",
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "id": "apocalypse_pp:incomplete_echo_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apocalypse_pp:incomplete_echo_plate"
+        },
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "id": "apocalypse_pp:incomplete_echo_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "apocalypse_pp:incomplete_echo_plate"
+        }
+      ],
+      "results": [
+        {
+          "id": "apocalypse_pp:incomplete_echo_plate"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "apocalypse_pp:unfinished_echo_plate"
+    }
+  ]
+}

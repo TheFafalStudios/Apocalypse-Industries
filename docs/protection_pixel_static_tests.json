@@ -1,5 +1,5 @@
 {
-  "passed": 445,
+  "passed": 455,
   "quest_count": 1024,
   "checks": [
     "protection_pixel:alloyplate matches generated audit",
@@ -169,8 +169,14 @@
     "protection_pixel:workerloot modern fluid codec",
     "protection_pixel:workerloot recipe symbol integrity",
     "protection_pixel:workerloot rectangular pattern",
-    "Echo plate material totals",
-    "Echo plate never consumes armor",
+    "Echo heated basin finish",
+    "Echo eight loops of eight steps",
+    "Echo requires undamaged Alloy plate",
+    "Echo exact operation order",
+    "Echo exact fluids and quantities per loop",
+    "Echo exact deployer ingredients per loop",
+    "Echo exact basin ingredients",
+    "Echo deterministic intermediate and final output",
     "quest IDs unique across all chapters",
     "setup optional",
     "setup valid quest prerequisites",
@@ -234,6 +240,7 @@
     "no dependency cycle 2E8051E327C73587",
     "no dependency cycle 7BDEE1C5A87666E7",
     "no dependency cycle 573AD89CB7072F8C",
+    "no dependency cycle 1E55D5668B3E04A4",
     "no dependency cycle 4709097D00719B25",
     "no dependency cycle 5DC8BCA1719D6D02",
     "no dependency cycle 2A41DC8A60C1751D",
@@ -446,6 +453,9 @@
     "sr_alloy exact rewards and counts",
     "sr_alloy nonrepeatable",
     "sr_alloy reward claimed once per team",
-    "sr_alloy player-facing text"
+    "sr_alloy player-facing text",
+    "first meaningful advancement icon; no wheat fallback",
+    "resonance explicit quest icon",
+    "resonance meaningful advancement icon; no wheat fallback"
   ]
 }

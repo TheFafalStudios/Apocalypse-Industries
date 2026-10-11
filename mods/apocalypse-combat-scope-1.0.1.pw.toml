@@ -1,0 +1,8 @@
+name = "Apocalypse Combat Scope"
+filename = "apocalypse-combat-scope-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/TheFafalStudios/Apocalypse-Industries/v1.2/mods/apocalypse-combat-scope-1.0.1.jar"
+hash-format = "sha256"
+hash = "583d5c3d06df625ddd8c55253800ff38b45644099d707461f415bdde5206a87b"

@@ -9,6 +9,7 @@ ServerEvents.tags('block', event => {
     deadLogs.forEach(id => {
         event.removeAllTagsFrom(id)
         event.add('minecraft:mineable/axe', id)
+		event.add('minecraft:logs', id)
         event.add('kubejs:dead_logs', id)
     })
 

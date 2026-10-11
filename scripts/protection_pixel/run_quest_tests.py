@@ -9,7 +9,7 @@ rows=json.loads((root/'docs/protection_pixel_quest_map.json').read_text(encoding
 ids=json.loads((root/'scripts/protection_pixel/quest_ids.json').read_text())
 script='var ppQuestExpected = '+json.dumps(rows)+';\nvar ppObjectIds = '+json.dumps(list(ids.values()))+';\n'+(root/'scripts/protection_pixel/quest_roundtrip.js').read_text()
 (test/'kubejs/server_scripts/zz_pp_quest_roundtrip.js').write_text(script)
-for src in list((root/'config/ftbquests/quests').rglob('*.snbt'))+list((root/'kubejs/data').rglob('*.json'))+[root/'mods/apocalypse-protection-pixel-integration-1.1.jar']:
+for src in list((root/'config/ftbquests/quests').rglob('*.snbt'))+list((root/'kubejs/data').rglob('*.json'))+[root/'mods/apocalypse-protection-pixel-integration-1.1.1.jar']:
  dst=test/src.relative_to(root);dst.parent.mkdir(parents=True,exist_ok=True)
  tmp=dst.with_suffix('.quest-test-tmp');shutil.copy2(src,tmp);os.replace(tmp,dst)
 log=root/'docs/protection_pixel_quest_rework_runtime.log';q=queue.Queue()

@@ -1,6 +1,6 @@
 # Importer Safety Fix 1.0.0 — 2026-10-03
 
-Release v1.1.6 includes this addon. The following installation/test notes describe the earlier local preparation. Publication and server activation have separate deployment records.
+Deployment update: published in v1.1.6 (8868178f5dc2ad99954271e11fc4be56de87b6ca) and uploaded to Chunkserve with final readback hash verification. The user will restart manually; activation remains pending. Earlier local-preparation notes below are historical. Evidence: Apocalypse Industries versions/v1.1.6.
 
 Status: installed in the local WIP instance, pending Minecraft restart.
 No pack release/version marker was advanced. Chunkserve and the server twin are unchanged.
@@ -33,7 +33,7 @@ SHA-256: e462669c88fbb75703f737fa88a1f4ab9fa912894a5fae766f0ffef2a4a707ca
 Requires Minecraft 1.21.1, NeoForge 21.1.248 or newer, Jack's Economy
 1.2.2-1.6.2 and Create 6.0.10. Keep the original Jack's Economy JAR.
 The addon contains only its own namespace, two version-pinned mixins, source,
-metadata, and the preserved upstream copyright notice. It introduces no blocks, items, or saves.
+metadata, and the upstream AGPL license. It introduces no blocks, items, or saves.
 
 Rebuildable source, pinned input hashes, source patch and regression harness:
 scripts/importer_fix/.

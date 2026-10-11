@@ -1,0 +1,5137 @@
+{
+  "schema_version": 1,
+  "applied_to_pack": true,
+  "category_defaults": {
+    "axes": [
+      {
+        "item": "minecraft:netherite_axe",
+        "label": "Netherite Axe"
+      }
+    ],
+    "daggers": [
+      {
+        "item": "minecraft:netherite_sword",
+        "label": "Netherite Sword"
+      },
+      {
+        "item": "create_deep_dark:echo_sword",
+        "label": "Echo Sword"
+      }
+    ],
+    "halberds": [
+      {
+        "item": "minecraft:netherite_spear",
+        "label": "Netherite Spear"
+      },
+      {
+        "item": "apocalypse_echo_spears:echo_spear",
+        "label": "Echo Spear"
+      },
+      {
+        "item": "minecraft:netherite_axe",
+        "label": "Netherite Axe"
+      }
+    ],
+    "hammers": [
+      {
+        "item": "minecraft:netherite_pickaxe",
+        "label": "Netherite Pickaxe"
+      },
+      {
+        "item": "minecraft:mace",
+        "label": "Mace"
+      }
+    ],
+    "maces": [
+      {
+        "item": "minecraft:mace",
+        "label": "Mace"
+      }
+    ],
+    "scythes": [
+      {
+        "item": "minecraft:netherite_axe",
+        "label": "Netherite Axe"
+      }
+    ],
+    "spears": [
+      {
+        "item": "minecraft:netherite_spear",
+        "label": "Netherite Spear"
+      },
+      {
+        "item": "apocalypse_echo_spears:echo_spear",
+        "label": "Echo Spear"
+      }
+    ],
+    "swords": [
+      {
+        "item": "minecraft:netherite_sword",
+        "label": "Netherite Sword"
+      },
+      {
+        "item": "create_deep_dark:echo_sword",
+        "label": "Echo Sword"
+      }
+    ],
+    "tridents": [
+      {
+        "item": "minecraft:trident",
+        "label": "Trident"
+      }
+    ],
+    "scepters": [],
+    "shields": [],
+    "wands": []
+  },
+  "model_exceptions": {
+    "Iron Battle Axe": [
+      {
+        "item": "minecraft:iron_axe",
+        "label": "Iron Axe"
+      },
+      {
+        "item": "immersiveengineering:axe_steel",
+        "label": "Steel Axe"
+      }
+    ],
+    "Iron Greataxe": [
+      {
+        "item": "minecraft:iron_axe",
+        "label": "Iron Axe"
+      },
+      {
+        "item": "immersiveengineering:axe_steel",
+        "label": "Steel Axe"
+      }
+    ],
+    "Black Iron Greataxe": [
+      {
+        "item": "immersiveengineering:axe_steel",
+        "label": "Steel Axe"
+      }
+    ],
+    "Iron Dagger": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Iron Sickle": [
+      {
+        "item": "minecraft:iron_axe",
+        "label": "Iron Axe"
+      },
+      {
+        "item": "immersiveengineering:axe_steel",
+        "label": "Steel Axe"
+      }
+    ],
+    "Partisan": [
+      {
+        "item": "minecraft:iron_spear",
+        "label": "Iron Spear"
+      }
+    ],
+    "Dark Cleaver": [
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Estoc": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Black Iron Greatsword": [
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Claymore": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Katana": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Masamune": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Moonlight": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Uchigatana": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Wakizashi": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Longsword": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Royal Rapier": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Sabre": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Iron Sai": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Flamberge": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Iron Broadsword": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ],
+    "Steel Blade": [
+      {
+        "item": "minecraft:iron_sword",
+        "label": "Iron Sword"
+      },
+      {
+        "item": "immersiveengineering:sword_steel",
+        "label": "Steel Sword"
+      }
+    ]
+  },
+  "unassigned_categories": [
+    "scepters",
+    "shields",
+    "wands"
+  ],
+  "model_rules": {
+    "apocalypse_weapon_library:item/m_58fb6dd13720c0c7f3855b40": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_373868ec7ba87a84947146de": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_be63ae5b0c951933a78f1373": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_646ebbfa4b9a482fad5756b0": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_fdc3093c4c9ea2229ef2bd54": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        },
+        {
+          "item": "minecraft:iron_axe",
+          "label": "Iron Axe"
+        },
+        {
+          "item": "immersiveengineering:axe_steel",
+          "label": "Steel Axe"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_axe",
+          "label": "Iron Axe"
+        },
+        {
+          "item": "immersiveengineering:axe_steel",
+          "label": "Steel Axe"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_882732e5436d1935aea23368": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_4e40570b59bfe76cd76833e3": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_ef518c0a7ab4966c8821914a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_efc0bb392a69b5effa1e7080": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_b2546ad16a8cd31f91b86d25": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_fdfcb0f8844ee82c323a6827": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_6011f6a236e9065f2226916d": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_71bf2e8742b680709d2afffc": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_e0fecbf677d51d394b6af6ac": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_8cb1410e1a2d4b0b0e16dba6": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_f66141fcd17cccf1d19f4510": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_88796aaaede8fb13bab36405": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_2a9fd0869ec5bd16120da959": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_005522a4c7ce1632ee426faf": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_2f8efc250b5ac8dd00badbbc": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        },
+        {
+          "item": "immersiveengineering:axe_steel",
+          "label": "Steel Axe"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "immersiveengineering:axe_steel",
+          "label": "Steel Axe"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_2713250438f2c94380865c68": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        },
+        {
+          "item": "immersiveengineering:axe_steel",
+          "label": "Steel Axe"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "immersiveengineering:axe_steel",
+          "label": "Steel Axe"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_84f6c0b7934d2597ace27f4d": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_d723c33ef63871965509b5d2": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_3b620ed6b26c65e0045d3f5c": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_314f9f6c8b368742540935ad": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_25fab229d26d5e7182c3a94d": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_75e02fcdc3a4b567d4cc4325": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_a8ed656b93a0899eb7cca5bd": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_7a800e02d3f6540f7fa2e21a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        },
+        {
+          "item": "minecraft:iron_axe",
+          "label": "Iron Axe"
+        },
+        {
+          "item": "immersiveengineering:axe_steel",
+          "label": "Steel Axe"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_axe",
+          "label": "Iron Axe"
+        },
+        {
+          "item": "immersiveengineering:axe_steel",
+          "label": "Steel Axe"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_dd53c60b3fc0554e941ae0b4": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        },
+        {
+          "item": "minecraft:iron_axe",
+          "label": "Iron Axe"
+        },
+        {
+          "item": "immersiveengineering:axe_steel",
+          "label": "Steel Axe"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_axe",
+          "label": "Iron Axe"
+        },
+        {
+          "item": "immersiveengineering:axe_steel",
+          "label": "Steel Axe"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_67e852f080676ff08b5e606b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_40f810141f609d75832244a6": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_8205807583cf8893e3f3148b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_aee612a920b292ee068c1459": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_5c0008999b1f5b1f45d1ee0f": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_e6d09f3b10332e243e488c3f": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_b2381fc3bc97890789f8d0b6": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_d5b875b3101df0bb381dfb85": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_a0394f752fbde0ce1e357cfd": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_ad218683f81ab40aaa6646a8": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_6d2b5e505745d9782fd010bc": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_dc8d6d15b81e11e2101ba00c": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_0add63973445cf2171d27e6b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_b4fb0db5b69d4946c791f48f": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_dce6c09b607a268964721baf": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_1c77d246bb49a49fb9978ce3": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_97e3031d947a7497db235379": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        },
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_47e97c7c9a7a3a8b932b711b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        },
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_8fd3ccf524529b19bc1b5dfb": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        },
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_1fb9a35c0a2e00e5c18da324": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        },
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_183ee163f5392ca231c41c88": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        },
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_12cf3c07945a45568b2eee3a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        },
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_392d56f9068cc8f271a89219": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        },
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_1bee8c72a8f128d214ff659b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        },
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_d92ac639807120f70d3f8bc2": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        },
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_c874912ef1ba842a8d63eff0": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        },
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_70f6be359ba87f85273d093e": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_pickaxe",
+          "label": "Netherite Pickaxe"
+        },
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_5f254494d59dc00384937544": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_pickaxe",
+          "label": "Netherite Pickaxe"
+        },
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_762906f5da511d437416d00e": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_pickaxe",
+          "label": "Netherite Pickaxe"
+        },
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_72035a8788872dd0a200ec1c": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_pickaxe",
+          "label": "Netherite Pickaxe"
+        },
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_f4f5f3fe508c63f518ef9163": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_pickaxe",
+          "label": "Netherite Pickaxe"
+        },
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_39a6999ed57eaffdd8598f29": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_pickaxe",
+          "label": "Netherite Pickaxe"
+        },
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_504e7ea91df3be619af57d13": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_pickaxe",
+          "label": "Netherite Pickaxe"
+        },
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/maces/zephyr": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_pickaxe",
+          "label": "Netherite Pickaxe"
+        },
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_a48f9af079a30a37b0d6daa3": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        },
+        {
+          "item": "minecraft:diamond_sword",
+          "label": "Diamond Sword"
+        },
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_shovel",
+          "label": "Iron Shovel"
+        },
+        {
+          "item": "immersiveengineering:shovel_steel",
+          "label": "Steel Shovel"
+        },
+        {
+          "item": "minecraft:diamond_shovel",
+          "label": "Diamond Shovel"
+        },
+        {
+          "item": "minecraft:netherite_shovel",
+          "label": "Netherite Shovel"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_da338a10f7a8f94faa0dbf9e": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_f1b7fd2438ff7cd2bb642ded": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_a2eb25f146647e045e049935": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_10510b7fd61cfefc22c1e673": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/maces/improved_breach": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/maces/improved_wind": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_6a6a1e7e835acbadf8601b06": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_2cf20173de53c798c2543280": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "minecraft:item/mace": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:mace",
+          "label": "Mace"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_477d1b44e4e25fd006bdd5a7": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_6feee1c0eb6dfda84d82820b": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_d9d37d0437a06a95821e7522": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_181ad1f075b33faa37f2f2c5": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_e3b91b598ddc6050870fe6d4": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_1baba8a9a526112085608306": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_a10e48eb4085ea127d34368a": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_24e73973723ba3baa4229deb": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_5a37d9db149730ca19c67374": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_92ea8c2492c3fd7e45ce3e37": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_ce23c0b6d6326571d7315b88": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_220ec80f140d0e063fd22c72": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_53e2d16ee28ae4d77e705fe6": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_da6eec1c16cfe4c2671d7372": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_6ec516627ca41348282e15c5": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_adc62c5f90ac7c731e4bf057": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_85c621085e3e2f23284d9b58": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_1e41d9ea30f24c38370678bb": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_ba21023489e26e9e45b1fcb4": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_e75d201d0c932d549d74d3a9": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_8eb6ea0118f4266577a77ad0": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_48b93ca11fd813717d7bb0b0": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_20d56ac5d7b0f6d4733626ce": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_a28c29efacfce80b37aafff6": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_836f2181ee0f11b892512839": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_b0e671e66983b483642f3566": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_cbc6bffbe3d01a469abb4a42": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_37abc9def0092fa081e8355c": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_bcbc29379ab77f1319652cba": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_757b5f4bf9263c69f2acb65f": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_d54735a0f0d642a0e169a61b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_efc4a0ffb7f01c0626be237d": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_8f8e13f8769899f8aeedb099": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_axe",
+          "label": "Netherite Axe"
+        },
+        {
+          "item": "minecraft:iron_axe",
+          "label": "Iron Axe"
+        },
+        {
+          "item": "immersiveengineering:axe_steel",
+          "label": "Steel Axe"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_axe",
+          "label": "Iron Axe"
+        },
+        {
+          "item": "immersiveengineering:axe_steel",
+          "label": "Steel Axe"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_0ce6848e0a3fc2cad2048707": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_df59c2dc5c129d31e52918e6": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_4aa2408013d0668120acb671": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_cf3970a632fb74ed52a2401f": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_7c7ac6f68380e213f1ae16c1": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_52db985e0468e1331f9bebcb": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_3bfc45b1c6da3b1bb952b72d": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_0c0fd7de46a3ecda63e94009": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_a1657929960fa789bd7c3950": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_0b52973aebc04bf725a12221": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        },
+        {
+          "item": "minecraft:iron_spear",
+          "label": "Iron Spear"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_spear",
+          "label": "Iron Spear"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_ed668b4254b1b6327eb79855": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_e8f3578ffb646cb48eb5000a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_90f08b7bfbc914dcbfd5fe0c": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_bb2b71707564ea35dacd0da5": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_4442b804b4b0fdf04251806a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_spear",
+          "label": "Netherite Spear"
+        },
+        {
+          "item": "apocalypse_echo_spears:echo_spear",
+          "label": "Echo Spear"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_eb5408a67defe7ae963e11cb": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_2a910bda9587dc1eeadedf06": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_2f39091279cd6d90d2b601d1": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_e40002ff79b8381d230d5619": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_84bf1077e097091a7ef13f56": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_213f7b487ba6de7e5ed2a067": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_acc8d708cba5da49b6d1aaf0": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_7ad278283c5acced56910954": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_d7075ce1e65bf960f759e757": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_66376b83df974fb775cbc103": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_edd1de9a365e10fde3dec8a4": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_33697fbdc19f3cc6eb73133b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_ec9f145c92a6685a208c2d72": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_b2ce3b9e6c6b1d0c5e39aa97": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_711ae00713f1e4e00bd6bc9c": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_eac5f3af29698626efd4b53b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_7830a341016f0c035800a3ee": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_707d14715c92c3041653d9c8": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_945b7be813c8206fac157def": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_c3569c6459d9f7a27a53b8fc": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_03fc1e56b04d39a02de331f1": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_7edb7631459c63a39fa2a093": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_fdfbcebd1ed90a791c23cfa4": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_512f98049b2ca7fe8d2e561f": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_22c9f0ab9769408887b31795": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_6bbd120ab9c8a215ce97b6c3": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_9ee76b8d954c3d8a692eb94c": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_2c874a7d5e80fdc468d3d81b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_149b66c6bd163dccd4ac2f2e": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_233f034ff9a84405d78f949a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_67cb091752e85dfb9f0851a7": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_be72286b7457342fb31d7986": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_ec9a3168da2e033adbf2e442": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_430ba17b2496990dc892a9bf": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_52834f0613adebf26968c217": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_bd40e7e41ea5bd640a4596b6": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_13494953755e2c7837530283": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_13753f83aa8d29c1e6445721": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_6dd6e2e116c43c189e14b125": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_45aec55a8d7d44d8a5ae20bf": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_36f9ede1824cd89780728f6b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_66aa40e52046044a0ba59ddd": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_142fe8e3d4a8c6286195c1b1": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_43efe2669544458d6f993227": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_8f72c421e8d39dacef904d9a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_92917a8472b76c0bd28d2d98": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_d42497d2873a703334e3a1b1": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_f15bcda09b5726bc6be99cff": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_2c09f200e4886916c14dbf3f": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_73bcb80fdaffb24f6904f6af": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_04827329f4feffca0c54ebc6": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_eda097722422e91512d20457": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_2aab679aefc10a5e017276a2": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_aa07ec3f8ad5457c6853c67a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_7b1aca16c37747cf0cac6f18": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_f79a200eeb79467af935cc15": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_99b957b9cb122ab2673eb2ba": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_dc847202c524d3d5af077ee9": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_ed5c268b753a57342d30e0db": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_b9374b5f51a9a0c74d0f99b5": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_9519a5169832abd463aa1283": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_708ba0dd80c559b994e06577": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_8a8ae4756492e06c4ec67aa1": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_2687d063dc88821bb99731d7": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_04166cc8a1a6b447e200e72b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_51fd44a3366638ef8af8c2ad": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_35a82dd6856cd0d2ce3fff76": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_fd08e738f0e84c89ef2768df": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_3979b932bcba5a3c9041b60c": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_ca91a5177de4077d92ff6c0f": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_7b1cd8d547784fa757d350bb": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_b5219741d57051a0cc657cbf": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_0220e0b9f19dcc53d3460205": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_d76ae1fdb6293965b7720aff": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_b0b546061484573323863a6b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_8e30fab1bd6225cbf658126f": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_185a64dbb865d66b45c196d0": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_9b95fcd914eb137814fad285": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_73f0444224215257c1787e64": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_23f7ecf2ed17147587fdf2a8": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_d93ba1d1f6c91dca61281425": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_a4f8f996f7faad0535a28829": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_6c2675dff2ecd56d00f0a35c": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_bd4fd227e69e5fc715bd21b9": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_cc588c2591dbd751b8304bc3": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_49cd08c72683fcd792b20f4e": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_28af0b834d4e5d20efed3aa1": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_a25e128c9fe44e2e5502d1e6": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_6ad2d68fdc6a69495457f0fb": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_c7e984fbc838ffaccbe7f47b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_28d69e515ecd51f9d113c0e3": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_1d50a0d164b9d4f40cfa25dd": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_8521f007b01ce78dd4f2f0c4": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_931260e3f3f1b15c65eedb12": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_682c378daacd9ee0a24566b1": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_5dfd25b301c20c61a09a83fa": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_3dbf100078c4c2fb78a68ce6": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_e65c90760917584d051041d3": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_244e21a0d0558f375bce8c61": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_46e150b921f7bfee66d2f17e": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_f1fa68696aeef608a0b907ac": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_5d32ce32ae5e92607b63d265": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_dccf097867f82553861417ca": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_e9dc79aa87adfeaec6873796": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_06a3abdbe1ccba23249c1cb1": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_8ca8583a2054084a1ec09ab9": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_792c665acf8296250c5f5643": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_7550f6ec915177c77bf3d39d": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_71423f7ceadc943bd8be0ba2": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_1eee678a3fe3beeb354a4baf": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_646978fea0722ef54803901a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_ed323a05bf059e9c44554644": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_c5fba4634528d42fd4ed9630": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_d4b051a3633719c936c3f4b6": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_37d293d49aa917a261ef9b8c": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_83049b7bc1f8b243e18c93c5": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_8f5c699c00ec87722d36bd4b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_c93c22e298f34b5cb35f35d3": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_b54520b8d6fa3e2764bede7b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_34f78727e470659e9fe6fbff": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_47c4a2e2215232cf0f09ae7e": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_838f40dc7c28c84dc0618a21": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_69b7e70a2ac97e2797862134": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_0ac3b4c30ed5d3a4f99c1a83": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_f1be40fe2edc8c2d73729164": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_ce87ac608450397069a5c1a7": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_7241b959b6f53bac2c8bc276": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_d42407965ef35f3459922f6a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_a2445f12aa13cb32e2ec6045": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_3ba9971fb762a9f47ff5bc8e": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_11b142d60e497740f16599f3": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_a0e6964cc788f74c1f067f37": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_e3d56f8e73951d4e977e49f6": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_07dd60bcc146f46053f7d5e0": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_810cd1e62b261d8d178dee4a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_069b1a01dce131740507c97a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_bd3658abeb99fa9b4671f21a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_78933184e374dd97c66ae0fa": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_c9e21c971ff70f317d02dcd6": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_1349eae3a2943a23b4af95f4": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_d384f4c79ad1a65ed5ed321e": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_6a60982b341def631e4d920c": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_b3b7c1edfed30198ef5855d4": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_f40638c367cd0319ed43ddfb": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_8efa52d49ff7c9b297922f55": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_450a19393fb49c44a88d3d44": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_1bd65c5e64be766b1b5e8f6a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_fab6726d40ca801b2741ccd8": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_9eaed7b8ee5d5d814a4b5146": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_1549ce13f7260efe107985cd": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_8690b4209bccf96d540547a9": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_5a77de0b856633fc26e4bf9b": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_fddc957a06a8344356c8c382": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_4f0f2f0d5452a73543e352a5": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_9aa45daa5c116abf31fff1da": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_1989d68372ceab214a4e5ea1": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        },
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "additional_targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_afea18431e0428fa26ae110a": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_19a37c43264237d93d8fc0ed": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_2468ea496e088151317a5ec4": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_d26ab7986f56bb6b4a8fc4af": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_sword",
+          "label": "Netherite Sword"
+        },
+        {
+          "item": "create_deep_dark:echo_sword",
+          "label": "Echo Sword"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_e0700a2331716d717d16cd8e": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_pickaxe",
+          "label": "Netherite Pickaxe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_355e68590e580b2b8db30a62": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_pickaxe",
+          "label": "Netherite Pickaxe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_cf4069b7b42d86b234bfde08": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_pickaxe",
+          "label": "Netherite Pickaxe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_c974dfdfb9750b8cc0b86919": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_pickaxe",
+          "label": "Netherite Pickaxe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_c3d5da7d5b7404c37b33ec74": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_pickaxe",
+          "label": "Netherite Pickaxe"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_9bf823570ca1ef0789a6cc15": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_shovel",
+          "label": "Netherite Shovel"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_b4df418aaa825d5630721a79": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_shovel",
+          "label": "Netherite Shovel"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_d295674710dd3c3d635bb90c": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_shovel",
+          "label": "Netherite Shovel"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_e4fbee2410699afceb6fda96": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_shovel",
+          "label": "Netherite Shovel"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_dc41b1db28966281d65e53b3": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:netherite_shovel",
+          "label": "Netherite Shovel"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_1d8a55c1a775d9e7ee2c99f1": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:trident",
+          "label": "Trident"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/tridents/aquatic_trident_throwing": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:trident",
+          "label": "Trident"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/tridents/crimson_trident": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:trident",
+          "label": "Trident"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/tridents/crimson_trident_throwing": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:trident",
+          "label": "Trident"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/tridents/crystal_trident": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:trident",
+          "label": "Trident"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/tridents/crystal_trident_throwing": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:trident",
+          "label": "Trident"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/tridents/phantomguard_trident": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:trident",
+          "label": "Trident"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/tridents/phantomguard_trident_throwing": {
+      "status": "assigned",
+      "targets": [
+        {
+          "item": "minecraft:trident",
+          "label": "Trident"
+        }
+      ],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_921adbbd6c2cc4e0df5cb143": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_c46b4c7878ff4890f0514222": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_919e00347da616a8a0dcc66a": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_0053e6ea3c468675d96449b8": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    },
+    "apocalypse_weapon_library:item/m_8658c3bae399734e428439f0": {
+      "status": "unassigned",
+      "targets": [],
+      "additional_targets": [],
+      "applied_to_pack": true
+    }
+  },
+  "unresolved_targets": [],
+  "sword_exception_candidates": [],
+  "sword_exception_decisions": [
+    {
+      "name": "Berserker's Cleaver",
+      "model": "apocalypse_weapon_library:item/m_eb5408a67defe7ae963e11cb",
+      "decision": "rejected",
+      "targets": [
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Dark Cleaver",
+      "model": "apocalypse_weapon_library:item/m_e40002ff79b8381d230d5619",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Estoc",
+      "model": "apocalypse_weapon_library:item/m_7830a341016f0c035800a3ee",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Black Iron Greatsword",
+      "model": "apocalypse_weapon_library:item/m_22c9f0ab9769408887b31795",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Claymore",
+      "model": "apocalypse_weapon_library:item/m_233f034ff9a84405d78f949a",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Katana",
+      "model": "apocalypse_weapon_library:item/m_708ba0dd80c559b994e06577",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Masamune",
+      "model": "apocalypse_weapon_library:item/m_8a8ae4756492e06c4ec67aa1",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Moonlight",
+      "model": "apocalypse_weapon_library:item/m_2687d063dc88821bb99731d7",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Uchigatana",
+      "model": "apocalypse_weapon_library:item/m_3979b932bcba5a3c9041b60c",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Wakizashi",
+      "model": "apocalypse_weapon_library:item/m_0220e0b9f19dcc53d3460205",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Longsword",
+      "model": "apocalypse_weapon_library:item/m_6c2675dff2ecd56d00f0a35c",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Royal Rapier",
+      "model": "apocalypse_weapon_library:item/m_8521f007b01ce78dd4f2f0c4",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Sabre",
+      "model": "apocalypse_weapon_library:item/m_244e21a0d0558f375bce8c61",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Iron Sai",
+      "model": "apocalypse_weapon_library:item/m_46e150b921f7bfee66d2f17e",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Flamberge",
+      "model": "apocalypse_weapon_library:item/m_3ba9971fb762a9f47ff5bc8e",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Iron Broadsword",
+      "model": "apocalypse_weapon_library:item/m_810cd1e62b261d8d178dee4a",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    },
+    {
+      "name": "Steel Blade",
+      "model": "apocalypse_weapon_library:item/m_1989d68372ceab214a4e5ea1",
+      "decision": "accepted",
+      "targets": [
+        {
+          "item": "minecraft:iron_sword",
+          "label": "Iron Sword"
+        },
+        {
+          "item": "immersiveengineering:sword_steel",
+          "label": "Steel Sword"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "prepared-local-pending-integration",
+  "target": "v1.2",
+  "stage": "Q:\\GPT General\\mace-models-20261011\\pending-v1.2-combat-mace-20261011-195344",
+  "record": "Q:\\Other Games\\ATLauncher\\servers\\Apocalypse Industries versions\\v1.2\\attempts\\combat-mace-20261011-195344",
+  "files": 20,
+  "published": false,
+  "deployed": false,
+  "versionMarkersChanged": false,
+  "finalWindAnimationUserConfirmed": true,
+  "publicationPrerequisite": "Improved Mace Hammer redistribution permission",
+  "checks": [
+    "Copied hashes match working files",
+    "Official Better Combat SHA-1 matches pin",
+    "Scope SHA-256 matches tested 1.0.1",
+    "ZIP integrity",
+    "Third-band sprite byte identity and phase order",
+    "Custom addon Packwiz metadata parses and pins staged binaries"
+  ],
+  "sharedAssetPath": "resourcepacks/Apocalypse_Weapon_Library.zip",
+  "sharedAssetIntegration": "Latest snapshot supersedes earlier weapon-library stage only after checking for later edits"
+}

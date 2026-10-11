@@ -13,7 +13,7 @@
       "item": "immersiveengineering:ingot_electrum"
     },
     "D": {
-      "item": "create:copper_sheet"
+      "item": "immersiveengineering:plate_aluminum"
     },
     "E": {
       "item": "create:andesite_alloy"
@@ -32,9 +32,6 @@
     },
     "G": {
       "item": "create:cogwheel"
-    },
-    "K": {
-      "item": "creatingspace:moon_regolith"
     }
   },
   "pattern": [
@@ -42,8 +39,7 @@
     "BCBCB",
     "DEFED",
     "BGHGB",
-    " IJI ",
-    "  K  "
+    " IJI "
   ],
   "result": {
     "id": "protection_pixel:floatshield_chestplate",

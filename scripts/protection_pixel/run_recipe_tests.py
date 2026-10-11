@@ -1,10 +1,12 @@
 from pathlib import Path
-import subprocess,time,threading,queue,shutil,os,json,re
+import subprocess,time,threading,queue,shutil,os,json,re,sys
 root=Path(__file__).resolve().parents[2];test=root/'scripts/protection_pixel/build/quest-roundtrip-server'
 java=root.parents[1]/'runtimes/minecraft/java-runtime-delta/windows-x64/java-runtime-delta/bin/java.exe'
 rows=[]
 for rid,body in re.findall(r'### Point [^\n]+ - ([\w:]+).*?```json\n(.*?)\n```',(root/'docs/PROTECTION_PIXEL_RECIPE_PROPOSALS.md').read_text(),re.S):
  rows.append(dict(id=rid,expected=json.loads(body)))
+if '--space' in sys.argv:
+ rows=[dict(id='protection_pixel:'+name,expected=json.loads((root/'kubejs/data/protection_pixel/recipe'/(name+'.json')).read_text())) for name in ['floatshieldloot','evasionwingloot','lancerasloot']]
 for folder in ['kubejs/data','kubejs/server_scripts']:
  for src in (root/folder).rglob('*'):
   if src.is_file():
@@ -33,7 +35,7 @@ ServerEvents.commandRegistry(event => {
 });
 """
 (test/'kubejs/server_scripts/zz_pp_approved_recipes.js').write_text(script)
-log=root/'docs/protection_pixel_approved_recipes_runtime.txt';q=queue.Queue()
+log=root/('docs/protection_pixel_space_recipes_runtime.txt' if '--space' in sys.argv else 'docs/protection_pixel_approved_recipes_runtime.txt');q=queue.Queue()
 p=subprocess.Popen([str(java),'-Xms2G','-Xmx5G','@libraries/net/neoforged/neoforge/21.1.248/win_args.txt','nogui'],cwd=test,stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,encoding='utf8',errors='replace',bufsize=1)
 def read():
  for line in p.stdout:q.put(line)
@@ -59,11 +61,11 @@ with log.open('w',encoding='utf8') as f:
   line=q.get()
   if line:f.write(line)
 if not passed:raise SystemExit('Native recipe check failed; see '+str(log))
-print('PASS: nine native recipes serialized; original fiber recipe retained',flush=True)
+print('PASS:',len(rows),'native recipes serialized; original fiber recipe retained',flush=True)
 
 # Validate the effective recipes after Almost Unified and KubeJS processing.
 loaded={rid:json.loads(body) for rid,body in re.findall(r'PP APPROVED RECIPE ([\w:]+) (\{[^\n]+\})',log.read_text(encoding='utf8'))}
-unified={'immersiveengineering:plate_steel':'c:plates/steel','immersiveengineering:ingot_steel':'c:ingots/steel','immersiveengineering:ingot_electrum':'c:ingots/electrum','create:copper_sheet':'c:plates/copper','create:brass_sheet':'c:plates/brass','create:iron_sheet':'c:plates/iron','create:sturdy_sheet':'c:plates/obsidian','minecraft:iron_ingot':'c:ingots/iron','minecraft:iron_nugget':'c:nuggets/iron'}
+unified={'immersiveengineering:plate_steel':'c:plates/steel','immersiveengineering:ingot_steel':'c:ingots/steel','immersiveengineering:ingot_electrum':'c:ingots/electrum','create:copper_sheet':'c:plates/copper','create:brass_sheet':'c:plates/brass','create:iron_sheet':'c:plates/iron','create:sturdy_sheet':'c:plates/obsidian','minecraft:iron_ingot':'c:ingots/iron','minecraft:iron_nugget':'c:nuggets/iron','immersiveengineering:plate_aluminum':'c:plates/aluminum'}
 def normalized(x):
  if isinstance(x,list):return [normalized(v) for v in x]
  if isinstance(x,dict):
@@ -82,9 +84,9 @@ for row in rows:
   for i,(a,e) in enumerate(zip(actual['sequence'],expected['sequence'])):
    if i==0:
     # Create permits both the initial plate and transition item at the first press.
-    a=dict(a);assert a['ingredients']==[[e['ingredients'][0],expected['ingredient']]]
+    a=dict(a);assert a['ingredients']==[[e['ingredients'][0],expected['ingredient']]]+e['ingredients'][1:]
     a['ingredients']=e['ingredients']
    assert a==e,row['id']+' sequence '+str(i)
  else:
   for key in ['ingredients','result']:assert actual[key]==expected[key],row['id']+' '+key
-print('PASS: all nine effective ingredient quantities, patterns, outputs and assembly steps match approval (allowing verified material unification)',flush=True)
+print('PASS: all selected effective ingredient quantities, patterns, outputs and assembly steps match approval (allowing verified material unification)',flush=True)

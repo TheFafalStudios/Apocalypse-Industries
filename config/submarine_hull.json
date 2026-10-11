@@ -3929,6 +3929,50 @@
     "maxWaterDepth": 100,
     "implosionChance": 0.28
   },
+  "copyfoxies:copyfox_center_variable_cube": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "copyfoxies:copyfox_centered_half_panel": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "copyfoxies:copyfox_centered_variable_slope": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "copyfoxies:copyfox_corner_variable_cube": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "copyfoxies:copyfox_dual_half_column": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "copyfoxies:copyfox_dual_half_layer": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "copyfoxies:copyfox_edge_cut_centered_prism": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "copyfoxies:copyfox_edge_cut_prism": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "copyfoxies:copyfox_quarter_panel": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "copyfoxies:copyfox_three_band_panel": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
+  "copyfoxies:copyfox_variable_slope": {
+    "maxWaterDepth": 100,
+    "implosionChance": 0.05
+  },
   "create:acacia_window": {
     "maxWaterDepth": 1,
     "implosionChance": 0.85
@@ -12209,6 +12253,10 @@
     "maxWaterDepth": 18,
     "implosionChance": 0.85
   },
+  "deads_displays:display_stand": {
+    "maxWaterDepth": 50,
+    "implosionChance": 0.7
+  },
   "dndecor:amethyst_crushing_wheel": {
     "maxWaterDepth": 50,
     "implosionChance": 0.7
@@ -17687,6 +17735,310 @@
   },
   "interiors:yellow_floor_chair": {
     "maxWaterDepth": 20,
+    "implosionChance": 0.85
+  },
+  "items_displayed:amethyst_shard": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:angler_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:archer_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:arms_up_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:blade_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:bolt_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:brass_ingot": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:brewer_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:brick": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:burn_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:charcoal": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:coal": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:coast_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:copper_ingot": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:danger_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:diamond": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:dune_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:echo_shard": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:emerald": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:explorer_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:eye_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:flow_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:flow_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:friend_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:gold_ingot": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:guster_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:heart_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:heartbreak_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:host_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:howl_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:iron_ingot": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:lapis_lazuli": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:miner_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:mourner_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_11": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_13": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_5": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_blocks": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_cat": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_chirp": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_creator": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_creator_music_box": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_far": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_mall": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_mellohi": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_otherside": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_pigstep": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_precipice": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_relic": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_stal": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_strad": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_wait": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:music_disc_ward": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:nether_brick": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:netherite_ingot": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:netherite_upgrade": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:plenty_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:prize_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:raiser_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:rib_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:scrape_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:sentry_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:shaper_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:sheaf_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:shelter_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:silence_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:skull_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:snort_pottery_sherd": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:snout_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:spire_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:tide_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:vex_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:ward_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:wayfinder_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:wild_armor_trim": {
+    "maxWaterDepth": 1,
+    "implosionChance": 0.85
+  },
+  "items_displayed:zinc_ingot": {
+    "maxWaterDepth": 1,
     "implosionChance": 0.85
   },
   "jackseconomy:admin_shop": {

@@ -118,3 +118,6 @@ Native Echo validation: 445 static assertions, 452 native FTB quest assertions, 
 
 ## Addon version 1.1 — 2026-09-23
 Build output, runtime metadata, test harness and index refresh use version 1.1. Obsolete 1.0.0 runtime JARs removed.
+
+## Echo recipe replacement - 2026-09-24
+The old diamond/Netherite/template mechanical recipe is superseded by the user-approved eight-loop assembly from an undamaged Alloy Plate and heated basin finish. See [ECHO_PLATE_RECIPE.md](ECHO_PLATE_RECIPE.md) for exact steps, material totals, and validation. Echo stats, texture and resonance behavior remain unchanged. This explicitly resolves the Echo recipe portion of the deferred review; other deferred points remain pending.

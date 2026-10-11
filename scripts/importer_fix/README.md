@@ -18,8 +18,8 @@ the original mod; never alongside a modified replacement JAR.
 
 Source attribution: the importer method bodies derive from
 SCsupercraft/JacksEconomyForked, 1.21.1 commit
-55553657482a8cbdd4e0cede5ec074df6568a5ef. The pinned upstream snapshot identifies its license as All-Rights-Reserved; its original notice is preserved. The addon's mod metadata separately declares AGPL-3.0-only.
-The preserved upstream notice and addon Java sources are included in the JAR.
+55553657482a8cbdd4e0cede5ec074df6568a5ef, under the repository's AGPL-3.0 license.
+The full license and addon Java sources are included in the JAR.
 The upstream source diff is saved as upstream-source.patch.
 The regression harness and usage are in tests/.
 

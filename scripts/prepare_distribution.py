@@ -1,12 +1,24 @@
 import argparse,collections,hashlib,json,pathlib,re,shutil,subprocess,tomllib,zipfile
 p=argparse.ArgumentParser();p.add_argument('--instance',required=True);p.add_argument('--output',required=True);p.add_argument('--baseline-ref',default='origin/main');a=p.parse_args()
-src=pathlib.Path(a.instance).resolve();out=pathlib.Path(a.output).resolve()
+src=pathlib.Path(a.instance).resolve();out=pathlib.Path(a.output).resolve();baseline_repo=pathlib.Path('Q:\\GPT General\\Apocalypse-v1.2-release-20261011-201831\\checkout')
 if out.exists(): raise SystemExit('Output must be a new directory')
 if src==out or src in out.parents: raise SystemExit('Output must be outside the live instance')
 repo=out/'repository';repo.mkdir(parents=True)
 def sha(p,algo='sha256'): return hashlib.new(algo,p.read_bytes()).hexdigest()
 def copy(p):
  rel=p.relative_to(src);dest=repo/rel;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dest)
+
+PROTECTED=re.compile(r'(?i)^(world.*|saves?|dimensions|DIM-?\d+|.*schematic.*|.*blueprint.*|.*lod.*|distant.*horizon.*|backups?|logs|crash-reports|\.git|\.local|local)$')
+def safe_files(folder):
+ import os
+ if folder.is_symlink() or getattr(folder.lstat(),'st_file_attributes',0)&1024:raise SystemExit('Linked pack root')
+ for base,dirs,files in os.walk(folder,followlinks=False):
+  dirs[:]=[n for n in dirs if not PROTECTED.fullmatch(n) and not (PathType(base)/n).is_symlink() and not getattr((PathType(base)/n).lstat(),'st_file_attributes',0)&1024]
+  for name in files:
+   f=PathType(base)/name
+   if not f.is_symlink() and not getattr(f.lstat(),'st_file_attributes',0)&1024:yield f
+PathType=pathlib.Path
+
 blocked=[];payload=[];refs=[];direct=[];mods={p.name:p for p in (src/'mods').glob('*.jar')};ids=collections.defaultdict(list);packages=collections.defaultdict(set);fixpackages=set()
 for jar in mods.values():
  with zipfile.ZipFile(jar) as z:
@@ -30,10 +42,10 @@ for name,jar in sorted(mods.items()):
  if name not in covered:copy(jar);direct.append(jar.relative_to(src).as_posix())
 for root in ('config','defaultconfigs','kubejs','datapacks','resourcepacks'):
  if not (src/root).exists():continue
- for f in sorted((src/root).rglob('*')):
+ for f in sorted(safe_files(src/root)):
   if not f.is_file():continue
   rel=f.relative_to(src).as_posix();low=rel.lower()
-  excluded=(f.suffix.lower() in {'.bak','.old','.log','.db','.sqlite','.sqlite3','.pyc'} or low in {'kubejs/config/web_server.json','config/lostcities-server.toml','config/forgeendertech/cached.dat','config/biomecontrolengine/dimensions_cache.json','config/spark/activity.json','kubejs/all_recipes_dump.json'} or low.startswith(('config/jei/world/','config/xaero/','kubejs/exported/','kubejs/.cache/')))
+  excluded=(f.suffix.lower() in {'.bak','.old','.log','.db','.sqlite','.sqlite3','.pyc'} or low in {'kubejs/config/web_server.json','config/lostcities-server.toml','config/forgeendertech/cached.dat','config/biomecontrolengine/dimensions_cache.json','config/spark/activity.json','kubejs/all_recipes_dump.json','config/ftbquests/quests/chapters/endgame_prototype.snbt'} or low.startswith(('config/jei/world/','config/xaero/','kubejs/exported/','kubejs/.cache/')))
   if excluded:blocked.append({'path':rel,'reason':'local cache/private data/abandoned Lost Cities content'});continue
   copy(f);payload.append(rel)
 shader='shaderpacks/ComplementaryUnbound_r5.8.1_APOCALYPSE_ATMOSPHERE_v1.1_PARSEFIX_TESTED.zip'
@@ -47,7 +59,7 @@ for line in (src/'options.txt').read_text(encoding='utf-8-sig').splitlines():
 # Preserve repository documentation and tools, but replace the obsolete index builder below.
 for root in ('docs','scripts','bootstrap','.github'):
  if (src/root).exists():
-  for f in (src/root).rglob('*'):
+  for f in safe_files(src/root):
    if f.is_file() and not any(x in f.relative_to(src/root).parts for x in ('__pycache__', 'build', '.git')) and not (root == 'docs' and (f.suffix == '.log' or 'runtime' in f.name.lower() or 'BACKUP' in f.name)) :copy(f)
 for name in ('README.md','CHANGELOG.md','VERSION','.gitattributes','AGENTS.md','instance.png'):
  if (src/name).exists():copy(src/name)
@@ -64,8 +76,8 @@ pack=(src/'pack.toml').read_text(encoding='utf-8-sig');pack=re.sub(r'(?m)^hash =
 (repo/'.gitignore').write_text('# This repository is a filtered release snapshot. Rebuild it from the live instance.\n.git/\n__pycache__/\n*.pyc\n',encoding='utf-8')
 (repo/'.packwizignore').write_text('/*\n'+''.join('!/'+x+'/\n!/'+x+'/**\n' for x in ('config','defaultconfigs','kubejs','datapacks','mods','resourcepacks','shaderpacks'))+'!/options.txt\n',encoding='utf-8')
 def baseline_text(rel):
- return subprocess.check_output(['git','-C',str(src),'show',a.baseline_ref+':'+rel]).decode('utf-8-sig')
-baseline_commit=subprocess.check_output(['git','-C',str(src),'rev-parse',a.baseline_ref]).decode().strip()
+ return subprocess.check_output(['git','-c','safe.directory='+str(baseline_repo),'-C',str(baseline_repo),'show',a.baseline_ref+':'+rel]).decode('utf-8-sig')
+baseline_commit=subprocess.check_output(['git','-c','safe.directory='+str(baseline_repo),'-C',str(baseline_repo),'rev-parse',a.baseline_ref]).decode().strip()
 old=tomllib.loads(baseline_text('index.toml'));oldpaths={e['file'] for e in old['files']};newpaths={e['file'] for e in entries}
 removed=sorted(oldpaths-newpaths)
 # Old external references imply deletion of their downloaded JARs too.

@@ -30,6 +30,7 @@ public final class SelfTest {
   var p=FakePlayerFactory.get(source.getLevel() != null ? source.getLevel() : source.getServer().overworld(),new GameProfile(UUID.fromString("5269e941-6313-40e6-89d8-42abf79dfcab"),"[PP-Test]"));
   try {
    p.getInventory().clearContent(); p.removeAllEffects();
+   passed+=EchoRecipeTest.run(source);
    passed+=EchoPlateTest.run(p);
    String[] ids={"protection_pixel:lanceras_helmet","protection_pixel:floatshield_chestplate","protection_pixel:linkplate_leggings","protection_pixel:socks_boots"};
    for(int i=0;i<4;i++) {

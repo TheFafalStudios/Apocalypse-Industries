@@ -580,19 +580,11 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"4709097D00719B25"
-				"5D2F7F32F0758EEA"
-			]
+			dependencies: ["1E55D5668B3E04A4", "5D2F7F32F0758EEA"]
 			id: "573AD89CB7072F8C"
 			optional: true
-			tasks: [{
-				consume_items: false
-				id: "2E9EDFF4D456D416"
-				item: { count: 1, id: "creatingspace:moon_regolith" }
-				type: "item"
-			}]
-			x: -4.0d
+			tasks: [{"consume_items": false, "id": "2E9EDFF4D456D416", "item": {"count": 1, "id": "immersiveengineering:plate_aluminum"}, "type": "item"}]
+			x: 0.5d
 			y: 4.0d
 		}
 		{
@@ -605,7 +597,7 @@
 				item: { count: 1, id: "protection_pixel:floatshield_chestplate" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -1.5d
 			y: 6.0d
 		}
 		{
@@ -618,7 +610,7 @@
 				item: { count: 1, id: "protection_pixel:evasionwing" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: 0.5d
 			y: 6.0d
 		}
 		{
@@ -631,7 +623,7 @@
 				item: { count: 1, id: "protection_pixel:lanceras_helmet" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 2.5d
 			y: 6.0d
 		}
 		{
@@ -655,7 +647,7 @@
 				id: "7A3A96282C681A1C"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			x: 0.5d
 			y: 8.0d
 		}
 	]

@@ -156,7 +156,7 @@
     "chapter": "brass_age",
     "title": "Personal Protective Equipment",
     "parents": [
-      "588D4ADEDFB08661"
+      "634819F7295E2312"
     ],
     "tasks": [
       {
@@ -177,7 +177,7 @@
     "cash": 0,
     "id": "5036106AC24B4475",
     "parent_ids": [
-      "588D4ADEDFB08661"
+      "634819F7295E2312"
     ],
     "previous_id": "5036106AC24B4475",
     "runtime_tasks": [
@@ -197,7 +197,11 @@
         "id": "4391C3656C710DCE",
         "type": "advancement",
         "advancement": "apocalypse_pp:powered_loadout",
-        "criterion": ""
+        "criterion": "",
+        "icon": {
+          "id": "protection_pixel:powerengine",
+          "count": 1
+        }
       }
     ],
     "runtime_rewards": [
@@ -214,7 +218,7 @@
     ],
     "subtitle": "Choose a specialist and power it up",
     "task_titles": [
-      "Craft any Brass specialist piece",
+      "Obtain any Brass specialist piece",
       "Wear Protection Pixel armor with a working reactor"
     ]
   },
@@ -240,9 +244,7 @@
     "text": [
       "Iron plates are light; Brass offers more protection but weighs more. Alloy later reduces that weight.",
       "",
-      "Wear your armor and open its connection in the lava-fed platform menu to fit plates. If movement becomes sluggish, reduce weight or increase reactor capacity.",
-      "",
-      "Float Shield has no ordinary chestplate plate slots."
+      "Wear your armor and open its connection in the lava-fed platform menu to fit plates. If movement becomes sluggish, reduce weight or increase reactor capacity."
     ],
     "x": -2.0,
     "y": 3.5,
@@ -421,7 +423,7 @@
     "runtime_rewards": [],
     "subtitle": "Upgrade the piece you actually use",
     "task_titles": [
-      "Craft any ordinary Alloy specialist piece"
+      "Obtain any ordinary Alloy specialist piece"
     ]
   },
   {
@@ -467,7 +469,7 @@
     "runtime_rewards": [],
     "subtitle": "Choose one device for your Motor Interface",
     "task_titles": [
-      "Craft any one external device"
+      "Obtain any one external device"
     ]
   },
   {
@@ -530,9 +532,9 @@
       }
     ],
     "text": [
-      "Craft Echo Plates from materials; no finished armor is consumed. They match Alloy plate stats and durability.",
+      "Start with an undamaged Alloy Plate. Run the eight-step assembly eight times, then compact the Inert Echo Plate with an Echo Shard and blaze powder in a heated basin.",
       "",
-      "Fit them in ordinary plate slots at the Armor Load Platform, including boots and Float Shield. Recover and repair worn plates there. Remove plates before upgrading armor."
+      "Fit Echo Plates in ordinary platform slots. They match Alloy stats and durability. Recover plates before upgrading armor."
     ],
     "x": -8.0,
     "y": 9.0,
@@ -589,7 +591,11 @@
         "advancement": "apocalypse_pp:resonance",
         "criterion": "",
         "id": "49C66DE1288E1FA6",
-        "type": "advancement"
+        "type": "advancement",
+        "icon": {
+          "id": "apocalypse_pp:echo_plate",
+          "count": 1
+        }
       }
     ],
     "runtime_rewards": [
@@ -607,34 +613,36 @@
     "subtitle": "Activate four equipped Echo Plates",
     "task_titles": [
       "Activate four powered Echo Plates"
-    ]
+    ],
+    "icon": {
+      "id": "apocalypse_pp:echo_plate",
+      "count": 1
+    }
   },
   {
     "key": "rd",
     "chapter": "space_age",
     "title": "R&D Department",
     "parents": [
-      "4709097D00719B25",
+      "1E55D5668B3E04A4",
       "5D2F7F32F0758EEA"
     ],
     "tasks": [
       {
-        "id": "creatingspace:moon_regolith",
+        "id": "immersiveengineering:plate_aluminum",
         "count": 1,
         "consume": false
       }
     ],
     "text": [
-      "Moon Regolith unlocks three optional projects: Float Shield, Evasion Wing and Lancer-AS.",
-      "",
-      "Choose what suits your loadout. Building all three is only necessary for the separate collection award."
+      "Aluminum plates open three equipment options below. Choose the ones you want; the collection award is optional."
     ],
-    "x": -4.0,
+    "x": 0.5,
     "y": 4.0,
     "cash": 0,
     "id": "573AD89CB7072F8C",
     "parent_ids": [
-      "4709097D00719B25",
+      "1E55D5668B3E04A4",
       "5D2F7F32F0758EEA"
     ],
     "previous_id": "94CE408A4A30C055",
@@ -644,19 +652,19 @@
         "id": "2E9EDFF4D456D416",
         "item": {
           "count": 1.0,
-          "id": "creatingspace:moon_regolith"
+          "id": "immersiveengineering:plate_aluminum"
         },
         "type": "item"
       }
     ],
     "runtime_rewards": [],
-    "subtitle": "Space workshop: three optional experiments",
+    "subtitle": "Aluminum equipment",
     "task_titles": []
   },
   {
     "key": "shield",
     "chapter": "space_age",
-    "title": "Active Protection System",
+    "title": "Float Shield",
     "parents": [
       "573AD89CB7072F8C"
     ],
@@ -668,11 +676,11 @@
       }
     ],
     "text": [
-      "Float Shield stores 25 shield points and restores roughly one every 1.25 seconds while powered. Repeated hits can overwhelm it.",
+      "Stores 25 shield points; recovers one every 1.25 seconds while powered. Use cover between hits to recharge.",
       "",
-      "Its base armor is weak. Fit ordinary plates, including Echo Plates, at the Armor Load Platform. Use cover to recharge."
+      "Fit armor plates at the Armor Load Platform to supplement its weak base armor."
     ],
-    "x": -6.0,
+    "x": -1.5,
     "y": 6.0,
     "cash": 0,
     "id": "4376A61BFDEAB5D8",
@@ -692,13 +700,13 @@
       }
     ],
     "runtime_rewards": [],
-    "subtitle": "Rechargeable protection between attacks",
+    "subtitle": "Active Protection System",
     "task_titles": []
   },
   {
     "key": "evasion",
     "chapter": "space_age",
-    "title": "Automatic Evasion",
+    "title": "Evasion Wing",
     "parents": [
       "573AD89CB7072F8C"
     ],
@@ -710,11 +718,11 @@
       }
     ],
     "text": [
-      "Evasion Wing spends a charge to avoid a direct attack, then recharges. Upgrades shorten the wait.",
+      "Automatically spends a full charge to evade an eligible attack. Reactor power recharges it; upgrades reduce the wait.",
       "",
-      "Install it in the Motor Interface and keep the reactor powered. It replaces your other device and does not provide ordinary flight."
+      "Fits the Motor Interface, replacing your other device. It does not provide flight."
     ],
-    "x": -4.0,
+    "x": 0.5,
     "y": 6.0,
     "cash": 0,
     "id": "5D4668E0F0214CA5",
@@ -734,13 +742,13 @@
       }
     ],
     "runtime_rewards": [],
-    "subtitle": "A charged escape from direct attacks",
+    "subtitle": "Automatic Evasion",
     "task_titles": []
   },
   {
     "key": "lancer_as",
     "chapter": "space_age",
-    "title": "Experimental Kinetics",
+    "title": "Lancer-AS",
     "parents": [
       "573AD89CB7072F8C"
     ],
@@ -752,11 +760,11 @@
       }
     ],
     "text": [
-      "Lancer-AS raises the movement-based attack bonus from 6 to 9 damage while powered.",
+      "Raises the powered movement-based attack bonus from up to +6 to up to +9 damage. The bonus depends on movement.",
       "",
-      "Choose it for mobile melee combat. Recover any Echo Plate before upgrading, then install it on the new helmet."
+      "Recover installed plates before upgrading your helmet."
     ],
-    "x": -2.0,
+    "x": 2.5,
     "y": 6.0,
     "cash": 0,
     "id": "05EDBE2B6CC01728",
@@ -776,7 +784,7 @@
       }
     ],
     "runtime_rewards": [],
-    "subtitle": "Lunar specialist: stronger moving attacks",
+    "subtitle": "Experimental Kinetics",
     "task_titles": []
   },
   {
@@ -794,11 +802,9 @@
       }
     ],
     "text": [
-      "An optional collection award for obtaining Float Shield, Evasion Wing and Lancer-AS. They do not need to be equipped together.",
-      "",
-      "Management offers $1,000 per team. Storage space for the prototypes remains your problem."
+      "Obtain Float Shield, Evasion Wing and Lancer-AS to claim $1,000 per team. Equipping them together is unnecessary."
     ],
-    "x": -4.0,
+    "x": 0.5,
     "y": 8.0,
     "cash": 1000,
     "id": "345CE577D8CC980E",
@@ -825,7 +831,7 @@
         "type": "item"
       }
     ],
-    "subtitle": "Optional collection award: all three experiments",
+    "subtitle": "Optional collection award",
     "task_titles": [
       "Claim the optional collection award"
     ]

@@ -1993,7 +1993,7 @@
     "recipe": "protection_pixel:evasionwingloot",
     "output": "protection_pixel:evasionwing",
     "reason": [
-      "Post-lunar material gate; no quest-only lock",
+      "Post-lunar aluminum plate substitution in native material slots; no added row or assembly step",
       "Approved: functional industrial component substitution"
     ],
     "old": {
@@ -2037,7 +2037,7 @@
       "category": "misc",
       "key": {
         "A": {
-          "item": "create:iron_sheet"
+          "item": "immersiveengineering:plate_aluminum"
         },
         "B": {
           "item": "minecraft:iron_ingot"
@@ -2053,17 +2053,13 @@
         },
         "F": {
           "item": "create:transmitter"
-        },
-        "G": {
-          "item": "creatingspace:moon_regolith"
         }
       },
       "pattern": [
         "AB BA",
         "ACACA",
         "DEFED",
-        "A   A",
-        "  G  "
+        "A   A"
       ],
       "result": {
         "id": "protection_pixel:evasionwing",
@@ -2393,7 +2389,7 @@
     "recipe": "protection_pixel:floatshieldloot",
     "output": "protection_pixel:floatshield_chestplate",
     "reason": [
-      "Post-lunar material gate; no quest-only lock",
+      "Post-lunar aluminum plate substitution in native material slots; no added row or assembly step",
       "Approved: functional industrial component substitution"
     ],
     "old": {
@@ -2459,7 +2455,7 @@
           "item": "immersiveengineering:ingot_electrum"
         },
         "D": {
-          "item": "create:copper_sheet"
+          "item": "immersiveengineering:plate_aluminum"
         },
         "E": {
           "item": "create:andesite_alloy"
@@ -2478,9 +2474,6 @@
         },
         "G": {
           "item": "create:cogwheel"
-        },
-        "K": {
-          "item": "creatingspace:moon_regolith"
         }
       },
       "pattern": [
@@ -2488,8 +2481,7 @@
         "BCBCB",
         "DEFED",
         "BGHGB",
-        " IJI ",
-        "  K  "
+        " IJI "
       ],
       "result": {
         "id": "protection_pixel:floatshield_chestplate",
@@ -3784,7 +3776,7 @@
     "output": "protection_pixel:lanceras_helmet",
     "reason": [
       "Correct legacy fluid ingredient serializer for NeoForge/Create 6",
-      "Post-lunar material gate; no quest-only lock"
+      "Post-lunar aluminum plate substitution in native material slots; no added row or assembly step"
     ],
     "old": {
       "type": "create:sequenced_assembly",
@@ -3948,7 +3940,7 @@
               "item": "protection_pixel:incompletelancer"
             },
             {
-              "item": "create:sturdy_sheet"
+              "item": "immersiveengineering:plate_aluminum"
             }
           ],
           "results": [
@@ -3997,22 +3989,6 @@
             },
             {
               "item": "protection_pixel:smallnetheritesheet"
-            }
-          ],
-          "results": [
-            {
-              "id": "protection_pixel:incompletelancer"
-            }
-          ]
-        },
-        {
-          "type": "create:deploying",
-          "ingredients": [
-            {
-              "item": "protection_pixel:incompletelancer"
-            },
-            {
-              "item": "creatingspace:moon_regolith"
             }
           ],
           "results": [

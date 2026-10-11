@@ -1,0 +1,318 @@
+--- euphoria/shaders/lib/atmospherics/fog/mainFog.glsl
++++ apocalypse-euphoria/shaders/lib/atmospherics/fog/mainFog.glsl
+@@ -106,7 +106,7 @@
+ 
+             float nightFogMult = 2.5 - 0.625 * max(pow2(pow2(altitudeFactorRaw)), rainFactor);
+             float dayNightFogBlend = pow(invNightFactor, 4.0 - VdotS - 2.5 * sunVisibility2);
+-            return atmFogColor * mix(
++            vec3 baseFogColor = atmFogColor * mix(
+                 nightUpSkyColor * (nightFogMult - dayNightFogBlend * nightFogMult),
+                 dayDownSkyColor * (0.9 + 0.3 * noonFactor)
+                     #if defined DISTANT_HORIZONS || defined VOXY
+@@ -115,6 +115,20 @@
+                 ,
+                 dayNightFogBlend
+             );
++
++            // Persistent industrial smog. Clear days are dirty ochre; rain becomes cold ash-grey.
++            #ifdef SPECIAL_BIOME_WEATHER
++                float aiFogDust = inDry * invRainFactor;
++            #else
++                float aiFogDust = 0.0;
++            #endif
++            float aiFogLuma = dot(baseFogColor, vec3(0.2126, 0.7152, 0.0722));
++            vec3 aiFogDayTint = mix(vec3(1.08, 0.94, 0.71), vec3(0.80, 0.83, 0.80), rainFactor);
++            aiFogDayTint = mix(aiFogDayTint, vec3(1.14, 0.90, 0.60), 0.40 * aiFogDust);
++            vec3 aiFogNightTint = vec3(0.72, 0.77, 0.80);
++            vec3 aiFogTint = mix(aiFogNightTint, aiFogDayTint, sunFactor);
++            float aiFogGrade = clamp01(0.30 + 0.18 * rainFactor + 0.14 * aiFogDust);
++            return mix(baseFogColor, aiFogLuma * aiFogTint, aiFogGrade);
+         }
+     #else
+         float atmFogSRATA = 55.1;
+@@ -177,6 +191,21 @@
+                 }
+             #endif
+ 
++            // Additional low-altitude pollution veil. It combines with Complementary's existing
++            // atmospheric fog instead of replacing it, and therefore keeps the DH/VOXY branches intact.
++            float aiFogWorldY = playerPos.y + cameraPosition.y;
++            float aiLowAltitude = clamp01((190.0 - aiFogWorldY) / 130.0);
++            aiLowAltitude = sqrt(aiLowAltitude);
++            float aiSmogDistance = 1.0 - exp(-max0(lViewPos - 24.0) * (0.0020 + 0.0007 * rainFactor));
++            #ifdef SPECIAL_BIOME_WEATHER
++                float aiDrySmog = inDry * invRainFactor;
++            #else
++                float aiDrySmog = 0.0;
++            #endif
++            float aiSmogStrength = (0.16 + 0.10 * sunFactor + 0.10 * rainFactor + 0.13 * aiDrySmog) * aiLowAltitude;
++            float aiSmogFog = clamp01(aiSmogDistance * aiSmogStrength);
++            fog = 1.0 - (1.0 - clamp01(fog)) * (1.0 - aiSmogFog);
++
+             #ifdef CAVE_FOG
+                 fog *= 0.2 + 0.8 * sqrt2(eyeBrightnessM);
+                 fog *= 1.0 - GetCaveFactor();
+--- euphoria/shaders/lib/atmospherics/sky.glsl
++++ apocalypse-euphoria/shaders/lib/atmospherics/sky.glsl
+@@ -95,10 +95,10 @@
+ 
+                     float visfactor = 0.075;
+                     float glare = visfactor / (1.0 - (1.0 - visfactor) * VdotSM4) - visfactor;
+-                    glare *= 0.7;
++                    glare *= 0.95;
+ 
+                     float glareWaterFactor = isEyeInWater * sunVisibility;
+-                    vec3 glareColor = mix(vec3(0.38, 0.4, 0.5) * 0.3, vec3(1.5, 0.7, 0.3) + vec3(0.0, 0.5, 0.5) * noonFactor, sunVisibility);
++                    vec3 glareColor = mix(vec3(0.38, 0.4, 0.5) * 0.3, vec3(1.75, 0.58, 0.16) + vec3(0.0, 0.18, 0.12) * noonFactor, sunVisibility);
+                     #if BLOOD_MOON > 0
+                         glareColor = mix(glareColor, vec3(0.6314, 0.0431, 0.0431), getBloodMoon(sunVisibility));
+                     #endif
+--- euphoria/shaders/lib/atmospherics/stars.glsl
++++ apocalypse-euphoria/shaders/lib/atmospherics/stars.glsl
+@@ -107,6 +107,7 @@
+         stars *= getTwinklingStars(starCoord, float(TWINKLING_STARS));
+     #endif
+ 
+-    return stars;
++    // Apocalypse Industries: industrial haze attenuates remaining stars.
++    return stars * 0.58;
+ }
+ #endif
+--- euphoria/shaders/lib/colors/cloudColors.glsl
++++ apocalypse-euphoria/shaders/lib/colors/cloudColors.glsl
+@@ -1,7 +1,33 @@
+ vec3 cloudRainColor = mix(nightMiddleSkyColor, dayMiddleSkyColor, sunFactor);
+-vec3 cloudAmbientColor = mix(ambientColor * (sunVisibility2 * (0.55 + 0.17 * noonFactor) + 0.35), cloudRainColor * 0.5, rainFactor) * mix(CLOUD_NIGHT_AMBIENT_MULTIPLIER, CLOUD_AMBIENT_MULTIPLIER, sunVisibility2);
+-vec3 cloudLightColor   = mix(
++
++vec3 aiCloudAmbientRaw = mix(
++    ambientColor * (sunVisibility2 * (0.55 + 0.17 * noonFactor) + 0.35),
++    cloudRainColor * 0.5,
++    rainFactor
++) * mix(CLOUD_NIGHT_AMBIENT_MULTIPLIER, CLOUD_AMBIENT_MULTIPLIER, sunVisibility2);
++vec3 aiCloudLightRaw = mix(
+     lightColor * 1.3,
+     cloudRainColor * 0.45,
+     noonFactor * rainFactor
+ ) * mix(CLOUD_NIGHT_LIGHT_MULTIPLIER, CLOUD_LIGHT_MULTIPLIER, sunVisibility2);
++
++// Apocalypse Industries: ash-heavy cloud palette.
++float aiCloudAmbientLuma = dot(aiCloudAmbientRaw, vec3(0.2126, 0.7152, 0.0722));
++float aiCloudLightLuma = dot(aiCloudLightRaw, vec3(0.2126, 0.7152, 0.0722));
++vec3 aiCloudAshTint = mix(
++    vec3(0.94, 0.91, 0.82),
++    vec3(0.73, 0.76, 0.74),
++    rainFactor
++);
++
++vec3 cloudAmbientColor = mix(
++    aiCloudAmbientRaw,
++    aiCloudAmbientLuma * aiCloudAshTint,
++    0.18 + 0.30 * rainFactor
++) * (1.0 - 0.14 * rainFactor);
++
++vec3 cloudLightColor = mix(
++    aiCloudLightRaw,
++    aiCloudLightLuma * aiCloudAshTint,
++    0.12 + 0.24 * rainFactor
++) * (1.0 - 0.10 * rainFactor);
+--- euphoria/shaders/lib/colors/skyColors.glsl
++++ apocalypse-euphoria/shaders/lib/colors/skyColors.glsl
+@@ -46,25 +46,103 @@
+         vec3 nmscWeatherM = vec3(-0.1, -0.4, -0.6) + vec3(0.0, 0.06, 0.12) * noonFactor;
+         vec3 ndscWeatherM = vec3(-0.15, -0.3, -0.42) + vec3(0.0, 0.02, 0.08) * noonFactor;
+ 
+-        vec3 noonUpSkyColor     = pow(skyColorM, vec3(2.9)) * (vec3(0.85, 0.92, 0.81) + rainFactor * nuscWeatherM);
+-        vec3 noonMiddleSkyColor = pow(skyColorM, vec3(1.5)) * (vec3(1.3) + rainFactor * (nmscWeatherM + nmscRainM + nmscSnowM + nmscDryM))
+-                                + noonUpSkyColor * 0.65;
+-        vec3 noonDownSkyColor   = skyColorM * (vec3(0.9) + rainFactor * (ndscWeatherM + ndscRainM + ndscSnowM + ndscDryM))
+-                                + noonUpSkyColor * 0.25;
++        // Apocalypse Industries: persistent industrial haze.
++        // This file is included at global shader scope, so every calculation
++        // below is expressed as a declaration initializer.
++        #ifdef SPECIAL_BIOME_WEATHER
++            float aiDustFactor = inDry * invRainFactor;
++        #else
++            float aiDustFactor = 0.0;
++        #endif
+ 
+-        vec3 sunsetUpSkyColor     = skyColorM2 * (vec3(0.72, 0.522, 0.47) + vec3(0.1, 0.2, 0.35) * rainFactor2);
+-        vec3 sunsetMiddleSkyColor = skyColorM2 * (vec3(1.8, 1.3, 1.2) + vec3(0.15, 0.25, -0.05) * rainFactor2);
+-        vec3 sunsetDownSkyColorP  = vec3(1.45, 0.86, 0.5) - vec3(0.8, 0.3, 0.0) * rainFactor;
+-        vec3 sunsetDownSkyColor   = sunsetDownSkyColorP * 0.5 + 0.25 * sunsetMiddleSkyColor;
++        float aiPollutionFactor = clamp01(0.22 + 0.18 * rainFactor + 0.14 * aiDustFactor);
++        vec3 aiUpperTint  = mix(vec3(0.92, 0.96, 0.90), vec3(0.77, 0.81, 0.79), rainFactor);
++        vec3 aiMiddleTint = mix(vec3(1.03, 0.96, 0.80), vec3(0.80, 0.82, 0.79), rainFactor);
++        vec3 aiHorizonTint = mix(
++            mix(vec3(1.13, 0.93, 0.67), vec3(0.82, 0.81, 0.75), rainFactor),
++            vec3(1.16, 0.91, 0.59),
++            0.45 * aiDustFactor
++        );
++
++        vec3 aiNoonUpRaw = pow(skyColorM, vec3(2.9))
++                         * (vec3(0.85, 0.92, 0.81) + rainFactor * nuscWeatherM);
++        vec3 aiNoonMiddleRaw = pow(skyColorM, vec3(1.5))
++                             * (vec3(1.3) + rainFactor * (nmscWeatherM + nmscRainM + nmscSnowM + nmscDryM))
++                             + aiNoonUpRaw * 0.65;
++        vec3 aiNoonDownRaw = skyColorM
++                           * (vec3(0.9) + rainFactor * (ndscWeatherM + ndscRainM + ndscSnowM + ndscDryM))
++                           + aiNoonUpRaw * 0.25;
++
++        float aiNoonUpLuma = dot(aiNoonUpRaw, vec3(0.2126, 0.7152, 0.0722));
++        float aiNoonMiddleLuma = dot(aiNoonMiddleRaw, vec3(0.2126, 0.7152, 0.0722));
++        float aiNoonDownLuma = dot(aiNoonDownRaw, vec3(0.2126, 0.7152, 0.0722));
++
++        vec3 noonUpSkyColor = mix(
++            aiNoonUpRaw,
++            aiNoonUpLuma * aiUpperTint,
++            aiPollutionFactor * 0.48
++        );
++        vec3 noonMiddleSkyColor = mix(
++            aiNoonMiddleRaw,
++            aiNoonMiddleLuma * aiMiddleTint,
++            aiPollutionFactor * 0.72
++        );
++        vec3 noonDownSkyColor = mix(
++            aiNoonDownRaw,
++            aiNoonDownLuma * aiHorizonTint,
++            aiPollutionFactor
++        );
++
++        vec3 sunsetUpSkyColor = skyColorM2
++                              * (vec3(0.72, 0.522, 0.47) + vec3(0.1, 0.2, 0.35) * rainFactor2);
++        vec3 sunsetMiddleSkyColor = skyColorM2
++                                  * (vec3(1.8, 1.3, 1.2) + vec3(0.15, 0.25, -0.05) * rainFactor2);
++
++        vec3 aiSunsetDownRawP = vec3(1.45, 0.86, 0.5) - vec3(0.8, 0.3, 0.0) * rainFactor;
++        vec3 aiSunsetDownRaw = aiSunsetDownRawP * 0.5 + 0.25 * sunsetMiddleSkyColor;
++        float aiSunsetDownLuma = dot(aiSunsetDownRaw, vec3(0.2126, 0.7152, 0.0722));
++        vec3 aiSunsetTint = mix(vec3(1.20, 0.78, 0.43), vec3(0.84, 0.78, 0.69), rainFactor);
++
++        vec3 sunsetDownSkyColorP = mix(
++            aiSunsetDownRawP,
++            vec3(1.28, 0.61, 0.27),
++            0.22 * invRainFactor
++        );
++        vec3 sunsetDownSkyColor = mix(
++            aiSunsetDownRaw,
++            aiSunsetDownLuma * aiSunsetTint,
++            0.28 + 0.20 * rainFactor
++        );
+ 
+         vec3 dayUpSkyColor     = mix(noonUpSkyColor, sunsetUpSkyColor, invNoonFactor2);
+         vec3 dayMiddleSkyColor = mix(noonMiddleSkyColor, sunsetMiddleSkyColor, invNoonFactor2);
+         vec3 dayDownSkyColor   = mix(noonDownSkyColor, sunsetDownSkyColor, invNoonFactor2);
+ 
+-        vec3 nightColFactor      = 0.9 * vec3(0.07, 0.14, 0.24) * (1.0 - 0.5 * rainFactor) + skyColorTweaked;
+-        vec3 nightUpSkyColor     = pow(nightColFactor, vec3(0.90)) * 0.45;
+-        vec3 nightMiddleSkyColor = sqrt(nightUpSkyColor) * 0.65;
+-        vec3 nightDownSkyColor   = nightMiddleSkyColor * vec3(0.82, 0.82, 0.88);
++        vec3 nightColFactor = 0.9 * vec3(0.07, 0.14, 0.24)
++                            * (1.0 - 0.5 * rainFactor) + skyColorTweaked;
++        vec3 aiNightUpRaw = pow(nightColFactor, vec3(0.90)) * 0.45;
++        vec3 aiNightMiddleRaw = sqrt(aiNightUpRaw) * 0.65;
++        vec3 aiNightDownRaw = aiNightMiddleRaw * vec3(0.82, 0.82, 0.88);
++
++        float aiNightUpLuma = dot(aiNightUpRaw, vec3(0.2126, 0.7152, 0.0722));
++        float aiNightMidLuma = dot(aiNightMiddleRaw, vec3(0.2126, 0.7152, 0.0722));
++        float aiNightDownLuma = dot(aiNightDownRaw, vec3(0.2126, 0.7152, 0.0722));
++
++        vec3 nightUpSkyColor = mix(
++            aiNightUpRaw,
++            aiNightUpLuma * vec3(0.76, 0.82, 0.86),
++            0.24
++        );
++        vec3 nightMiddleSkyColor = mix(
++            aiNightMiddleRaw,
++            aiNightMidLuma * vec3(0.78, 0.81, 0.82),
++            0.28
++        );
++        vec3 nightDownSkyColor = mix(
++            aiNightDownRaw,
++            aiNightDownLuma * vec3(0.84, 0.80, 0.72),
++            0.30
++        );
+     #endif
+ 
+ #endif //INCLUDE_SKY_COLORS
+--- euphoria/shaders/lib/shaderSettings/clouds.glsl
++++ apocalypse-euphoria/shaders/lib/shaderSettings/clouds.glsl
+@@ -5,8 +5,8 @@
+ #define CLOUD_R 100 //[25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 110 120 130 140 150 160 170 180 190 200 220 240 260 280 300]
+ #define CLOUD_G 100 //[25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 110 120 130 140 150 160 170 180 190 200 220 240 260 280 300]
+ #define CLOUD_B 100 //[25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 110 120 130 140 150 160 170 180 190 200 220 240 260 280 300]
+-#define CLOUD_UNBOUND_AMOUNT 1.00 //[0.70 0.71 0.72 0.73 0.74 0.75 0.76 0.77 0.78 0.79 0.80 0.81 0.82 0.83 0.84 0.85 0.86 0.87 0.88 0.89 0.90 0.91 0.92 0.93 0.94 0.95 0.96 0.97 0.98 0.99 1.00 1.02 1.04 1.06 1.08 1.10 1.12 1.14 1.16 1.18 1.20 1.22 1.24 1.26 1.28 1.30 1.32 1.34 1.36 1.38 1.40 1.42 1.44 1.46 1.48 1.50 1.55 1.60 1.65 1.70 1.75 1.80 1.85 1.90 1.95 2.00 2.10 2.20 2.30 2.40 2.50 2.60 2.70 2.80 2.90 3.00]
+-#define CLOUD_UNBOUND_RAIN_ADD 0.40 //[0.00 0.05 0.06 0.07 0.08 0.09 0.10 0.12 0.14 0.16 0.18 0.22 0.26 0.30 0.35 0.40 0.45 0.50 0.55 0.60 0.65 0.70 0.75 0.80 0.85 0.90 0.95 1.00 1.05 1.10 1.15 1.20 1.25 1.30 1.35 1.40 1.45 1.50]
++#define CLOUD_UNBOUND_AMOUNT 1.12 //[0.70 0.71 0.72 0.73 0.74 0.75 0.76 0.77 0.78 0.79 0.80 0.81 0.82 0.83 0.84 0.85 0.86 0.87 0.88 0.89 0.90 0.91 0.92 0.93 0.94 0.95 0.96 0.97 0.98 0.99 1.00 1.02 1.04 1.06 1.08 1.10 1.12 1.14 1.16 1.18 1.20 1.22 1.24 1.26 1.28 1.30 1.32 1.34 1.36 1.38 1.40 1.42 1.44 1.46 1.48 1.50 1.55 1.60 1.65 1.70 1.75 1.80 1.85 1.90 1.95 2.00 2.10 2.20 2.30 2.40 2.50 2.60 2.70 2.80 2.90 3.00]
++#define CLOUD_UNBOUND_RAIN_ADD 0.70 //[0.00 0.05 0.06 0.07 0.08 0.09 0.10 0.12 0.14 0.16 0.18 0.22 0.26 0.30 0.35 0.40 0.45 0.50 0.55 0.60 0.65 0.70 0.75 0.80 0.85 0.90 0.95 1.00 1.05 1.10 1.15 1.20 1.25 1.30 1.35 1.40 1.45 1.50]
+ 
+ 
+ // Euphoria Patches Settings
+--- euphoria/shaders/lib/shaderSettings/composite1.glsl
++++ apocalypse-euphoria/shaders/lib/shaderSettings/composite1.glsl
+@@ -3,7 +3,7 @@
+ 
+ #include "/lib/shaderSettings/worldMotionBlur.glsl"
+ 
+-#define RAINBOWS 1 //[0 1 3]
++#define RAINBOWS 0 //[0 1 3]
+ 
+ 
+ // Euphoria Patches Settings
+--- euphoria/shaders/lib/shaderSettings/stars.glsl
++++ apocalypse-euphoria/shaders/lib/shaderSettings/stars.glsl
+@@ -1,7 +1,7 @@
+ #ifndef STARS_SETTINGS_FILE
+ #define STARS_SETTINGS_FILE
+ 
+-#define NIGHT_STAR_AMOUNT 2 //[0 1 2 3 4]
++#define NIGHT_STAR_AMOUNT 1 //[0 1 2 3 4]
+ 
+ 
+ // Euphoria Patches Settings
+--- euphoria/shaders/program/gbuffers_skybasic.glsl
++++ apocalypse-euphoria/shaders/program/gbuffers_skybasic.glsl
+@@ -151,14 +151,14 @@
+         #if SUN_MOON_STYLE >= 2
+             float absVdotS = abs(VdotS);
+             #if SUN_MOON_STYLE == 2
+-                float sunSizeFactor1 = 0.9975;
+-                float sunSizeFactor2 = 400.0;
++                float sunSizeFactor1 = 0.9944;
++                float sunSizeFactor2 = 178.571;
+                 float moonCrescentOffset = 0.0055;
+                 float moonPhaseFactor1 = 2.45;
+                 float moonPhaseFactor2 = 750.0;
+             #else
+-                float sunSizeFactor1 = 0.9983;
+-                float sunSizeFactor2 = 588.235;
++                float sunSizeFactor1 = 0.996175;
++                float sunSizeFactor2 = 261.438;
+                 float moonCrescentOffset = 0.0042;
+                 float moonPhaseFactor1 = 2.2;
+                 float moonPhaseFactor2 = 1000.0;
+@@ -178,10 +178,10 @@
+                     #ifdef CAVE_FOG
+                         sunMoonMixer *= 1.0 - 0.65 * GetCaveFactor();
+                     #endif
+-                    float sunBrightness = 25.0;
+-                    if (tonemap == ACESTonemap) color.rgb = mix(color.rgb, vec3(1.0, 0.698, 0.5451) * sunBrightness, sunMoonMixer);
++                    float sunBrightness = 28.0;
++                    if (tonemap == ACESTonemap) color.rgb = mix(color.rgb, vec3(1.0, 0.38, 0.10) * sunBrightness, sunMoonMixer);
+                     else
+-                    color.rgb = mix(color.rgb, vec3(0.9, 0.5, 0.3) * sunBrightness, sunMoonMixer);
++                    color.rgb = mix(color.rgb, vec3(1.0, 0.38, 0.10) * sunBrightness, sunMoonMixer);
+                 } else {
+                     float horizonFactor = GetHorizonFactor(-SdotU);
+                     sunMoonMixer = max0(sunMoonMixer - 0.25) * 1.33333 * horizonFactor;
+--- euphoria/shaders/shaders.properties
++++ apocalypse-euphoria/shaders/shaders.properties
+@@ -570,6 +570,8 @@
+ 
+     #if MC_VERSION >= 12104
+     uniform.float.inPaleGarden = smooth(54, if(in(biome, BIOME_PALE_GARDEN), 1, 0), 15, 15)
++    #else
++    uniform.float.inPaleGarden=0.0
+     #endif
+ 
+     uniform.float.maxBlindnessDarkness=max(blindness, darknessFactor)

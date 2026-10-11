@@ -21,7 +21,16 @@ with zipfile.ZipFile(ROOT/'mods/protection_pixel-2.2.1-neoforge-1.21.1.jar') as 
   results=d.get('results',[d.get('result',{})]);out=results[0].get('id','')
   short=out.removeprefix(PP);gate=None;reason=[]
   if d!=original:reason.append('Correct legacy fluid ingredient serializer for NeoForge/Create 6')
-  if short in experimental:gate='creatingspace:moon_regolith';reason.append('Post-lunar material gate; no quest-only lock')
+  if short in experimental:
+   # Integrate lunar metal into native material positions; never append a token gate.
+   aluminum='immersiveengineering:plate_aluminum'
+   if short=='floatshield_chestplate':d['key']['D']={'item':aluminum}
+   elif short=='evasionwing':d['key']['A']={'item':aluminum}
+   else:
+    for step in d['sequence']:
+     for ing in step.get('ingredients',[]):
+      if ing.get('item')=='create:sturdy_sheet':ing['item']=aluminum
+   reason.append('Post-lunar aluminum plate substitution in native material slots; no added row or assembly step')
   elif short=='alloyarmorplate' or short=='steamectoskeleton':gate='powergrid:magnet';reason.append('Electric magnetization gate')
   elif short=='heatoverlockingmechanism':
    for step in d['sequence']:
@@ -75,10 +84,25 @@ with zipfile.ZipFile(ROOT/'mods/protection_pixel-2.2.1-neoforge-1.21.1.jar') as 
   values=[v for v in tags[tag] if v.removeprefix(PP) not in experimental]
   write(Path('kubejs/data/apocalypse_pp/tags/item')/(tag+'.json'),{'replace':False,'values':values})
 write(Path('docs/protection_pixel_recipe_changes.json'),changes)
+# User-approved eight-loop Echo process. Keep the transition separate from the basin input.
+transition='apocalypse_pp:incomplete_echo_plate'
+def echo_step(kind,extra=None):
+ ingredients=[{'item':transition}]
+ if extra is not None:ingredients.append(extra)
+ return {'type':'create:'+kind,'ingredients':ingredients,'results':[{'id':transition}]}
+def echo_fill(fluid,amount):return echo_step('filling',{'type':'neoforge:single','fluid':fluid,'amount':amount})
+write(Path('kubejs/data/apocalypse_pp/recipe/echo_plate_assembly.json'),{
+ 'type':'create:sequenced_assembly',
+ 'ingredient':{'type':'neoforge:components','items':'protection_pixel:alloyarmorplate','components':{'minecraft:damage':0},'strict':False},
+ 'loops':8,'transitional_item':{'id':transition},
+ 'sequence':[echo_fill('minecraft:lava',250),echo_step('pressing'),echo_fill('create_deep_dark:molten_echo',50),
+             echo_step('deploying',{'item':'minecraft:blaze_powder'}),echo_step('pressing'),echo_fill('minecraft:lava',250),
+             echo_step('deploying',{'item':'minecraft:diamond'}),echo_step('pressing')],
+ 'results':[{'id':'apocalypse_pp:unfinished_echo_plate'}]})
 write(Path('kubejs/data/apocalypse_pp/recipe/echo_plate.json'),{
- 'type':'create:mechanical_crafting','accept_mirrored':True,'pattern':['DED','DND','DTD',' U '],
- 'key':{'D':{'item':'minecraft:diamond'},'E':{'item':'create_deep_dark:echo_ingot'},'N':{'item':'minecraft:netherite_ingot'},'T':{'item':'create_deep_dark:echo_upgrade_smithing_template'},'U':{'item':'minecraft:netherite_upgrade_smithing_template'}},
- 'result':{'id':'apocalypse_pp:echo_plate','count':1}})
+ 'type':'create:compacting','heat_requirement':'heated',
+ 'ingredients':[{'item':'apocalypse_pp:unfinished_echo_plate'},{'item':'minecraft:echo_shard'},{'item':'minecraft:blaze_powder'}],
+ 'results':[{'id':'apocalypse_pp:echo_plate'}]})
 write(Path('kubejs/data/apocalypse_pp/recipe/reinforced_fiber_from_hemp.json'),{
  'type':'minecraft:crafting_shapeless',
  'ingredients':[{'item':'immersiveengineering:hemp_fabric'},{'item':'minecraft:quartz'},{'item':'minecraft:quartz'}],
@@ -99,5 +123,6 @@ print('Recipe overrides:',len(changes))
 
 # Keep native runtime recipe assertions aligned with generated overrides.
 checks=[dict(recipe=c['recipe'],output=c['output']) for c in changes]+[dict(recipe='apocalypse_pp:echo_plate',output='apocalypse_pp:echo_plate')]
+checks.append(dict(recipe='apocalypse_pp:echo_plate_assembly',output='apocalypse_pp:unfinished_echo_plate'))
 checks.append(dict(recipe='apocalypse_pp:reinforced_fiber_from_hemp',output='protection_pixel:reinforcedfiber'))
 write(Path('scripts/protection_pixel/resources/apocalypse_pp_recipe_checks.json'),checks)

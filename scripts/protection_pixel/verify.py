@@ -17,11 +17,19 @@ for c in changes:
   check(symbols==set(d['key']),c['recipe']+' recipe symbol integrity')
   check(len(set(map(len,d['pattern'])))==1,c['recipe']+' rectangular pattern')
  for reason in c['reason']:
-  if 'Post-lunar' in reason:check('creatingspace:moon_regolith' in json.dumps(d),c['recipe']+' lunar ingredient')
+  if 'Post-lunar' in reason:check('immersiveengineering:plate_aluminum' in json.dumps(d),c['recipe']+' lunar ingredient')
   if 'Electric magnetization' in reason:check('powergrid:magnet' in json.dumps(d),c['recipe']+' magnet ingredient')
-echo=json.loads((ROOT/'kubejs/data/apocalypse_pp/recipe/echo_plate.json').read_text());flat=''.join(echo['pattern'])
-check(flat.count('D')==6 and all(flat.count(c)==1 for c in 'ENTU'),'Echo plate material totals')
-check(not any('helmet' in str(x) or 'chestplate' in str(x) or 'leggings' in str(x) or 'boots' in str(x) for x in echo['key'].values()),'Echo plate never consumes armor')
+echo=json.loads((ROOT/'kubejs/data/apocalypse_pp/recipe/echo_plate.json').read_text())
+assembly=json.loads((ROOT/'kubejs/data/apocalypse_pp/recipe/echo_plate_assembly.json').read_text())
+check(echo['type']=='create:compacting' and echo['heat_requirement']=='heated','Echo heated basin finish')
+check(assembly['loops']==8 and len(assembly['sequence'])==8,'Echo eight loops of eight steps')
+check(assembly['ingredient']['components']=={'minecraft:damage':0},'Echo requires undamaged Alloy plate')
+check([x['type'] for x in assembly['sequence']]==['create:'+t for t in ['filling','pressing','filling','deploying','pressing','filling','deploying','pressing']],'Echo exact operation order')
+seq=assembly['sequence']
+check([seq[i]['ingredients'][1] for i in [0,2,5]]==[{'type':'neoforge:single','fluid':'minecraft:lava','amount':250},{'type':'neoforge:single','fluid':'create_deep_dark:molten_echo','amount':50},{'type':'neoforge:single','fluid':'minecraft:lava','amount':250}],'Echo exact fluids and quantities per loop')
+check(seq[3]['ingredients'][1]=={'item':'minecraft:blaze_powder'} and seq[6]['ingredients'][1]=={'item':'minecraft:diamond'},'Echo exact deployer ingredients per loop')
+check(echo['ingredients']==[{'item':'apocalypse_pp:unfinished_echo_plate'},{'item':'minecraft:echo_shard'},{'item':'minecraft:blaze_powder'}],'Echo exact basin ingredients')
+check(assembly['results']==[{'id':'apocalypse_pp:unfinished_echo_plate'}] and echo['results']==[{'id':'apocalypse_pp:echo_plate'}],'Echo deterministic intermediate and final output')
 chapters=[parse(f.read_text(encoding='utf-8-sig')) for f in (ROOT/'config/ftbquests/quests/chapters').glob('*.snbt')]
 quests=[q for c in chapters for q in c.get('quests',[])];ids=[q['id'] for q in quests]
 check(len(ids)==len(set(ids)),'quest IDs unique across all chapters')
@@ -71,6 +79,13 @@ for row in mapping:
  check(not any(term in ' '.join(row['text']).lower() for term in ['pending measurement','balance is provisional','invalid samples','stale upper-mode','never a substitute for a damage limit']),row['key']+' player-facing text')
  if row.get('previous_id')!=row['id']:
   check('quest.'+row['previous_id']+'.title' not in lang,row['key']+' no orphan original translation')
+
+for row in mapping:
+ if 'icon' in row:check(canonical_counts(byid[row['id']].get('icon'))==canonical_counts(row['icon']),row['key']+' explicit quest icon')
+ for task in byid[row['id']]['tasks']:
+  if task['type']=='advancement':
+   expected={'apocalypse_pp:powered_loadout':'protection_pixel:powerengine','apocalypse_pp:resonance':'apocalypse_pp:echo_plate'}
+   check(task.get('icon',{}).get('id')==expected[task['advancement']],row['key']+' meaningful advancement icon; no wheat fallback')
 
 print('PASS',len(checks),'static assertions;',len(quests),'total quests')
 (ROOT/'docs/protection_pixel_static_tests.json').write_text(json.dumps({'passed':len(checks),'quest_count':len(quests),'checks':checks},indent=2)+'\n')

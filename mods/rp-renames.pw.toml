@@ -1,0 +1,8 @@
+name = "RP Renames"
+filename = "RPRenames-1.21.1-0.9.2.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/TheFafalStudios/Apocalypse-Industries/v1.2/mods/RPRenames-1.21.1-0.9.2.jar"
+hash-format = "sha256"
+hash = "324e35e02f44e728ef745fbd7c0bd519c4873078555fb0194d18d8b809ba08f6"

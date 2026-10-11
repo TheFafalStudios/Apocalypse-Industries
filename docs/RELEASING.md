@@ -7,7 +7,7 @@ The live ATLauncher instance is the development source. Build outputs and resear
 3. Update VERSION and pack.toml to the same release label, and prepare CHANGELOG.md. Preserve current release documentation and CI scripts when overlaying generated payloads into a separate Git checkout.
 4. Run `python scripts/validate_distribution.py` from the release checkout. Build the launcher ZIP with scripts/Build-ATLauncherBootstrap.ps1.
 5. Test fresh installations and existing-install updates as practical, then publish the reviewed commit and version tag. The bootstrap tracks main, so each published main manifest becomes the client update source.
-6. After a successful push changing the distributed Packwiz manifest, ask the exact prominent confirmation from AGENTS.md before updating the local server twin or making its deployment packet.
+6. Follow AGENTS.md and docs/SERVER_RELEASES.md for aligned client/server deployment. If only one side was requested, confirm updating the other before publication; if both were requested, continue without post-push reconfirmation. Record any explicitly agreed temporary mismatch. Deployment records are mandatory; ZIP packets are optional.
 
 The generated options.txt contains only portable resource-pack defaults and is marked preserve=true. Existing players keep their preferences. Never distribute worlds, Distant Horizons generated data, credentials or player histories.
 

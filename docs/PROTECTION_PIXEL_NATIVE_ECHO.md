@@ -11,7 +11,7 @@ Echo has Alloy's configured armor/toughness/weight (currently 1.5/1.0/1.5) and 1
 
 Float Shield and Link Plate armor now have the missing native fitting/protection tags. This enables other ordinary plates too. Capacities remain native: helmet 2, chest 5, legs 4, boots 2. Combined combat balance, particularly Float Shield plating, remains a follow-up.
 
-The recipe and approved texture are unchanged. The old main-hand/offhand attachment interaction is removed. Old attachment markers are not converted and no longer grant resonance. A full client/server restart is required for the updated addon.
+The approved texture is unchanged. The recipe was replaced on 2026-09-24 by eight assembly loops from an undamaged Alloy Plate, followed by heated compacting; see ECHO_PLATE_RECIPE.md. The old main-hand/offhand attachment interaction is removed. Old attachment markers are not converted and no longer grant resonance. A full client/server restart is required for the updated addon.
 
 ## Validation
 - 445 structural assertions passed.

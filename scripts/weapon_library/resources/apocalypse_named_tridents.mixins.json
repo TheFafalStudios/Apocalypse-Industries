@@ -1,0 +1,1 @@
+{"required": true, "minVersion": "0.8", "package": "apocalypse.tridents.mixin", "compatibilityLevel": "JAVA_21", "client": ["TridentItemRendererMixin", "ThrownTridentRendererMixin", "PolytoneNameGuardMixin", "SpearModelShaperMixin"], "injectors": {"defaultRequire": 1}}

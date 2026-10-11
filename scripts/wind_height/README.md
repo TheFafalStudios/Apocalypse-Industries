@@ -36,7 +36,7 @@ One BlockPos allocation and positional query per existing ship-wind evaluation. 
 - Startup emitted client-class distribution diagnostics from the dependency stack but continued successfully. The test does not establish a warning-free full pack.
 - Ship motion, storms, obstruction in flight, full-pack interactions and performance under many moving ships still require gameplay testing.
 
-Initial prototype validation did not install or deploy the addon. Pack v1.1.11 publishes this prototype for client and server use; deployment and activation evidence lives in the separate release record. Production worlds were not accessed. The original prototype is packaged under `Q:/GPT General/wind-height-prototype-0.1.0/`.
+Nothing was installed in the WIP mods directory, published, uploaded or restarted. Production worlds were not accessed. The prototype is separately packaged under `Q:/GPT General/wind-height-prototype-0.1.0/`.
 
 ## Rebuild and test
 

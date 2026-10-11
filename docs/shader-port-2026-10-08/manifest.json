@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-08",
+  "base": "Complementary Unbound r5.8.1",
+  "euphoria": "1.9.3",
+  "source": "APOCALYPSE_ATMOSPHERE_v1.1_PARSEFIX_TESTED",
+  "output": "ComplementaryUnbound_r5.8.1_EuphoriaPatches_1.9.3_APOCALYPSE_ATMOSPHERE_v1.1.zip",
+  "modified_euphoria_files": [
+    "shaders/lib/atmospherics/fog/mainFog.glsl",
+    "shaders/lib/atmospherics/sky.glsl",
+    "shaders/lib/atmospherics/stars.glsl",
+    "shaders/lib/colors/cloudColors.glsl",
+    "shaders/lib/colors/skyColors.glsl",
+    "shaders/lib/shaderSettings/clouds.glsl",
+    "shaders/lib/shaderSettings/composite1.glsl",
+    "shaders/lib/shaderSettings/stars.glsl",
+    "shaders/program/gbuffers_skybasic.glsl",
+    "shaders/shaders.properties"
+  ],
+  "validation": "static checks passed; no Iris compilation or gameplay test",
+  "base_tar_sha256": "b73e323a886fe9f67df2c38528ce77e2d73e0af7d0dd30515b516b59e249df24",
+  "base_tar_matches_official_expected": true,
+  "hashes": {
+    "shaderpacks\\ComplementaryUnbound_r5.8.1.zip": "bb89b1fc54687d4147a837fb2e3c3f7261a13bee51819761e9b6a91cb7915965",
+    "shaderpacks\\ComplementaryUnbound_r5.8.1_APOCALYPSE_ATMOSPHERE_v1.1_PARSEFIX_TESTED.zip": "f7204273897b8919e7795811240ebcb094e137261b37715beb29d86d377e5a22",
+    ".local\\shader-port-2026-10-08\\EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar": "9ff48c18cb5fd3425a6c15b16ce16656d6419fdb695e662d9a3cbe5604c40563",
+    "shaderpacks\\ComplementaryUnbound_r5.8.1_EuphoriaPatches_1.9.3_APOCALYPSE_ATMOSPHERE_v1.1.zip": "b087a29f3d9cc9e96772a1a00473bba76f245dfc0a36917021288e807941380a"
+  },
+  "settings_copied_from": "ComplementaryUnbound_r5.8.1_APOCALYPSE_ATMOSPHERE_v1.1_PARSEFIX_TESTED.zip.txt",
+  "added_client_mod": "mods/EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar",
+  "activation": "Current Iris selection and enableShaders=false preserved"
+}

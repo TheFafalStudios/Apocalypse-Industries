@@ -823,10 +823,10 @@
 		}
 		{
 			rewards: [{"id": "069EEA33E3836940", "type": "item", "item": {"id": "protection_pixel:ironarmorplate", "count": 1}, "count": 2, "team_reward": true}]
-			dependencies: ["588D4ADEDFB08661"]
+			dependencies: ["634819F7295E2312"]
 			id: "5036106AC24B4475"
 			optional: true
-			tasks: [{"consume_items": false, "id": "38B15D779F6C5B36", "item": {"components": {"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(apocalypse_pp:brass)"}, "count": 1, "id": "ftbfiltersystem:smart_filter"}, "type": "item"}, {"id": "4391C3656C710DCE", "type": "advancement", "advancement": "apocalypse_pp:powered_loadout", "criterion": ""}]
+			tasks: [{"consume_items": false, "id": "38B15D779F6C5B36", "item": {"components": {"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(apocalypse_pp:brass)"}, "count": 1, "id": "ftbfiltersystem:smart_filter"}, "type": "item"}, {"id": "4391C3656C710DCE", "type": "advancement", "advancement": "apocalypse_pp:powered_loadout", "criterion": "", "icon": {"id": "protection_pixel:powerengine", "count": 1}}]
 			x: -4.0d
 			y: 6.0d
 		}

@@ -36,6 +36,7 @@ for chapter in dict.fromkeys(r['chapter'] for r in rows):
    assert all(x['id'] in {d['id'] for d in desired} for x in obj.get(key,[])),'Refusing to remove live '+key
    if canonical_counts(obj.get(key,[]))!=canonical_counts(desired):new=field(new,key,desired)
   if obj.get('dependencies',[])!=row['parent_ids']:new=field(new,'dependencies',row['parent_ids'])
+  if 'icon' in row and obj.get('icon')!=row['icon']:new=field(new,'icon',row['icon'])
   check=parse(new)
   assert check['id']==obj['id'] and check.get('x')==obj.get('x') and check.get('y')==obj.get('y')
   s=s[:m.start()]+new+s[m.end():]

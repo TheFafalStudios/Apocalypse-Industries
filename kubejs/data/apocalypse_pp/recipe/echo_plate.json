@@ -1,31 +1,20 @@
 {
-  "type": "create:mechanical_crafting",
-  "accept_mirrored": true,
-  "pattern": [
-    "DED",
-    "DND",
-    "DTD",
-    " U "
-  ],
-  "key": {
-    "D": {
-      "item": "minecraft:diamond"
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "apocalypse_pp:unfinished_echo_plate"
     },
-    "E": {
-      "item": "create_deep_dark:echo_ingot"
+    {
+      "item": "minecraft:echo_shard"
     },
-    "N": {
-      "item": "minecraft:netherite_ingot"
-    },
-    "T": {
-      "item": "create_deep_dark:echo_upgrade_smithing_template"
-    },
-    "U": {
-      "item": "minecraft:netherite_upgrade_smithing_template"
+    {
+      "item": "minecraft:blaze_powder"
     }
-  },
-  "result": {
-    "id": "apocalypse_pp:echo_plate",
-    "count": 1
-  }
+  ],
+  "results": [
+    {
+      "id": "apocalypse_pp:echo_plate"
+    }
+  ]
 }

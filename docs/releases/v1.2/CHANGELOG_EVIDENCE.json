@@ -1,0 +1,45 @@
+{
+  "baseline": "v1.1 (2026-09-23)",
+  "target": "pending v1.2",
+  "scope": "Major cumulative changelog only; no runtime payload, version marker, deployment or publication changes",
+  "already_released_sources": {
+    "v1.1.1-v1.1.4": "versions/v1.1.4/DEPLOYMENT.md; v1.1.3/SERVER_CHANGELOG.md",
+    "v1.1.5": "versions/v1.1.5/DEPLOYMENT.md and CHANGES.json (armor immunity rollback supersedes v1.1.4)",
+    "v1.1.6-v1.1.15": "Historical entries in root CHANGELOG.md; corresponding immutable release records"
+  },
+  "queued_sources": [
+    "docs/releases/v1.2/WEAPON_LIBRARY.md",
+    "docs/BETTER_COMBAT.md",
+    "docs/MACE_VISUALS.md (latest phase-offset follow-up; addon 1.0.2 present locally)",
+    "docs/ECHO_PLATE_RECIPE.md",
+    "docs/protection_pixel_aluminum_followup.md (revised ingredient replacement supersedes token substitution)",
+    "docs/PROTECTION_PIXEL_JEI_FIX.md",
+    "docs/PROTECTION_PIXEL_QUEST_REVIEW_2026-10-10.md (completed refinements through 2026-10-11)",
+    "docs/WEATHER2COMPAT_PARTICLE_STORM_FIX.md"
+  ],
+  "pending_evidence": "Compared local Echo assembly/finishing recipes, PP addon 1.1.1 and Space quest chapter against captured published v1.1.15 index; new/different local payload remains queued",
+  "not_new_since_v1_1": [
+    "Initial Protection Pixel/native Echo fitting and resonance",
+    "Retired ocean-wave removal",
+    "Surface-only additional zombie spawning",
+    "Original v1 atmosphere/parser-fix shader"
+  ],
+  "excluded_release_claims": [
+    "Temporary armor Poison immunity",
+    "Deferred mace Better Combat downswing redesign",
+    "Uninstalled candidate Aeronautics/Deep Seas/DH upgrades",
+    "Euphoria sky-history candidate GPU validation",
+    "Endgame/nuclear integration completion"
+  ],
+  "prepared_at": "2026-10-11T19:52:08.156548",
+  "record": "Q:\\Other Games\\ATLauncher\\servers\\Apocalypse Industries versions\\v1.2\\attempts\\changelog-20261011-195208",
+  "combat_mace_followup": {
+    "date": "2026-10-11",
+    "user_confirmation": "all is well now",
+    "confirms": "Final local Wind Burst animation after third-band phase offset",
+    "component_notes": "docs/releases/v1.2/COMBAT_AND_MACE.md",
+    "record": "Q:\\Other Games\\ATLauncher\\servers\\Apocalypse Industries versions\\v1.2\\attempts\\combat-mace-20261011-195344",
+    "publication_prerequisite": "Improved Mace Hammer redistribution permission unresolved",
+    "broader_validation": "Pending combined client/server and fresh-install/update checks"
+  }
+}

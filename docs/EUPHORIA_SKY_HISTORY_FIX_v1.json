@@ -1,0 +1,30 @@
+{
+  "source": "ComplementaryUnbound_r5.8.1_EuphoriaPatches_1.9.3_APOCALYPSE_ATMOSPHERE_v1.1.zip",
+  "source_sha256": "b087a29f3d9cc9e96772a1a00473bba76f245dfc0a36917021288e807941380a",
+  "candidate": "ComplementaryUnbound_r5.8.1_EuphoriaPatches_1.9.3_APOCALYPSE_ATMOSPHERE_v1.1_SKY_HISTORY_FIX_v1_TEST.zip",
+  "candidate_sha256": "a74b0c4dd640477bc3146eb3b3a44145fa7ab1081947c183e52c8a14ee437109",
+  "changes": {
+    "shaders/lib/antialiasing/taa.glsl": {
+      "before": "7f41051ace753026a239ad95f67dc737478fe7cc6f8feb050bd0d7f4f80be61f",
+      "after": "cc73d955a9a05e7ec26f1d2373958be2594a00967f73fbf48b75ded1106aa33c"
+    },
+    "shaders/program/composite6.glsl": {
+      "before": "3f975765715913bef42a735df7cfc7ad31e9503ef5c065aba9f60d37e230d8ee",
+      "after": "0f26c76603c9e2893d532c6d7795791bba141580b65b00d0642519f1a424091c"
+    }
+  },
+  "validation": "ZIP CRC and full entry comparison passed. GPU compilation and gameplay not tested.",
+  "limitations": [
+    "Categorical visibility history, not full previous-depth reconstruction",
+    "Conservative rejection can shimmer at silhouettes",
+    "Additional texture fetches may cost GPU time",
+    "Particles without depth or material coverage can still trail",
+    "Long exposure and Renko cut intentionally bypass the experiment"
+  ],
+  "cpu_regression_tests": {
+    "run": 9,
+    "failures": 0,
+    "errors": 0,
+    "scope": "CPU reference scenarios and source/archive checks; not GLSL execution"
+  }
+}

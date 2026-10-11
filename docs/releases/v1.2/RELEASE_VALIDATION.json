@@ -1,0 +1,16 @@
+{
+  "version": "v1.2",
+  "indexedFiles": 1740,
+  "jsonPackDefinitionsParsed": 581,
+  "serverScriptSyntax": "passed",
+  "portablePackSelections": "passed",
+  "weaponLibraryZipIntegrity": "passed",
+  "zombieArmorMockAssertions": 230,
+  "protectionPixelStaticAssertions": 455,
+  "priorCombatNativeAssertions": 667,
+  "finalMaceAnimation": "user-confirmed",
+  "fullPackFreshInstallAndMultiplayerGameplay": "not performed",
+  "remoteActivation": "pending user restart",
+  "published": false,
+  "deployed": false
+}

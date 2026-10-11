@@ -1,0 +1,8 @@
+name = "Apocalypse Named Weapon Rendering"
+filename = "apocalypse-named-trident-rendering-1.3.2.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/TheFafalStudios/Apocalypse-Industries/v1.2/mods/apocalypse-named-trident-rendering-1.3.2.jar"
+hash-format = "sha256"
+hash = "5eab0549ad5bf47f760b98d5a66aa39dac2c9200b1f6f92d62c70065edb4e531"

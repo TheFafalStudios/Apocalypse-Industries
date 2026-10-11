@@ -10,11 +10,12 @@ SERVER=LAUNCHER/'servers/Chunkserve - Apocalypse Industries/libraries'
 BUILD=HERE/'build';BUILD.mkdir(exist_ok=True)
 classes=BUILD/'classes';classes.mkdir(exist_ok=True)
 cp=[LIB/'net/neoforged/neoforge/21.1.248/neoforge-21.1.248-client.jar',LIB/'net/neoforged/neoforge/21.1.248/neoforge-21.1.248-universal.jar',ROOT/'mods/protection_pixel-2.2.1-neoforge-1.21.1.jar']
+cp.append(ROOT/'mods/create-1.21.1-6.0.10.jar')
 cp += [p for p in SERVER.rglob('*.jar') if 'neoforge-21.' not in p.name]
 args=['--release','21','-proc:none','-classpath',';'.join(map(str,cp)),'-d',str(classes)]+[str(p) for p in (HERE/'src').rglob('*.java')]
 argfile=BUILD/'javac.args';argfile.write_text('\n'.join('"'+s.replace('\\','/')+'"' for s in args),encoding='utf8')
 subprocess.run([str(JAVA),'@'+str(argfile)],check=True,cwd=ROOT)
-artifact=ROOT/'mods/apocalypse-protection-pixel-integration-1.1.jar'
+artifact=ROOT/'mods/apocalypse-protection-pixel-integration-1.1.1.jar'
 with zipfile.ZipFile(artifact,'w',zipfile.ZIP_DEFLATED) as z:
  for folder in [classes,HERE/'resources']:
   for f in sorted(folder.rglob('*')):
