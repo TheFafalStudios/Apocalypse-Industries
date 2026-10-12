@@ -6393,11 +6393,6 @@ hash = "bf8adbf40304c71cfe271cde1aa9ed1e1c45565a7e661cb5d822bbf7b9426f1d"
 metafile = true
 
 [[files]]
-file = "mods/create-copyfoxes.pw.toml"
-hash = "29ec5fa2d5100cc29464cb9cbc06074d1a275763bf59709830eec737c34843e9"
-metafile = true
-
-[[files]]
 file = "mods/create-enchantment-industry-2.5.3b.jar"
 hash = "02b6bae86ca2f33dc11c8af34324c6c484f1febc6649ec6b04936451590785c1"
 
@@ -7196,3 +7191,7 @@ hash = "532a8e930427821d506435a54e1a606c08d0ff8fdcc9ca016801cb2b0db7af59"
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.8.1_APOCALYPSE_ATMOSPHERE_v1.1_PARSEFIX_TESTED.zip"
 hash = "f7204273897b8919e7795811240ebcb094e137261b37715beb29d86d377e5a22"
+[[files]]
+file = "mods/create-copycats-plus-additions.pw.toml"
+hash = "b43da77abe8e4e4c3b1adc7812d73bbb82ed51f33700e6e8a83efe53cedde2d5"
+metafile = true

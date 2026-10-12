@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.3.1 — 2026-10-12
+
+- Replace Create: Copyfoxes 2.0.0 with Create: Copycats Plus Additions 1.5.0 on client and dedicated server.
+- Keep Copycats+ 3.0.4, Create 6.0.10, Sable 2.0.3 and NeoForge 21.1.248. The replacement's declared dependency ranges accept these versions.
+- Add inner/outer corner slopes, layered corner slopes and wall-mountable slope layers. The addon supplies Sable physics data and moving-sublevel rendering compatibility.
+- The mods use different block IDs; existing Copyfoxes blocks/items are not automatically converted. No world or schematic files are included or modified by deployment.
+- Distribution and deployed hashes are verified separately from gameplay. Server activation requires a user-managed restart; combined gameplay remains untested.
+
 ## v1.3 — 2026-10-12
 
 - Add Axiom 6.1.3 through the existing Connector/Forgified Fabric API stack. Dedicated servers start with Axiom disabled; permission-level-4 operators can enable or disable it with `/axiomserver enable|disable` and inspect `/axiomserver status`. Enabling preserves native permissions and licensing; restart resets to disabled.

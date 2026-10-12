@@ -1,0 +1,13 @@
+name = "Create: Copycats Plus Additions"
+filename = "copycats-plus-additions-1.5.0-neo.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/9008/763/copycats-plus-additions-1.5.0-neo.jar"
+hash-format = "sha256"
+hash = "eaf0d3b5e0cc614207e7719780b8a18599b476094e6442ab6866bb9fc537f663"
+
+[update]
+[update.curseforge]
+file-id = 9008763
+project-id = 1642117
