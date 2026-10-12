@@ -63,3 +63,7 @@ Protection Pixel integration now uses public addon version 1.1.
 ## Nuclear progression decision (2026-10-03)
 
 Future Create Nuclear / Nuclear Radiation integration must gate nuclear reactor construction behind aluminum (aluminium), making reactors Space Age technology. Integrate nuclear progression with the planned endgame expansion. This is a confirmed design constraint, not an instruction to install mods or implement recipes now. Exact recipes, costs, radiation balance and endgame dependencies remain undecided; preserve the user's control over those details.
+
+## Axiom server editing decision (2026-10-12)
+
+The user approved an addon replacing the earlier blanket prohibition: Axiom must start disabled on dedicated servers, with explicit operator enable/disable commands. Use `/axiomserver enable`, `/axiomserver disable` and `/axiomserver status`; enabling is session-only and every restart resets to disabled. Preserve normal Axiom permissions/licensing and local singleplayer use. Do not persist enabled state or silently enable editing during deployment. See docs/AXIOM_SERVER_CONTROL.md. Server restarts/reloads remain user-managed.

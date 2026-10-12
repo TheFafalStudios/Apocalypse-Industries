@@ -1,0 +1,8 @@
+name = "Apocalypse Studious Native Key Compatibility"
+filename = "apocalypse-studious-native-keys-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/TheFafalStudios/Apocalypse-Industries/main/mods/apocalypse-studious-native-keys-1.0.0.jar"
+hash-format = "sha256"
+hash = "1b100c0fa87a753633f2601761c966a14b31feaaba8982b966bfe4adc2d7dc38"

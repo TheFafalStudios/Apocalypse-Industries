@@ -1,0 +1,13 @@
+name = "Studious Keybinds"
+filename = "studious-keybinds-fabric-1.21.1-1.0.8-beta.1.jar"
+side = "client"
+
+[download]
+url = "https://edge.forgecdn.net/files/9106/887/studious-keybinds-fabric-1.21.1-1.0.8-beta.1.jar"
+hash-format = "sha256"
+hash = "1662657baf9c5670b37f1cbab61340627164a1b833a1c2d30363490d47589fef"
+
+[update]
+[update.curseforge]
+project-id = 1731572
+file-id = 9106887

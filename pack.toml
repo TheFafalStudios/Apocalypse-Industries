@@ -1,12 +1,12 @@
 name = "Apocalypse Industries"
 author = "TheFafalStudios"
-version = "v1.2"
+version = "v1.3"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "4555de43c0db50d694fa6372b33514bc219115a8269571da34ede00adf13f99b"
+hash = "103f7ccd49570878ec989675d3ac37f1da66bf4d0bd9dfda315efd7ed4cb1ef2"
 
 [versions]
 minecraft = "1.21.1"

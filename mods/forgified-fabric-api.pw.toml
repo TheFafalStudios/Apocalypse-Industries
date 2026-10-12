@@ -1,6 +1,6 @@
 name = "Forgified Fabric API"
 filename = "forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar"
-side = "client"
+side = "both"
 
 [download]
 url = "https://raw.githubusercontent.com/TheFafalStudios/Apocalypse-Industries/v1.2/mods/forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar"

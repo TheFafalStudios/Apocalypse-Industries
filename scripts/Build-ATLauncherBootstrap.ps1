@@ -37,5 +37,11 @@ PreLaunchCommand="$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.g
     Compress-Archive -Path (Join-Path $stage '*') -DestinationPath $output -CompressionLevel Optimal
     Write-Output $output
 } finally {
-    if (Test-Path -LiteralPath $stage) { Remove-Item -LiteralPath $stage -Recurse -Force }
+    $resolvedStage = [IO.Path]::GetFullPath($stage)
+    $resolvedTemp = [IO.Path]::GetFullPath($env:TEMP).TrimEnd('\')
+    if ([IO.Path]::GetDirectoryName($resolvedStage) -ne $resolvedTemp -or
+        [IO.Path]::GetFileName($resolvedStage) -notmatch '^apocalypse-atlauncher-[0-9a-f]{32}$') {
+        throw 'Refusing cleanup outside the generated bootstrap staging directory'
+    }
+    if (Test-Path -LiteralPath $resolvedStage) { Remove-Item -LiteralPath $resolvedStage -Recurse -Force }
 }

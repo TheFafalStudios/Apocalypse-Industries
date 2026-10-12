@@ -1,0 +1,13 @@
+{
+  "version": "v1.3",
+  "indexed_files": 1746,
+  "metadata_download_hashes": "verified against installed jars",
+  "axiom_minimal_checks": 267,
+  "axiom_full_server_checks": 267,
+  "official_packet_ids": 40,
+  "server_existing_mods": 200,
+  "server_additions": 4,
+  "source_gameplay_worlds_touched": false,
+  "multiplayer_editing_tested": false,
+  "licensing_bypassed": false
+}

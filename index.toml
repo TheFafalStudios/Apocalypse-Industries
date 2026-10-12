@@ -6174,6 +6174,11 @@ file = "mods/apocalypse-attachment-removal-1.0.0+mc1.21.1.jar"
 hash = "3b08f3d3ddadf899f122ed070030197406ef6d81be936de9221bbfd41898223d"
 
 [[files]]
+file = "mods/apocalypse-axiom-control.pw.toml"
+hash = "55d43c2c3815f4fd7dbab6ba43c3e2977d9066bc738d118036213391be5f2895"
+metafile = true
+
+[[files]]
 file = "mods/apocalypse-combat-scope-1.0.1.pw.toml"
 hash = "bdd45d24725a9e4115e6202afbd78961edf35be8bc549c86fb68a34a8b2b49f6"
 metafile = true
@@ -6195,6 +6200,11 @@ file = "mods/apocalypse-importer-safety-fix-1.0.0.jar"
 hash = "e462669c88fbb75703f737fa88a1f4ab9fa912894a5fae766f0ffef2a4a707ca"
 
 [[files]]
+file = "mods/apocalypse-l2-serial-fix.pw.toml"
+hash = "254715dc5fe1aedbdad006bb7c9aaa760743f1d5d4438b14671d4e0b2587437f"
+metafile = true
+
+[[files]]
 file = "mods/apocalypse-mace-visuals-1.0.2.pw.toml"
 hash = "367b19444ff4884a2cd11d86a6d095844f8b0024ac5a8754c72756565a7aec59"
 metafile = true
@@ -6209,8 +6219,18 @@ hash = "3c94cf42c50eba5a63623783c9283aa9d851bc4e574f882059fd0a56b56f28b8"
 metafile = true
 
 [[files]]
+file = "mods/apocalypse-phantom-reload-guard.pw.toml"
+hash = "41c1f2fefac88347d69612856e454332995f0be91c9ff26c2208faa534d9225a"
+metafile = true
+
+[[files]]
 file = "mods/apocalypse-protection-pixel-integration-1.1.1.jar"
 hash = "54fc90834381bd2bfa74e1cb8dc38e00fba542140e1d7f4a13d19e17aa93cad2"
+
+[[files]]
+file = "mods/apocalypse-studious-native-keys.pw.toml"
+hash = "4756683409dbe293b43800ab51e9a84b6ba2424852eb5d5bbfbd1ad80ddcd02b"
+metafile = true
 
 [[files]]
 file = "mods/apocalypse-weather2-chunksafety-fix-1.0.0.jar"
@@ -6242,6 +6262,11 @@ metafile = true
 [[files]]
 file = "mods/armor-poser.pw.toml"
 hash = "587f55e82760cdcd862f649fab5ea9fec84c8eb3226729cb58b7fce863400c9d"
+metafile = true
+
+[[files]]
+file = "mods/axiom.pw.toml"
+hash = "f4416548ffa67db3db009f086d8ce53433b8aabbd6e16c83889b391d9bc6348b"
 metafile = true
 
 [[files]]
@@ -6560,7 +6585,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
-hash = "39655d9d0a743673f5f4da59461a2d9c71ded161c47f4029b2c6cdcd0e5ebd57"
+hash = "c79aac195516e8bd9159dac110b20d8372928ff34b21eed003245a3c60262079"
 metafile = true
 
 [[files]]
@@ -6917,7 +6942,7 @@ metafile = true
 
 [[files]]
 file = "mods/sinytra-connector.pw.toml"
-hash = "5a5d629b1070fb39b2aea842d91571734bbf75dd984d21c2eab13bacfc13c16f"
+hash = "8e82d02798b8302e01d4a49fd74f18200df9c453e43fe966f699bc3532d33bdd"
 metafile = true
 
 [[files]]
@@ -6973,6 +6998,11 @@ metafile = true
 [[files]]
 file = "mods/structurify-neoforge-2.0.35-mc1.21.1.pw.toml"
 hash = "67682f246a19e6630c668dc119334e55d132c836d3bf2857e3a70877ad7041f9"
+metafile = true
+
+[[files]]
+file = "mods/studious-keybinds.pw.toml"
+hash = "a37f6b8a3712d7dae658826dbaceeb7014091c0b22a6cfccafb3532559035a0c"
 metafile = true
 
 [[files]]
@@ -7166,9 +7196,3 @@ hash = "532a8e930427821d506435a54e1a606c08d0ff8fdcc9ca016801cb2b0db7af59"
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.8.1_APOCALYPSE_ATMOSPHERE_v1.1_PARSEFIX_TESTED.zip"
 hash = "f7204273897b8919e7795811240ebcb094e137261b37715beb29d86d377e5a22"
-
-
-[[files]]
-file = "mods/apocalypse-l2-serial-fix.pw.toml"
-hash = "254715dc5fe1aedbdad006bb7c9aaa760743f1d5d4438b14671d4e0b2587437f"
-metafile = true
