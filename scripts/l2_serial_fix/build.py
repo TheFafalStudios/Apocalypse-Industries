@@ -1,4 +1,4 @@
-"""Build the pinned client-side L2 codec compatibility addon; does not install it."""
+"""Build the pinned common-side L2 codec compatibility addon; does not install it."""
 from pathlib import Path
 import argparse, hashlib, json, os, subprocess, zipfile
 HERE=Path(__file__).resolve().parent
@@ -20,11 +20,11 @@ args=['--release','21','-proc:none','-classpath',os.pathsep.join(map(str,dict.fr
 argfile=out/'javac.args';argfile.write_text('\n'.join('"'+s.replace('\\','/')+'"' for s in args))
 java=launcher/'runtimes/minecraft/java-runtime-delta/windows-x64/java-runtime-delta/bin/javac.exe'
 subprocess.run([str(java),'@'+str(argfile)],check=True)
-artifact=out/'apocalypse-l2-serial-fix-1.0.0.jar'
+artifact=out/'apocalypse-l2-serial-fix-1.1.0.jar'
 with zipfile.ZipFile(artifact,'w',zipfile.ZIP_DEFLATED) as z:
  for folder,prefix in [(classes,''),(HERE/'resources',''),(HERE/'src','sources/')]:
   for f in sorted(folder.rglob('*')):
    if f.is_file():
-    info=zipfile.ZipInfo(prefix+f.relative_to(folder).as_posix(),(2026,10,11,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;z.writestr(info,f.read_bytes())
-report={'artifact':str(artifact),'sha256':hashlib.sha256(artifact.read_bytes()).hexdigest(),'target_l2library_sha256':EXPECTED,'side':'client','server_payload':'existing NBT/name encoding; unchanged'}
+    info=zipfile.ZipInfo(prefix+f.relative_to(folder).as_posix(),(2026,10,16,0,0,0));info.compress_type=zipfile.ZIP_DEFLATED;z.writestr(info,f.read_bytes().replace(b'\r\n',b'\n'))
+report={'artifact':str(artifact),'sha256':hashlib.sha256(artifact.read_bytes()).hexdigest(),'target_l2library_sha256':EXPECTED,'side':'both','server_payload':'forced NBT/name encoding; requires user-managed server restart'}
 (out/'build.json').write_text(json.dumps(report,indent=2)+'\n');print(json.dumps(report,indent=2))

@@ -1,8 +1,8 @@
 name = "Apocalypse L2 Serial Compatibility Fix"
-filename = "apocalypse-l2-serial-fix-1.0.0.jar"
-side = "client"
+filename = "apocalypse-l2-serial-fix-1.1.0.jar"
+side = "both"
 
 [download]
-url = "https://raw.githubusercontent.com/TheFafalStudios/Apocalypse-Industries/main/mods/apocalypse-l2-serial-fix-1.0.0.jar"
+url = "https://raw.githubusercontent.com/TheFafalStudios/Apocalypse-Industries/main/mods/apocalypse-l2-serial-fix-1.1.0.jar"
 hash-format = "sha256"
-hash = "89139bb363e4ef3427ae0b7500e452b86945cbb5cd29e5af829f937e0203347f"
+hash = "3799fbf94f358dc6fde28f6f2167799f36081fb813f94d6d5e522ed06e4a0ed8"

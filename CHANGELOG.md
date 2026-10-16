@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.3.2 — 2026-10-16
+
+- Force matching L2 Serial name/NBT registry encoding on both client and dedicated server with compatibility addon 1.1.0. The old client-only override could fail when the server selected numeric IDs after startup.
+- Replace addon 1.0.0 on clients and add 1.1.0 on servers; keep the upstream L2Library unchanged. No config, recipe, world or schematic changes.
+- Server activation requires a user-managed restart. Captured-packet and static distribution checks are distinct from multiplayer validation after activation.
+
 ## v1.3.1 — 2026-10-12
 
 - Replace Create: Copyfoxes 2.0.0 with Create: Copycats Plus Additions 1.5.0 on client and dedicated server.

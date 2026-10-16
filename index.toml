@@ -6201,7 +6201,7 @@ hash = "e462669c88fbb75703f737fa88a1f4ab9fa912894a5fae766f0ffef2a4a707ca"
 
 [[files]]
 file = "mods/apocalypse-l2-serial-fix.pw.toml"
-hash = "254715dc5fe1aedbdad006bb7c9aaa760743f1d5d4438b14671d4e0b2587437f"
+hash = "e77b01cb3e67749ebdff70e8821907cd98a5904759229f153ba5ffa1d050d438"
 metafile = true
 
 [[files]]
