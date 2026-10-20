@@ -1,0 +1,8 @@
+name = "Apocalypse Submarine and Vortex Shader Bridge"
+filename = "apocalypse-submarine-lava-visuals-1.1.2.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/TheFafalStudios/Apocalypse-Industries/main/mods/apocalypse-submarine-lava-visuals-1.1.2.jar"
+hash-format = "sha256"
+hash = "4ceaf0656df6d013d810cea10b7c467dd9ea6a9d4abed985dc3af3d08cbb0868"

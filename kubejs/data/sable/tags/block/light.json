@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#immersiveengineering:treated_wood",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:treated_post",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:treated_scaffold",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:wooden_barrel",
+      "required": false
+    }
+  ]
+}

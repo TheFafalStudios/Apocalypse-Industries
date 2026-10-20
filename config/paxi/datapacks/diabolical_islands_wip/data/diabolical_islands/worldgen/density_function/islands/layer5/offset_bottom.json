@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "diabolical_islands:islands/layer5/noise",
+        "points": [
+          {
+            "location": 0,
+            "value": 0,
+            "derivative": 3.757
+          },
+          {
+            "location": 0.7,
+            "derivative": 0,
+            "value": 0.9875
+          }
+        ]
+      }
+    }
+  }
+}

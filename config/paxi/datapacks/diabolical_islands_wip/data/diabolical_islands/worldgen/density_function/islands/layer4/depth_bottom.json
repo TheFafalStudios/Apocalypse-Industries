@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:min",
+    "argument1": "diabolical_islands:islands/layer4/offset_bottom",
+    "argument2": "diabolical_islands:islands/layer4/offset_top"
+  },
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": -1,
+    "argument2": {
+      "type": "minecraft:square",
+      "argument": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": 256,
+        "to_y": 280,
+        "from_value": -1,
+        "to_value": 0
+      }
+    }
+  }
+}

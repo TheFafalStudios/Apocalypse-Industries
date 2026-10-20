@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:add",
+  "argument1": -0.55,
+  "argument2": {
+    "type": "minecraft:shifted_noise",
+    "noise": "diabolical_islands:islands",
+    "xz_scale": 1.15,
+    "y_scale": 0,
+    "shift_x": 0,
+    "shift_y": 0,
+    "shift_z": 0
+  }
+}

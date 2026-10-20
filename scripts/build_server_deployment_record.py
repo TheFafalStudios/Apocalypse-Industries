@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 ROOTS = {'config', 'defaultconfigs', 'datapacks', 'kubejs', 'mods', 'libraries', 'versions'}
 ROOT_FILES = {'server.jar', 'minecraft_server.1.21.1.jar', 'run.bat', 'run.sh',
               'LaunchServer.bat', 'LaunchServer.sh', 'START_SERVER.bat', 'START_SERVER.sh', 'user_jvm_args.txt'}
-BLOCKED = re.compile(r'(?i)^(world.*|saves?|dimensions|DIM-?\d+|.*schematic.*|.*blueprint.*|.*lod.*|distant.*horizon.*|backups?|logs|crash-reports|\.git|\.local|local)$')
+BLOCKED = re.compile(r'(?i)^(world(?:s|$|[_0-9.-]).*|saves?|dimensions|DIM-?\d+|schematics?|blueprints?|lods?|distant.?horizons?|backups?|logs|crash-reports|\.git|\.local|local)$')
 
 
 def linked(path):
@@ -32,7 +32,7 @@ def safe_path(root, rel):
         raise ValueError(f'Unsafe path: {rel}')
     if parts[0] not in ROOTS and rel not in ROOT_FILES:
         raise ValueError(f'Not an eligible pack path: {rel}')
-    if any(BLOCKED.fullmatch(x) for x in parts[:-1]):
+    if any(BLOCKED.fullmatch(x) and not (x == 'blueprint' and i > 0 and parts[i-1] in {'recipe','recipes'} and 'data' in parts[:i]) for i,x in enumerate(parts[:-1])):
         raise ValueError(f'Protected storage: {rel}')
     if parts[-1].lower().endswith(('.db', '.sqlite', '.sqlite3', '.mca', '.mcr')):
         raise ValueError(f'Generated save/storage file: {rel}')
@@ -63,7 +63,7 @@ def eligible_files(root):
         except ValueError:
             return
         if p.is_dir():
-            if BLOCKED.fullmatch(p.name):
+            if BLOCKED.fullmatch(p.name) and not (p.name == 'blueprint' and p.parent.name in {'recipe','recipes'} and 'data' in p.parts):
                 return
             # Validate the directory as an ancestor before inspecting children.
             try:
@@ -160,7 +160,7 @@ def prepare(before, candidate, out, version, client_version, commit, paths,
         f'# Deployment {version}\n\n{notes}\n\n'
         'This record is prepared, not proof of deployment. CHANGES.json lists only approved candidate paths; confirm remote drift before each write. '
         'Preserved originals are in ROLLBACK; added files have no original. Never restore a directory wholesale.\n\n'
-        'After transfer, verify each affected target hash, record client/twin/Chunkserve results separately and confirm activation timing. '
+        'After transfer, verify each affected target hash and record client/twin/Chunkserve results separately. Activation and restart/reload timing are user-managed. '
         'Record sanitized config/quest summaries and likely effects in REMOTE_CHANGE_CATALOGUE.json before deciding their disposition. '
         'Advance compatibility markers only after applicable payload and intentional overrides are verified; a targeted update additionally needs a verified baseline. '
         'An uncertain baseline stays unverified. World backups belong outside this record.\n\n'

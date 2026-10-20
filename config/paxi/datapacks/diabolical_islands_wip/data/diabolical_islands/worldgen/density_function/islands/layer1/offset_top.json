@@ -1,0 +1,137 @@
+{
+  "type": "apocalypse_islands:cache_columns",
+  "argument": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "diabolical_islands:ridges",
+      "points": [
+        {
+          "location": -0.35,
+          "derivative": 0,
+          "value": {
+            "coordinate": "diabolical_islands:islands/layer1/noise",
+            "points": [
+              {
+                "location": 0,
+                "derivative": 0,
+                "value": 0
+              },
+              {
+                "location": 0.203,
+                "value": 0.839,
+                "derivative": -0.627
+              },
+              {
+                "location": 0.418,
+                "value": 0.311,
+                "derivative": 0
+              }
+            ]
+          }
+        },
+        {
+          "location": -0.25,
+          "derivative": 0,
+          "value": {
+            "coordinate": "diabolical_islands:islands/layer1/noise",
+            "points": [
+              {
+                "location": 0,
+                "derivative": 0,
+                "value": 0
+              },
+              {
+                "location": 0.145,
+                "value": 0.34,
+                "derivative": 0.191
+              },
+              {
+                "location": 0.418,
+                "value": 0.13,
+                "derivative": 0
+              }
+            ]
+          }
+        },
+        {
+          "location": -0.15,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 0,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 0.15,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 0.25,
+          "derivative": 0,
+          "value": {
+            "coordinate": "diabolical_islands:islands/layer1/noise",
+            "points": [
+              {
+                "location": 0,
+                "derivative": 0,
+                "value": 0
+              },
+              {
+                "location": 0.1,
+                "value": 0.1,
+                "derivative": 1.212
+              },
+              {
+                "location": 0.3,
+                "derivative": 0,
+                "value": 0.34
+              },
+              {
+                "location": 0.481,
+                "value": 0.198,
+                "derivative": -0.5
+              },
+              {
+                "location": 0.7,
+                "derivative": 0,
+                "value": 0.18
+              }
+            ]
+          }
+        },
+        {
+          "location": 0.35,
+          "derivative": 0,
+          "value": {
+            "coordinate": "diabolical_islands:islands/layer1/noise",
+            "points": [
+              {
+                "location": 0,
+                "derivative": 0,
+                "value": 0
+              },
+              {
+                "location": 0.13,
+                "value": 0.295,
+                "derivative": 3.41
+              },
+              {
+                "location": 0.3,
+                "derivative": 0,
+                "value": 0.625
+              },
+              {
+                "location": 0.591,
+                "value": 0.677,
+                "derivative": -1.093
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

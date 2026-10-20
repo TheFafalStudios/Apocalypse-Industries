@@ -1,0 +1,128 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": {
+          "type": "minecraft:interpolated",
+          "argument": "diabolical_islands:ridges"
+        },
+        "points": [
+          {
+            "location": -0.35,
+            "derivative": 0,
+            "value": {
+              "coordinate": "diabolical_islands:islands/layer5/noise",
+              "points": [
+                {
+                  "location": 0,
+                  "derivative": 0,
+                  "value": 0
+                },
+                {
+                  "location": 0.179,
+                  "value": 0.406,
+                  "derivative": 4.802
+                },
+                {
+                  "location": 0.526,
+                  "value": 0.088,
+                  "derivative": 0
+                }
+              ]
+            }
+          },
+          {
+            "location": -0.25,
+            "derivative": 0,
+            "value": {
+              "coordinate": "diabolical_islands:islands/layer5/noise",
+              "points": [
+                {
+                  "location": 0,
+                  "derivative": 0,
+                  "value": 0
+                },
+                {
+                  "location": 0.17,
+                  "value": 0.294,
+                  "derivative": 2.093
+                },
+                {
+                  "location": 0.526,
+                  "value": 0.088,
+                  "derivative": 0
+                }
+              ]
+            }
+          },
+          {
+            "location": -0.15,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": 0,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": 0.15,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": 0.25,
+            "derivative": 0,
+            "value": {
+              "coordinate": "diabolical_islands:islands/layer5/noise",
+              "points": [
+                {
+                  "location": 0,
+                  "derivative": 0,
+                  "value": 0
+                },
+                {
+                  "location": 0.1,
+                  "value": 0.12,
+                  "derivative": 1.407
+                },
+                {
+                  "location": 0.7,
+                  "derivative": 0,
+                  "value": 0.12
+                }
+              ]
+            }
+          },
+          {
+            "location": 0.35,
+            "derivative": 0,
+            "value": {
+              "coordinate": "diabolical_islands:islands/layer5/noise",
+              "points": [
+                {
+                  "location": 0,
+                  "derivative": 0,
+                  "value": 0
+                },
+                {
+                  "location": 0.18,
+                  "value": 0.288,
+                  "derivative": 1.407
+                },
+                {
+                  "location": 0.7,
+                  "derivative": 0,
+                  "value": 0.12
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

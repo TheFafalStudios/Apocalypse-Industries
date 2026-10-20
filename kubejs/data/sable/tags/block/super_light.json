@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "immersiveengineering:treated_catwalk",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:treated_catwalk_stairs",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:treated_wallmount",
+      "required": false
+    },
+    {
+      "id": "immersiveengineering:treated_window",
+      "required": false
+    }
+  ]
+}

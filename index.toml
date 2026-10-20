@@ -6,7 +6,7 @@ hash = "6d46bdc090d4bb9bdfb660be4ca94075dc08e09d5fed84108eba92a422a23c49"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "f155376910cc7e42ebeeb63f2291720eba574a633d06f21b72c67729ce118a02"
+hash = "2bbd3f5e70593d18ee28e46afb4bef04b17ea1d70836fee451e3cca6367fc498"
 
 [[files]]
 file = "config/EnderStorage.cfg"
@@ -486,7 +486,7 @@ hash = "be4347853ab7a120be31212194de89b17c27f50c4e06329e5207d0c775e042c6"
 
 [[files]]
 file = "config/biomesoplenty/biome_toggles.json"
-hash = "d0e7c05427dfcee363b595806e517ca0b7ba1ea75725a714b7138629fae86fca"
+hash = "3d53e2d1c71f61ec83fe60c6262844a1d620d420bab93ebc9208ad553b9de74c"
 
 [[files]]
 file = "config/biomesoplenty/gameplay.toml"
@@ -645,12 +645,16 @@ file = "config/create_simulated_thrusters-common.toml"
 hash = "78cec3514d5b04ad7e04f8d3a02edf900d024b2ef0e3fbf37f6d4fe9cdf1ecaf"
 
 [[files]]
-file = "config/create_submarine-common.toml"
-hash = "a4a0838de51dcad7460d6841cf6b26620a7d98c1e4450679d922c8fe6574f70d"
+file = "config/create_submarine-client.toml"
+hash = "cbcfc2b2609111d877a7117efdf6b3a6f34e40b5a4ca3a82d691c2713c742ea5"
 
 [[files]]
-file = "config/create_submarine_client_state.json"
-hash = "86496b0cae40eae2fd5c9f73ce5219dfab3f92f960539b42b69a060962108f27"
+file = "config/create_submarine-common.toml"
+hash = "f556b7ed137e1cc0e454363827a7a14f68cdaa68920347a388bc7f2c0c89b011"
+
+[[files]]
+file = "config/create_submarine-server.toml"
+hash = "1ee536e6b6c73f96b6439a609bb9bcb3c2772ada15dbae6eec3b6b9da05cb788"
 
 [[files]]
 file = "config/createappliedkinetics-common.toml"
@@ -755,10 +759,6 @@ hash = "48527836eabbda32f541d1e44b718a3a384e7aaa4a377b70666bc4f1dabfadde"
 [[files]]
 file = "config/escalated-server.toml"
 hash = "1601cca18190ea48cb33303a654133a1475f9aed370da5f2120f2b850aa4d740"
-
-[[files]]
-file = "config/euphoria_patcher/settings.toml"
-hash = "d4ff06f1b6d8b191853b72996f8ba1d20cc90fa4e98e3222ab7fe552cf52b31e"
 
 [[files]]
 file = "config/exposure-client.toml"
@@ -1950,7 +1950,8 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "218493b6c7bfbfd284d31d4601fe302bddb68707ebe19333c40a21ddb87df54e"
+hash = "74124cff5de041b7f8b563ee0c3bd6b776ce0ef11cd5dca7e1cb678bf25d05be"
+preserve = true
 
 [[files]]
 file = "config/irisflw-client.toml"
@@ -2905,6 +2906,206 @@ file = "config/paxi/datapacks/apocalypse/pack.mcmeta"
 hash = "b17db23aac09eed8d10ce4a9fe0b1ef8eacbab8546572fa57b8e13c06095bc8a"
 
 [[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/LICENSE.txt"
+hash = "c0469f1f70170925124bdd4752a30ce1d996988120227b8626c5f14c0d853e5c"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/apocalypse_islands/neoforge/biome_modifier/floating_debris.json"
+hash = "6c0ab6805140710daf5bd591acd622d8c724960970343aa81495787ed968e86d"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/apocalypse_islands/neoforge/biome_modifier/remove_buried_debris.json"
+hash = "6e0eeb78159c0918b78f44be26774d708dce64a2953a701ba3c5af7e2157224e"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/apocalypse_islands/worldgen/configured_feature/floating_debris.json"
+hash = "1f80ab19434f44b55c4e63e2679b72970913c27c596730ea953ff822d2ddf1ae"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/apocalypse_islands/worldgen/density_function/foundations_enabled.json"
+hash = "8a4434489576de41f28a2d1d6e9d15e53deac6b48c2a4f416a52b7584a92964f"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/apocalypse_islands/worldgen/density_function/seabed.json"
+hash = "9a7192e0e88abaaf2fa8d3d1bc6ad5988cad865b3404f717c6c9fe629997dfeb"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/apocalypse_islands/worldgen/noise/seabed.json"
+hash = "6623b1b0633da27fb605905dfaf05c245e4d0959e57eface948e8f6ae4fe7d49"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/apocalypse_islands/worldgen/placed_feature/floating_debris.json"
+hash = "e573477a6ee4464fdd2ce5e1a5b5c1537d505ce6f5686bd260ebc74af6b1a44b"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/final.json"
+hash = "76cdb9a65e1f6bb909ebb6e8df021332ea301655296e2b40c1d90305365ed27e"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer1/depth_bottom.json"
+hash = "444c8e9eb01d009e6d42da63f0a26d53b2e0006f3826c81efb1e7b5e43c0af33"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer1/depth_top.json"
+hash = "b6ea75ffa64b009fee594fc8295c40c4cd8d47f5f27ab551aabcffd11de438c2"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer1/noise.json"
+hash = "621f7c8fab7833b206fcb6fab46dc58a6adda88a9f56ad4a9ee3754ae425e4bc"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer1/offset_bottom.json"
+hash = "0925559f02afa781e190e109c2b4ca5defe41bde4379ffb95ba234ab803c78f3"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer1/offset_top.json"
+hash = "dfd8d53af3ab036ecd71f1f1e451fea66b05c546c58a9f98ae4d54000b68102a"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer2/depth_bottom.json"
+hash = "dedc969109a9d488011cadf2c492448f7bb3d10fd87b005189dd55b1f4e12429"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer2/depth_top.json"
+hash = "9a265178a60a9f9500ae3be992afc417abed7e003ae34f43a7baf414992c45ab"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer2/noise.json"
+hash = "459618ab1a773d50193c95c5e4d7c2e6e0b3d13f0b1d33d9af11c132173f2e44"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer2/offset_bottom.json"
+hash = "1004ab5d30fdd015e04002afa90d4899ef9884f2ea021f85ee6d32946640e5ca"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer2/offset_top.json"
+hash = "74cea93f3b4cc2d435166da3012aad0f347740a4367c07382f8dc0cd0baad905"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer3/depth_bottom.json"
+hash = "71330b079d75351f93c0eb6267140c9b7b6d50a262b846d1720e9267658a03b5"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer3/depth_top.json"
+hash = "a77130cd971f3cef1a69dd3b0ee2c8d428b250e56e68645927975f99068bec0f"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer3/noise.json"
+hash = "e6466d8bb6dfb128f210da5b6889b9c8788a5a3a14412f3fb8417f97fd97315e"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer3/offset_bottom.json"
+hash = "317e16664733b19d691620ca1667dc0da00be8ca9bd10f51da183d8fae79bfbb"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer3/offset_top.json"
+hash = "162295039a42e976a7f291b2b1e6d2591ca11693e53e1c78cbca7297fefef4e4"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer4/depth_bottom.json"
+hash = "9af80c39af49166b8fcbb9e63a9e5dcc2b15317640ec01ad33d0ac0d8054ef26"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer4/depth_top.json"
+hash = "0f4704ab0ecba668a57dea6940be37272a0ab1bfadf747592c7b5e43322b68d4"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer4/noise.json"
+hash = "fdbe9021744f081f810066e80c0f543a99e48df1dd6b2e29afd2d59b7289c256"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer4/offset_bottom.json"
+hash = "f3ee18c8e7dcfa4a8d320fbb2042dbab117b694d4950a72978720f1f0b67f353"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer4/offset_top.json"
+hash = "9e7f2bae1281cc1d3c6547832e60fb1420b364d17fcceb9a35a095850cc403c6"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer5/depth_bottom.json"
+hash = "6754c37b7a6a95b86b2fd258f93372256e98855fb4bb105c29b94682799cea62"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer5/depth_top.json"
+hash = "fc003ebbfdf6d5a227ef58645077bb8608b32af846edcf215b71df2dd1bc9273"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer5/noise.json"
+hash = "f07a5805fa4002af7fa78f04ab6e419ddb594d7114c1f46e65e26fda71ff1293"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer5/offset_bottom.json"
+hash = "87fd5bdc5ff786692a1d46f1b33d40e4dc180ce98a021c7e19e51ae6c86ad367"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/islands/layer5/offset_top.json"
+hash = "8bc4cb66662942f925a2b87cbf942108bea58ac0a04a6c4863fb423816f83789"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/ridges.json"
+hash = "e6e5f64c766ddd31fa59d3881312c54d0f6ca056103ff9b2703f49cd084f4ef0"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/temperature.json"
+hash = "43bb337e8bef8b67263d7c99ad6e0ba26b59f4e74d59b35fe1fc094ee5315346"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/terrain/custom_caves.json"
+hash = "2c240f7d9e3887c499e6b6116e2626339aa86116439f255a7bde844ae3e846d4"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/terrain/final.json"
+hash = "ed11aeb97ed810b77084583e06c8d6e775967cfcafca442a322f1c81c369c55a"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/vegetation.json"
+hash = "ba0bec6f1ae9bdf8e6cf918a3869e5b9918b6f850b9e87f39b9ebf0fa43bee11"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/density_function/y.json"
+hash = "4be5eb3b5e1591e25aefe7aa8172f8a6683e040b4acbd968960e1155f443bd75"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/noise/continentalness.json"
+hash = "e2a1de7dbc3db63ddccf8a8ebf7223454aaaa1a4ec4e9817b3816ab7fff57bf6"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/noise/islands.json"
+hash = "bb2cf3428e689a523433dc570839ed4433224eff91daa931a04110530adfee78"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/diabolical_islands/worldgen/noise/ridges.json"
+hash = "f06f9d3378cbe1d2e06af72db43439394898efc6b2eb6697ad003c8dcac8e709"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/minecraft/dimension_type/the_nether.json"
+hash = "083e20531c1f72c29517db83fece6bdefc167881a23e930154b03747bd46a7da"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/minecraft/worldgen/noise_settings/nether.json"
+hash = "1cfbe0dec52bbd78c5df1afbb1d1b6f1be8ea294be9f4409fc9eaad324d365c8"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/minecraft/worldgen/placed_feature/glowstone.json"
+hash = "5ecf34397a580fa6307c969c576a1fa2c6e2d304fedeb34371f1afe62826604e"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/minecraft/worldgen/placed_feature/glowstone_extra.json"
+hash = "4b10be639be94d4fdd38270f82e397cc7b3e619688bc60007d0915b4c9a5b703"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/data/minecraft/worldgen/structure/bastion_remnant.json"
+hash = "3bf5f66a5f83d851a2632b6a4db9003b939cb73ca36ae684ac55221c608086c3"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/pack.mcmeta"
+hash = "824b323aa1af5567550b53d880af34e54e2e45acb958a5106b600bfe6980537c"
+
+[[files]]
+file = "config/paxi/datapacks/diabolical_islands_wip/pack.png"
+hash = "d8c89a1b7e30496e2d313a10dcecacac31d075d19356167f7407c25d55fd3214"
+
+[[files]]
 file = "config/paxi/resourcepack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
@@ -3085,18 +3286,6 @@ file = "config/sophisticatedstorage-server.toml"
 hash = "615fff208d90421aaf0a941ef1e9e7fb36744e4cb4e7a5d8e01c30b1b7f3d5fc"
 
 [[files]]
-file = "config/spark/config.json"
-hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
-
-[[files]]
-file = "config/spark/tmp-client/about.txt"
-hash = "d7514c0ddb6ae8611a281527bf04ca6cbcea1fa21758534fdcd08ed0f51c19c0"
-
-[[files]]
-file = "config/spark/tmp/about.txt"
-hash = "d7514c0ddb6ae8611a281527bf04ca6cbcea1fa21758534fdcd08ed0f51c19c0"
-
-[[files]]
 file = "config/spears-common.toml"
 hash = "8b767c48aea89647c0216f594d4a8549722cb290e3356ecfbb37d4132c8bd3dc"
 
@@ -3122,11 +3311,7 @@ hash = "9c2db4a74dffcc58553f9f376a76d9254955ff69074067bb8649aa87e6f696a6"
 
 [[files]]
 file = "config/submarine_hull.json"
-hash = "71e05940de0f61cee5b9d3816b461d72a13f8b53f6b4f08356d1dafdcfcf9cd3"
-
-[[files]]
-file = "config/submarine_hull.json.bak.1781723158"
-hash = "0096975feac9da3a87aa1c16d5a64fb5b3c973d54c3b143f2a3f647bfe69461b"
+hash = "bc9ca3c388dc7976db00e2250d986f9d02aae1b399b3854af6e33ba088d1549b"
 
 [[files]]
 file = "config/synaxis-server.toml"
@@ -5849,6 +6034,14 @@ file = "kubejs/data/railways/loot_table/blocks/track_twilightforest_twilight_oak
 hash = "025a18d30f0f7abe0e8f841d63989d96fdfb3cb5549bdb4abd981062a0a0deca"
 
 [[files]]
+file = "kubejs/data/sable/tags/block/light.json"
+hash = "48c623da50700a52ca79b0e20343b8a45f57ac9de7c44b6ca4445a0fb35e8359"
+
+[[files]]
+file = "kubejs/data/sable/tags/block/super_light.json"
+hash = "3896c2eb86a5c4d2c87d1a632b7e0afc7e459108194b9020f9872de626915088"
+
+[[files]]
 file = "kubejs/server_scripts/apocalypse_zombie_armor_drops.js"
 hash = "850e0d46274e727a8e3608e31a61ec0867bbbfca4f433cc39e843f58cad5cb1c"
 
@@ -5986,18 +6179,14 @@ hash = "3357c4a285e18b2c3a5f1d03074959e6ea15e3b57e8da4328f564508912fe524"
 metafile = true
 
 [[files]]
-file = "mods/DistantHorizons-3.2.0-b-1.21.1-fabric-neoforge.pw.toml"
-hash = "5f49b71e2e01c0101597133bb45a674e6b2ab67fcc758f3afde6019772af2188"
+file = "mods/DistantHorizons-3.3.3-1.21.1-fabric-neoforge.pw.toml"
+hash = "87a603b67f4efe5e0d0d73c0790e4a53a837995cba9905443b529068e834e7c5"
 metafile = true
 
 [[files]]
 file = "mods/EnderStorage-1.21.1-2.13.0.191.pw.toml"
 hash = "c4d2586e37355fd6314162dc5330f1a7a80cb93400fe00b341734537801ff6b8"
 metafile = true
-
-[[files]]
-file = "mods/EuphoriaPatcher-1.9.3-r5.8.1-neoforge.jar"
-hash = "9ff48c18cb5fd3425a6c15b16ce16656d6419fdb695e662d9a3cbe5604c40563"
 
 [[files]]
 file = "mods/ExtraLib-3.0.11-1.21.1-NeoForge.pw.toml"
@@ -6150,6 +6339,11 @@ hash = "286d0bd0fb70a304ce1e768486994be0e2b5039bf3a53e4fa02aec390273be90"
 metafile = true
 
 [[files]]
+file = "mods/aeronautics-iris-fix.pw.toml"
+hash = "dbc26639073e7a5fc944e70e089200ab22b0bb02b0c8036f5cc8c9b0263f0f4f"
+metafile = true
+
+[[files]]
 file = "mods/aeroworks-1.2.11.pw.toml"
 hash = "bdb6e6a396b35d68c1d72589f829d411cf09eaeaf649e25d6666908ec65d9198"
 metafile = true
@@ -6219,6 +6413,10 @@ hash = "3c94cf42c50eba5a63623783c9283aa9d851bc4e574f882059fd0a56b56f28b8"
 metafile = true
 
 [[files]]
+file = "mods/apocalypse-nether-islands-0.9.0.jar"
+hash = "a2cba25e75e493ec5ea10f29d83de491c6cc7eb720e36ea001641159f49e1109"
+
+[[files]]
 file = "mods/apocalypse-phantom-reload-guard.pw.toml"
 hash = "41c1f2fefac88347d69612856e454332995f0be91c9ff26c2208faa534d9225a"
 metafile = true
@@ -6230,6 +6428,15 @@ hash = "54fc90834381bd2bfa74e1cb8dc38e00fba542140e1d7f4a13d19e17aa93cad2"
 [[files]]
 file = "mods/apocalypse-studious-native-keys.pw.toml"
 hash = "4756683409dbe293b43800ab51e9a84b6ba2424852eb5d5bbfbd1ad80ddcd02b"
+metafile = true
+
+[[files]]
+file = "mods/apocalypse-submarine-balance-1.0.0.jar"
+hash = "e13af8e91c994b6d421588e3651927777fa23bb3ea72d886b2c5d71514cd561f"
+
+[[files]]
+file = "mods/apocalypse-submarine-lava-visuals.pw.toml"
+hash = "6acb3cbf04b0e63bb2b6d34bc9f2094fcb631c75fe6aa56aca44485d4772a751"
 metafile = true
 
 [[files]]
@@ -6388,8 +6595,13 @@ hash = "38dbe6ed624e6e564268cbf27f484e5fa4dff8aab774a4da140eb9366c3128aa"
 metafile = true
 
 [[files]]
-file = "mods/create-aeronautics-bundled-1.21.1-1.3.0.pw.toml"
-hash = "bf8adbf40304c71cfe271cde1aa9ed1e1c45565a7e661cb5d822bbf7b9426f1d"
+file = "mods/create-aeronautics-bundled-1.21.1-1.3.2.pw.toml"
+hash = "a34d4d455a49dd736ab75fecd860ecfc178611f9be2a6bdde27ccd8b6f08a858"
+metafile = true
+
+[[files]]
+file = "mods/create-copycats-plus-additions.pw.toml"
+hash = "b43da77abe8e4e4c3b1adc7812d73bbb82ed51f33700e6e8a83efe53cedde2d5"
 metafile = true
 
 [[files]]
@@ -6455,8 +6667,8 @@ hash = "789f296979ae5b0c5b3f385372fbfc2ee0f78b1b14afee1c723ef21e7ec0c9af"
 metafile = true
 
 [[files]]
-file = "mods/create_submarine-2.2.4.pw.toml"
-hash = "c2c5cb8c21989452aab67b87dc123b284a2e474f5bc414719348b9cca6239f86"
+file = "mods/create_submarine-3.4.4.pw.toml"
+hash = "72ce46ab54a493e92f1bb76b18fb9250674bb7033cb6cae1fe0ee494bbd37cb0"
 metafile = true
 
 [[files]]
@@ -7189,9 +7401,11 @@ file = "resourcepacks/create-trash-cans-1.2.zip"
 hash = "532a8e930427821d506435a54e1a606c08d0ff8fdcc9ca016801cb2b0db7af59"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.8.1_APOCALYPSE_ATMOSPHERE_v1.1_PARSEFIX_TESTED.zip"
-hash = "f7204273897b8919e7795811240ebcb094e137261b37715beb29d86d377e5a22"
+file = "shaderpacks/ApocalypseAtmosphere_NetherDH_v1.2.zip"
+hash = "2cfc0e75edfc5f988b1a6f4a41a500b8374e61c1f5fb012dc3ffeb1edb18af78"
+
 [[files]]
-file = "mods/create-copycats-plus-additions.pw.toml"
-hash = "b43da77abe8e4e4c3b1adc7812d73bbb82ed51f33700e6e8a83efe53cedde2d5"
-metafile = true
+file = "shaderpacks/ApocalypseAtmosphere_NetherDH_v1.2.zip.txt"
+hash = "5d6d20f98dcb70810e64d064b9bcf804a5d3a3b0b308263c360dfcf17328212a"
+preserve = true
+

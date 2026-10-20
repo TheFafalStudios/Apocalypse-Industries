@@ -1,0 +1,36 @@
+{
+  "type": "apocalypse_islands:floating_debris",
+  "config": {
+    "min_blocks": 21,
+    "max_blocks": 24,
+    "casing": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:blackstone"
+          },
+          "weight": 60
+        },
+        {
+          "data": {
+            "Name": "minecraft:basalt"
+          },
+          "weight": 25
+        },
+        {
+          "data": {
+            "Name": "minecraft:netherrack"
+          },
+          "weight": 15
+        }
+      ]
+    },
+    "depth_gradient": {
+      "min_y": -44,
+      "max_y": 64,
+      "shallow_min": 3,
+      "shallow_max": 6
+    }
+  }
+}
