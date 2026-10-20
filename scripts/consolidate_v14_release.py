@@ -79,7 +79,7 @@ def main(out):
                  'AERONAUTICS_UPDATE_CHAIN_2026-10-09.md', 'WIP_DEEP_SEAS_3_4_4_2026-10-19.md',
                  'TREATED_WOOD_PHYSICS.md', 'TEST_WORKFLOW_IMPROVEMENTS.md']:
         copy(ROOT/'docs'/name, candidate/'docs'/name)
-    for name in ['consolidate_v14_release.py', 'release_safety.py', 'build_server_deployment_record.py']:
+    for name in ['consolidate_v14_release.py', 'validate_v14_consolidation.py', 'release_safety.py', 'build_server_deployment_record.py']:
         copy(ROOT/'scripts'/name, candidate/'scripts'/name)
     # Resolve the documented integration mismatch in the release copy only.
     noise = json.loads((candidate/'config/paxi/datapacks/diabolical_islands_wip/data/minecraft/worldgen/noise_settings/nether.json').read_text())
@@ -152,7 +152,6 @@ Existing players may need to select ApocalypseAtmosphere_NetherDH_v1.2.zip once 
             'v1.4', 'v1.4', commit, paths, notes='Consolidated v1.4 preparation only. Recheck original target hashes immediately before deployment. Baseline remains unverified.', create_zip=True)
         for suffix in ['REMOTE_CHANGE_CATALOGUE', 'RESOLUTIONS', 'HOLDS']:
             copy(PREP/(target+'-'+suffix+'.json'), record/(suffix+'.json'))
-        pressure = record/'SERVER_UPDATE_v1.4.zip'
         # Packet name is obtained from the generated record rather than assumed.
         packets = list(record.glob('*.zip')); assert len(packets) == 1
         with zipfile.ZipFile(packets[0]) as z:
