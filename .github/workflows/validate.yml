@@ -11,3 +11,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/validate_distribution.py
+      - run: python scripts/validate_release_export.py
