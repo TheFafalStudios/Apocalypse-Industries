@@ -70,3 +70,12 @@ For each distinct session, append a short entry with the test/evidence reference
 ## 2026-10-20 — Validate the committed export before publication
 
 The initial v1.4 Actions run 39429984826 found that config/almostunified/debug.json was indexed and present locally but excluded by its nested .gitignore. The corrected commit explicitly tracks its existing approved bytes and adds scripts/validate_release_export.py to CI. The new check validates a temporary Git archive, reproduces the original failure, and requires all indexed exported bytes/hashes to match. Indexed runtime contents and the staged server payload are unchanged. Export correctness is distinct from gameplay validation and user-managed activation.
+
+
+## 2026-10-21 — v1.4.1 ballast hotfix publication
+
+Observed weakness: a passing WIP artifact can accidentally pick up unrelated runtime changes when released from a dirty development instance. The server twin also lags the published release and cannot safely stand in for the live baseline.
+
+Improvement: prepare from the exact published v1.4 commit, enforce an index delta of one common-side addon, freeze only explicit JSON evidence, and require the published pressure/hull config hashes to match the assembled test fixture. Validate the committed export as well as working files. The deployment compares actual server dependencies and pressure mode before transferring the narrow hotfix, keeps rollback copies and verifies read-back hashes before advancing its unverified-baseline marker.
+
+Validation: the 304-assertion and matched assembled-test evidence is bound to the shipped artifact SHA-256. Distribution/export validation checks the complete release; target-specific deployment results are recorded separately. No new manual test is required by this method, and it does not establish full-vessel or multiplayer correctness. The historical local twin remains explicitly behind rather than being relabelled or silently synchronized.

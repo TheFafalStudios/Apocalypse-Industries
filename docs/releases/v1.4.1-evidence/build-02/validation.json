@@ -1,0 +1,32 @@
+{
+  "pass": true,
+  "sha256": "ac2090061afde70e0132987c2380740289f03a0d83930f7b038a31423ab33f1e",
+  "nativeChecks": 304,
+  "propulsion": "No propeller, thruster or boat targets/references; upstream jar unchanged",
+  "distribution": "Common-side classes; no client-only references; test harness excluded",
+  "worldTest": {
+    "pass": true,
+    "baseline": false,
+    "world": "fresh isolated ballast-audit-world",
+    "propulsionChanged": false,
+    "assemblies": [
+      {
+        "emptyTankForceY": 0.0,
+        "assembled": true,
+        "fluid": "water",
+        "initialVelocityY": 2.0,
+        "ventFluid": "minecraft:water",
+        "fullTankForceY": -40.0
+      },
+      {
+        "emptyTankForceY": 0.0,
+        "assembled": true,
+        "fluid": "lava",
+        "initialVelocityY": 2.0,
+        "ventFluid": "minecraft:lava",
+        "fullTankForceY": -40.0
+      }
+    ],
+    "method": "ballast-native-v1"
+  }
+}

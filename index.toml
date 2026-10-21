@@ -7409,3 +7409,7 @@ file = "shaderpacks/ApocalypseAtmosphere_NetherDH_v1.2.zip.txt"
 hash = "5d6d20f98dcb70810e64d064b9bcf804a5d3a3b0b308263c360dfcf17328212a"
 preserve = true
 
+
+[[files]]
+file = "mods/apocalypse-submarine-lava-ballast-1.0.0.jar"
+hash = "ac2090061afde70e0132987c2380740289f03a0d83930f7b038a31423ab33f1e"

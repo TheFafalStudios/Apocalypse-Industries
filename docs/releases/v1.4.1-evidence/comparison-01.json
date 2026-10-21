@@ -1,0 +1,76 @@
+{
+  "pass": true,
+  "method": "ballast-native-v1",
+  "harnessSha256": "412576c1fec5d0befdc49bb83b1653cc13700f1962c6f8fa661964fba44e8056",
+  "candidateSha256": "ac2090061afde70e0132987c2380740289f03a0d83930f7b038a31423ab33f1e",
+  "configurationSha256": {
+    "server.properties": {
+      "baselineRaw": "07398c92f0d5bcf784118753d805c3a2c62d207af21ccffb48546d0f89fe0747",
+      "candidateRaw": "d7a4f7847f1a3b76008c4b45f32b6d0936fa5b6a5a756636b0a667f7ca56a21c",
+      "compared": "7e250f78dae1b305614e7c6c252eb793530cfd6acf058bffcfff43042c105f84"
+    },
+    "config/create_submarine-server.toml": {
+      "baselineRaw": "1ee536e6b6c73f96b6439a609bb9bcb3c2772ada15dbae6eec3b6b9da05cb788",
+      "candidateRaw": "1ee536e6b6c73f96b6439a609bb9bcb3c2772ada15dbae6eec3b6b9da05cb788",
+      "compared": "1ee536e6b6c73f96b6439a609bb9bcb3c2772ada15dbae6eec3b6b9da05cb788"
+    },
+    "config/submarine_hull.json": {
+      "baselineRaw": "bc9ca3c388dc7976db00e2250d986f9d02aae1b399b3854af6e33ba088d1549b",
+      "candidateRaw": "bc9ca3c388dc7976db00e2250d986f9d02aae1b399b3854af6e33ba088d1549b",
+      "compared": "bc9ca3c388dc7976db00e2250d986f9d02aae1b399b3854af6e33ba088d1549b"
+    }
+  },
+  "normalization": "Only server.properties comment/blank lines excluded; all setting lines and both config files match. Raw hashes retained.",
+  "baseline": {
+    "world": "fresh isolated ballast-audit-world",
+    "propulsionChanged": false,
+    "assemblies": [
+      {
+        "ventFluid": "minecraft:water",
+        "fullTankForceY": -40.0,
+        "emptyTankForceY": 0.0,
+        "assembled": true,
+        "fluid": "water",
+        "initialVelocityY": 2.0
+      },
+      {
+        "ventFluid": "empty",
+        "fullTankForceY": 0.0,
+        "emptyTankForceY": 0.0,
+        "assembled": true,
+        "fluid": "lava",
+        "initialVelocityY": -2.1244940757751465
+      }
+    ],
+    "method": "ballast-native-v1",
+    "pass": true,
+    "baseline": true
+  },
+  "candidate": {
+    "pass": true,
+    "baseline": false,
+    "world": "fresh isolated ballast-audit-world",
+    "propulsionChanged": false,
+    "assemblies": [
+      {
+        "emptyTankForceY": 0.0,
+        "assembled": true,
+        "fluid": "water",
+        "initialVelocityY": 2.0,
+        "ventFluid": "minecraft:water",
+        "fullTankForceY": -40.0
+      },
+      {
+        "emptyTankForceY": 0.0,
+        "assembled": true,
+        "fluid": "lava",
+        "initialVelocityY": 2.0,
+        "ventFluid": "minecraft:lava",
+        "fullTankForceY": -40.0
+      }
+    ],
+    "method": "ballast-native-v1"
+  },
+  "result": "Original lava control absent; patched lava ascent and commanded descent work; matched water control values preserved.",
+  "limit": "Small assembled fixture, real fluid capabilities and force/velocity response; not a piloted full-size vessel or long-duration benchmark."
+}
